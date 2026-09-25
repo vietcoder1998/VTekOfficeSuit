@@ -82,18 +82,18 @@ Every application in the workspace is built into cross-platform distributions:
 | **All**       | Verification   | SHA-256 Hashes        | `downloads/{name}/{version}/SHA256SUMS.txt`        | Cryptographic checksums of all package artifacts.       |
 | **All**       | Metadata       | JSON Manifest         | `downloads/{name}/{version}/release-manifest.json` | Automated release manifest describing all packages.     |
 
-### 🚀 2-TEK Hub Desktop (`downloads/hub/{version}/`)
+### 🚀 2-TEK Hub Desktop (`downloads/Hub/{version}/`)
 
-Example path: `downloads/hub/{version}/{name}.{type}`
+Example path: `downloads/Hub/{version}/{name}.{type}`
 
 | Platform    | Architecture   | Package Format        | Download Path                                                                          | Description                                      |
 | ----------- | -------------- | --------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| **Linux**   | x86_64 / amd64 | Debian (`.deb`)       | [`downloads/hub/1.0.0/2tek-hub_1.0.0_amd64.deb`](./hub/1.0.0/2tek-hub_1.0.0_amd64.deb) | Native Linux installer for Ubuntu, Debian, Mint. |
-| **Linux**   | x86_64 / amd64 | Debian Alias (`.deb`) | [`downloads/hub/1.0.0/2tek-hub.deb`](./hub/1.0.0/2tek-hub.deb)                         | Canonical unversioned Debian package alias.      |
-| **Windows** | x86_64 / x64   | PE32+ GUI (`.exe`)    | [`downloads/hub/1.0.0/2tek-hub-setup-1.0.0.exe`](./hub/1.0.0/2tek-hub-setup-1.0.0.exe) | Portable Windows installer for Windows 10 & 11.  |
-| **Windows** | x86_64 / x64   | PE32+ Alias (`.exe`)  | [`downloads/hub/1.0.0/2tek-hub.exe`](./hub/1.0.0/2tek-hub.exe)                         | Canonical unversioned Windows executable alias.  |
-| **All**     | Verification   | SHA-256 Hashes        | [`downloads/hub/1.0.0/SHA256SUMS.txt`](./hub/1.0.0/SHA256SUMS.txt)                     | SHA-256 checksums for Hub packages.              |
-| **All**     | Metadata       | JSON Manifest         | [`downloads/hub/1.0.0/release-manifest.json`](./hub/1.0.0/release-manifest.json)       | Release metadata and file sizes.                 |
+| **Linux**   | x86_64 / amd64 | Debian (`.deb`)       | [`downloads/Hub/1.0.0/2tek-hub_1.0.0_amd64.deb`](./Hub/1.0.0/2tek-hub_1.0.0_amd64.deb) | Native Linux installer for Ubuntu, Debian, Mint. |
+| **Linux**   | x86_64 / amd64 | Debian Alias (`.deb`) | [`downloads/Hub/1.0.0/2tek-hub.deb`](./Hub/1.0.0/2tek-hub.deb)                         | Canonical unversioned Debian package alias.      |
+| **Windows** | x86_64 / x64   | PE32+ GUI (`.exe`)    | [`downloads/Hub/1.0.0/2tek-hub-setup-1.0.0.exe`](./Hub/1.0.0/2tek-hub-setup-1.0.0.exe) | Portable Windows installer for Windows 10 & 11.  |
+| **Windows** | x86_64 / x64   | PE32+ Alias (`.exe`)  | [`downloads/Hub/1.0.0/2tek-hub.exe`](./Hub/1.0.0/2tek-hub.exe)                         | Canonical unversioned Windows executable alias.  |
+| **All**     | Verification   | SHA-256 Hashes        | [`downloads/Hub/1.0.0/SHA256SUMS.txt`](./Hub/1.0.0/SHA256SUMS.txt)                     | SHA-256 checksums for Hub packages.              |
+| **All**     | Metadata       | JSON Manifest         | [`downloads/Hub/1.0.0/release-manifest.json`](./Hub/1.0.0/release-manifest.json)       | Release metadata and file sizes.                 |
 
 ### 📝 Word Document Studio (`downloads/Word/{version}/`)
 
@@ -114,7 +114,7 @@ Example path: `downloads/Word/{version}/{name}.{type}`
 
 ```bash
 # Example: Install 2-TEK Hub
-sudo apt install ./downloads/hub/1.0.0/2tek-hub_1.0.0_amd64.deb
+sudo apt install ./downloads/Hub/1.0.0/2tek-hub_1.0.0_amd64.deb
 
 # Example: Install Word Document Studio
 sudo apt install ./downloads/Word/1.0.0/Word.deb
@@ -122,7 +122,7 @@ sudo apt install ./downloads/Word/1.0.0/Word.deb
 
 ### 🪟 Windows (10 / 11)
 
-1. Navigate to `downloads/{app}/{version}/` (e.g. `downloads/hub/1.0.0/` or `downloads/Word/1.0.0/`).
+1. Navigate to `downloads/{app}/{version}/` (e.g. `downloads/Hub/1.0.0/` or `downloads/Word/1.0.0/`).
 2. Double-click the `.exe` installer (e.g. `2tek-hub-setup-1.0.0.exe` or `Word.exe`).
 3. The desktop application will launch immediately.
 
@@ -131,7 +131,7 @@ sudo apt install ./downloads/Word/1.0.0/Word.deb
 ## 4. How to Build Desktop Packages to Downloads
 
 ```bash
-# Build 2-TEK Hub desktop packages to downloads/hub/{version}/
+# Build 2-TEK Hub desktop packages to downloads/Hub/{version}/
 npm run build:desktop
 
 # Build all workspace project packages to downloads/{projectName}/{version}/
@@ -144,7 +144,7 @@ npm run build:all
 
 ```bash
 # Verify Hub packages
-cd downloads/hub/1.0.0 && sha256sum -c SHA256SUMS.txt
+cd downloads/Hub/1.0.0 && sha256sum -c SHA256SUMS.txt
 
 # Verify Word packages
 cd downloads/Word/1.0.0 && sha256sum -c SHA256SUMS.txt

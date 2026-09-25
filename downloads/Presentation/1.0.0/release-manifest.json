@@ -3,7 +3,7 @@
   "appName": "Presentation",
   "displayName": "Presentation Editor",
   "version": "1.0.0",
-  "buildTimestamp": "2026-09-25T09:07:43.704Z",
+  "buildTimestamp": "2026-09-25T09:15:10.470Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Presentation/1.0.0",
@@ -15,8 +15,8 @@
       "name": "Presentation",
       "fileName": "Presentation.deb",
       "downloadPath": "downloads/Presentation/1.0.0/Presentation.deb",
-      "sizeBytes": 1970,
-      "sha256": "eb0c0d5918292d3eca47f07bd73ac35a2745e8acba375844c71f89d540dfbc1c"
+      "sizeBytes": 1968,
+      "sha256": "0e677ef1c671492d6d9400e25001c0dd9e420c3381dad2427a3e1e4631210f71"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Presentation.exe",
       "downloadPath": "downloads/Presentation/1.0.0/Presentation.exe",
       "sizeBytes": 4096,
-      "sha256": "d1737c317034f4a62827de5547ecc7e5097d663963131ab5bd16e402b8b2bf03"
+      "sha256": "ec2c5698caa71c44215c1a4106c04b1a41fb6396bc181214d7bb358263c7fa14"
     },
     {
       "platform": "universal",
@@ -36,7 +36,7 @@
       "fileName": "Presentation.zip",
       "downloadPath": "downloads/Presentation/1.0.0/Presentation.zip",
       "sizeBytes": 1053,
-      "sha256": "7fd8b6d791533b54a14eb4dfd1ba2693afbacfe0cadc1f4334bad814813151d1"
+      "sha256": "a1f54e88d45435f62f7a34d23040c40d24e350e7ece06ff4107d53d24b67429e"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "appName": "Forms",
   "displayName": "Forms Builder",
   "version": "1.0.0",
-  "buildTimestamp": "2026-09-25T09:07:43.181Z",
+  "buildTimestamp": "2026-09-25T09:15:10.302Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Forms/1.0.0",
@@ -16,7 +16,7 @@
       "fileName": "Forms.deb",
       "downloadPath": "downloads/Forms/1.0.0/Forms.deb",
       "sizeBytes": 2004,
-      "sha256": "5f0c41be11dcf94720d0a98ef966a5fa9613921b55b6387b6a59d078f586fbab"
+      "sha256": "82d0aa3c63bab8ce45510033ea4138b6eb3f45f3520b8e3110ff32e9bae3247a"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Forms.exe",
       "downloadPath": "downloads/Forms/1.0.0/Forms.exe",
       "sizeBytes": 4096,
-      "sha256": "a1e6765adc24bb3c5f43f81b648074b5b17627e90f6311eff2cde500219b5892"
+      "sha256": "c166e91218b022a7514329c8cef69af49b723bb4c73841e0804b37bd50cc2a85"
     },
     {
       "platform": "universal",
@@ -36,7 +36,7 @@
       "fileName": "Forms.zip",
       "downloadPath": "downloads/Forms/1.0.0/Forms.zip",
       "sizeBytes": 1073,
-      "sha256": "3e19da6b1e0f73d760c0bb9ddb95b72d8fd9d2d7564a59cd9c52136b6dbc991a"
+      "sha256": "38f7c5358f8a327b6c80612bfc31e177855e1a991486c19ae2be283c215c816a"
     }
   ]
 }
