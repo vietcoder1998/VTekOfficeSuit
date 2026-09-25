@@ -3,7 +3,7 @@
   "appName": "CanvasPack",
   "displayName": "@2-tek/canvaspack",
   "version": "1.0.0",
-  "buildTimestamp": "2026-09-25T08:05:05.722Z",
+  "buildTimestamp": "2026-09-25T08:46:28.707Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/CanvasPack/1.0.0",
@@ -15,8 +15,8 @@
       "name": "CanvasPack",
       "fileName": "CanvasPack.deb",
       "downloadPath": "downloads/CanvasPack/1.0.0/CanvasPack.deb",
-      "sizeBytes": 2210,
-      "sha256": "91386d9c94dc0d7cec08b288136ffd895cf26b553bb3c4587beda22f58394d44"
+      "sizeBytes": 2212,
+      "sha256": "94e430451fd89f26298df24a0a98d494ea4615e48454411cdf437f378716c1ef"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "CanvasPack.exe",
       "downloadPath": "downloads/CanvasPack/1.0.0/CanvasPack.exe",
       "sizeBytes": 4096,
-      "sha256": "ce594d636d333c7fcaa5947b56e0336c87da715be03caa8da29cbaa50dd171e7"
+      "sha256": "92f4e9aa7fb077f15afe9756835a1fe4850a31e324150a6538f09c86335a2cfa"
     },
     {
       "platform": "universal",
@@ -36,7 +36,7 @@
       "fileName": "CanvasPack.zip",
       "downloadPath": "downloads/CanvasPack/1.0.0/CanvasPack.zip",
       "sizeBytes": 1174,
-      "sha256": "f817bb8490af32a231483549a25604bcf36e67b714a9c119801ec5d73fdbf409"
+      "sha256": "91c815a4ac2480ff5728c8884a8ea356b6989724fc6b9767482ea35665f47796"
     }
   ]
 }

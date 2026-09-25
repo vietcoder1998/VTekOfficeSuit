@@ -8,6 +8,7 @@
     "url": "https://github.com/vietcoder1998/VTekOfficeSuit.git"
   },
   "scripts": {
+    "dev": "node scripts/build-desktop-packages.mjs",
     "build:electron": "node scripts/build-desktop-packages.mjs",
     "build:desktop": "node scripts/build-desktop-packages.mjs",
     "build:desktop:deb": "node scripts/build-desktop-packages.mjs --deb",
