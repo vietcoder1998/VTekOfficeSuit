@@ -3,7 +3,7 @@
   "appName": "Antivirus",
   "displayName": "Antivirus & System Health",
   "version": "1.0.0",
-  "buildTimestamp": "2026-09-25T09:05:50.670Z",
+  "buildTimestamp": "2026-09-25T09:07:42.891Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.0",
@@ -15,8 +15,8 @@
       "name": "Antivirus",
       "fileName": "Antivirus.deb",
       "downloadPath": "downloads/Antivirus/1.0.0/Antivirus.deb",
-      "sizeBytes": 2108,
-      "sha256": "7bab59e8b93d526cede8ef59b4b05a8da3e8d48789b7574453ce91a75a6086f0"
+      "sizeBytes": 2110,
+      "sha256": "21002437b730a682bc68a157f8077cd7bcc19d7512fa441c459b525a4de24662"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Antivirus.exe",
       "downloadPath": "downloads/Antivirus/1.0.0/Antivirus.exe",
       "sizeBytes": 4096,
-      "sha256": "cd0addfbf9932f40f7602445a15726a8bcc48fdab592c1f15a93dcde2144095b"
+      "sha256": "0fe986d0ad6a6c801d89393d6fe0c5c8307300542fdb453ec65f86fee8030420"
     },
     {
       "platform": "universal",
@@ -36,7 +36,7 @@
       "fileName": "Antivirus.zip",
       "downloadPath": "downloads/Antivirus/1.0.0/Antivirus.zip",
       "sizeBytes": 1124,
-      "sha256": "8aff191feab36505745517323aa2b65515dcbea656d0a0f087fb1dcdc79651e9"
+      "sha256": "9bd95dd76335049bd23c79a98f98c32960aba4cd7839a7171958c7012ea0c386"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "appName": "Settings",
   "displayName": "Settings Portal",
   "version": "1.0.0",
-  "buildTimestamp": "2026-09-25T09:05:51.198Z",
+  "buildTimestamp": "2026-09-25T09:07:43.843Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Settings/1.0.0",
@@ -16,7 +16,7 @@
       "fileName": "Settings.deb",
       "downloadPath": "downloads/Settings/1.0.0/Settings.deb",
       "sizeBytes": 2036,
-      "sha256": "e9b7ea67b5e4e37e9c3c6c9c7f5dfdfbec5d18a04590d8b0ca05ec3ae57e3299"
+      "sha256": "22f9fd574b6168d567d5eee93a7edc9fc32b01bdf1ce00e45226a17ae53866f7"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Settings.exe",
       "downloadPath": "downloads/Settings/1.0.0/Settings.exe",
       "sizeBytes": 4096,
-      "sha256": "cc572213bc7b055e4aa2f28c4bd80b6013163e70ba60e63ff01dc927b1cb9651"
+      "sha256": "85d01a6b17393c153d2ea1c62bac0c29cf5a3d3c18bae61aa2666d3c876dac7a"
     },
     {
       "platform": "universal",
@@ -36,7 +36,7 @@
       "fileName": "Settings.zip",
       "downloadPath": "downloads/Settings/1.0.0/Settings.zip",
       "sizeBytes": 1087,
-      "sha256": "b35697f3164325eb0e75961a9713d5bce1d16c5c138d4e94765935d335d74d44"
+      "sha256": "095c84fa62f81c54261bdf3cb5e7bd8e833bb5cc35c100a60dc466cd6c13eac0"
     }
   ]
 }

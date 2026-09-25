@@ -3,7 +3,7 @@
   "appName": "Word",
   "displayName": "Word Editor",
   "version": "1.0.0",
-  "buildTimestamp": "2026-09-25T09:05:51.283Z",
+  "buildTimestamp": "2026-09-25T09:07:44.295Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.0",
@@ -15,8 +15,8 @@
       "name": "Word",
       "fileName": "Word.deb",
       "downloadPath": "downloads/Word/1.0.0/Word.deb",
-      "sizeBytes": 2002,
-      "sha256": "68bb1447229b862dc9c260ec09216ddb50d98b1cc2cb5125ff4a890fece4539c"
+      "sizeBytes": 2004,
+      "sha256": "1a9bcbb7175556e291c7964851b353d3cfa639ccd8a278dfe2c38725b4145ae0"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Word.exe",
       "downloadPath": "downloads/Word/1.0.0/Word.exe",
       "sizeBytes": 4096,
-      "sha256": "3edfeea4521b31729abfd121471d14a4c2358aa6a00ffeadc75d6f61181aa40f"
+      "sha256": "fd76c2c5d4a9e7909f6709895c3c2bb92e93c95f41efd2c0d9bd2dc64ea33899"
     },
     {
       "platform": "universal",
@@ -36,7 +36,7 @@
       "fileName": "Word.zip",
       "downloadPath": "downloads/Word/1.0.0/Word.zip",
       "sizeBytes": 1075,
-      "sha256": "bf3c5ac1de06d3e815fbf2ceab517dc7a38ef067ce50c5b349f888f376e5332c"
+      "sha256": "5e9a7c29a5dd933457a45c279890027d91dfb49635adb3b3a8ad05c221502db1"
     }
   ]
 }
