@@ -1,6 +1,6 @@
 # VTek Office Suite (VTekOfficeSuit)
 
-> **Canonical Target**:
+> **Canonical Target of App**:
 > **Unified Electron Desktop Application & Multi-Platform Distribution Packager for 2-TEK Office Suite**
 > *(Bộ ứng dụng văn phòng máy tính để bàn hợp nhất và hệ thống đóng gói phân phối đa nền tảng cho hệ sinh thái 2-TEK Office)*.
 

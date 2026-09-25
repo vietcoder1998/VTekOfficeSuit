@@ -26,31 +26,53 @@ const currentScriptDirectoryPath: string = path.dirname(currentModuleFilePath);
 export const vtekPackageRootDirectoryPath: string = path.resolve(currentScriptDirectoryPath, "..");
 export const workspaceRootDirectoryPath: string = path.resolve(vtekPackageRootDirectoryPath, "../..");
 
-export function resolveDownloadsDirectoryPath(customPath?: string): string {
+export function resolveDownloadsDirectoryPath(
+  customPath?: string,
+  appName: string = "vtek-office-suit",
+  version: string = "1.0.0"
+): string {
+  let rootDir: string;
   if (customPath && customPath.trim().length > 0) {
     if (customPath.startsWith("~")) {
-      return path.join(os.homedir(), customPath.slice(1));
+      rootDir = path.join(os.homedir(), customPath.slice(1));
+    } else if (path.isAbsolute(customPath)) {
+      rootDir = customPath;
+    } else {
+      rootDir = path.resolve(workspaceRootDirectoryPath, customPath);
     }
-    if (path.isAbsolute(customPath)) {
-      return customPath;
+  } else {
+    const environmentDownloadsPath: string | undefined =
+      process.env.DOWNLOAD_PATH ||
+      process.env.DOWNLOADS_PATH ||
+      process.env.APP_DOWNLOADS_PATH;
+
+    if (environmentDownloadsPath && environmentDownloadsPath.trim().length > 0) {
+      if (environmentDownloadsPath.startsWith("~")) {
+        rootDir = path.join(os.homedir(), environmentDownloadsPath.slice(1));
+      } else if (path.isAbsolute(environmentDownloadsPath)) {
+        rootDir = environmentDownloadsPath;
+      } else {
+        rootDir = path.resolve(workspaceRootDirectoryPath, environmentDownloadsPath);
+      }
+    } else {
+      rootDir = path.join(workspaceRootDirectoryPath, "downloads");
     }
-    return path.resolve(workspaceRootDirectoryPath, customPath);
   }
 
-  const environmentDownloadsPath: string | undefined =
-    process.env.DOWNLOADS_PATH || process.env.APP_DOWNLOADS_PATH;
-
-  if (environmentDownloadsPath && environmentDownloadsPath.trim().length > 0) {
-    if (environmentDownloadsPath.startsWith("~")) {
-      return path.join(os.homedir(), environmentDownloadsPath.slice(1));
+  // Ensure download -> downloads symlink in workspace root
+  try {
+    const downloadSymlink: string = path.join(workspaceRootDirectoryPath, "download");
+    if (!fileSystem.existsSync(downloadSymlink)) {
+      fileSystem.symlinkSync("downloads", downloadSymlink, "dir");
     }
-    if (path.isAbsolute(environmentDownloadsPath)) {
-      return environmentDownloadsPath;
-    }
-    return path.resolve(workspaceRootDirectoryPath, environmentDownloadsPath);
+  } catch {
+    // Ignore
   }
 
-  return path.join(workspaceRootDirectoryPath, "downloads");
+  // Structure: download/{app}/{version}/{name}.{type}
+  const normalizedAppName: string = appName.toLowerCase().trim();
+  const normalizedVersion: string = version.replace(/^v/, "").trim();
+  return path.join(rootDir, normalizedAppName, normalizedVersion);
 }
 
 export interface BuildDesktopOptions {
@@ -316,9 +338,13 @@ if exist electron\\runner.cjs (
 export async function buildDebPackage(
   options: BuildDesktopOptions = {}
 ): Promise<BuildPackageResult> {
-  const outputDirectoryPath: string = resolveDownloadsDirectoryPath(options.outputDirectoryPath);
   const versionString: string = options.version || "1.0.0";
   const packageName: string = options.packageName || "vtek-office-suit";
+  const outputDirectoryPath: string = resolveDownloadsDirectoryPath(
+    options.outputDirectoryPath,
+    packageName,
+    versionString
+  );
   const applicationDisplayName: string = options.applicationDisplayName || "VTek Office Suite";
   const descriptionText: string =
     options.description || "VTek Office Suite Unified Desktop Application";
@@ -475,8 +501,13 @@ Categories=Office;WordProcessor;Spreadsheet;
 export async function buildExePackage(
   options: BuildDesktopOptions = {}
 ): Promise<BuildPackageResult> {
-  const outputDirectoryPath: string = resolveDownloadsDirectoryPath(options.outputDirectoryPath);
   const versionString: string = options.version || "1.0.0";
+  const packageName: string = options.packageName || "vtek-office-suit";
+  const outputDirectoryPath: string = resolveDownloadsDirectoryPath(
+    options.outputDirectoryPath,
+    packageName,
+    versionString
+  );
   const applicationDisplayName: string = options.applicationDisplayName || "VTek Office Suite";
 
   if (!fileSystem.existsSync(outputDirectoryPath)) {
@@ -525,7 +556,13 @@ export async function buildExePackage(
 export async function buildAllDesktopPackages(
   options: BuildDesktopOptions = {}
 ): Promise<BuildAllPackagesResult> {
-  const targetOutputDirectory: string = resolveDownloadsDirectoryPath(options.outputDirectoryPath);
+  const versionString: string = options.version || "1.0.0";
+  const packageName: string = options.packageName || "vtek-office-suit";
+  const targetOutputDirectory: string = resolveDownloadsDirectoryPath(
+    options.outputDirectoryPath,
+    packageName,
+    versionString
+  );
 
   if (!fileSystem.existsSync(targetOutputDirectory)) {
     fileSystem.mkdirSync(targetOutputDirectory, { recursive: true });
@@ -552,10 +589,11 @@ ${exeResult.sha256Hash}  ${exeResult.fileName}
   const manifestFilePath: string = path.join(targetOutputDirectory, "release-manifest.json");
   const manifestData = {
     suiteName: "VTek Office Suite",
-    packageId: "vtek-office-suit",
-    version: options.version || "1.0.0",
+    packageId: packageName,
+    version: versionString,
     buildTimestamp: new Date().toISOString(),
     distributionChannel: "stable",
+    structureFormat: "download/{app}/{version}/{name}.{type}",
     outputDirectory: targetOutputDirectory,
     packages: [
       {
