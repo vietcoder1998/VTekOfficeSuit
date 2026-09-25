@@ -28,7 +28,7 @@ export const workspaceRootDirectoryPath: string = path.resolve(vtekPackageRootDi
 
 export function resolveDownloadsDirectoryPath(
   customPath?: string,
-  appName: string = "vtek-office-suit",
+  appName?: string,
   version: string = "1.0.0"
 ): string {
   let rootDir: string;
@@ -76,6 +76,20 @@ export function resolveDownloadsDirectoryPath(
     // Ignore
   }
 
+  // Clean legacy downloads/vtek-office-suit folder if present (Task 6949)
+  try {
+    const legacyVtekDir: string = path.join(rootDir, "vtek-office-suit");
+    if (fileSystem.existsSync(legacyVtekDir)) {
+      fileSystem.rmSync(legacyVtekDir, { recursive: true, force: true });
+    }
+  } catch {
+    // Ignore
+  }
+
+  if (!appName || appName === "vtek-office-suit") {
+    return rootDir;
+  }
+
   // Structure: downloads/{app}/{version}/{name}.{type}
   const normalizedAppName: string = appName.toLowerCase().trim();
   const normalizedVersion: string = version.replace(/^v/, "").trim();
@@ -104,10 +118,10 @@ export interface BuildPackageResult {
 export interface BuildAllPackagesResult {
   success: boolean;
   outputDirectory: string;
-  debResult: BuildPackageResult;
-  exeResult: BuildPackageResult;
-  manifestFilePath: string;
-  checksumFilePath: string;
+  debResult?: BuildPackageResult;
+  exeResult?: BuildPackageResult;
+  manifestFilePath?: string;
+  checksumFilePath?: string;
 }
 
 export function computeSha256(fileBuffer: Buffer): string {
@@ -563,16 +577,16 @@ export async function buildExePackage(
 export async function buildAllDesktopPackages(
   options: BuildDesktopOptions = {}
 ): Promise<BuildAllPackagesResult> {
-  const versionString: string = options.version || "1.0.0";
-  const packageName: string = options.packageName || "vtek-office-suit";
-  const targetOutputDirectory: string = resolveDownloadsDirectoryPath(
-    options.outputDirectoryPath,
-    packageName,
-    versionString
-  );
+  const targetOutputDirectory: string = resolveDownloadsDirectoryPath(options.outputDirectoryPath);
 
-  if (!fileSystem.existsSync(targetOutputDirectory)) {
-    fileSystem.mkdirSync(targetOutputDirectory, { recursive: true });
+  // Clean legacy downloads/vtek-office-suit folder if present (Task 6949)
+  try {
+    const legacyVtekDir: string = path.join(targetOutputDirectory, "vtek-office-suit");
+    if (fileSystem.existsSync(legacyVtekDir)) {
+      fileSystem.rmSync(legacyVtekDir, { recursive: true, force: true });
+    }
+  } catch {
+    // Ignore
   }
 
   if (!options.silent) {
@@ -582,51 +596,18 @@ export async function buildAllDesktopPackages(
     console.log("═════════════════════════════════════════════════════════════════════════════");
   }
 
-  const debResult: BuildPackageResult = await buildDebPackage(options);
-  const exeResult: BuildPackageResult = await buildExePackage(options);
-
-  // Write SHA256SUMS.txt
-  const checksumFilePath: string = path.join(targetOutputDirectory, "SHA256SUMS.txt");
-  const checksumContent: string = `${debResult.sha256Hash}  ${debResult.fileName}
-${exeResult.sha256Hash}  ${exeResult.fileName}
-`;
-  fileSystem.writeFileSync(checksumFilePath, checksumContent, "utf8");
-
-  // Write release-manifest.json
-  const manifestFilePath: string = path.join(targetOutputDirectory, "release-manifest.json");
-  const manifestData = {
-    suiteName: "VTek Office Suite",
-    packageId: packageName,
-    version: versionString,
-    buildTimestamp: new Date().toISOString(),
-    distributionChannel: "stable",
-    structureFormat: "downloads/{app}/{version}/{name}.{type}",
-    outputDirectory: targetOutputDirectory,
-    packages: [
-      {
-        platform: "linux",
-        architecture: "amd64",
-        format: "deb",
-        fileName: debResult.fileName,
-        sizeBytes: debResult.sizeBytes,
-        sha256: debResult.sha256Hash,
-      },
-      {
-        platform: "windows",
-        architecture: "x64",
-        format: "exe",
-        fileName: exeResult.fileName,
-        sizeBytes: exeResult.sizeBytes,
-        sha256: exeResult.sha256Hash,
-      },
-    ],
-  };
-  fileSystem.writeFileSync(manifestFilePath, JSON.stringify(manifestData, null, 2) + "\n", "utf8");
+  // Trigger workspace build runner for all suite applications to downloads/
+  const rootBuildScriptPath: string = path.join(workspaceRootDirectoryPath, "scripts", "build.ts");
+  if (fileSystem.existsSync(rootBuildScriptPath)) {
+    childProcess.execSync(`npx tsx "${rootBuildScriptPath}" --downloads`, {
+      cwd: workspaceRootDirectoryPath,
+      stdio: options.silent ? "ignore" : "inherit",
+      env: { ...process.env, NODE_ENV: "production" },
+    });
+  }
 
   if (!options.silent) {
     console.log("─────────────────────────────────────────────────────────────────────────────");
-    console.log(`📄 Checksums written to: ${checksumFilePath}`);
-    console.log(`📋 Manifest written to: ${manifestFilePath}`);
     console.log("✨ All desktop packages built successfully to downloads!");
     console.log("─────────────────────────────────────────────────────────────────────────────");
   }
@@ -634,9 +615,5 @@ ${exeResult.sha256Hash}  ${exeResult.fileName}
   return {
     success: true,
     outputDirectory: targetOutputDirectory,
-    debResult,
-    exeResult,
-    manifestFilePath,
-    checksumFilePath,
   };
 }

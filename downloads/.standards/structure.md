@@ -65,7 +65,7 @@ downloads/
 ## 2. Invariants & Rules
 
 1. **Path Format**: `downloads/{projectName}/{version}/{name}.{type}`
-   - `{projectName}`: Canonical project identifier (e.g. `Word`, `Excel`, `hub`, `vtek-office-suit`).
+   - `{projectName}`: Canonical project identifier (e.g. `Word`, `Excel`, `hub`, `SuperChat`).
    - `{version}`: Semantic version without leading 'v' (e.g. `1.0.0`).
    - `{name}.{type}`: Artifact name and extension (`.deb`, `.exe`, `.zip`).
 2. **Standalone Git Repository & Gitlink**: `downloads/` maintains its own independent `.git` directory. The main workspace tracks `downloads/` strictly as a Git gitlink (mode `160000`), completely eliminating binary build caches from the primary source tree.
