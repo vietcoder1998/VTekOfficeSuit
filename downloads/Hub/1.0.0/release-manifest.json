@@ -3,30 +3,30 @@
   "appName": "Hub",
   "displayName": "2-TEK Hub Desktop",
   "version": "1.0.0",
-  "buildTimestamp": "2026-09-25T09:52:53.159Z",
+  "buildTimestamp": "2026-09-25T09:53:13.301Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.0",
   "packages": [
     {
       "platform": "linux",
-      "architecture": "x64",
+      "architecture": "amd64",
       "type": "deb",
-      "name": "Hub",
-      "fileName": "Hub.deb",
-      "downloadPath": "downloads/Hub/1.0.0/Hub.deb",
-      "sizeBytes": 99516,
-      "sha256": "47ccffbbb01cec3bcf54443428a36738773959e11c3b452323cbf0ae5138b073"
+      "name": "2tek-hub",
+      "fileName": "2tek-hub_1.0.0_amd64.deb",
+      "downloadPath": "downloads/Hub/1.0.0/2tek-hub_1.0.0_amd64.deb",
+      "sizeBytes": 99508,
+      "sha256": "9f6e4c21c758d5aaa19912579fef92c61526b20eed1d40beb9b7e3e2705b72be"
     },
     {
       "platform": "windows",
       "architecture": "x64",
       "type": "exe",
-      "name": "Hub",
-      "fileName": "Hub.exe",
-      "downloadPath": "downloads/Hub/1.0.0/Hub.exe",
+      "name": "2tek-hub",
+      "fileName": "2tek-hub-setup-1.0.0.exe",
+      "downloadPath": "downloads/Hub/1.0.0/2tek-hub-setup-1.0.0.exe",
       "sizeBytes": 28672,
-      "sha256": "89e851f827ade7466737a9d9bf816c0d561f31ed572198436fed7281befdb762"
+      "sha256": "b11095a1c15a5078e56168bf8279cdf43e7deb8e43c700fe8a4e40e56d73d051"
     },
     {
       "platform": "universal",
