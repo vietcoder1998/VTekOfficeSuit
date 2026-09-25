@@ -69,6 +69,16 @@ describe("VTekOfficeSuit Repository Setup Verification", () => {
     expect(fileSystem.existsSync(wordDownloadsPath)).toBe(true);
     expect(fileSystem.existsSync(path.join(wordDownloadsPath, "SHA256SUMS.txt"))).toBe(true);
     expect(fileSystem.existsSync(path.join(wordDownloadsPath, "release-manifest.json"))).toBe(true);
+
+    // Verify remove hub, keep Hub (Task 6950)
+    const legacyHubPath = path.join(downloadsPath, "hub");
+    expect(fileSystem.existsSync(legacyHubPath)).toBe(false);
+
+    const canonicalHubPath = path.join(downloadsPath, "Hub", "1.0.0");
+    expect(fileSystem.existsSync(canonicalHubPath)).toBe(true);
+    expect(fileSystem.existsSync(path.join(canonicalHubPath, "2tek-hub-setup-1.0.0.exe"))).toBe(true);
+    expect(fileSystem.existsSync(path.join(canonicalHubPath, "release-manifest.json"))).toBe(true);
+    expect(fileSystem.existsSync(path.join(canonicalHubPath, "SHA256SUMS.txt"))).toBe(true);
   });
 });
 

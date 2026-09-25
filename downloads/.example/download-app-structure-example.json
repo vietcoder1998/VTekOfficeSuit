@@ -4,14 +4,14 @@
   "description": "Canonical directory structure specification for application desktop package downloads",
   "apps": [
     {
-      "appId": "hub",
+      "appId": "Hub",
       "displayName": "2-TEK Hub Desktop",
       "latestVersion": "1.0.0",
       "versions": [
         {
           "version": "1.0.0",
           "releaseDate": "2026-09-25T13:30:00.000Z",
-          "directory": "downloads/hub/1.0.0",
+          "directory": "downloads/Hub/1.0.0",
           "packages": [
             {
               "platform": "linux",
@@ -19,7 +19,7 @@
               "type": "deb",
               "name": "2tek-hub_1.0.0_amd64",
               "fileName": "2tek-hub_1.0.0_amd64.deb",
-              "downloadPath": "downloads/hub/1.0.0/2tek-hub_1.0.0_amd64.deb",
+              "downloadPath": "downloads/Hub/1.0.0/2tek-hub_1.0.0_amd64.deb",
               "sizeBytes": 99392,
               "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             },
@@ -29,13 +29,13 @@
               "type": "exe",
               "name": "2tek-hub-setup-1.0.0",
               "fileName": "2tek-hub-setup-1.0.0.exe",
-              "downloadPath": "downloads/hub/1.0.0/2tek-hub-setup-1.0.0.exe",
+              "downloadPath": "downloads/Hub/1.0.0/2tek-hub-setup-1.0.0.exe",
               "sizeBytes": 28672,
               "sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
             }
           ],
-          "checksums": "downloads/hub/1.0.0/SHA256SUMS.txt",
-          "manifest": "downloads/hub/1.0.0/release-manifest.json"
+          "checksums": "downloads/Hub/1.0.0/SHA256SUMS.txt",
+          "manifest": "downloads/Hub/1.0.0/release-manifest.json"
         }
       ]
     },
