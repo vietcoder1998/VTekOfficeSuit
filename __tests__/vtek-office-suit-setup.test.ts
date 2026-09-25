@@ -59,12 +59,16 @@ describe("VTekOfficeSuit Repository Setup Verification", () => {
     expect(fetchAllContent).toContain("https://github.com/vietcoder1998/VTekOfficeSuit.git");
   });
 
-  it("should have downloads/ directory containing valid distribution packages", () => {
+  it("should have downloads/ directory containing valid distribution packages and verify downloads/vtek-office-suit is removed", () => {
     const downloadsPath = path.join(packageRoot, "downloads");
     expect(fileSystem.existsSync(downloadsPath)).toBe(true);
-    const vtekDownloadsPath = path.join(downloadsPath, "vtek-office-suit", "1.0.0");
-    expect(fileSystem.existsSync(vtekDownloadsPath)).toBe(true);
-    expect(fileSystem.existsSync(path.join(vtekDownloadsPath, "SHA256SUMS.txt"))).toBe(true);
-    expect(fileSystem.existsSync(path.join(vtekDownloadsPath, "release-manifest.json"))).toBe(true);
+    const vtekDownloadsPath = path.join(downloadsPath, "vtek-office-suit");
+    expect(fileSystem.existsSync(vtekDownloadsPath)).toBe(false);
+
+    const wordDownloadsPath = path.join(downloadsPath, "Word", "1.0.0");
+    expect(fileSystem.existsSync(wordDownloadsPath)).toBe(true);
+    expect(fileSystem.existsSync(path.join(wordDownloadsPath, "SHA256SUMS.txt"))).toBe(true);
+    expect(fileSystem.existsSync(path.join(wordDownloadsPath, "release-manifest.json"))).toBe(true);
   });
 });
+

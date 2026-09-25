@@ -95,16 +95,16 @@ Example path: `downloads/hub/{version}/{name}.{type}`
 | **All**     | Verification   | SHA-256 Hashes        | [`downloads/hub/1.0.0/SHA256SUMS.txt`](./hub/1.0.0/SHA256SUMS.txt)                     | SHA-256 checksums for Hub packages.              |
 | **All**     | Metadata       | JSON Manifest         | [`downloads/hub/1.0.0/release-manifest.json`](./hub/1.0.0/release-manifest.json)       | Release metadata and file sizes.                 |
 
-### 🏢 VTek Office Suite (`downloads/vtek-office-suit/{version}/`)
+### 📝 Word Document Studio (`downloads/Word/{version}/`)
 
-Example path: `downloads/vtek-office-suit/{version}/{name}.{type}`
+Example path: `downloads/Word/{version}/{name}.{type}`
 
-| Platform    | Architecture   | Package Format     | Download Path                                                                                                                      | Description                                     |
-| ----------- | -------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| **Linux**   | x86_64 / amd64 | Debian (`.deb`)    | [`downloads/vtek-office-suit/1.0.0/VTek-Office-Suite-linux-amd64.deb`](./vtek-office-suit/1.0.0/VTek-Office-Suite-linux-amd64.deb) | Native desktop installer for VTek Office Suite. |
-| **Windows** | x86_64 / x64   | PE32+ GUI (`.exe`) | [`downloads/vtek-office-suit/1.0.0/VTek-Office-Suite-windows-x64.exe`](./vtek-office-suit/1.0.0/VTek-Office-Suite-windows-x64.exe) | Windows 10 & 11 standalone office executable.   |
-| **All**     | Verification   | SHA-256 Hashes     | [`downloads/vtek-office-suit/1.0.0/SHA256SUMS.txt`](./vtek-office-suit/1.0.0/SHA256SUMS.txt)                                       | SHA-256 checksums for VTek Suite packages.      |
-| **All**     | Metadata       | JSON Manifest      | [`downloads/vtek-office-suit/1.0.0/release-manifest.json`](./vtek-office-suit/1.0.0/release-manifest.json)                         | Release metadata and package records.           |
+| Platform    | Architecture   | Package Format     | Download Path                                                     | Description                                   |
+| ----------- | -------------- | ------------------ | ----------------------------------------------------------------- | --------------------------------------------- |
+| **Linux**   | x86_64 / amd64 | Debian (`.deb`)    | [`downloads/Word/1.0.0/Word.deb`](./Word/1.0.0/Word.deb)         | Native desktop installer for Word Studio.     |
+| **Windows** | x86_64 / x64   | PE32+ GUI (`.exe`) | [`downloads/Word/1.0.0/Word.exe`](./Word/1.0.0/Word.exe)         | Windows standalone document editor executable. |
+| **All**     | Verification   | SHA-256 Hashes     | [`downloads/Word/1.0.0/SHA256SUMS.txt`](./Word/1.0.0/SHA256SUMS.txt) | SHA-256 checksums for Word Studio packages.   |
+| **All**     | Metadata       | JSON Manifest      | [`downloads/Word/1.0.0/release-manifest.json`](./Word/1.0.0/release-manifest.json) | Release metadata and package records.         |
 
 ---
 
@@ -116,14 +116,14 @@ Example path: `downloads/vtek-office-suit/{version}/{name}.{type}`
 # Example: Install 2-TEK Hub
 sudo apt install ./downloads/hub/1.0.0/2tek-hub_1.0.0_amd64.deb
 
-# Example: Install VTek Office Suite
-sudo apt install ./downloads/vtek-office-suit/1.0.0/VTek-Office-Suite-linux-amd64.deb
+# Example: Install Word Document Studio
+sudo apt install ./downloads/Word/1.0.0/Word.deb
 ```
 
 ### 🪟 Windows (10 / 11)
 
-1. Navigate to `downloads/{app}/{version}/` (e.g. `downloads/hub/1.0.0/` or `downloads/vtek-office-suit/1.0.0/`).
-2. Double-click the `.exe` installer (e.g. `2tek-hub-setup-1.0.0.exe` or `VTek-Office-Suite-windows-x64.exe`).
+1. Navigate to `downloads/{app}/{version}/` (e.g. `downloads/hub/1.0.0/` or `downloads/Word/1.0.0/`).
+2. Double-click the `.exe` installer (e.g. `2tek-hub-setup-1.0.0.exe` or `Word.exe`).
 3. The desktop application will launch immediately.
 
 ---
@@ -134,8 +134,8 @@ sudo apt install ./downloads/vtek-office-suit/1.0.0/VTek-Office-Suite-linux-amd6
 # Build 2-TEK Hub desktop packages to downloads/hub/{version}/
 npm run build:desktop
 
-# Build VTek Office Suite desktop packages to downloads/vtek-office-suit/{version}/
-npm run build:vtek
+# Build all workspace project packages to downloads/{projectName}/{version}/
+npm run build:all
 ```
 
 ---
@@ -146,8 +146,8 @@ npm run build:vtek
 # Verify Hub packages
 cd downloads/hub/1.0.0 && sha256sum -c SHA256SUMS.txt
 
-# Verify VTek packages
-cd downloads/vtek-office-suit/1.0.0 && sha256sum -c SHA256SUMS.txt
+# Verify Word packages
+cd downloads/Word/1.0.0 && sha256sum -c SHA256SUMS.txt
 ```
 
 ---

@@ -40,42 +40,6 @@
       ]
     },
     {
-      "appId": "vtek-office-suit",
-      "displayName": "VTek Office Suite",
-      "latestVersion": "1.0.0",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "releaseDate": "2026-09-25T13:30:00.000Z",
-          "directory": "downloads/vtek-office-suit/1.0.0",
-          "packages": [
-            {
-              "platform": "linux",
-              "architecture": "amd64",
-              "type": "deb",
-              "name": "VTek-Office-Suite-linux-amd64",
-              "fileName": "VTek-Office-Suite-linux-amd64.deb",
-              "downloadPath": "downloads/vtek-office-suit/1.0.0/VTek-Office-Suite-linux-amd64.deb",
-              "sizeBytes": 4742,
-              "sha256": "6cc4b3cd1b4f49d0340d4ccf378d37b32c43bb28eecab33f0f770e6d8e4c458f"
-            },
-            {
-              "platform": "windows",
-              "architecture": "x64",
-              "type": "exe",
-              "name": "VTek-Office-Suite-windows-x64",
-              "fileName": "VTek-Office-Suite-windows-x64.exe",
-              "downloadPath": "downloads/vtek-office-suit/1.0.0/VTek-Office-Suite-windows-x64.exe",
-              "sizeBytes": 6656,
-              "sha256": "846dc871915d37a4f5ceb7db0014e9f7f5c9e95cbe6fc7e73c524840bea01498"
-            }
-          ],
-          "checksums": "downloads/vtek-office-suit/1.0.0/SHA256SUMS.txt",
-          "manifest": "downloads/vtek-office-suit/1.0.0/release-manifest.json"
-        }
-      ]
-    },
-    {
       "appId": "Word",
       "displayName": "Word Document Studio",
       "latestVersion": "1.0.0",
