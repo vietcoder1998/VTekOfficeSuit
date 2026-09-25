@@ -1,0 +1,10 @@
+{
+  "id": "vtek-office-suit",
+  "name": "VTek Office Suite",
+  "slug": "vtek-office-suit",
+  "port": 3035,
+  "category": "desktop",
+  "group": "production",
+  "icon": "Briefcase",
+  "description": "Unified VTek Office Suite desktop application and multi-platform distribution builder."
+}
