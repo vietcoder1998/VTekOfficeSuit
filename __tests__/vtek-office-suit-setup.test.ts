@@ -81,4 +81,3 @@ describe("VTekOfficeSuit Repository Setup Verification", () => {
     expect(fileSystem.existsSync(path.join(canonicalHubPath, "SHA256SUMS.txt"))).toBe(true);
   });
 });
-
