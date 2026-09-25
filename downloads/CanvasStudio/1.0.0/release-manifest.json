@@ -1,0 +1,42 @@
+{
+  "projectName": "CanvasStudio",
+  "appName": "CanvasStudio",
+  "displayName": "Canvas Studio",
+  "version": "1.0.0",
+  "buildTimestamp": "2026-09-25T08:05:05.749Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/CanvasStudio/1.0.0",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "CanvasStudio",
+      "fileName": "CanvasStudio.deb",
+      "downloadPath": "downloads/CanvasStudio/1.0.0/CanvasStudio.deb",
+      "sizeBytes": 1984,
+      "sha256": "3d9427d2ac63c199413259e24e7d675190cb0d370b900354b699639e0cd3e778"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "CanvasStudio",
+      "fileName": "CanvasStudio.exe",
+      "downloadPath": "downloads/CanvasStudio/1.0.0/CanvasStudio.exe",
+      "sizeBytes": 4096,
+      "sha256": "b8f2f8a99bd7f09989cc5201d32ee4c8d44f860ad752043e421c585c10015264"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "CanvasStudio",
+      "fileName": "CanvasStudio.zip",
+      "downloadPath": "downloads/CanvasStudio/1.0.0/CanvasStudio.zip",
+      "sizeBytes": 1061,
+      "sha256": "59106fd6fa11f931774607c6a9f6d3e904d36d7a887a7be9eff3fc05007be6e1"
+    }
+  ]
+}

@@ -59,17 +59,24 @@ export function resolveDownloadsDirectoryPath(
     }
   }
 
-  // Ensure download -> downloads symlink in workspace root
+  // Remove unused legacy download folder or symlink from workspace root (Task 6944)
   try {
     const downloadSymlink: string = path.join(workspaceRootDirectoryPath, "download");
-    if (!fileSystem.existsSync(downloadSymlink)) {
-      fileSystem.symlinkSync("downloads", downloadSymlink, "dir");
+    const exists: boolean = fileSystem.existsSync(downloadSymlink);
+    let isSymlink: boolean = false;
+    try {
+      isSymlink = fileSystem.lstatSync(downloadSymlink).isSymbolicLink();
+    } catch {
+      // Ignore
+    }
+    if (exists || isSymlink) {
+      fileSystem.rmSync(downloadSymlink, { recursive: true, force: true });
     }
   } catch {
     // Ignore
   }
 
-  // Structure: download/{app}/{version}/{name}.{type}
+  // Structure: downloads/{app}/{version}/{name}.{type}
   const normalizedAppName: string = appName.toLowerCase().trim();
   const normalizedVersion: string = version.replace(/^v/, "").trim();
   return path.join(rootDir, normalizedAppName, normalizedVersion);
@@ -593,7 +600,7 @@ ${exeResult.sha256Hash}  ${exeResult.fileName}
     version: versionString,
     buildTimestamp: new Date().toISOString(),
     distributionChannel: "stable",
-    structureFormat: "download/{app}/{version}/{name}.{type}",
+    structureFormat: "downloads/{app}/{version}/{name}.{type}",
     outputDirectory: targetOutputDirectory,
     packages: [
       {

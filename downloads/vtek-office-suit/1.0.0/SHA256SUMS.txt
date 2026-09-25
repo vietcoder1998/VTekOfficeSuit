@@ -1,0 +1,2 @@
+d3514a35cf528b365406e9b89a75ff8357fc689df4d66b00bf8afe2978f5accc  VTek-Office-Suite-linux-amd64.deb
+586f1e8a069b35bf93d1ee6acd6dc3eacd43292f39dd23ac9b82d590dd2dc5ed  VTek-Office-Suite-windows-x64.exe

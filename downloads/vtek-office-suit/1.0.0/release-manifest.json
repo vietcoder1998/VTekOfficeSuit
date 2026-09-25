@@ -1,0 +1,27 @@
+{
+  "suiteName": "VTek Office Suite",
+  "packageId": "vtek-office-suit",
+  "version": "1.0.0",
+  "buildTimestamp": "2026-09-25T08:29:08.930Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/vtek-office-suit/1.0.0",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "format": "deb",
+      "fileName": "VTek-Office-Suite-linux-amd64.deb",
+      "sizeBytes": 4742,
+      "sha256": "d3514a35cf528b365406e9b89a75ff8357fc689df4d66b00bf8afe2978f5accc"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "format": "exe",
+      "fileName": "VTek-Office-Suite-windows-x64.exe",
+      "sizeBytes": 6656,
+      "sha256": "586f1e8a069b35bf93d1ee6acd6dc3eacd43292f39dd23ac9b82d590dd2dc5ed"
+    }
+  ]
+}

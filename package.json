@@ -2,46 +2,18 @@
   "name": "@2-tek/vtek-office-suit",
   "version": "1.0.0",
   "private": true,
-  "description": "VTek Office Suite — Unified Electron Desktop Application & Distribution Packager",
+  "description": "VTek Office Suite — Multi-Platform Desktop Application & Distribution Packages",
   "repository": {
     "type": "git",
     "url": "https://github.com/vietcoder1998/VTekOfficeSuit.git"
   },
-  "main": "electron/main.cjs",
   "scripts": {
-    "dev": "next dev -p 3035",
-    "build": "next build",
-    "start": "next start -p 3035",
-    "desktop": "node electron/runner.cjs",
-    "desktop:dev": "node electron/runner.cjs",
-    "dev:desktop": "node electron/runner.cjs",
     "build:electron": "node scripts/build-desktop-packages.mjs",
     "build:desktop": "node scripts/build-desktop-packages.mjs",
     "build:desktop:deb": "node scripts/build-desktop-packages.mjs --deb",
-    "build:desktop:exe": "node scripts/build-desktop-packages.mjs --exe",
-    "type-check": "tsc --noEmit",
-    "test": "vitest run"
-  },
-  "dependencies": {
-    "@2-tek/shared": "*",
-    "@grpc/grpc-js": "^1.14.4",
-    "@grpc/proto-loader": "^0.8.1",
-    "jszip": "^3.10.1",
-    "lucide-react": "^0.468.0",
-    "next": "^15.4.5",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "xlsx": "^0.18.5",
-    "zustand": "^5.0.15"
+    "build:desktop:exe": "node scripts/build-desktop-packages.mjs --exe"
   },
   "devDependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/react": "^16.3.2",
-    "@types/node": "^22.20.3",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "electron": "^44.4.3",
-    "typescript": "^5.9.3",
-    "vitest": "^2.1.8"
+    "@types/node": "^22.20.3"
   }
 }

@@ -1,0 +1,42 @@
+{
+  "projectName": "Excel",
+  "appName": "Excel",
+  "displayName": "Excel Editor",
+  "version": "1.0.0",
+  "buildTimestamp": "2026-09-25T08:05:05.803Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Excel/1.0.0",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Excel",
+      "fileName": "Excel.deb",
+      "downloadPath": "downloads/Excel/1.0.0/Excel.deb",
+      "sizeBytes": 2016,
+      "sha256": "87fa1549090d74544f9b5dc8ff0c9a7dfd095ca0d535ab96a2b7773964c97201"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Excel",
+      "fileName": "Excel.exe",
+      "downloadPath": "downloads/Excel/1.0.0/Excel.exe",
+      "sizeBytes": 4096,
+      "sha256": "170d8a9f2ce14979a983028b5807d4099e091130481ffa101014a379354ec1ed"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Excel",
+      "fileName": "Excel.zip",
+      "downloadPath": "downloads/Excel/1.0.0/Excel.zip",
+      "sizeBytes": 1078,
+      "sha256": "94fe88e062b1c883ed562c4fc819ba7ee9974ee262957058069fd5cbdd574bd9"
+    }
+  ]
+}

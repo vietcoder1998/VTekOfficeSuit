@@ -22,18 +22,15 @@
 
 ```
 packages/VTekOfficeSuit/
-├── app/                      # Next.js App Router UI entrypoint & layout
-├── components/               # Desktop Suite components and views
-│   └── bases/                # Project-isolated Base components (Rule 61)
-├── electron/                 # Electron main, preload, and runner scripts
-│   ├── main.cjs              # Electron main process
-│   ├── preload.cjs           # Secure context bridge (window.electronAPI)
-│   └── runner.cjs            # Development runner
+├── downloads/                # All cross-platform release packages (.deb, .exe, .zip)
+│   ├── Word/                 # Document Studio installer packages
+│   ├── Excel/                # Spreadsheet Studio installer packages
+│   ├── hub/                  # 2-TEK Hub Desktop installer packages
+│   ├── vtek-office-suit/     # VTek Office Suite desktop installer packages
+│   └── ...                   # All 17 workspace application packages
 ├── scripts/                  # Packaging & distribution build scripts
 │   ├── build-desktop-packages.ts  # Multi-platform builder engine
 │   └── build-desktop-packages.mjs # CLI launcher
-├── styles/                   # IDE Theme CSS variables and layout styles
-├── types/                    # TypeScript interfaces and electron.d.ts
 ├── .standards/               # Design and structure specifications (Rule 68)
 │   ├── structure.md
 │   └── designs.md

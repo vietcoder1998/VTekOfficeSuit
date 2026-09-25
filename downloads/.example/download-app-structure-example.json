@@ -1,0 +1,126 @@
+{
+  "$schema": "../.standards/download-app-structure-schema.json",
+  "format": "downloads/{app}/{version}/{name}.{type}",
+  "description": "Canonical directory structure specification for application desktop package downloads",
+  "apps": [
+    {
+      "appId": "hub",
+      "displayName": "2-TEK Hub Desktop",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "releaseDate": "2026-09-25T13:30:00.000Z",
+          "directory": "downloads/hub/1.0.0",
+          "packages": [
+            {
+              "platform": "linux",
+              "architecture": "amd64",
+              "type": "deb",
+              "name": "2tek-hub_1.0.0_amd64",
+              "fileName": "2tek-hub_1.0.0_amd64.deb",
+              "downloadPath": "downloads/hub/1.0.0/2tek-hub_1.0.0_amd64.deb",
+              "sizeBytes": 99392,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+              "platform": "windows",
+              "architecture": "x64",
+              "type": "exe",
+              "name": "2tek-hub-setup-1.0.0",
+              "fileName": "2tek-hub-setup-1.0.0.exe",
+              "downloadPath": "downloads/hub/1.0.0/2tek-hub-setup-1.0.0.exe",
+              "sizeBytes": 28672,
+              "sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+            }
+          ],
+          "checksums": "downloads/hub/1.0.0/SHA256SUMS.txt",
+          "manifest": "downloads/hub/1.0.0/release-manifest.json"
+        }
+      ]
+    },
+    {
+      "appId": "vtek-office-suit",
+      "displayName": "VTek Office Suite",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "releaseDate": "2026-09-25T13:30:00.000Z",
+          "directory": "downloads/vtek-office-suit/1.0.0",
+          "packages": [
+            {
+              "platform": "linux",
+              "architecture": "amd64",
+              "type": "deb",
+              "name": "VTek-Office-Suite-linux-amd64",
+              "fileName": "VTek-Office-Suite-linux-amd64.deb",
+              "downloadPath": "downloads/vtek-office-suit/1.0.0/VTek-Office-Suite-linux-amd64.deb",
+              "sizeBytes": 4742,
+              "sha256": "6cc4b3cd1b4f49d0340d4ccf378d37b32c43bb28eecab33f0f770e6d8e4c458f"
+            },
+            {
+              "platform": "windows",
+              "architecture": "x64",
+              "type": "exe",
+              "name": "VTek-Office-Suite-windows-x64",
+              "fileName": "VTek-Office-Suite-windows-x64.exe",
+              "downloadPath": "downloads/vtek-office-suit/1.0.0/VTek-Office-Suite-windows-x64.exe",
+              "sizeBytes": 6656,
+              "sha256": "846dc871915d37a4f5ceb7db0014e9f7f5c9e95cbe6fc7e73c524840bea01498"
+            }
+          ],
+          "checksums": "downloads/vtek-office-suit/1.0.0/SHA256SUMS.txt",
+          "manifest": "downloads/vtek-office-suit/1.0.0/release-manifest.json"
+        }
+      ]
+    },
+    {
+      "appId": "Word",
+      "displayName": "Word Document Studio",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "releaseDate": "2026-09-25T13:30:00.000Z",
+          "directory": "downloads/Word/1.0.0",
+          "packages": [
+            {
+              "platform": "linux",
+              "architecture": "amd64",
+              "type": "deb",
+              "name": "Word",
+              "fileName": "Word.deb",
+              "downloadPath": "downloads/Word/1.0.0/Word.deb",
+              "sizeBytes": 2048,
+              "sha256": "69a514f02c3aa348fddeaf4775c2b7fa7376cdb93fd209e4f6af24c7e7daf35d"
+            },
+            {
+              "platform": "windows",
+              "architecture": "x64",
+              "type": "exe",
+              "name": "Word",
+              "fileName": "Word.exe",
+              "downloadPath": "downloads/Word/1.0.0/Word.exe",
+              "sizeBytes": 4096,
+              "sha256": "2ff6911588a87d9a8d0530cf82e0b5e28c362d0bdc35e044a5a2095cea4636d0"
+            },
+            {
+              "platform": "universal",
+              "architecture": "all",
+              "type": "zip",
+              "name": "Word",
+              "fileName": "Word.zip",
+              "downloadPath": "downloads/Word/1.0.0/Word.zip",
+              "sizeBytes": 1024,
+              "sha256": "3cf98386870643b6d41d385c7b144848395dcfc9e08350a7961203c3b1aed888"
+            }
+          ],
+          "checksums": "downloads/Word/1.0.0/SHA256SUMS.txt",
+          "manifest": "downloads/Word/1.0.0/release-manifest.json"
+        }
+
+      ]
+    }
+  ]
+}

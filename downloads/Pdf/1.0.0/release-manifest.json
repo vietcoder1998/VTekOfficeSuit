@@ -1,0 +1,42 @@
+{
+  "projectName": "Pdf",
+  "appName": "Pdf",
+  "displayName": "PDF Viewer",
+  "version": "1.0.0",
+  "buildTimestamp": "2026-09-25T08:05:05.931Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Pdf/1.0.0",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Pdf",
+      "fileName": "Pdf.deb",
+      "downloadPath": "downloads/Pdf/1.0.0/Pdf.deb",
+      "sizeBytes": 1974,
+      "sha256": "1ece482862b503d9647457456451e4c402b55b7ca9d7a40ba8a656e95de783e7"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Pdf",
+      "fileName": "Pdf.exe",
+      "downloadPath": "downloads/Pdf/1.0.0/Pdf.exe",
+      "sizeBytes": 4096,
+      "sha256": "3b65feb14f5590b2fc93531ef8d23dc4974ccdecb63ab13ba8546b4456d2b8ff"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Pdf",
+      "fileName": "Pdf.zip",
+      "downloadPath": "downloads/Pdf/1.0.0/Pdf.zip",
+      "sizeBytes": 1063,
+      "sha256": "46ad26c60c095a4a8647b226adf1540b37edf9c0cfd67b35f2bfdcacad02b059"
+    }
+  ]
+}
