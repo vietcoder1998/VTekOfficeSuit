@@ -1,2 +1,2 @@
-459a3e12be0a02e915585f20ba451be3c62598b7e27084c5885802eab81054fd  2tek-hub_1.0.0_amd64.deb
-a5a9fc70cfbc2afa708f35f9acc842ce5e5fb821f30ff1eaea856376e570b8e2  2tek-hub-setup-1.0.0.exe
+d1fde2a8fe5f7b4bb40c6dd653d3bcd9f7c15633e64b35a16e1883ed697fb638  2tek-hub_1.0.0_amd64.deb
+d4a4c767524a7a7b6ad8b40fc79d44c1d99a782dc0b20c24ddf02bc7f2c96bb4  2tek-hub-setup-1.0.0.exe
