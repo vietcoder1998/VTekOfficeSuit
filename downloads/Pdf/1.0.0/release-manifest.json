@@ -3,10 +3,10 @@
   "appName": "Pdf",
   "displayName": "PDF Viewer",
   "version": "1.0.0",
-  "buildTimestamp": "2026-09-25T09:31:58.092Z",
+  "buildTimestamp": "2026-09-25T15:39:30.137Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Pdf/1.0.0",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/packages/VTekOfficeSuit/downloads/Pdf/1.0.0",
   "packages": [
     {
       "platform": "linux",
@@ -15,8 +15,8 @@
       "name": "Pdf",
       "fileName": "Pdf.deb",
       "downloadPath": "downloads/Pdf/1.0.0/Pdf.deb",
-      "sizeBytes": 1972,
-      "sha256": "cb48d32838586ff7fab8711d850a539d1747a8a47157ff7a005d7548214172e0"
+      "sizeBytes": 1974,
+      "sha256": "677791b0f270e4a8bb7013234e2e01191067e1aa51802de1521eaf6a6ed97a44"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Pdf.exe",
       "downloadPath": "downloads/Pdf/1.0.0/Pdf.exe",
       "sizeBytes": 4096,
-      "sha256": "0f1ee8f2051affdc25f2626404158db289a4448deb780d93bbe8f526cb00f072"
+      "sha256": "7e4565220badb895a9878201b60b9c13e10f8dc4e7a3dbd9b84bbb8142222c81"
     },
     {
       "platform": "universal",
@@ -36,7 +36,7 @@
       "fileName": "Pdf.zip",
       "downloadPath": "downloads/Pdf/1.0.0/Pdf.zip",
       "sizeBytes": 1063,
-      "sha256": "423898856091f11635a309ef2768d63b805e432f250319c447a68ef74acf56e9"
+      "sha256": "97e73d27f6571895dcb70c53b6a5cfe3866a0fcade341dc9752f0d7fb3cd68b5"
     }
   ]
 }

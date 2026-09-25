@@ -3,10 +3,10 @@
   "appName": "AIAssistant",
   "displayName": "AI Assistant Platform",
   "version": "1.0.0",
-  "buildTimestamp": "2026-09-25T09:31:57.798Z",
+  "buildTimestamp": "2026-09-25T15:39:29.894Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/AIAssistant/1.0.0",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/packages/VTekOfficeSuit/downloads/AIAssistant/1.0.0",
   "packages": [
     {
       "platform": "linux",
@@ -16,7 +16,7 @@
       "fileName": "AIAssistant.deb",
       "downloadPath": "downloads/AIAssistant/1.0.0/AIAssistant.deb",
       "sizeBytes": 1968,
-      "sha256": "07fee9f8019931fd75d25a47f7e5fa1c8ca619c5cd28d0b9a4cf50a238500dc9"
+      "sha256": "668b92a6f80ee97171b3e76d9f08a1808a8ceaa6257c1d0e31596c9ff68cb4fd"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "AIAssistant.exe",
       "downloadPath": "downloads/AIAssistant/1.0.0/AIAssistant.exe",
       "sizeBytes": 4096,
-      "sha256": "7c06a379c7405dd92460ca234cb7da4c70b05b98a10621b973d7e2343b67e8f6"
+      "sha256": "40d9590ae47ef3b3498d047add8cfaadca9fa4769201c2b93cb8a4d1db195627"
     },
     {
       "platform": "universal",
@@ -36,7 +36,7 @@
       "fileName": "AIAssistant.zip",
       "downloadPath": "downloads/AIAssistant/1.0.0/AIAssistant.zip",
       "sizeBytes": 1061,
-      "sha256": "34722293d4510a35e96100195a1768b1ed0071ce02cca1584768e402d075dd86"
+      "sha256": "7706f85ddd4dc96a3cfd40b9ae37eb35e69b7387c148604fa808fffe24c79a83"
     }
   ]
 }

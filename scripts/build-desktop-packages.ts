@@ -96,6 +96,19 @@ export function resolveDownloadsDirectoryPath(
   return path.join(rootDir, normalizedAppName, normalizedVersion);
 }
 
+export function resolveDesktopOutputDirectoryPath(customPath?: string): string {
+  if (customPath && customPath.trim().length > 0) {
+    if (customPath.startsWith("~")) {
+      return path.join(os.homedir(), customPath.slice(1));
+    }
+    if (path.isAbsolute(customPath)) {
+      return customPath;
+    }
+    return path.resolve(vtekPackageRootDirectoryPath, customPath);
+  }
+  return path.join(vtekPackageRootDirectoryPath, "dist-electron");
+}
+
 export interface BuildDesktopOptions {
   outputDirectoryPath?: string;
   version?: string;
@@ -361,10 +374,8 @@ export async function buildDebPackage(
 ): Promise<BuildPackageResult> {
   const versionString: string = options.version || "1.0.0";
   const packageName: string = options.packageName || "vtek-office-suit";
-  const outputDirectoryPath: string = resolveDownloadsDirectoryPath(
-    options.outputDirectoryPath,
-    packageName,
-    versionString
+  const outputDirectoryPath: string = resolveDesktopOutputDirectoryPath(
+    options.outputDirectoryPath
   );
   const applicationDisplayName: string = options.applicationDisplayName || "VTek Office Suite";
   const descriptionText: string =
@@ -524,10 +535,8 @@ export async function buildExePackage(
 ): Promise<BuildPackageResult> {
   const versionString: string = options.version || "1.0.0";
   const packageName: string = options.packageName || "vtek-office-suit";
-  const outputDirectoryPath: string = resolveDownloadsDirectoryPath(
-    options.outputDirectoryPath,
-    packageName,
-    versionString
+  const outputDirectoryPath: string = resolveDesktopOutputDirectoryPath(
+    options.outputDirectoryPath
   );
   const applicationDisplayName: string = options.applicationDisplayName || "VTek Office Suite";
 
@@ -577,7 +586,7 @@ export async function buildExePackage(
 export async function buildAllDesktopPackages(
   options: BuildDesktopOptions = {}
 ): Promise<BuildAllPackagesResult> {
-  const targetOutputDirectory: string = resolveDownloadsDirectoryPath(options.outputDirectoryPath);
+  const targetOutputDirectory: string = resolveDesktopOutputDirectoryPath(options.outputDirectoryPath);
 
   // Clean legacy downloads/vtek-office-suit folder if present (Task 6949)
   try {
@@ -596,24 +605,26 @@ export async function buildAllDesktopPackages(
     console.log("═════════════════════════════════════════════════════════════════════════════");
   }
 
-  // Trigger workspace build runner for all suite applications to downloads/
-  const rootBuildScriptPath: string = path.join(workspaceRootDirectoryPath, "scripts", "build.ts");
-  if (fileSystem.existsSync(rootBuildScriptPath)) {
-    childProcess.execSync(`npx tsx "${rootBuildScriptPath}" --downloads`, {
-      cwd: workspaceRootDirectoryPath,
-      stdio: options.silent ? "ignore" : "inherit",
-      env: { ...process.env, NODE_ENV: "production" },
-    });
-  }
+  // Build VTek Office Suite desktop packages directly without looping another app
+  const debResult: BuildPackageResult = await buildDebPackage({
+    ...options,
+    outputDirectoryPath: targetOutputDirectory,
+  });
+  const exeResult: BuildPackageResult = await buildExePackage({
+    ...options,
+    outputDirectoryPath: targetOutputDirectory,
+  });
 
   if (!options.silent) {
     console.log("─────────────────────────────────────────────────────────────────────────────");
-    console.log("✨ All desktop packages built successfully to downloads!");
+    console.log("✨ All desktop packages built successfully!");
     console.log("─────────────────────────────────────────────────────────────────────────────");
   }
 
   return {
-    success: true,
+    success: debResult.success && exeResult.success,
     outputDirectory: targetOutputDirectory,
+    debResult,
+    exeResult,
   };
 }

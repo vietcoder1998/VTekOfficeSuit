@@ -1,6 +1,7 @@
 {
   "name": "@2-tek/vtek-office-suit",
   "version": "1.0.0",
+  "type": "module",
   "license": "MIT",
   "private": true,
   "description": "VTek Office Suite — Multi-Platform Desktop Application & Distribution Packages",
