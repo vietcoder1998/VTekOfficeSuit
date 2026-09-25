@@ -3,7 +3,7 @@
   "appName": "Cloud",
   "displayName": "Cloud Storage",
   "version": "1.0.0",
-  "buildTimestamp": "2026-09-25T09:15:10.242Z",
+  "buildTimestamp": "2026-09-25T09:31:57.932Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Cloud/1.0.0",
@@ -16,7 +16,7 @@
       "fileName": "Cloud.deb",
       "downloadPath": "downloads/Cloud/1.0.0/Cloud.deb",
       "sizeBytes": 1954,
-      "sha256": "60a2fc3991bb395b7ddd0f7f32cfbf3dd4b9b876d333f8cdd86c379889dcac2f"
+      "sha256": "e1720494f893527692a3de4d0a415e80bdb12087a45fb42d4c4d9c62e04aedc7"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Cloud.exe",
       "downloadPath": "downloads/Cloud/1.0.0/Cloud.exe",
       "sizeBytes": 4096,
-      "sha256": "452fc2fbc4c2abbc6573a1df10e090b34f7a801a64e8e91bc8d23153c8530c0d"
+      "sha256": "e56b8672ec477081823eaee5e781b2927fa502e83229a446476fd6ef718d329f"
     },
     {
       "platform": "universal",
@@ -36,7 +36,7 @@
       "fileName": "Cloud.zip",
       "downloadPath": "downloads/Cloud/1.0.0/Cloud.zip",
       "sizeBytes": 1050,
-      "sha256": "456cc62a4bf1867e12bc4835b0c8cc3448af84c69b07affd52ba2851820626cd"
+      "sha256": "cea6c68655a73dd5f5f08e7b50acf8aae7a7ae0240d0e7035c572233b52a3f10"
     }
   ]
 }
