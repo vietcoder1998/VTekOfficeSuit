@@ -1,0 +1,32 @@
+{
+  "projectName": "Hub",
+  "appName": "Hub",
+  "displayName": "Hub",
+  "version": "1.0.7",
+  "buildTimestamp": "2026-09-26T15:55:43.665Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.7",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Hub-1.0.7",
+      "fileName": "Hub-1.0.7.deb",
+      "downloadPath": "downloads/Hub/1.0.7/Hub-1.0.7.deb",
+      "sizeBytes": 1964,
+      "sha256": "3badc428925b28ff258a85a71672f40f4927bb88ca3fa552835a09c16aa76574"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Hub-1.0.7",
+      "fileName": "Hub-1.0.7.exe",
+      "downloadPath": "downloads/Hub/1.0.7/Hub-1.0.7.exe",
+      "sizeBytes": 30208,
+      "sha256": "7bb9ca5664be424e97994468279a3a9e4b8ebf422098a6ba69d0522c832e6304"
+    }
+  ]
+}
