@@ -6,8 +6,38 @@
   "buildTimestamp": "2026-09-25T15:39:30.109Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/packages/VTekOfficeSuit/downloads/OfficePack/1.0.0",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/OfficePack/1.0.0",
   "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "OfficePack-1.0.0",
+      "fileName": "OfficePack-1.0.0.deb",
+      "downloadPath": "downloads/OfficePack/1.0.0/OfficePack-1.0.0.deb",
+      "sizeBytes": 2134,
+      "sha256": "bca5cd78635fbb7c178d3cc76a5467e52c2481748748ade47a6efe909e35e3ef"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "OfficePack-1.0.0",
+      "fileName": "OfficePack-1.0.0.exe",
+      "downloadPath": "downloads/OfficePack/1.0.0/OfficePack-1.0.0.exe",
+      "sizeBytes": 4096,
+      "sha256": "3866d778a532889d97d78ddf1707433ec638a21bc0e261774bd6f8faaf610462"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "OfficePack-1.0.0",
+      "fileName": "OfficePack-1.0.0.zip",
+      "downloadPath": "downloads/OfficePack/1.0.0/OfficePack-1.0.0.zip",
+      "sizeBytes": 1134,
+      "sha256": "639dcab4e6cbec756a98c9abe9b5cc55202f8e0e3ba8d3a3d0c2b9d36272f0c4"
+    },
     {
       "platform": "linux",
       "architecture": "amd64",
@@ -37,6 +67,166 @@
       "downloadPath": "downloads/OfficePack/1.0.0/OfficePack.zip",
       "sizeBytes": 1134,
       "sha256": "639dcab4e6cbec756a98c9abe9b5cc55202f8e0e3ba8d3a3d0c2b9d36272f0c4"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "office-pack-1.0.0",
+      "fileName": "office-pack-1.0.0.deb",
+      "downloadPath": "downloads/OfficePack/1.0.0/office-pack-1.0.0.deb",
+      "sizeBytes": 2134,
+      "sha256": "bca5cd78635fbb7c178d3cc76a5467e52c2481748748ade47a6efe909e35e3ef"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "office-pack-1.0.0",
+      "fileName": "office-pack-1.0.0.exe",
+      "downloadPath": "downloads/OfficePack/1.0.0/office-pack-1.0.0.exe",
+      "sizeBytes": 4096,
+      "sha256": "3866d778a532889d97d78ddf1707433ec638a21bc0e261774bd6f8faaf610462"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "office-pack-1.0.0",
+      "fileName": "office-pack-1.0.0.zip",
+      "downloadPath": "downloads/OfficePack/1.0.0/office-pack-1.0.0.zip",
+      "sizeBytes": 1134,
+      "sha256": "639dcab4e6cbec756a98c9abe9b5cc55202f8e0e3ba8d3a3d0c2b9d36272f0c4"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "office-pack-setup-1.0.0",
+      "fileName": "office-pack-setup-1.0.0.exe",
+      "downloadPath": "downloads/OfficePack/1.0.0/office-pack-setup-1.0.0.exe",
+      "sizeBytes": 4096,
+      "sha256": "3866d778a532889d97d78ddf1707433ec638a21bc0e261774bd6f8faaf610462"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "office-pack",
+      "fileName": "office-pack.deb",
+      "downloadPath": "downloads/OfficePack/1.0.0/office-pack.deb",
+      "sizeBytes": 2134,
+      "sha256": "bca5cd78635fbb7c178d3cc76a5467e52c2481748748ade47a6efe909e35e3ef"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "office-pack",
+      "fileName": "office-pack.exe",
+      "downloadPath": "downloads/OfficePack/1.0.0/office-pack.exe",
+      "sizeBytes": 4096,
+      "sha256": "3866d778a532889d97d78ddf1707433ec638a21bc0e261774bd6f8faaf610462"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "office-pack",
+      "fileName": "office-pack.zip",
+      "downloadPath": "downloads/OfficePack/1.0.0/office-pack.zip",
+      "sizeBytes": 1134,
+      "sha256": "639dcab4e6cbec756a98c9abe9b5cc55202f8e0e3ba8d3a3d0c2b9d36272f0c4"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "office-pack_1.0.0_amd64",
+      "fileName": "office-pack_1.0.0_amd64.deb",
+      "downloadPath": "downloads/OfficePack/1.0.0/office-pack_1.0.0_amd64.deb",
+      "sizeBytes": 2134,
+      "sha256": "bca5cd78635fbb7c178d3cc76a5467e52c2481748748ade47a6efe909e35e3ef"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "officepack-1.0.0",
+      "fileName": "officepack-1.0.0.deb",
+      "downloadPath": "downloads/OfficePack/1.0.0/officepack-1.0.0.deb",
+      "sizeBytes": 2134,
+      "sha256": "bca5cd78635fbb7c178d3cc76a5467e52c2481748748ade47a6efe909e35e3ef"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "officepack-1.0.0",
+      "fileName": "officepack-1.0.0.exe",
+      "downloadPath": "downloads/OfficePack/1.0.0/officepack-1.0.0.exe",
+      "sizeBytes": 4096,
+      "sha256": "3866d778a532889d97d78ddf1707433ec638a21bc0e261774bd6f8faaf610462"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "officepack-1.0.0",
+      "fileName": "officepack-1.0.0.zip",
+      "downloadPath": "downloads/OfficePack/1.0.0/officepack-1.0.0.zip",
+      "sizeBytes": 1134,
+      "sha256": "639dcab4e6cbec756a98c9abe9b5cc55202f8e0e3ba8d3a3d0c2b9d36272f0c4"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "officepack-setup-1.0.0",
+      "fileName": "officepack-setup-1.0.0.exe",
+      "downloadPath": "downloads/OfficePack/1.0.0/officepack-setup-1.0.0.exe",
+      "sizeBytes": 4096,
+      "sha256": "3866d778a532889d97d78ddf1707433ec638a21bc0e261774bd6f8faaf610462"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "officepack",
+      "fileName": "officepack.deb",
+      "downloadPath": "downloads/OfficePack/1.0.0/officepack.deb",
+      "sizeBytes": 2134,
+      "sha256": "bca5cd78635fbb7c178d3cc76a5467e52c2481748748ade47a6efe909e35e3ef"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "officepack",
+      "fileName": "officepack.exe",
+      "downloadPath": "downloads/OfficePack/1.0.0/officepack.exe",
+      "sizeBytes": 4096,
+      "sha256": "3866d778a532889d97d78ddf1707433ec638a21bc0e261774bd6f8faaf610462"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "officepack",
+      "fileName": "officepack.zip",
+      "downloadPath": "downloads/OfficePack/1.0.0/officepack.zip",
+      "sizeBytes": 1134,
+      "sha256": "639dcab4e6cbec756a98c9abe9b5cc55202f8e0e3ba8d3a3d0c2b9d36272f0c4"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "officepack_1.0.0_amd64",
+      "fileName": "officepack_1.0.0_amd64.deb",
+      "downloadPath": "downloads/OfficePack/1.0.0/officepack_1.0.0_amd64.deb",
+      "sizeBytes": 2134,
+      "sha256": "bca5cd78635fbb7c178d3cc76a5467e52c2481748748ade47a6efe909e35e3ef"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "appName": "Word",
   "displayName": "Word Editor",
   "version": "1.0.0",
-  "buildTimestamp": "2026-09-26T11:30:29.333Z",
+  "buildTimestamp": "2026-09-26T11:43:47.955Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.0",
@@ -12,11 +12,41 @@
       "platform": "linux",
       "architecture": "amd64",
       "type": "deb",
+      "name": "Word-1.0.0",
+      "fileName": "Word-1.0.0.deb",
+      "downloadPath": "downloads/Word/1.0.0/Word-1.0.0.deb",
+      "sizeBytes": 2002,
+      "sha256": "e5a4d49c4769d465aafd0d27ce49c2e840a4add5f90c9dc7d1397561164873e7"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Word-1.0.0",
+      "fileName": "Word-1.0.0.exe",
+      "downloadPath": "downloads/Word/1.0.0/Word-1.0.0.exe",
+      "sizeBytes": 4096,
+      "sha256": "35622a1551e4df3cdd594e1093fdcac68894ac87ba750cf66dff778d631a803f"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Word-1.0.0",
+      "fileName": "Word-1.0.0.zip",
+      "downloadPath": "downloads/Word/1.0.0/Word-1.0.0.zip",
+      "sizeBytes": 1075,
+      "sha256": "4a721a5826e5f4ed554e4d7de527f19a58e87bbed5655f4010af99732c7cf7a6"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
       "name": "Word",
       "fileName": "Word.deb",
       "downloadPath": "downloads/Word/1.0.0/Word.deb",
       "sizeBytes": 2002,
-      "sha256": "ff001db5fa201ea82e4bcb6e3afc9337adca9847b9a68fbb6fce872f20846193"
+      "sha256": "e5a4d49c4769d465aafd0d27ce49c2e840a4add5f90c9dc7d1397561164873e7"
     },
     {
       "platform": "windows",
@@ -26,7 +56,7 @@
       "fileName": "Word.exe",
       "downloadPath": "downloads/Word/1.0.0/Word.exe",
       "sizeBytes": 4096,
-      "sha256": "28d911c3adfbfb324718fc7bffe1e6e682b2401059cc82a766bb59621e5208f9"
+      "sha256": "35622a1551e4df3cdd594e1093fdcac68894ac87ba750cf66dff778d631a803f"
     },
     {
       "platform": "universal",
@@ -36,7 +66,87 @@
       "fileName": "Word.zip",
       "downloadPath": "downloads/Word/1.0.0/Word.zip",
       "sizeBytes": 1075,
-      "sha256": "82e8860f917d7490707c2213e6ce63efc160205c263aeeac79efacff55631abf"
+      "sha256": "4a721a5826e5f4ed554e4d7de527f19a58e87bbed5655f4010af99732c7cf7a6"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "word-1.0.0",
+      "fileName": "word-1.0.0.deb",
+      "downloadPath": "downloads/Word/1.0.0/word-1.0.0.deb",
+      "sizeBytes": 2002,
+      "sha256": "e5a4d49c4769d465aafd0d27ce49c2e840a4add5f90c9dc7d1397561164873e7"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "word-1.0.0",
+      "fileName": "word-1.0.0.exe",
+      "downloadPath": "downloads/Word/1.0.0/word-1.0.0.exe",
+      "sizeBytes": 4096,
+      "sha256": "35622a1551e4df3cdd594e1093fdcac68894ac87ba750cf66dff778d631a803f"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "word-1.0.0",
+      "fileName": "word-1.0.0.zip",
+      "downloadPath": "downloads/Word/1.0.0/word-1.0.0.zip",
+      "sizeBytes": 1075,
+      "sha256": "4a721a5826e5f4ed554e4d7de527f19a58e87bbed5655f4010af99732c7cf7a6"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "word-setup-1.0.0",
+      "fileName": "word-setup-1.0.0.exe",
+      "downloadPath": "downloads/Word/1.0.0/word-setup-1.0.0.exe",
+      "sizeBytes": 4096,
+      "sha256": "35622a1551e4df3cdd594e1093fdcac68894ac87ba750cf66dff778d631a803f"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "word",
+      "fileName": "word.deb",
+      "downloadPath": "downloads/Word/1.0.0/word.deb",
+      "sizeBytes": 2002,
+      "sha256": "e5a4d49c4769d465aafd0d27ce49c2e840a4add5f90c9dc7d1397561164873e7"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "word",
+      "fileName": "word.exe",
+      "downloadPath": "downloads/Word/1.0.0/word.exe",
+      "sizeBytes": 4096,
+      "sha256": "35622a1551e4df3cdd594e1093fdcac68894ac87ba750cf66dff778d631a803f"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "word",
+      "fileName": "word.zip",
+      "downloadPath": "downloads/Word/1.0.0/word.zip",
+      "sizeBytes": 1075,
+      "sha256": "4a721a5826e5f4ed554e4d7de527f19a58e87bbed5655f4010af99732c7cf7a6"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "word_1.0.0_amd64",
+      "fileName": "word_1.0.0_amd64.deb",
+      "downloadPath": "downloads/Word/1.0.0/word_1.0.0_amd64.deb",
+      "sizeBytes": 2002,
+      "sha256": "e5a4d49c4769d465aafd0d27ce49c2e840a4add5f90c9dc7d1397561164873e7"
     }
   ]
 }

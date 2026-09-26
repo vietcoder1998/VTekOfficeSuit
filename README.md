@@ -29,22 +29,31 @@ downloads/
 │       └── release-manifest.json         # Automated release metadata
 ├── Word/                                 # Document Studio package
 │   └── 1.0.0/
-│       ├── Word.deb                      # Linux Debian package (amd64)
-│       ├── Word.exe                      # Windows PE32+ GUI installer (x64)
-│       ├── Word.zip                      # Standalone portable application package
+│       ├── Word-1.0.0.deb                # Versioned Linux Debian package (amd64)
+│       ├── Word.deb                      # Unversioned convenience alias
+│       ├── Word-1.0.0.exe                # Versioned Windows PE32+ GUI installer (x64)
+│       ├── Word.exe                      # Unversioned convenience alias
+│       ├── Word-1.0.0.zip                # Versioned standalone portable application package
+│       ├── Word.zip                      # Unversioned convenience alias
 │       ├── SHA256SUMS.txt
 │       └── release-manifest.json
 ├── Excel/                                # Spreadsheet Studio package
 │   └── 1.0.0/
-│       ├── Excel.deb                     # Linux Debian package (amd64)
-│       ├── Excel.exe                     # Windows PE32+ GUI installer (x64)
+│       ├── Excel-1.0.0.deb
+│       ├── Excel.deb
+│       ├── Excel-1.0.0.exe
+│       ├── Excel.exe
+│       ├── Excel-1.0.0.zip
 │       ├── Excel.zip
 │       ├── SHA256SUMS.txt
 │       └── release-manifest.json
 ├── Presentation/                         # Slide Studio package
 │   └── 1.0.0/
+│       ├── Presentation-1.0.0.deb
 │       ├── Presentation.deb
+│       ├── Presentation-1.0.0.exe
 │       ├── Presentation.exe
+│       ├── Presentation-1.0.0.zip
 │       ├── Presentation.zip
 │       ├── SHA256SUMS.txt
 │       └── release-manifest.json
@@ -73,15 +82,18 @@ downloads/
 
 ### 📝 Workspace Applications Cross-Platform Packages (`downloads/{name}/{version}/`)
 
-Every application in the workspace is built into cross-platform distributions:
+Every application in the workspace is built into cross-platform distributions with installed files ending in the current version:
 
-| Platform      | Architecture   | Package Format        | Download Path                                      | Description                                             |
-| ------------- | -------------- | --------------------- | -------------------------------------------------- | ------------------------------------------------------- |
-| **Linux**     | x86_64 / amd64 | Debian (`.deb`)       | `downloads/{name}/{version}/{name}.deb`            | Native Linux Debian installer for Ubuntu, Debian, Mint. |
-| **Windows**   | x86_64 / x64   | PE32+ GUI (`.exe`)    | `downloads/{name}/{version}/{name}.exe`            | Portable Windows installer for Windows 10 & 11.         |
-| **Universal** | all            | Portable Zip (`.zip`) | `downloads/{name}/{version}/{name}.zip`            | Universal standalone application bundle.                |
-| **All**       | Verification   | SHA-256 Hashes        | `downloads/{name}/{version}/SHA256SUMS.txt`        | Cryptographic checksums of all package artifacts.       |
-| **All**       | Metadata       | JSON Manifest         | `downloads/{name}/{version}/release-manifest.json` | Automated release manifest describing all packages.     |
+| Platform      | Architecture   | Package Format         | Download Path                                      | Description                                             |
+| ------------- | -------------- | ---------------------- | -------------------------------------------------- | ------------------------------------------------------- |
+| **Linux**     | x86_64 / amd64 | Debian (`.deb`)        | `downloads/{name}/{version}/{name}-{version}.deb`  | Native Linux Debian installer with version endpoint.    |
+| **Linux**     | x86_64 / amd64 | Debian Alias (`.deb`)  | `downloads/{name}/{version}/{name}.deb`            | Backward-compatible Debian package alias.               |
+| **Windows**   | x86_64 / x64   | PE32+ GUI (`.exe`)     | `downloads/{name}/{version}/{name}-{version}.exe`  | Portable Windows installer with version endpoint.       |
+| **Windows**   | x86_64 / x64   | PE32+ Alias (`.exe`)   | `downloads/{name}/{version}/{name}.exe`            | Backward-compatible Windows executable alias.           |
+| **Universal** | all            | Portable Zip (`.zip`)  | `downloads/{name}/{version}/{name}-{version}.zip`  | Standalone application bundle with version endpoint.    |
+| **Universal** | all            | Portable Alias (`.zip`)| `downloads/{name}/{version}/{name}.zip`            | Backward-compatible portable application alias.         |
+| **All**       | Verification   | SHA-256 Hashes         | `downloads/{name}/{version}/SHA256SUMS.txt`        | Cryptographic checksums of all package artifacts.       |
+| **All**       | Metadata       | JSON Manifest          | `downloads/{name}/{version}/release-manifest.json`  | Automated release manifest describing all packages.     |
 
 ### 🚀 2-TEK Hub Desktop (`downloads/Hub/{version}/`)
 
@@ -89,9 +101,11 @@ Example path: `downloads/Hub/{version}/{name}.{type}`
 
 | Platform    | Architecture   | Package Format        | Download Path                                                                          | Description                                      |
 | ----------- | -------------- | --------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| **Linux**   | x86_64 / amd64 | Debian (`.deb`)       | [`downloads/Hub/1.0.0/2tek-hub_1.0.0_amd64.deb`](./Hub/1.0.0/2tek-hub_1.0.0_amd64.deb) | Native Linux installer for Ubuntu, Debian, Mint. |
+| **Linux**   | x86_64 / amd64 | Debian (`.deb`)       | [`downloads/Hub/1.0.0/Hub-1.0.0.deb`](./Hub/1.0.0/Hub-1.0.0.deb)                       | Native Linux installer with version endpoint.   |
+| **Linux**   | x86_64 / amd64 | Debian Arch (`.deb`)  | [`downloads/Hub/1.0.0/2tek-hub_1.0.0_amd64.deb`](./Hub/1.0.0/2tek-hub_1.0.0_amd64.deb) | Native Linux installer for Ubuntu, Debian, Mint. |
 | **Linux**   | x86_64 / amd64 | Debian Alias (`.deb`) | [`downloads/Hub/1.0.0/2tek-hub.deb`](./Hub/1.0.0/2tek-hub.deb)                         | Canonical unversioned Debian package alias.      |
-| **Windows** | x86_64 / x64   | PE32+ GUI (`.exe`)    | [`downloads/Hub/1.0.0/2tek-hub-setup-1.0.0.exe`](./Hub/1.0.0/2tek-hub-setup-1.0.0.exe) | Portable Windows installer for Windows 10 & 11.  |
+| **Windows** | x86_64 / x64   | PE32+ GUI (`.exe`)    | [`downloads/Hub/1.0.0/Hub-1.0.0.exe`](./Hub/1.0.0/Hub-1.0.0.exe)                       | Windows installer with version endpoint.        |
+| **Windows** | x86_64 / x64   | PE32+ Setup (`.exe`)  | [`downloads/Hub/1.0.0/2tek-hub-setup-1.0.0.exe`](./Hub/1.0.0/2tek-hub-setup-1.0.0.exe) | Portable Windows installer for Windows 10 & 11.  |
 | **Windows** | x86_64 / x64   | PE32+ Alias (`.exe`)  | [`downloads/Hub/1.0.0/2tek-hub.exe`](./Hub/1.0.0/2tek-hub.exe)                         | Canonical unversioned Windows executable alias.  |
 | **All**     | Verification   | SHA-256 Hashes        | [`downloads/Hub/1.0.0/SHA256SUMS.txt`](./Hub/1.0.0/SHA256SUMS.txt)                     | SHA-256 checksums for Hub packages.              |
 | **All**     | Metadata       | JSON Manifest         | [`downloads/Hub/1.0.0/release-manifest.json`](./Hub/1.0.0/release-manifest.json)       | Release metadata and file sizes.                 |
@@ -100,11 +114,13 @@ Example path: `downloads/Hub/{version}/{name}.{type}`
 
 Example path: `downloads/Word/{version}/{name}.{type}`
 
-| Platform    | Architecture   | Package Format     | Download Path                                                     | Description                                   |
-| ----------- | -------------- | ------------------ | ----------------------------------------------------------------- | --------------------------------------------- |
-| **Linux**   | x86_64 / amd64 | Debian (`.deb`)    | [`downloads/Word/1.0.0/Word.deb`](./Word/1.0.0/Word.deb)         | Native desktop installer for Word Studio.     |
-| **Windows** | x86_64 / x64   | PE32+ GUI (`.exe`) | [`downloads/Word/1.0.0/Word.exe`](./Word/1.0.0/Word.exe)         | Windows standalone document editor executable. |
-| **All**     | Verification   | SHA-256 Hashes     | [`downloads/Word/1.0.0/SHA256SUMS.txt`](./Word/1.0.0/SHA256SUMS.txt) | SHA-256 checksums for Word Studio packages.   |
+| Platform    | Architecture   | Package Format     | Download Path                                                         | Description                                      |
+| ----------- | -------------- | ------------------ | --------------------------------------------------------------------- | ------------------------------------------------ |
+| **Linux**   | x86_64 / amd64 | Debian (`.deb`)    | [`downloads/Word/1.0.0/Word-1.0.0.deb`](./Word/1.0.0/Word-1.0.0.deb)  | Native desktop installer with version endpoint.  |
+| **Linux**   | x86_64 / amd64 | Debian Alias       | [`downloads/Word/1.0.0/Word.deb`](./Word/1.0.0/Word.deb)             | Native desktop installer for Word Studio.        |
+| **Windows** | x86_64 / x64   | PE32+ GUI (`.exe`) | [`downloads/Word/1.0.0/Word-1.0.0.exe`](./Word/1.0.0/Word-1.0.0.exe)  | Windows editor executable with version endpoint. |
+| **Windows** | x86_64 / x64   | PE32+ Alias        | [`downloads/Word/1.0.0/Word.exe`](./Word/1.0.0/Word.exe)             | Windows standalone document editor executable.   |
+| **All**     | Verification   | SHA-256 Hashes     | [`downloads/Word/1.0.0/SHA256SUMS.txt`](./Word/1.0.0/SHA256SUMS.txt) | SHA-256 checksums for Word Studio packages.      |
 | **All**     | Metadata       | JSON Manifest      | [`downloads/Word/1.0.0/release-manifest.json`](./Word/1.0.0/release-manifest.json) | Release metadata and package records.         |
 
 ---
