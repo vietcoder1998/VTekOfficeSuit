@@ -1,0 +1,3 @@
+a5adfbc14d9d75778392d5bdf8f8e1ffebb92a8317a3f2290531b0b14b02db22  CanvasStudio-1.0.0.deb
+190de3fef31f882afbd00fdf77bbd3301f823dc0af90d54f19f169e596f7ca10  CanvasStudio-1.0.0.exe
+42dafc8efeee6a8c5b42f415aaf3696864362af4b6790f83560d0114e0b95cfc  CanvasStudio-1.0.0.zip
