@@ -25,8 +25,8 @@
       "name": "2tek-hub-1.0.0",
       "fileName": "2tek-hub-1.0.0.exe",
       "downloadPath": "downloads/Hub/1.0.1/2tek-hub-1.0.0.exe",
-      "sizeBytes": 29696,
-      "sha256": "e0fa857640c23f65bf6000220ba9395514abe70808176e5f5bae5b3acd92f741"
+      "sizeBytes": 30208,
+      "sha256": "428f10e7a97fa399b03748bf5af0b9850d502bca329f52016929d02b0a6ad9ad"
     },
     {
       "platform": "universal",
@@ -55,8 +55,8 @@
       "name": "2tek-hub-1.0.1",
       "fileName": "2tek-hub-1.0.1.exe",
       "downloadPath": "downloads/Hub/1.0.1/2tek-hub-1.0.1.exe",
-      "sizeBytes": 29696,
-      "sha256": "e0fa857640c23f65bf6000220ba9395514abe70808176e5f5bae5b3acd92f741"
+      "sizeBytes": 30208,
+      "sha256": "428f10e7a97fa399b03748bf5af0b9850d502bca329f52016929d02b0a6ad9ad"
     },
     {
       "platform": "universal",
@@ -75,8 +75,8 @@
       "name": "2tek-hub-setup-1.0.0",
       "fileName": "2tek-hub-setup-1.0.0.exe",
       "downloadPath": "downloads/Hub/1.0.1/2tek-hub-setup-1.0.0.exe",
-      "sizeBytes": 29696,
-      "sha256": "e0fa857640c23f65bf6000220ba9395514abe70808176e5f5bae5b3acd92f741"
+      "sizeBytes": 30208,
+      "sha256": "428f10e7a97fa399b03748bf5af0b9850d502bca329f52016929d02b0a6ad9ad"
     },
     {
       "platform": "windows",
@@ -105,8 +105,8 @@
       "name": "2tek-hub",
       "fileName": "2tek-hub.exe",
       "downloadPath": "downloads/Hub/1.0.1/2tek-hub.exe",
-      "sizeBytes": 29696,
-      "sha256": "e0fa857640c23f65bf6000220ba9395514abe70808176e5f5bae5b3acd92f741"
+      "sizeBytes": 30208,
+      "sha256": "428f10e7a97fa399b03748bf5af0b9850d502bca329f52016929d02b0a6ad9ad"
     },
     {
       "platform": "universal",
@@ -145,8 +145,8 @@
       "name": "Hub-1.0.1",
       "fileName": "Hub-1.0.1.exe",
       "downloadPath": "downloads/Hub/1.0.1/Hub-1.0.1.exe",
-      "sizeBytes": 29696,
-      "sha256": "e0fa857640c23f65bf6000220ba9395514abe70808176e5f5bae5b3acd92f741"
+      "sizeBytes": 30208,
+      "sha256": "428f10e7a97fa399b03748bf5af0b9850d502bca329f52016929d02b0a6ad9ad"
     },
     {
       "platform": "universal",
@@ -175,8 +175,8 @@
       "name": "Hub",
       "fileName": "Hub.exe",
       "downloadPath": "downloads/Hub/1.0.1/Hub.exe",
-      "sizeBytes": 29696,
-      "sha256": "e0fa857640c23f65bf6000220ba9395514abe70808176e5f5bae5b3acd92f741"
+      "sizeBytes": 30208,
+      "sha256": "428f10e7a97fa399b03748bf5af0b9850d502bca329f52016929d02b0a6ad9ad"
     },
     {
       "platform": "universal",
