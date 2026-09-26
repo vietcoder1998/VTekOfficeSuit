@@ -3,7 +3,7 @@
   "appName": "Word",
   "displayName": "Word",
   "version": "1.0.35",
-  "buildTimestamp": "2026-09-26T18:35:03.256Z",
+  "buildTimestamp": "2026-09-26T18:35:58.457Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.35",
@@ -15,8 +15,8 @@
       "name": "Word-1.0.35",
       "fileName": "Word-1.0.35.deb",
       "downloadPath": "downloads/Word/1.0.35/Word-1.0.35.deb",
-      "sizeBytes": 40680,
-      "sha256": "6311544b7eef85875bd21d2769ecbd6b16154bb125219e64fffda6b2b863d7c2"
+      "sizeBytes": 40620,
+      "sha256": "84839f3c708c512b9581bed4da0d3a3f2163dfe3431d6f33f21225a361b1923c"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Word-1.0.35.exe",
       "downloadPath": "downloads/Word/1.0.35/Word-1.0.35.exe",
       "sizeBytes": 38400,
-      "sha256": "b32e668b25d76b2ab34a8faaa210c33e28efe42ef88aaa8c97c4772e235760f2"
+      "sha256": "6e0ce33ba538c3f6b09c9aa29ff552dcd25be8dd7373309a5dbcc0ccfc87b566"
     },
     {
       "platform": "macos",
@@ -35,8 +35,8 @@
       "name": "Word-1.0.35",
       "fileName": "Word-1.0.35.dmg",
       "downloadPath": "downloads/Word/1.0.35/Word-1.0.35.dmg",
-      "sizeBytes": 35749,
-      "sha256": "7c50593e8b113614184cf2ed207878d2a0afe8575e0348b45ddba555664c6d78"
+      "sizeBytes": 35689,
+      "sha256": "e5a8a69104c0e92864697b5113a5429f2e7ec8c46bcea52bd6dc42efc7ef466e"
     },
     {
       "platform": "universal",
@@ -45,8 +45,8 @@
       "name": "Word-1.0.35",
       "fileName": "Word-1.0.35.zip",
       "downloadPath": "downloads/Word/1.0.35/Word-1.0.35.zip",
-      "sizeBytes": 35686,
-      "sha256": "c8156040d5ecb1582239aa3b3667bf0971e5ed72726016100d8702e89e8be1cd"
+      "sizeBytes": 35626,
+      "sha256": "ee7ed43dcedf655d67bb9076a774c7f4cea7d4d73ddf65586654090725d0d662"
     }
   ]
 }
