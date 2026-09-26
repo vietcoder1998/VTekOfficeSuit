@@ -1,0 +1,42 @@
+{
+  "projectName": "Excel",
+  "appName": "Excel",
+  "displayName": "Excel",
+  "version": "1.0.14",
+  "buildTimestamp": "2026-09-26T16:46:32.135Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Excel/1.0.14",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Excel-1.0.14",
+      "fileName": "Excel-1.0.14.deb",
+      "downloadPath": "downloads/Excel/1.0.14/Excel-1.0.14.deb",
+      "sizeBytes": 15460,
+      "sha256": "3147e7ceb6b1a73daf8b216103130cc7da223a9a1050c63b53d268a6f24f24e7"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Excel-1.0.14",
+      "fileName": "Excel-1.0.14.exe",
+      "downloadPath": "downloads/Excel/1.0.14/Excel-1.0.14.exe",
+      "sizeBytes": 11776,
+      "sha256": "9b4465f4f3c4eace3c6cbda8e715356a8338b20ddd54f7be9f15e8d6b26bc6ef"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Excel-1.0.14",
+      "fileName": "Excel-1.0.14.zip",
+      "downloadPath": "downloads/Excel/1.0.14/Excel-1.0.14.zip",
+      "sizeBytes": 8759,
+      "sha256": "113dbdda2a5c270f2da04f7a203a63d556e7919814044ebf5a53c6dcbc05096a"
+    }
+  ]
+}
