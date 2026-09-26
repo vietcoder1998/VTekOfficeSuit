@@ -3,7 +3,7 @@
   "appName": "Word",
   "displayName": "Word",
   "version": "1.0.11",
-  "buildTimestamp": "2026-09-26T16:41:18.951Z",
+  "buildTimestamp": "2026-09-26T16:41:24.959Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.11",
@@ -16,7 +16,7 @@
       "fileName": "Word-1.0.11.deb",
       "downloadPath": "downloads/Word/1.0.11/Word-1.0.11.deb",
       "sizeBytes": 15886,
-      "sha256": "eb3938e1f6822e00bccb0fee01c0b7d85941cce8822cccb73bda7bf381a5396b"
+      "sha256": "91c91f9135366ba3c811b62ef83fb4bd52012ec3d6c0118aa76a15c82f5715c2"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Word-1.0.11.exe",
       "downloadPath": "downloads/Word/1.0.11/Word-1.0.11.exe",
       "sizeBytes": 11776,
-      "sha256": "36760620864a1ca6a5a55223e65144381a8858cd7c00d625fb486946b1bbed57"
+      "sha256": "a15257325ca0b50b4a281373d2eeb50f1ebf84c5ba910191c22ef37b264cedf6"
     },
     {
       "platform": "macos",
@@ -36,7 +36,7 @@
       "fileName": "Word-1.0.11.dmg",
       "downloadPath": "downloads/Word/1.0.11/Word-1.0.11.dmg",
       "sizeBytes": 9007,
-      "sha256": "f96988939b68b0418a3d7bb4596e3028c1575177ba4ed73d2213ac769fd3be74"
+      "sha256": "40b50d245f2302f49ab02774d490b717d1fd3647d3e18a41cab73a21b0ea0b43"
     },
     {
       "platform": "universal",
@@ -46,7 +46,7 @@
       "fileName": "Word-1.0.11.zip",
       "downloadPath": "downloads/Word/1.0.11/Word-1.0.11.zip",
       "sizeBytes": 8945,
-      "sha256": "b63c7d9f5bfcc798c597568a66bfa309bb5241484567fd26be10f28f83c9a8fb"
+      "sha256": "e519b0cd6b2143a139b996a583b798ad770280c4e5549624fc0aa4d77504607f"
     }
   ]
 }
