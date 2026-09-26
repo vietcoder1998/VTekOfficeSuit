@@ -1,9 +1,0 @@
-# Next.js & Node
-node_modules/
-.next/
-out/
-dist-electron/
-*.tsbuildinfo
-*.d.ts.map
-.DS_Store
-*.log
