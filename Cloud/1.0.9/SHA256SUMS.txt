@@ -1,4 +1,3 @@
 11e275b49374db20c6dd8e0a592dc8adaa8a6d28ce92ee8b80cbeb3b9c1b5aff  Cloud-1.0.9.deb
 3d4da499bc6bf39e9300406b94b71ad33dd4789f10d86d9c8f51676f5fcabefc  Cloud-1.0.9.exe
-4ba7974fe74ba0d05feeb9faea555327c13fba002f98558a5bf66ecaea5629d6  Cloud-1.0.9.dmg
 2e2fd139e85e9f6d56c0d8e9efac231455745db9dfac131e9e0a2d702d26f3fd  Cloud-1.0.9.zip
