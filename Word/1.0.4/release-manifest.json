@@ -3,7 +3,7 @@
   "appName": "Word",
   "displayName": "Word",
   "version": "1.0.4",
-  "buildTimestamp": "2026-09-26T15:37:51.946Z",
+  "buildTimestamp": "2026-09-26T15:48:38.773Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.4",
@@ -15,8 +15,8 @@
       "name": "Word-1.0.4",
       "fileName": "Word-1.0.4.deb",
       "downloadPath": "downloads/Word/1.0.4/Word-1.0.4.deb",
-      "sizeBytes": 2008,
-      "sha256": "886e6f1bf5a803dc2bfcc3d12fc65d2088167f2b8be1be4767afb8ac4a2e3dae"
+      "sizeBytes": 15878,
+      "sha256": "544c50d2d294b988a8606d725287a8e7d0ab3abf62e750cc5147fcbc5f81e181"
     },
     {
       "platform": "windows",
@@ -25,8 +25,18 @@
       "name": "Word-1.0.4",
       "fileName": "Word-1.0.4.exe",
       "downloadPath": "downloads/Word/1.0.4/Word-1.0.4.exe",
-      "sizeBytes": 4096,
-      "sha256": "dd6a46a0bd3779cde285ae842aac73d6c3998703a6968b3e48b1cfe71b44417e"
+      "sizeBytes": 11776,
+      "sha256": "435f64e9c87476051cebc3b45fe8b632c516385020c3335f087828be41b47b35"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Word-1.0.4",
+      "fileName": "Word-1.0.4.dmg",
+      "downloadPath": "downloads/Word/1.0.4/Word-1.0.4.dmg",
+      "sizeBytes": 9006,
+      "sha256": "495b2a076ad1f80656099973fcefe2dc22077e31dd2689824df52ec4c61169ce"
     },
     {
       "platform": "universal",
@@ -35,8 +45,8 @@
       "name": "Word-1.0.4",
       "fileName": "Word-1.0.4.zip",
       "downloadPath": "downloads/Word/1.0.4/Word-1.0.4.zip",
-      "sizeBytes": 1076,
-      "sha256": "d2b73c08e5b217ad7db1fe691661ab2f8f922532c84fd5e66c23639cc86d01aa"
+      "sizeBytes": 8945,
+      "sha256": "7a008111eb9400753b56a92dfe3f178ef17dbde7e04f12ceaeb58472c3ea97c6"
     }
   ]
 }
