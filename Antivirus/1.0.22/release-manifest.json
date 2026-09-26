@@ -29,16 +29,6 @@
       "sha256": "9d9350ed0a3445b163a3fe76d7b6f973e65d1bac70e28658a64825212b884afa"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Antivirus-1.0.22",
-      "fileName": "Antivirus-1.0.22.dmg",
-      "downloadPath": "downloads/Antivirus/1.0.22/Antivirus-1.0.22.dmg",
-      "sizeBytes": 12214,
-      "sha256": "87e76164ab86dd43e277aeb8311e0a2fe716ecc9707a7ccb77c229cccb300185"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
