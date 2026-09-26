@@ -1,0 +1,42 @@
+{
+  "projectName": "SuperChat",
+  "appName": "SuperChat",
+  "displayName": "SuperChat",
+  "version": "0.1.21",
+  "buildTimestamp": "2026-09-26T17:52:21.477Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/SuperChat/0.1.21",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "SuperChat-0.1.21",
+      "fileName": "SuperChat-0.1.21.deb",
+      "downloadPath": "downloads/SuperChat/0.1.21/SuperChat-0.1.21.deb",
+      "sizeBytes": 323096,
+      "sha256": "185cc6fc4c65ee049845c01e95ad57dfce883bef2ad841c4a7a8e7b93ac4fac8"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "SuperChat-0.1.21",
+      "fileName": "SuperChat-0.1.21.exe",
+      "downloadPath": "downloads/SuperChat/0.1.21/SuperChat-0.1.21.exe",
+      "sizeBytes": 319488,
+      "sha256": "603e719c2e1c024410c12acc6377bd9bae40a0f51c32f87260d73cd8b5613a28"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "SuperChat-0.1.21",
+      "fileName": "SuperChat-0.1.21.zip",
+      "downloadPath": "downloads/SuperChat/0.1.21/SuperChat-0.1.21.zip",
+      "sizeBytes": 316662,
+      "sha256": "8cc6db1b3ab6c53d544c1b0ce260e0475f97f3ac6df706f97fb2c59350e0f2ac"
+    }
+  ]
+}

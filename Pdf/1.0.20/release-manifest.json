@@ -1,0 +1,42 @@
+{
+  "projectName": "Pdf",
+  "appName": "Pdf",
+  "displayName": "Pdf",
+  "version": "1.0.20",
+  "buildTimestamp": "2026-09-26T17:51:38.875Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Pdf/1.0.20",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Pdf-1.0.20",
+      "fileName": "Pdf-1.0.20.deb",
+      "downloadPath": "downloads/Pdf/1.0.20/Pdf-1.0.20.deb",
+      "sizeBytes": 19990,
+      "sha256": "afd9e8f5b7ab99f5904fec776b3e83a143d434cac6c61ebf62ba4b5fc6debe56"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Pdf-1.0.20",
+      "fileName": "Pdf-1.0.20.exe",
+      "downloadPath": "downloads/Pdf/1.0.20/Pdf-1.0.20.exe",
+      "sizeBytes": 15360,
+      "sha256": "e39ad3a5f8298576dd5958da0ad1c36fae55f5a0b317bc4f05d173fcdc5bb3de"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Pdf-1.0.20",
+      "fileName": "Pdf-1.0.20.zip",
+      "downloadPath": "downloads/Pdf/1.0.20/Pdf-1.0.20.zip",
+      "sizeBytes": 12249,
+      "sha256": "d893e2ad757dafe0e5005c2cbc544afdc9af9705705f5e57c1132bdbd5239f8d"
+    }
+  ]
+}
