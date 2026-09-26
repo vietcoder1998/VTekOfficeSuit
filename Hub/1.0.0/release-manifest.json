@@ -27,6 +27,16 @@
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub-setup-1.0.0.exe",
       "sizeBytes": 29184,
       "sha256": "17e333758db6058cd233642ef502e0b002feded9e894da55c2c526df6328d64e"
+    },
+    {
+      "platform": "universal",
+      "architecture": "universal",
+      "type": "zip",
+      "name": "2tek-hub",
+      "fileName": "Hub.zip",
+      "downloadPath": "downloads/Hub/1.0.0/Hub.zip",
+      "sizeBytes": 1060,
+      "sha256": "eb49e5e65af58c99503083fb776ed3c8474ba4291de2b7137457c1e0df3d5ac9"
     }
   ]
 }

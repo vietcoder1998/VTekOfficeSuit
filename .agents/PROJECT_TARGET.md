@@ -1,6 +1,6 @@
 # downloads — Official Public Projects & Built Files Distribution Target Specification (Rule 69)
 
-> **Canonical Target of Repository**:
+> **Canonical Target of App (Repository Target)**:
 > **Dedicated repository strictly used for displaying public projects of 2tek-office-packages, no more, not script, no package.json, just save builded file (use for save apps file only)**.
 > _(Kho lưu trữ chuyên dụng được sử dụng duy nhất để hiển thị các dự án công khai của 2tek-office-packages, không có thêm gì khác, không có script, không có package.json, chỉ lưu trữ các tệp đã build — use for save apps file only)_.
 
