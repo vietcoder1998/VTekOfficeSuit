@@ -1,0 +1,52 @@
+{
+  "projectName": "Word",
+  "appName": "Word",
+  "displayName": "Word",
+  "version": "1.0.42",
+  "buildTimestamp": "2026-09-26T19:09:45.681Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.42",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Word-1.0.42",
+      "fileName": "Word-1.0.42.deb",
+      "downloadPath": "downloads/Word/1.0.42/Word-1.0.42.deb",
+      "sizeBytes": 40930,
+      "sha256": "94bb522f148225724ed340bc70a29b3f53d4f34242a83a32d6e18b9a5b818983"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Word-1.0.42",
+      "fileName": "Word-1.0.42.exe",
+      "downloadPath": "downloads/Word/1.0.42/Word-1.0.42.exe",
+      "sizeBytes": 38912,
+      "sha256": "74ebd086c094343c2dd5a8292031acdb67b36cbb00f9007af7729a6011adef58"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Word-1.0.42",
+      "fileName": "Word-1.0.42.dmg",
+      "downloadPath": "downloads/Word/1.0.42/Word-1.0.42.dmg",
+      "sizeBytes": 35887,
+      "sha256": "f97b4f0c5361dbb0c0786a09bee076830d9f635584da3d785bf56c8869923a1d"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Word-1.0.42",
+      "fileName": "Word-1.0.42.zip",
+      "downloadPath": "downloads/Word/1.0.42/Word-1.0.42.zip",
+      "sizeBytes": 35824,
+      "sha256": "e3111c29e08f8c37ca120e14c31d8b594620d73f41652e998a444b8a85a1fd2b"
+    }
+  ]
+}
