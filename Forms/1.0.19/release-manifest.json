@@ -1,0 +1,52 @@
+{
+  "projectName": "Forms",
+  "appName": "Forms",
+  "displayName": "Forms",
+  "version": "1.0.19",
+  "buildTimestamp": "2026-09-26T17:35:37.211Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Forms/1.0.19",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Forms-1.0.19",
+      "fileName": "Forms-1.0.19.deb",
+      "downloadPath": "downloads/Forms/1.0.19/Forms-1.0.19.deb",
+      "sizeBytes": 19720,
+      "sha256": "b18aba9fa04e14c8663dc30016d107625747570428a58f96b96ace9e035f96e7"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Forms-1.0.19",
+      "fileName": "Forms-1.0.19.exe",
+      "downloadPath": "downloads/Forms/1.0.19/Forms-1.0.19.exe",
+      "sizeBytes": 15360,
+      "sha256": "26dbafbba99dde695eaf52f998f3f190eca0491b5a9b930eff962272f6f70131"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Forms-1.0.19",
+      "fileName": "Forms-1.0.19.dmg",
+      "downloadPath": "downloads/Forms/1.0.19/Forms-1.0.19.dmg",
+      "sizeBytes": 12387,
+      "sha256": "864f6734fb001ca7b6c632566e7d3b2d3aef0e72c5c8cf1dad284198eccd495d"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Forms-1.0.19",
+      "fileName": "Forms-1.0.19.zip",
+      "downloadPath": "downloads/Forms/1.0.19/Forms-1.0.19.zip",
+      "sizeBytes": 12322,
+      "sha256": "86a0539840e2096657abead4e0b5aeea65da9b17cc9d3fb51020fbb02267de4c"
+    }
+  ]
+}

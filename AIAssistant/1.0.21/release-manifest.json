@@ -1,0 +1,42 @@
+{
+  "projectName": "AIAssistant",
+  "appName": "AIAssistant",
+  "displayName": "AIAssistant",
+  "version": "1.0.21",
+  "buildTimestamp": "2026-09-26T17:34:45.609Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/AIAssistant/1.0.21",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "AIAssistant-1.0.21",
+      "fileName": "AIAssistant-1.0.21.deb",
+      "downloadPath": "downloads/AIAssistant/1.0.21/AIAssistant-1.0.21.deb",
+      "sizeBytes": 19406,
+      "sha256": "a82959e865f423571d903f18b9ef78eeab228d353e815eb461ece8ca62521745"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "AIAssistant-1.0.21",
+      "fileName": "AIAssistant-1.0.21.exe",
+      "downloadPath": "downloads/AIAssistant/1.0.21/AIAssistant-1.0.21.exe",
+      "sizeBytes": 14848,
+      "sha256": "12218b7fa7f3054d6b4d39a0f583dd8d5fbd5da035633f80cdc744e68ae6e71f"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "AIAssistant-1.0.21",
+      "fileName": "AIAssistant-1.0.21.zip",
+      "downloadPath": "downloads/AIAssistant/1.0.21/AIAssistant-1.0.21.zip",
+      "sizeBytes": 12055,
+      "sha256": "2dbc02c683cbf7f05d94d7cd397955deadbd4299ea2466387b112d413dfed1c8"
+    }
+  ]
+}
