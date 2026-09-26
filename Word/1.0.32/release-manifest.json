@@ -29,16 +29,6 @@
       "sha256": "39b78b7564622c8248cbe8def553b4109f5c747543fc7021c3e5cae860a68e9b"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Word-1.0.32",
-      "fileName": "Word-1.0.32.dmg",
-      "downloadPath": "downloads/Word/1.0.32/Word-1.0.32.dmg",
-      "sizeBytes": 35688,
-      "sha256": "3c641067b48d10042ab807ecbbbeba758e2ad9a63c5dbb646691a46ece12d0f8"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
