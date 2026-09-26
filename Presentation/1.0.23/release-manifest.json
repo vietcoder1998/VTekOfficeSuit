@@ -3,7 +3,7 @@
   "appName": "Presentation",
   "displayName": "Presentation",
   "version": "1.0.23",
-  "buildTimestamp": "2026-09-26T18:03:32.600Z",
+  "buildTimestamp": "2026-09-26T18:04:25.709Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Presentation/1.0.23",
@@ -15,8 +15,8 @@
       "name": "Presentation-1.0.23",
       "fileName": "Presentation-1.0.23.deb",
       "downloadPath": "downloads/Presentation/1.0.23/Presentation-1.0.23.deb",
-      "sizeBytes": 17316,
-      "sha256": "1416947f4cd5aefd932ca95f74a7d09f773a170740bf383e3d61fa76fd4a1a13"
+      "sizeBytes": 19696,
+      "sha256": "42a739a3ff8ee806310aca2df4df44aed017e073cc79ef87e20683c646d5e637"
     },
     {
       "platform": "windows",
@@ -25,8 +25,8 @@
       "name": "Presentation-1.0.23",
       "fileName": "Presentation-1.0.23.exe",
       "downloadPath": "downloads/Presentation/1.0.23/Presentation-1.0.23.exe",
-      "sizeBytes": 12800,
-      "sha256": "8bc0f800f0a875ec8a44237ca1c87a570d2d3d8d11284db0e210c36dc224de33"
+      "sizeBytes": 15360,
+      "sha256": "2e87bd18b2db2bb7503079d21599335cc8c995bcb7e1ebd5da029a5a5d10486b"
     },
     {
       "platform": "macos",
@@ -35,8 +35,8 @@
       "name": "Presentation-1.0.23",
       "fileName": "Presentation-1.0.23.dmg",
       "downloadPath": "downloads/Presentation/1.0.23/Presentation-1.0.23.dmg",
-      "sizeBytes": 9972,
-      "sha256": "3879c600d76b13e7ef72c50c77090534036323b2ff0850d6e6782ce3f7d2a568"
+      "sizeBytes": 12407,
+      "sha256": "0c3956b985e387cf6cf3339b1a406a418f5a08a491d91267dc35521e1ae7b64a"
     },
     {
       "platform": "universal",
@@ -45,8 +45,8 @@
       "name": "Presentation-1.0.23",
       "fileName": "Presentation-1.0.23.zip",
       "downloadPath": "downloads/Presentation/1.0.23/Presentation-1.0.23.zip",
-      "sizeBytes": 9902,
-      "sha256": "be3e2f950e6ab7902646d974d094396d2a4bfccb94be0b612583b4918a5be56a"
+      "sizeBytes": 12336,
+      "sha256": "1ac3c436e21ff07fbab883ce708cc6d29e11cb9d859ff8be5b2a96ecc514b75b"
     }
   ]
 }
