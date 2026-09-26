@@ -1,0 +1,4 @@
+ad27fb098df25ca0455c86173af79f2a9cbab8ae1bdb0159f596c82cc3b75e6b  Antivirus-1.0.20.deb
+4bb2cfdc08a4ee0715381a9d0aca81eca893882bff54ef2dbfacc6ef61df93fc  Antivirus-1.0.20.exe
+443fce3a8eb3701b623a9ca37ab691929d7ed9893aac74d0f56a923b90005909  Antivirus-1.0.20.dmg
+ad079c6048a08c906c8375d4535bfa150cace38ffacae2ef3883ef25028d65e9  Antivirus-1.0.20.zip

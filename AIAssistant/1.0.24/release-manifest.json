@@ -1,0 +1,52 @@
+{
+  "projectName": "AIAssistant",
+  "appName": "AIAssistant",
+  "displayName": "AIAssistant",
+  "version": "1.0.24",
+  "buildTimestamp": "2026-09-26T17:48:07.308Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/AIAssistant/1.0.24",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "AIAssistant-1.0.24",
+      "fileName": "AIAssistant-1.0.24.deb",
+      "downloadPath": "downloads/AIAssistant/1.0.24/AIAssistant-1.0.24.deb",
+      "sizeBytes": 19412,
+      "sha256": "635b3057c119609dcca3b74344854394e0ee5cc0d06e006c660ba36b7470d83f"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "AIAssistant-1.0.24",
+      "fileName": "AIAssistant-1.0.24.exe",
+      "downloadPath": "downloads/AIAssistant/1.0.24/AIAssistant-1.0.24.exe",
+      "sizeBytes": 14848,
+      "sha256": "f16d1ef6e57f32b0efa810104d55ac036f96e2714a8334c590a96a46511af165"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "AIAssistant-1.0.24",
+      "fileName": "AIAssistant-1.0.24.dmg",
+      "downloadPath": "downloads/AIAssistant/1.0.24/AIAssistant-1.0.24.dmg",
+      "sizeBytes": 12128,
+      "sha256": "39bb884d56bc857b19cd5ee0bf14f46b10bac18c71479173480afb95628cc555"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "AIAssistant-1.0.24",
+      "fileName": "AIAssistant-1.0.24.zip",
+      "downloadPath": "downloads/AIAssistant/1.0.24/AIAssistant-1.0.24.zip",
+      "sizeBytes": 12055,
+      "sha256": "ac93ddde3e648d872f85b39c46687a03636c42d1f8238f70c62219a2f8287e77"
+    }
+  ]
+}
