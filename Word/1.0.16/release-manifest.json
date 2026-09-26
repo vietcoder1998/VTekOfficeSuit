@@ -3,7 +3,7 @@
   "appName": "Word",
   "displayName": "Word",
   "version": "1.0.16",
-  "buildTimestamp": "2026-09-26T17:30:28.876Z",
+  "buildTimestamp": "2026-09-26T17:33:44.355Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.16",
@@ -15,8 +15,8 @@
       "name": "Word-1.0.16",
       "fileName": "Word-1.0.16.deb",
       "downloadPath": "downloads/Word/1.0.16/Word-1.0.16.deb",
-      "sizeBytes": 40594,
-      "sha256": "f964d8f9ce0f0d00694cf899df28a0c1b0821f1d4f6cce14b56da91382e4a580"
+      "sizeBytes": 40588,
+      "sha256": "db1152fb05c935e4badc308550e8b49ba22d184b6311dbf2d6336c88914d7f32"
     },
     {
       "platform": "windows",
@@ -26,7 +26,17 @@
       "fileName": "Word-1.0.16.exe",
       "downloadPath": "downloads/Word/1.0.16/Word-1.0.16.exe",
       "sizeBytes": 38400,
-      "sha256": "49345494dff5aa1a5698fbcabe6d431a26697c22d965b7d4e76d1a8e5c157afe"
+      "sha256": "eb15e4055c2f38738592c41692dc8ebe09f352b3627ecbda0c730e4377eaff56"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Word-1.0.16",
+      "fileName": "Word-1.0.16.dmg",
+      "downloadPath": "downloads/Word/1.0.16/Word-1.0.16.dmg",
+      "sizeBytes": 35690,
+      "sha256": "3f48fc4662853736a36fdf8b321ed00e48143c80c33a083c82ce3923cbe3f217"
     },
     {
       "platform": "universal",
@@ -36,7 +46,7 @@
       "fileName": "Word-1.0.16.zip",
       "downloadPath": "downloads/Word/1.0.16/Word-1.0.16.zip",
       "sizeBytes": 35627,
-      "sha256": "9f38dedd691379c24a96ddc0aad7968a85c62967b4b705ebd6a43d284cecca6c"
+      "sha256": "08d556288649b3437b6adeb17354fa89a2c9866c75001e3b4c13993d600f3526"
     }
   ]
 }
