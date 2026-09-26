@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Excel Editor
-Comment=Spreadsheet editor with Excel-compatible formula engine and data visualization.
-Exec=/usr/bin/excel %U
-Terminal=false
-Type=Application
-Icon=excel
-Categories=Office;Utility;Development;
