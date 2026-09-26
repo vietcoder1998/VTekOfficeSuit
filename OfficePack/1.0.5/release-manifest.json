@@ -1,0 +1,42 @@
+{
+  "projectName": "OfficePack",
+  "appName": "OfficePack",
+  "displayName": "OfficePack",
+  "version": "1.0.5",
+  "buildTimestamp": "2026-09-26T14:56:02.374Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/OfficePack/1.0.5",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "OfficePack-1.0.5",
+      "fileName": "OfficePack-1.0.5.deb",
+      "downloadPath": "downloads/OfficePack/1.0.5/OfficePack-1.0.5.deb",
+      "sizeBytes": 2132,
+      "sha256": "df51d3cbc3d38373820f4659c41e789330f27c1e8f8d44e431d3396080983788"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "OfficePack-1.0.5",
+      "fileName": "OfficePack-1.0.5.exe",
+      "downloadPath": "downloads/OfficePack/1.0.5/OfficePack-1.0.5.exe",
+      "sizeBytes": 4096,
+      "sha256": "62243185b3bf937496d35fec5e7516365131f9eb853ed5e5aa62a485c44c4d01"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "OfficePack-1.0.5",
+      "fileName": "OfficePack-1.0.5.zip",
+      "downloadPath": "downloads/OfficePack/1.0.5/OfficePack-1.0.5.zip",
+      "sizeBytes": 1135,
+      "sha256": "f6965a78f73611466180c33a299b86f0188479197c0016d703e76531f389349a"
+    }
+  ]
+}
