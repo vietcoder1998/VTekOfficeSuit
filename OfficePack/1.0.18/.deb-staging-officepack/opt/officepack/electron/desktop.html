@@ -1,0 +1,2109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2-TEK OfficePack — Desktop Process Manager</title>
+    <style>
+      :root {
+        --primary: #6938ef;
+        --primary-hover: #5925dc;
+        --primary-light: #f4f3ff;
+        --surface: #ffffff;
+        --surface-muted: #f8fafc;
+        --surface-card: #ffffff;
+        --border: #e2e8f0;
+        --border-hover: #cbd5e1;
+        --text: #0f172a;
+        --text-muted: #64748b;
+        --text-light: #94a3b8;
+        --success: #12b76a;
+        --success-light: #ecfdf3;
+        --danger: #f04438;
+        --danger-light: #fef3f2;
+        --warning: #f79009;
+        --warning-light: #fffaeb;
+        --shadow-sm: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+        --shadow-md: 0 4px 6px -2px rgba(16, 24, 40, 0.08), 0 2px 4px -2px rgba(16, 24, 40, 0.04);
+        --radius-xs: 4px;
+        --radius-sm: 6px;
+        --radius-md: 8px;
+        --radius-lg: 10px;
+        --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        --font-mono: "Fira Code", monospace, Consolas, Monaco;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: var(--font-sans);
+        background-color: var(--surface-muted);
+        color: var(--text);
+        font-size: 12px;
+        line-height: 1.4;
+        overflow-x: hidden;
+        transform-origin: top left;
+      }
+
+      .app-layout {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      /* Compact Downsized Titlebar & Header */
+      .app-header {
+        background-color: var(--surface);
+        border-bottom: 1px solid var(--border);
+        padding: 6px 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 30;
+        gap: 10px;
+        -webkit-app-region: drag;
+        user-select: none;
+      }
+
+      .header-left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        -webkit-app-region: drag;
+      }
+
+      .header-branding {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        -webkit-app-region: drag;
+      }
+
+      .branding-icon {
+        width: 26px;
+        height: 26px;
+        border-radius: var(--radius-sm);
+        background: linear-gradient(135deg, var(--primary) 0%, #4424a7 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        flex-shrink: 0;
+        -webkit-app-region: drag;
+      }
+
+      .branding-title-row {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        -webkit-app-region: drag;
+      }
+
+      .branding-title {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--text);
+        letter-spacing: -0.01em;
+        line-height: 1.2;
+        -webkit-app-region: drag;
+      }
+
+      .app-version-badge {
+        font-family: var(--font-mono);
+        font-size: 10px;
+        font-weight: 600;
+        color: var(--primary);
+        background-color: rgba(105, 56, 239, 0.08);
+        border: 1px solid rgba(105, 56, 239, 0.25);
+        padding: 1px 5px;
+        border-radius: var(--radius-xs);
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        user-select: none;
+        -webkit-app-region: drag;
+      }
+
+      .branding-subtitle {
+        font-size: 10px;
+        color: var(--text-muted);
+        line-height: 1.2;
+        -webkit-app-region: drag;
+      }
+
+      .header-center {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .stats-badge-group {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        -webkit-app-region: drag;
+      }
+
+      .metric-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 2px 8px;
+        border-radius: 9999px;
+        font-size: 11px;
+        font-weight: 600;
+        border: 1px solid var(--border);
+        background-color: var(--surface);
+        -webkit-app-region: drag;
+      }
+
+      .metric-pill.running {
+        background-color: var(--success-light);
+        border-color: rgba(18, 183, 106, 0.3);
+        color: var(--success);
+      }
+
+      .metric-pill.stopped {
+        background-color: var(--danger-light);
+        border-color: rgba(240, 68, 56, 0.3);
+        color: var(--danger);
+      }
+
+      .header-right {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .action-button,
+      .zoom-controls-group,
+      .window-controls-group,
+      .zoom-btn,
+      .zoom-indicator-btn,
+      .win-ctrl-btn,
+      button,
+      input,
+      select,
+      a {
+        -webkit-app-region: no-drag;
+      }
+
+      /* Zoom Controls Group */
+      .zoom-controls-group {
+        display: flex;
+        align-items: center;
+        background-color: var(--surface-muted);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-xs);
+        padding: 1px 2px;
+        gap: 1px;
+      }
+
+      .zoom-btn {
+        width: 22px;
+        height: 22px;
+        border: none;
+        background: transparent;
+        color: var(--text);
+        border-radius: 3px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.15s ease;
+      }
+
+      .zoom-btn:hover {
+        background-color: var(--border);
+      }
+
+      .zoom-indicator-btn {
+        height: 22px;
+        padding: 0 5px;
+        border: none;
+        background: transparent;
+        color: var(--text-muted);
+        font-size: 10px;
+        font-family: var(--font-mono);
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .zoom-indicator-btn:hover {
+        background-color: var(--border);
+        color: var(--text);
+      }
+
+      /* Window Control Buttons */
+      .window-controls-group {
+        display: flex;
+        align-items: center;
+        margin-left: 4px;
+        gap: 2px;
+      }
+
+      .win-ctrl-btn {
+        width: 24px;
+        height: 24px;
+        border: none;
+        background: transparent;
+        color: var(--text-muted);
+        border-radius: var(--radius-xs);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.15s ease;
+      }
+
+      .win-ctrl-btn:hover {
+        background-color: var(--surface-muted);
+        color: var(--text);
+      }
+
+      .win-ctrl-btn.close-btn:hover {
+        background-color: var(--danger);
+        color: #ffffff;
+      }
+
+      /* Compact Action Buttons */
+      .action-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        padding: 4px 8px;
+        border-radius: var(--radius-xs);
+        font-size: 11px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.15s ease;
+        border: 1px solid transparent;
+        background-color: var(--surface);
+        line-height: 1;
+        white-space: nowrap;
+      }
+
+      .action-button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      .btn-primary {
+        background-color: var(--primary);
+        color: #ffffff;
+      }
+      .btn-primary:hover:not(:disabled) {
+        background-color: var(--primary-hover);
+      }
+
+      .btn-start {
+        background-color: var(--success);
+        color: #ffffff;
+      }
+      .btn-start:hover:not(:disabled) {
+        background-color: #0e9355;
+      }
+
+      .btn-stop {
+        background-color: var(--danger);
+        color: #ffffff;
+      }
+      .btn-stop:hover:not(:disabled) {
+        background-color: #d92d20;
+      }
+
+      .btn-secondary {
+        border-color: var(--border);
+        color: var(--text);
+        background-color: var(--surface);
+      }
+      .btn-secondary:hover:not(:disabled) {
+        background-color: var(--surface-muted);
+        border-color: var(--border-hover);
+      }
+
+      .btn-danger {
+        border-color: rgba(239, 68, 68, 0.4);
+        color: #fca5a5;
+        background-color: rgba(239, 68, 68, 0.12);
+      }
+      .btn-danger:hover:not(:disabled) {
+        background-color: rgba(239, 68, 68, 0.25);
+        border-color: #ef4444;
+        color: #ffffff;
+      }
+
+      .btn-sm {
+        padding: 3px 6px;
+        font-size: 10px;
+      }
+
+      /* Compact Main Content */
+      .app-content {
+        flex: 1;
+        padding: 10px 14px;
+        max-width: 100%;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .keep-toggle-label {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 11px;
+        font-weight: 500;
+        color: var(--text);
+        cursor: pointer;
+        user-select: none;
+        background-color: var(--surface-muted);
+        padding: 3px 8px;
+        border-radius: var(--radius-xs);
+        border: 1px solid var(--border);
+        -webkit-app-region: no-drag;
+      }
+
+      .keep-toggle-label input {
+        cursor: pointer;
+        accent-color: var(--primary);
+      }
+
+      /* Instances List Layout (List view, not grid) */
+      .instances-list-section {
+        background-color: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-sm);
+        box-shadow: var(--shadow-sm);
+        overflow-x: auto;
+      }
+
+      .instances-list-table {
+        display: flex;
+        flex-direction: column;
+        min-width: 820px;
+        width: 100%;
+      }
+
+      .instances-list-header {
+        display: grid;
+        grid-template-columns: minmax(300px, 4fr) 105px 75px 75px 90px 85px 175px;
+        align-items: center;
+        padding: 7px 12px;
+        background-color: var(--surface-muted);
+        border-bottom: 1px solid var(--border);
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--text-muted);
+        gap: 8px;
+        user-select: none;
+      }
+
+      .instances-list-body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .instance-list-row {
+        display: grid;
+        grid-template-columns: minmax(300px, 4fr) 105px 75px 75px 90px 85px 175px;
+        align-items: center;
+        padding: 7px 12px;
+        border-bottom: 1px solid var(--border);
+        gap: 8px;
+        background-color: var(--surface);
+        transition: background-color 0.15s ease, border-color 0.15s ease;
+      }
+
+      .instance-list-row:last-child {
+        border-bottom: none;
+      }
+
+      .instance-list-row:hover {
+        background-color: #fbfaff;
+      }
+
+      .instance-list-row.running {
+        background-color: rgba(18, 183, 106, 0.02);
+      }
+
+      .instance-list-row.running:hover {
+        background-color: rgba(18, 183, 106, 0.05);
+      }
+
+      .col-header {
+        display: flex;
+        align-items: center;
+      }
+
+      .col-header-right {
+        justify-content: flex-end;
+      }
+
+      .cell-service {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        min-width: 0;
+        overflow: hidden;
+      }
+
+      .cell-service-text {
+        min-width: 0;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: nowrap;
+        overflow: hidden;
+      }
+
+      .cell-service-info-inline {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: nowrap;
+        overflow: hidden;
+      }
+
+      .instance-category-icon {
+        width: 24px;
+        height: 24px;
+        border-radius: var(--radius-xs);
+        background-color: var(--primary-light);
+        color: var(--primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      .instance-name {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--text);
+        line-height: 1.2;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        flex-shrink: 0;
+      }
+
+      .instance-id-label {
+        font-size: 10px;
+        font-family: var(--font-mono);
+        color: var(--text-muted);
+        background-color: var(--surface-muted);
+        padding: 1px 6px;
+        border-radius: var(--radius-xs);
+        border: 1px solid var(--border);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        flex-shrink: 1;
+      }
+
+      .instance-category-badge {
+        font-size: 9px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--primary);
+        background-color: var(--primary-light);
+        padding: 1px 5px;
+        border-radius: var(--radius-xs);
+        border: 1px solid rgba(105, 56, 239, 0.2);
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+
+      .cell-status {
+        display: flex;
+        align-items: center;
+      }
+
+      .status-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        padding: 2px 7px;
+        border-radius: 9999px;
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        flex-shrink: 0;
+      }
+
+      .status-pill.running {
+        background-color: var(--success-light);
+        color: var(--success);
+      }
+
+      .status-pill.stopped {
+        background-color: var(--danger-light);
+        color: var(--danger);
+      }
+
+      .status-pill.starting {
+        background-color: var(--warning-light);
+        color: var(--warning);
+      }
+
+      .pulse-dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: currentColor;
+      }
+
+      .status-pill.running .pulse-dot {
+        animation: pulseAnimation 1.6s infinite ease-in-out;
+      }
+
+      @keyframes pulseAnimation {
+        0% { transform: scale(0.9); opacity: 1; }
+        50% { transform: scale(1.3); opacity: 0.4; }
+        100% { transform: scale(0.9); opacity: 1; }
+      }
+
+      .cell-telemetry {
+        display: flex;
+        align-items: center;
+      }
+
+      .telemetry-value {
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--text);
+        font-family: var(--font-mono);
+      }
+
+      .telemetry-value.link {
+        color: var(--primary);
+        text-decoration: none;
+      }
+      .telemetry-value.link:hover {
+        text-decoration: underline;
+      }
+
+      .cell-actions {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 5px;
+      }
+
+      /* Integrated Live Logs Display Section */
+      .display-logs-section {
+        background-color: #0b0f19;
+        border: 1px solid #1e293b;
+        border-radius: var(--radius-sm);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        box-shadow: var(--shadow-sm);
+        margin-top: 4px;
+      }
+
+      .logs-toolbar {
+        padding: 6px 12px;
+        background-color: #070a12;
+        border-bottom: 1px solid #1e293b;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      .logs-toolbar-left {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .logs-toolbar-title {
+        font-size: 11px;
+        font-weight: 600;
+        color: #f1f5f9;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .logs-select-filter {
+        background-color: #111827;
+        color: #e2e8f0;
+        border: 1px solid #334155;
+        border-radius: 4px;
+        padding: 2px 6px;
+        font-size: 11px;
+        font-family: var(--font-sans);
+        outline: none;
+        cursor: pointer;
+      }
+
+      .logs-select-filter:focus {
+        border-color: var(--primary);
+      }
+
+      .logs-daily-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        background-color: rgba(56, 189, 248, 0.1);
+        border: 1px solid rgba(56, 189, 248, 0.25);
+        border-radius: 4px;
+        padding: 2px 7px;
+        font-size: 11px;
+        color: #38bdf8;
+        font-family: var(--font-mono);
+      }
+
+      .logs-daily-badge strong {
+        color: #f1f5f9;
+        font-weight: 600;
+      }
+
+      .logs-toolbar-right {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .logs-autoscroll-label {
+        font-size: 10px;
+        color: #94a3b8;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        cursor: pointer;
+      }
+
+      .logs-autoscroll-label input {
+        cursor: pointer;
+        accent-color: var(--primary);
+      }
+
+      .display-logs-terminal {
+        height: 180px;
+        min-height: 90px;
+        max-height: 480px;
+        overflow-y: auto;
+        padding: 8px 12px;
+        font-family: var(--font-mono);
+        font-size: 11px;
+        line-height: 1.5;
+        background-color: #060911;
+        color: #e2e8f0;
+        resize: vertical;
+      }
+
+      .display-logs-terminal.expanded {
+        height: 320px;
+      }
+
+      .log-line {
+        display: flex;
+        gap: 8px;
+        word-break: break-all;
+        margin-bottom: 2px;
+      }
+
+      .log-time {
+        color: #64748b;
+        flex-shrink: 0;
+      }
+
+      .log-inst-tag {
+        color: #94a3b8;
+        background-color: #1e293b;
+        padding: 0 4px;
+        border-radius: 3px;
+        font-size: 10px;
+        flex-shrink: 0;
+      }
+
+      .log-msg-stdout { color: #e2e8f0; }
+      .log-msg-stderr { color: #f87171; }
+      .log-msg-info { color: #38bdf8; }
+      .log-msg-error { color: #f87171; }
+      .log-msg-warn { color: #fbbf24; }
+
+      .empty-logs-placeholder {
+        color: #64748b;
+        text-align: center;
+        padding: 30px 0;
+        font-size: 11px;
+      }
+
+      /* Secondary Log Drawer Modal */
+      .modal-backdrop {
+        position: fixed;
+        inset: 0;
+        background-color: rgba(15, 23, 42, 0.6);
+        backdrop-filter: blur(4px);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 50;
+      }
+
+      .modal-backdrop.active {
+        display: flex;
+      }
+
+      .log-modal-window {
+        background-color: #0f172a;
+        color: #f8fafc;
+        width: 820px;
+        max-width: 92vw;
+        height: 520px;
+        max-height: 86vh;
+        border-radius: var(--radius-md);
+        border: 1px solid #334155;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+
+      .log-modal-header {
+        padding: 10px 14px;
+        border-bottom: 1px solid #1e293b;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #090d16;
+      }
+
+      .log-modal-title {
+        font-size: 12px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .log-terminal-body {
+        flex: 1;
+        padding: 12px;
+        overflow-y: auto;
+        font-family: var(--font-mono);
+        font-size: 11px;
+        line-height: 1.5;
+        background-color: #060911;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="officepack-desktop-root" class="app-layout">
+      <!-- Compact Header with Title, Controls, Zoom, and Window Actions -->
+      <header id="officepack-header-container" class="app-header">
+        <div id="officepack-header-left" class="header-left">
+          <div id="officepack-branding-container" class="header-branding">
+            <div id="officepack-branding-icon" class="branding-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <div id="officepack-branding-text">
+              <div id="officepack-title-row" class="branding-title-row">
+                <h1 id="officepack-app-title" class="branding-title">2-TEK OfficePack Desktop</h1>
+                <span id="officepack-app-version" class="app-version-badge">v1.0.0</span>
+              </div>
+              <p id="officepack-app-subtitle" class="branding-subtitle">Multi-Process Instance Manager &amp; Service Supervisor</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="officepack-header-center" class="header-center">
+          <div id="officepack-stats-badges" class="stats-badge-group">
+            <div id="officepack-running-badge" class="metric-pill running">
+              <span class="pulse-dot"></span>
+              <span id="officepack-running-count">0</span>
+              <span id="label-running-stat">Running</span>
+            </div>
+            <div id="officepack-stopped-badge" class="metric-pill stopped">
+              <span id="officepack-stopped-count">0</span>
+              <span id="label-stopped-stat">Stopped</span>
+            </div>
+          </div>
+
+          <button id="btn-start-all" class="action-button btn-start" onclick="handleStartAll()">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <span id="label-start-all">Start All</span>
+          </button>
+
+          <button id="btn-stop-all" class="action-button btn-stop" onclick="handleStopAll()">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+            </svg>
+            <span id="label-stop-all">Stop All</span>
+          </button>
+
+          <button id="btn-refresh-instances" class="action-button btn-secondary" onclick="refreshInstancesList()">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="23 4 23 10 17 10"></polyline>
+              <polyline points="1 20 1 14 7 14"></polyline>
+              <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+            </svg>
+            <span id="label-refresh">Refresh</span>
+          </button>
+
+          <button id="btn-cloud-sync" class="action-button btn-primary" onclick="handleCloudSync()" title="Sync data to and from Clouds (2-TEK Cloud, Google Drive, OneDrive, S3)">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+            </svg>
+            <span id="label-cloud-sync">Sync Cloud</span>
+          </button>
+
+          <button id="btn-broadcast-toggle" class="action-button btn-secondary" onclick="handleBroadcastToggle()" title="Toggle Broadcast Mode (Disabled -> Center -> Client)">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9"></path>
+              <path d="M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5"></path>
+              <circle cx="12" cy="12" r="2"></circle>
+              <path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5"></path>
+              <path d="M19.1 4.9C23 8.8 23 15.2 19.1 19.1"></path>
+            </svg>
+            <span id="label-broadcast">Broadcast: Off</span>
+          </button>
+
+
+          <button id="btn-empty-ports" class="action-button btn-danger" onclick="handleEmptyPorts()" title="Empty occupied instance ports (3100-3104+)">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line>
+            </svg>
+            <span id="label-empty-ports">Empty Ports</span>
+          </button>
+
+          <label id="keep-process-toggle-container" class="keep-toggle-label" title="Keep spawned processes running when Electron window is closed">
+            <input type="checkbox" id="chk-keep-processes" checked onchange="handleKeepProcessesChange(this.checked)" />
+            <span id="label-keep-processes">Keep process continue on close</span>
+          </label>
+
+          <button id="btn-language-toggle" class="action-button btn-secondary" onclick="toggleLanguage()">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <span id="label-lang-toggle">VI / EN</span>
+          </button>
+        </div>
+
+        <div id="officepack-header-right" class="header-right">
+          <!-- Zoom Controls -->
+          <div id="officepack-zoom-controls" class="zoom-controls-group">
+            <button id="btn-zoom-out" class="zoom-btn" title="Zoom Out (Ctrl+-)" onclick="handleZoomOut()">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </button>
+            <button id="btn-zoom-reset" class="zoom-indicator-btn" title="Reset Zoom (Ctrl+0)" onclick="handleZoomReset()">
+              <span id="label-zoom-level">100%</span>
+            </button>
+            <button id="btn-zoom-in" class="zoom-btn" title="Zoom In (Ctrl++)" onclick="handleZoomIn()">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Window Controls (Minimize, Maximize, Close) -->
+          <div id="officepack-window-controls" class="window-controls-group">
+            <button id="btn-window-minimize" class="win-ctrl-btn" title="Minimize" onclick="handleWindowMinimize()">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </button>
+            <button id="btn-window-maximize" class="win-ctrl-btn" title="Maximize" onclick="handleWindowMaximize()">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              </svg>
+            </button>
+            <button id="btn-window-close" class="win-ctrl-btn close-btn" title="Close (Keep Process Running)" onclick="handleWindowClose()">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Body -->
+      <main id="officepack-main-content" class="app-content">
+        <!-- Instances List (not grid) -->
+        <section id="officepack-instances-grid" class="instances-list-section">
+          <div id="officepack-instances-list-table" class="instances-list-table">
+            <div id="instances-list-header-row" class="instances-list-header">
+              <div id="header-col-service" class="col-header"><span id="label-header-service">Service / Process</span></div>
+              <div id="header-col-status" class="col-header"><span id="label-header-status">Status</span></div>
+              <div id="header-col-port" class="col-header"><span id="label-header-port">Port</span></div>
+              <div id="header-col-pid" class="col-header"><span id="label-header-pid">PID</span></div>
+              <div id="header-col-uptime" class="col-header"><span id="label-header-uptime">Uptime</span></div>
+              <div id="header-col-memory" class="col-header"><span id="label-header-memory">Memory</span></div>
+              <div id="header-col-actions" class="col-header col-header-right"><span id="label-header-actions">Actions</span></div>
+            </div>
+            <div id="instances-list-body" class="instances-list-body">
+              <!-- Populated dynamically by JavaScript -->
+            </div>
+          </div>
+        </section>
+
+        <!-- Integrated Live Logs Display Section -->
+        <section id="officepack-display-logs-section" class="display-logs-section">
+          <div id="officepack-logs-toolbar" class="logs-toolbar">
+            <div id="officepack-logs-toolbar-left" class="logs-toolbar-left">
+              <span id="label-display-logs-title" class="logs-toolbar-title">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="4 17 10 11 4 5"></polyline>
+                  <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+                <span>Live Process Logs &amp; Diagnostics</span>
+              </span>
+
+              <select id="select-logs-filter" class="logs-select-filter" onchange="handleLogFilterChange(this.value)">
+                <option value="all">All Processes (Aggregate)</option>
+              </select>
+
+              <span id="logs-daily-badge" class="logs-daily-badge">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                <span id="label-log-day-prefix">Day:</span>
+                <strong id="label-current-log-date">2026-09-25</strong>
+              </span>
+            </div>
+
+            <div id="officepack-logs-toolbar-right" class="logs-toolbar-right">
+              <label id="logs-autoscroll-container" class="logs-autoscroll-label">
+                <input type="checkbox" id="chk-logs-autoscroll" checked />
+                <span id="label-autoscroll">Auto-scroll</span>
+              </label>
+
+              <button id="btn-empty-logs" class="action-button btn-danger btn-sm" onclick="handleEmptyLogsFile()">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="3 6 5 6 21 6"></polyline>
+                  <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                  <line x1="10" y1="11" x2="10" y2="17"></line>
+                  <line x1="14" y1="11" x2="14" y2="17"></line>
+                </svg>
+                <span id="label-empty-logs">Empty Logs</span>
+              </button>
+
+              <button id="btn-clear-display-logs" class="action-button btn-secondary btn-sm" onclick="handleClearDisplayLogs()">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="3 6 5 6 21 6"></polyline>
+                  <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                </svg>
+                <span id="label-clear-display-logs">Clear</span>
+              </button>
+
+              <button id="btn-toggle-logs-size" class="action-button btn-secondary btn-sm" onclick="handleToggleLogsSize()">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <polyline points="9 21 3 21 3 15"></polyline>
+                  <line x1="21" y1="3" x2="14" y2="10"></line>
+                  <line x1="3" y1="21" x2="10" y2="14"></line>
+                </svg>
+                <span id="label-toggle-logs-size">Resize</span>
+              </button>
+            </div>
+          </div>
+
+          <div id="officepack-display-logs-terminal" class="display-logs-terminal">
+            <div id="empty-logs-placeholder" class="empty-logs-placeholder">Waiting for process logs...</div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Secondary Modal Log Drawer -->
+      <div id="officepack-log-modal-backdrop" class="modal-backdrop">
+        <div id="officepack-log-modal-window" class="log-modal-window">
+          <div id="officepack-log-modal-header" class="log-modal-header">
+            <div id="officepack-log-modal-title" class="log-modal-title">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="4 17 10 11 4 5"></polyline>
+                <line x1="12" y1="19" x2="20" y2="19"></line>
+              </svg>
+              <span id="log-modal-target-title">Instance Logs</span>
+            </div>
+            <div id="officepack-log-modal-actions" class="header-right">
+              <button id="btn-clear-logs" class="action-button btn-secondary btn-sm" onclick="handleClearActiveLogs()">
+                <span id="label-clear-logs">Clear</span>
+              </button>
+              <button id="btn-close-logs" class="action-button btn-secondary btn-sm" onclick="closeLogModal()">
+                <span id="label-close-logs">Close</span>
+              </button>
+            </div>
+          </div>
+          <div id="officepack-log-terminal-body" class="log-terminal-body">
+            <!-- Modal logs dynamically populated -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let currentLanguage = "en";
+      let activeLogInstanceId = null;
+      let selectedFilterInstanceId = "all";
+      let instancesCache = [];
+      let aggregatedLogsCache = [];
+      let currentZoomLevel = 1.0;
+      let isLogsExpanded = false;
+
+      const i18nDictionary = {
+        en: {
+          appTitle: "2-TEK OfficePack Desktop",
+          appSubtitle: "Multi-Process Instance Manager & Service Supervisor",
+          running: "Running",
+          stopped: "Stopped",
+          starting: "Starting...",
+          stopping: "Stopping...",
+          error: "Error",
+          startAll: "Start All",
+          stopAll: "Stop All",
+          start: "Start",
+          stop: "Stop",
+          restart: "Restart",
+          logs: "Logs",
+          refresh: "Refresh",
+          clear: "Clear",
+          close: "Close",
+          port: "Port",
+          pid: "PID",
+          uptime: "Uptime",
+          memory: "Memory",
+          serviceCol: "Service / Process",
+          statusCol: "Status",
+          actionsCol: "Actions",
+          bannerTitle: "Independent Multi-Process Services & Workers",
+          bannerDesc: "Manage isolated OS child processes for Word, Excel, Presentation, Forms, Notes, and AI Copilot. Click Start or Stop to manage process lifecycles on dedicated ports.",
+          noLogs: "No logs recorded for this process instance yet.",
+          keepProcesses: "Keep process continue on close",
+          liveLogsTitle: "Live Process Logs & Diagnostics",
+          allProcesses: "All Processes (Aggregate)",
+          autoscroll: "Auto-scroll",
+          resize: "Resize",
+          emptyLogs: "Empty Logs",
+          emptyPorts: "Empty Ports",
+          syncCloud: "Sync Cloud",
+          broadcast: "Broadcast",
+          logDay: "Day:",
+        },
+        vi: {
+          appTitle: "2-TEK OfficePack Desktop",
+          appSubtitle: "Quản Lý Đa Tiến Trình & Giám Sát Dịch Vụ Office",
+          running: "Đang chạy",
+          stopped: "Đã dừng",
+          starting: "Đang khởi động...",
+          stopping: "Đang dừng...",
+          error: "Lỗi",
+          startAll: "Khởi động tất cả",
+          stopAll: "Dừng tất cả",
+          start: "Khởi động",
+          stop: "Dừng",
+          restart: "Khởi động lại",
+          logs: "Nhật ký",
+          refresh: "Làm mới",
+          clear: "Xóa",
+          close: "Đóng",
+          port: "Cổng",
+          pid: "PID",
+          uptime: "Thời gian chạy",
+          memory: "Bộ nhớ",
+          serviceCol: "Dịch vụ / Tiến trình",
+          statusCol: "Trạng thái",
+          actionsCol: "Thao tác",
+          bannerTitle: "Các Tiến Trình & Dịch Vụ Độc Lập",
+          bannerDesc: "Điều khiển nhiều tiến trình con độc lập cho Word, Excel, Presentation, Forms, Notes và AI Copilot. Bấm Khởi động hoặc Dừng để quản trị vòng đời tiến trình trên từng cổng riêng biệt.",
+          noLogs: "Chưa có bản ghi nhật ký nào cho tiến trình này.",
+          keepProcesses: "Giữ tiến trình chạy khi đóng cửa sổ",
+          liveLogsTitle: "Nhật Ký Tiến Trình & Chẩn Đoán Trực Tiếp",
+          allProcesses: "Tất cả tiến trình (Tổng hợp)",
+          autoscroll: "Tự cuộn",
+          resize: "Đổi kích thước",
+          emptyLogs: "Làm rỗng log",
+          emptyPorts: "Làm rỗng cổng",
+          syncCloud: "Đồng bộ Mây",
+          broadcast: "Phát sóng",
+          logDay: "Ngày:",
+        },
+      };
+
+      function t(key) {
+        return (i18nDictionary[currentLanguage] && i18nDictionary[currentLanguage][key]) || key;
+      }
+
+      function toggleLanguage() {
+        currentLanguage = currentLanguage === "en" ? "vi" : "en";
+        updateStaticLabels();
+        renderInstances(instancesCache);
+        renderDisplayLogs();
+      }
+
+      function updateStaticLabels() {
+        document.getElementById("officepack-app-title").textContent = t("appTitle");
+        document.getElementById("officepack-app-subtitle").textContent = t("appSubtitle");
+        document.getElementById("label-running-stat").textContent = t("running");
+        document.getElementById("label-stopped-stat").textContent = t("stopped");
+        document.getElementById("label-start-all").textContent = t("startAll");
+        document.getElementById("label-stop-all").textContent = t("stopAll");
+        const elBannerTitle = document.getElementById("officepack-banner-title");
+        if (elBannerTitle) elBannerTitle.textContent = t("bannerTitle");
+        const elBannerDesc = document.getElementById("officepack-banner-desc");
+        if (elBannerDesc) elBannerDesc.textContent = t("bannerDesc");
+        document.getElementById("label-keep-processes").textContent = t("keepProcesses");
+        document.getElementById("label-refresh").textContent = t("refresh");
+
+        const elCloudSync = document.getElementById("label-cloud-sync");
+        if (elCloudSync) elCloudSync.textContent = t("syncCloud");
+
+        const elBroadcast = document.getElementById("label-broadcast");
+        if (elBroadcast) {
+          const modeDisplay = currentBroadcastMode === "center" ? "Center (Hub)" : currentBroadcastMode === "client" ? "Client (Node)" : "Off";
+          elBroadcast.textContent = `${t("broadcast")}: ${modeDisplay}`;
+        }
+
+        const elEmptyPorts = document.getElementById("label-empty-ports");
+        if (elEmptyPorts) elEmptyPorts.textContent = t("emptyPorts");
+
+
+        document.getElementById("label-clear-display-logs").textContent = t("clear");
+        document.getElementById("label-clear-logs").textContent = t("clear");
+        document.getElementById("label-close-logs").textContent = t("close");
+        document.getElementById("label-autoscroll").textContent = t("autoscroll");
+        document.getElementById("label-toggle-logs-size").textContent = t("resize");
+
+        const elEmptyLogs = document.getElementById("label-empty-logs");
+        if (elEmptyLogs) elEmptyLogs.textContent = t("emptyLogs");
+        const elLogDayPrefix = document.getElementById("label-log-day-prefix");
+        if (elLogDayPrefix) elLogDayPrefix.textContent = t("logDay");
+        const elCurrentLogDate = document.getElementById("label-current-log-date");
+        if (elCurrentLogDate) {
+          elCurrentLogDate.textContent = new Date().toISOString().slice(0, 10);
+        }
+
+        const elService = document.getElementById("label-header-service");
+        if (elService) elService.textContent = t("serviceCol");
+        const elStatus = document.getElementById("label-header-status");
+        if (elStatus) elStatus.textContent = t("statusCol");
+        const elPort = document.getElementById("label-header-port");
+        if (elPort) elPort.textContent = t("port");
+        const elPid = document.getElementById("label-header-pid");
+        if (elPid) elPid.textContent = t("pid");
+        const elUptime = document.getElementById("label-header-uptime");
+        if (elUptime) elUptime.textContent = t("uptime");
+        const elMemory = document.getElementById("label-header-memory");
+        if (elMemory) elMemory.textContent = t("memory");
+        const elActions = document.getElementById("label-header-actions");
+        if (elActions) elActions.textContent = t("actionsCol");
+      }
+
+      function getDesktopBridge() {
+        return window.officepackDesktop || window.electronAPI || null;
+      }
+
+      /* Zoom Handling */
+      async function handleZoomIn() {
+        const bridge = getDesktopBridge();
+        if (bridge && typeof bridge.zoomIn === "function") {
+          currentZoomLevel = await bridge.zoomIn();
+        } else {
+          currentZoomLevel = Math.min(2.5, Math.round((currentZoomLevel + 0.1) * 10) / 10);
+          document.body.style.zoom = String(currentZoomLevel);
+        }
+        updateZoomIndicator();
+      }
+
+      async function handleZoomOut() {
+        const bridge = getDesktopBridge();
+        if (bridge && typeof bridge.zoomOut === "function") {
+          currentZoomLevel = await bridge.zoomOut();
+        } else {
+          currentZoomLevel = Math.max(0.5, Math.round((currentZoomLevel - 0.1) * 10) / 10);
+          document.body.style.zoom = String(currentZoomLevel);
+        }
+        updateZoomIndicator();
+      }
+
+      async function handleZoomReset() {
+        const bridge = getDesktopBridge();
+        if (bridge && typeof bridge.resetZoom === "function") {
+          currentZoomLevel = await bridge.resetZoom();
+        } else {
+          currentZoomLevel = 1.0;
+          document.body.style.zoom = "1";
+        }
+        updateZoomIndicator();
+      }
+
+      function updateZoomIndicator() {
+        const indicator = document.getElementById("label-zoom-level");
+        if (indicator) {
+          const percent = Math.round(currentZoomLevel * 100);
+          indicator.textContent = `${percent}%`;
+        }
+      }
+
+      /* Window Controls & Process Persistence */
+      async function handleWindowMinimize() {
+        const bridge = getDesktopBridge();
+        if (bridge && typeof bridge.minimizeWindow === "function") {
+          await bridge.minimizeWindow();
+        }
+      }
+
+      async function handleWindowMaximize() {
+        const bridge = getDesktopBridge();
+        if (bridge && typeof bridge.maximizeWindow === "function") {
+          await bridge.maximizeWindow();
+        }
+      }
+
+      async function handleWindowClose() {
+        const bridge = getDesktopBridge();
+        const chk = document.getElementById("chk-keep-processes");
+        const keepRunning = chk ? chk.checked : true;
+
+        if (bridge && typeof bridge.setKeepProcessesOnClose === "function") {
+          try {
+            await bridge.setKeepProcessesOnClose(keepRunning);
+          } catch {}
+        }
+
+        if (bridge && typeof bridge.closeWindow === "function") {
+          try {
+            await bridge.closeWindow();
+          } catch {}
+        } else if (bridge && typeof bridge.killElectron === "function") {
+          try {
+            await bridge.killElectron();
+          } catch {}
+        } else {
+          window.close();
+        }
+      }
+
+      async function handleKeepProcessesChange(enabled) {
+        const bridge = getDesktopBridge();
+        if (bridge && typeof bridge.setKeepProcessesOnClose === "function") {
+          await bridge.setKeepProcessesOnClose(enabled);
+        }
+      }
+
+      /* Instances Fetching & Rendering */
+      async function fetchInstances() {
+        const bridge = getDesktopBridge();
+        if (bridge && typeof bridge.listInstances === "function") {
+          return await bridge.listInstances();
+        }
+
+        try {
+          const response = await fetch("http://localhost:3100/api/instances");
+          if (response.ok) {
+            const result = await response.json();
+            return result.data || [];
+          }
+        } catch {}
+
+        return [
+          {
+            id: "officepack-server-3100",
+            name: "OfficePack Primary Service & gRPC Host",
+            category: "service",
+            port: 3100,
+            host: "127.0.0.1",
+            url: "http://127.0.0.1:3100",
+            status: "running",
+            pid: 24102,
+            uptimeSeconds: 124,
+            memoryMb: 42,
+            canStart: false,
+            canStop: true,
+          },
+          {
+            id: "office-worker-3101",
+            name: "Office Document Parsing & Conversion Worker",
+            category: "worker",
+            port: 3101,
+            host: "127.0.0.1",
+            url: "http://127.0.0.1:3101",
+            status: "stopped",
+            pid: null,
+            uptimeSeconds: 0,
+            memoryMb: 0,
+            canStart: true,
+            canStop: false,
+          },
+          {
+            id: "office-spreadsheets-3102",
+            name: "Spreadsheet Engine & Formula Calculation Worker",
+            category: "engine",
+            port: 3102,
+            host: "127.0.0.1",
+            url: "http://127.0.0.1:3102",
+            status: "stopped",
+            pid: null,
+            uptimeSeconds: 0,
+            memoryMb: 0,
+            canStart: true,
+            canStop: false,
+          },
+          {
+            id: "office-ai-assistant-3103",
+            name: "Document AI Assistant & Copilot Worker",
+            category: "bot",
+            port: 3103,
+            host: "127.0.0.1",
+            url: "http://127.0.0.1:3103",
+            status: "stopped",
+            pid: null,
+            uptimeSeconds: 0,
+            memoryMb: 0,
+            canStart: true,
+            canStop: false,
+          },
+          {
+            id: "office-forms-notes-3104",
+            name: "Forms & Notes Synchronization Worker",
+            category: "service",
+            port: 3104,
+            host: "127.0.0.1",
+            url: "http://127.0.0.1:3104",
+            status: "stopped",
+            pid: null,
+            uptimeSeconds: 0,
+            memoryMb: 0,
+            canStart: true,
+            canStop: false,
+          },
+        ];
+      }
+
+      function formatUptime(seconds) {
+        if (!seconds || seconds <= 0) return "--";
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        if (mins === 0) return `${secs}s`;
+        const hrs = Math.floor(mins / 60);
+        const remMins = mins % 60;
+        if (hrs === 0) return `${mins}m ${secs}s`;
+        return `${hrs}h ${remMins}m`;
+      }
+
+      function updateFilterDropdownOptions() {
+        const select = document.getElementById("select-logs-filter");
+        if (!select) return;
+
+        const currentValue = select.value;
+        select.innerHTML = `<option value="all">${t("allProcesses")}</option>`;
+
+        instancesCache.forEach((instance) => {
+          const opt = document.createElement("option");
+          opt.value = instance.id;
+          opt.textContent = `${instance.name} (Port ${instance.port})`;
+          select.appendChild(opt);
+        });
+
+        if (currentValue && (currentValue === "all" || instancesCache.some((i) => i.id === currentValue))) {
+          select.value = currentValue;
+        }
+      }
+
+      function renderInstances(instances) {
+        instancesCache = instances || [];
+        const listBody = document.getElementById("instances-list-body") || document.getElementById("officepack-instances-grid");
+        if (listBody) {
+          listBody.innerHTML = "";
+        }
+
+        let runningCount = 0;
+        let stoppedCount = 0;
+
+        instancesCache.forEach((instance) => {
+          if (instance.status === "running") runningCount++;
+          else stoppedCount++;
+
+          const row = document.createElement("div");
+          row.id = `officepack-instance-card-${instance.id}`;
+          row.className = `instance-list-row ${instance.status === "running" ? "running" : ""}`;
+
+          const isRunning = instance.status === "running";
+          const statusClass = instance.status || "stopped";
+          const statusText = t(instance.status || "stopped");
+
+          let categoryIconSvg = `
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+              <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+              <line x1="6" y1="6" x2="6.01" y2="6"></line>
+              <line x1="6" y1="18" x2="6.01" y2="18"></line>
+            </svg>
+          `;
+
+          if (instance.category === "worker") {
+            categoryIconSvg = `
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+            `;
+          } else if (instance.category === "engine") {
+            categoryIconSvg = `
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="3" y1="15" x2="21" y2="15"></line>
+                <line x1="9" y1="3" x2="9" y2="21"></line>
+                <line x1="15" y1="3" x2="15" y2="21"></line>
+              </svg>
+            `;
+          } else if (instance.category === "bot") {
+            categoryIconSvg = `
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                <rect x="9" y="9" width="6" height="6"></rect>
+                <line x1="9" y1="1" x2="9" y2="4"></line>
+                <line x1="15" y1="1" x2="15" y2="4"></line>
+                <line x1="9" y1="20" x2="9" y2="23"></line>
+                <line x1="15" y1="20" x2="15" y2="23"></line>
+                <line x1="20" y1="9" x2="23" y2="9"></line>
+                <line x1="20" y1="14" x2="23" y2="14"></line>
+                <line x1="1" y1="9" x2="4" y2="9"></line>
+                <line x1="1" y1="14" x2="4" y2="14"></line>
+              </svg>
+            `;
+          }
+
+          row.innerHTML = `
+            <div id="service-cell-${instance.id}" class="cell-service cell-service-inline">
+              <div id="card-icon-${instance.id}" class="instance-category-icon">
+                ${categoryIconSvg}
+              </div>
+              <div id="card-meta-${instance.id}" class="cell-service-text cell-service-info-inline">
+                <span id="title-${instance.id}" class="instance-name" title="${instance.name}">${instance.name}</span>
+                <span id="subid-${instance.id}" class="instance-id-label inline-id">${instance.id}</span>
+                <span id="cat-badge-${instance.id}" class="instance-category-badge inline-cat">${instance.category}</span>
+              </div>
+            </div>
+
+            <div id="status-cell-${instance.id}" class="cell-status">
+              <div id="badge-${instance.id}" class="status-pill ${statusClass}">
+                <span class="pulse-dot"></span>
+                <span>${statusText}</span>
+              </div>
+            </div>
+
+            <div id="port-cell-${instance.id}" class="cell-telemetry">
+              ${
+                isRunning
+                  ? `<a id="port-link-${instance.id}" class="telemetry-value link" href="${instance.url}" target="_blank">${instance.port}</a>`
+                  : `<span id="port-text-${instance.id}" class="telemetry-value">${instance.port}</span>`
+              }
+            </div>
+
+            <div id="pid-cell-${instance.id}" class="cell-telemetry">
+              <span id="pid-val-${instance.id}" class="telemetry-value">${instance.pid ? instance.pid : "--"}</span>
+            </div>
+
+            <div id="uptime-cell-${instance.id}" class="cell-telemetry">
+              <span id="uptime-val-${instance.id}" class="telemetry-value">${formatUptime(instance.uptimeSeconds)}</span>
+            </div>
+
+            <div id="memory-cell-${instance.id}" class="cell-telemetry">
+              <span id="memory-val-${instance.id}" class="telemetry-value">${instance.memoryMb ? instance.memoryMb + " MB" : "--"}</span>
+            </div>
+
+            <div id="card-actions-${instance.id}" class="cell-actions">
+              <div id="actions-left-${instance.id}" class="left-actions">
+                ${
+                  !isRunning
+                    ? `<button id="btn-start-${instance.id}" class="action-button btn-start btn-sm" onclick="handleStartInstance('${instance.id}')">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                          <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                        </svg>
+                        <span>${t("start")}</span>
+                      </button>`
+                    : `<button id="btn-stop-${instance.id}" class="action-button btn-stop btn-sm" onclick="handleStopInstance('${instance.id}')">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                          <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                        </svg>
+                        <span>${t("stop")}</span>
+                      </button>`
+                }
+                <button id="btn-restart-${instance.id}" class="action-button btn-secondary btn-sm" ${!isRunning ? "disabled" : ""} onclick="handleRestartInstance('${instance.id}')">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="23 4 23 10 17 10"></polyline>
+                    <polyline points="1 20 1 14 7 14"></polyline>
+                    <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+                  </svg>
+                  <span>${t("restart")}</span>
+                </button>
+              </div>
+              <button id="btn-logs-${instance.id}" class="action-button btn-secondary btn-sm" onclick="focusInstanceLogs('${instance.id}')">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="4 17 10 11 4 5"></polyline>
+                  <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+                <span>${t("logs")}</span>
+              </button>
+            </div>
+          `;
+
+          if (listBody) {
+            listBody.appendChild(row);
+          }
+        });
+
+        document.getElementById("officepack-running-count").textContent = String(runningCount);
+        document.getElementById("officepack-stopped-count").textContent = String(stoppedCount);
+
+        updateFilterDropdownOptions();
+      }
+
+      async function refreshInstancesList() {
+        const instances = await fetchInstances();
+        renderInstances(instances);
+      }
+
+      async function handleStartInstance(instanceId) {
+        const button = document.getElementById(`btn-start-${instanceId}`);
+        if (button) button.disabled = true;
+
+        const bridge = getDesktopBridge();
+        if (bridge && typeof bridge.startInstance === "function") {
+          await bridge.startInstance(instanceId);
+        } else {
+          try {
+            await fetch(`http://localhost:3100/api/instances/${instanceId}/start`, { method: "POST" });
+          } catch {}
+        }
+
+        await refreshInstancesList();
+      }
+
+      async function handleStopInstance(instanceId) {
+        const button = document.getElementById(`btn-stop-${instanceId}`);
+        if (button) button.disabled = true;
+
+        const bridge = getDesktopBridge();
+        if (bridge && typeof bridge.stopInstance === "function") {
+          await bridge.stopInstance(instanceId);
+        } else {
+          try {
+            await fetch(`http://localhost:3100/api/instances/${instanceId}/stop`, { method: "POST" });
+          } catch {}
+        }
+
+        await refreshInstancesList();
+      }
+
+      async function handleRestartInstance(instanceId) {
+        const button = document.getElementById(`btn-restart-${instanceId}`);
+        if (button) button.disabled = true;
+
+        const bridge = getDesktopBridge();
+        if (bridge && typeof bridge.restartInstance === "function") {
+          await bridge.restartInstance(instanceId);
+        } else {
+          try {
+            await fetch(`http://localhost:3100/api/instances/${instanceId}/restart`, { method: "POST" });
+          } catch {}
+        }
+
+        await refreshInstancesList();
+      }
+
+      async function handleStartAll() {
+        const btn = document.getElementById("btn-start-all");
+        if (btn) btn.disabled = true;
+
+        for (const inst of instancesCache) {
+          if (inst.status !== "running") {
+            await handleStartInstance(inst.id);
+          }
+        }
+
+        if (btn) btn.disabled = false;
+        await refreshInstancesList();
+      }
+
+      async function handleStopAll() {
+        const btn = document.getElementById("btn-stop-all");
+        if (btn) btn.disabled = true;
+
+        for (const inst of instancesCache) {
+          if (inst.status === "running") {
+            await handleStopInstance(inst.id);
+          }
+        }
+
+        if (btn) btn.disabled = false;
+        await refreshInstancesList();
+      }
+
+      async function handleEmptyPorts() {
+        const btn = document.getElementById("btn-empty-ports");
+        if (btn) btn.disabled = true;
+
+        try {
+          if (bridge && typeof bridge.emptyPorts === "function") {
+            const result = await bridge.emptyPorts();
+            if (result && result.freedCount > 0) {
+              appendLiveLog({
+                timestamp: new Date().toISOString(),
+                instanceId: "system",
+                level: "info",
+                message: result.message || `Emptied ports: ${result.releasedPorts.join(", ")}`,
+              });
+            }
+          } else {
+            const response = await fetch("/api/ports/empty", { method: "POST" });
+            const data = await response.json();
+            if (data && data.data && data.data.freedCount > 0) {
+              appendLiveLog({
+                timestamp: new Date().toISOString(),
+                instanceId: "system",
+                level: "info",
+                message: data.data.message || `Emptied ports: ${data.data.releasedPorts.join(", ")}`,
+              });
+            }
+          }
+        } catch (emptyErr) {
+          console.error("Failed to empty ports:", emptyErr);
+        } finally {
+          if (btn) btn.disabled = false;
+          await refreshInstancesList();
+        }
+      }
+
+      async function handleCloudSync() {
+        const btn = document.getElementById("btn-cloud-sync");
+        const label = document.getElementById("label-cloud-sync");
+        if (btn) btn.disabled = true;
+        if (label) label.textContent = "Syncing...";
+
+        try {
+          let syncResult = null;
+          if (bridge && typeof bridge.syncCloudData === "function") {
+            syncResult = await bridge.syncCloudData({ direction: "bidirectional" });
+          } else {
+            const response = await fetch("/api/cloud/sync", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ direction: "bidirectional" }),
+            });
+            const resJson = await response.json();
+            syncResult = resJson.data;
+          }
+
+          appendLiveLog({
+            timestamp: new Date().toISOString(),
+            instanceId: "cloud-sync",
+            level: "info",
+            message: `Cloud sync completed: pulled ${syncResult?.pulledCount || 0}, pushed ${syncResult?.pushedCount || 0} file(s)`,
+          });
+        } catch (syncErr) {
+          console.error("Failed to sync cloud:", syncErr);
+          appendLiveLog({
+            timestamp: new Date().toISOString(),
+            instanceId: "cloud-sync",
+            level: "error",
+            message: `Cloud sync failed: ${syncErr.message || syncErr}`,
+          });
+        } finally {
+          if (btn) btn.disabled = false;
+          if (label) label.textContent = t("syncCloud");
+        }
+      }
+
+      let currentBroadcastMode = "disabled";
+
+      async function refreshBroadcastStatus() {
+        try {
+          let status = null;
+          if (bridge && typeof bridge.getBroadcastStatus === "function") {
+            status = await bridge.getBroadcastStatus();
+          } else {
+            const response = await fetch("/api/broadcast/status");
+            const resJson = await response.json();
+            status = resJson.data;
+          }
+          if (status && status.mode) {
+            currentBroadcastMode = status.mode;
+            const label = document.getElementById("label-broadcast");
+            if (label) {
+              const modeDisplay = currentBroadcastMode === "center" ? "Center (Hub)" : currentBroadcastMode === "client" ? "Client (Node)" : "Off";
+              label.textContent = `${t("broadcast")}: ${modeDisplay}`;
+            }
+          }
+        } catch (e) {
+          // ignore error on periodic refresh
+        }
+      }
+
+      async function handleBroadcastToggle() {
+        const btn = document.getElementById("btn-broadcast-toggle");
+        const label = document.getElementById("label-broadcast");
+        if (btn) btn.disabled = true;
+
+        const nextMode = currentBroadcastMode === "disabled" ? "center" : currentBroadcastMode === "center" ? "client" : "disabled";
+
+        try {
+          let result = null;
+          if (bridge && typeof bridge.setBroadcastMode === "function") {
+            result = await bridge.setBroadcastMode({ mode: nextMode });
+          } else {
+            const response = await fetch("/api/broadcast/mode", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ mode: nextMode }),
+            });
+            const resJson = await response.json();
+            result = resJson.data;
+          }
+          currentBroadcastMode = nextMode;
+          const modeDisplay = currentBroadcastMode === "center" ? "Center (Hub)" : currentBroadcastMode === "client" ? "Client (Node)" : "Off";
+          if (label) label.textContent = `${t("broadcast")}: ${modeDisplay}`;
+
+          appendLiveLog({
+            timestamp: new Date().toISOString(),
+            instanceId: "broadcast",
+            level: "info",
+            message: `Broadcast mode set to: ${nextMode.toUpperCase()}${nextMode === "center" ? " (Computer is now Chat Center Hub)" : nextMode === "client" ? " (Computer is now Broadcast Client)" : ""}`,
+          });
+        } catch (err) {
+          console.error("Failed to toggle broadcast mode:", err);
+          appendLiveLog({
+            timestamp: new Date().toISOString(),
+            instanceId: "broadcast",
+            level: "error",
+            message: `Failed to toggle broadcast mode: ${err.message || err}`,
+          });
+        } finally {
+          if (btn) btn.disabled = false;
+        }
+      }
+
+      /* Live Logs Display & Filtering */
+
+      function appendLiveLog(logEntry) {
+        aggregatedLogsCache.push(logEntry);
+        if (aggregatedLogsCache.length > 500) {
+          aggregatedLogsCache.shift();
+        }
+
+        if (selectedFilterInstanceId === "all" || selectedFilterInstanceId === logEntry.instanceId) {
+          appendLogLineToDom(logEntry);
+        }
+
+        if (activeLogInstanceId && activeLogInstanceId === logEntry.instanceId) {
+          refreshModalLogViewer();
+        }
+      }
+
+      function appendLogLineToDom(logEntry) {
+        const container = document.getElementById("officepack-display-logs-terminal");
+        if (!container) return;
+
+        const placeholder = document.getElementById("empty-logs-placeholder");
+        if (placeholder) {
+          placeholder.remove();
+        }
+
+        const line = document.createElement("div");
+        line.className = "log-line";
+        const shortTime = logEntry.timestamp ? logEntry.timestamp.slice(11, 19) : "--:--:--";
+        const instTag = logEntry.instanceId ? logEntry.instanceId.replace("office-", "").replace("officepack-", "") : "inst";
+
+        line.innerHTML = `
+          <span class="log-time">[${shortTime}]</span>
+          <span class="log-inst-tag">${instTag}</span>
+          <span class="log-msg-${logEntry.level || 'stdout'}">${escapeHtml(logEntry.message)}</span>
+        `;
+
+        container.appendChild(line);
+
+        const chkAutoscroll = document.getElementById("chk-logs-autoscroll");
+        if (chkAutoscroll && chkAutoscroll.checked) {
+          container.scrollTop = container.scrollHeight;
+        }
+      }
+
+      function renderDisplayLogs() {
+        const container = document.getElementById("officepack-display-logs-terminal");
+        if (!container) return;
+
+        const filtered = aggregatedLogsCache.filter((entry) => {
+          if (selectedFilterInstanceId === "all") return true;
+          return entry.instanceId === selectedFilterInstanceId;
+        });
+
+        if (filtered.length === 0) {
+          container.innerHTML = `<div id="empty-logs-placeholder" class="empty-logs-placeholder">${t("noLogs")}</div>`;
+          return;
+        }
+
+        container.innerHTML = filtered
+          .map((entry) => {
+            const shortTime = entry.timestamp ? entry.timestamp.slice(11, 19) : "--:--:--";
+            const instTag = entry.instanceId ? entry.instanceId.replace("office-", "").replace("officepack-", "") : "inst";
+            return `
+              <div class="log-line">
+                <span class="log-time">[${shortTime}]</span>
+                <span class="log-inst-tag">${instTag}</span>
+                <span class="log-msg-${entry.level || 'stdout'}">${escapeHtml(entry.message)}</span>
+              </div>
+            `;
+          })
+          .join("");
+
+        const chkAutoscroll = document.getElementById("chk-logs-autoscroll");
+        if (chkAutoscroll && chkAutoscroll.checked) {
+          container.scrollTop = container.scrollHeight;
+        }
+      }
+
+      function handleLogFilterChange(val) {
+        selectedFilterInstanceId = val;
+        renderDisplayLogs();
+      }
+
+      async function handleEmptyLogsFile() {
+        const bridge = getDesktopBridge();
+        const currentDateStr = new Date().toISOString().slice(0, 10);
+        try {
+          if (bridge && typeof bridge.emptyGrpcLogs === "function") {
+            await bridge.emptyGrpcLogs("all");
+          }
+          aggregatedLogsCache = [];
+          renderDisplayLogs();
+          console.log(`[OfficePack] Daily logs emptied for date: ${currentDateStr}`);
+        } catch (err) {
+          console.error("[OfficePack] Failed to empty daily logs:", err);
+        }
+      }
+
+      function handleClearDisplayLogs() {
+        if (selectedFilterInstanceId === "all") {
+          aggregatedLogsCache = [];
+        } else {
+          aggregatedLogsCache = aggregatedLogsCache.filter((e) => e.instanceId !== selectedFilterInstanceId);
+        }
+        renderDisplayLogs();
+      }
+
+      function handleToggleLogsSize() {
+        const terminal = document.getElementById("officepack-display-logs-terminal");
+        if (!terminal) return;
+        isLogsExpanded = !isLogsExpanded;
+        if (isLogsExpanded) {
+          terminal.classList.add("expanded");
+        } else {
+          terminal.classList.remove("expanded");
+        }
+      }
+
+      function focusInstanceLogs(instanceId) {
+        selectedFilterInstanceId = instanceId;
+        const select = document.getElementById("select-logs-filter");
+        if (select) {
+          select.value = instanceId;
+        }
+        renderDisplayLogs();
+
+        const section = document.getElementById("officepack-display-logs-section");
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+
+      /* Secondary Modal Logs */
+      async function openLogModal(instanceId) {
+        activeLogInstanceId = instanceId;
+        const target = instancesCache.find((i) => i.id === instanceId);
+        document.getElementById("log-modal-target-title").textContent = target
+          ? `${target.name} (${target.port})`
+          : instanceId;
+
+        const modal = document.getElementById("officepack-log-modal-backdrop");
+        modal.classList.add("active");
+
+        await refreshModalLogViewer();
+      }
+
+      function closeLogModal() {
+        activeLogInstanceId = null;
+        const modal = document.getElementById("officepack-log-modal-backdrop");
+        modal.classList.remove("active");
+      }
+
+      async function refreshModalLogViewer() {
+        if (!activeLogInstanceId) return;
+
+        const container = document.getElementById("officepack-log-terminal-body");
+        let logs = [];
+
+        const bridge = getDesktopBridge();
+        if (bridge && typeof bridge.getInstanceLogs === "function") {
+          logs = await bridge.getInstanceLogs(activeLogInstanceId);
+        } else {
+          try {
+            const resp = await fetch(`http://localhost:3100/api/instances/${activeLogInstanceId}/logs`);
+            if (resp.ok) {
+              const resJson = await resp.json();
+              logs = resJson.data || [];
+            }
+          } catch {}
+        }
+
+        if (!logs || logs.length === 0) {
+          container.innerHTML = `<div id="empty-modal-logs-msg" class="empty-logs-placeholder">${t("noLogs")}</div>`;
+          return;
+        }
+
+        container.innerHTML = logs
+          .map(
+            (log, idx) => `
+              <div id="modal-log-line-${activeLogInstanceId}-${idx}" class="log-line">
+                <span class="log-time">[${log.timestamp ? log.timestamp.slice(11, 19) : "--:--:--"}]</span>
+                <span class="log-msg-${log.level || 'stdout'}">${escapeHtml(log.message)}</span>
+              </div>
+            `
+          )
+          .join("");
+
+        container.scrollTop = container.scrollHeight;
+      }
+
+      function handleClearActiveLogs() {
+        const container = document.getElementById("officepack-log-terminal-body");
+        container.innerHTML = `<div id="empty-modal-logs-msg" class="empty-logs-placeholder">${t("noLogs")}</div>`;
+      }
+
+      function escapeHtml(text) {
+        return (text || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
+      }
+
+      /* Keyboard Shortcuts for Zoom */
+      window.addEventListener("keydown", (e) => {
+        if (e.ctrlKey || e.metaKey) {
+          if (e.key === "=" || e.key === "+") {
+            e.preventDefault();
+            handleZoomIn();
+          } else if (e.key === "-") {
+            e.preventDefault();
+            handleZoomOut();
+          } else if (e.key === "0") {
+            e.preventDefault();
+            handleZoomReset();
+          }
+        }
+      });
+
+      /* Initialization & Event Listeners */
+      window.addEventListener("DOMContentLoaded", async () => {
+        updateStaticLabels();
+        await refreshInstancesList();
+
+        const bridge = getDesktopBridge();
+
+        // Sync app version in header
+        if (bridge && typeof bridge.getAppVersion === "function") {
+          try {
+            const version = await bridge.getAppVersion();
+            const elVersion = document.getElementById("officepack-app-version");
+            if (elVersion && version) {
+              elVersion.textContent = version.startsWith("v") ? version : `v${version}`;
+            }
+          } catch {}
+        }
+
+        // Sync initial keep processes state
+        if (bridge && typeof bridge.getKeepProcessesOnClose === "function") {
+          try {
+            const initialKeep = await bridge.getKeepProcessesOnClose();
+            const chk = document.getElementById("chk-keep-processes");
+            if (chk) chk.checked = Boolean(initialKeep);
+          } catch {}
+        }
+
+        // Sync initial zoom level
+        if (bridge && typeof bridge.getZoomLevel === "function") {
+          try {
+            currentZoomLevel = await bridge.getZoomLevel();
+            updateZoomIndicator();
+          } catch {}
+        }
+
+        // Live status listener
+        if (bridge && typeof bridge.onInstanceStatusChanged === "function") {
+          bridge.onInstanceStatusChanged((eventData) => {
+            refreshInstancesList();
+          });
+        }
+
+        // Live streaming log listener
+        if (bridge && typeof bridge.onInstanceLogAdded === "function") {
+          bridge.onInstanceLogAdded((logEntry) => {
+            appendLiveLog(logEntry);
+          });
+        }
+
+        // Load initial logs from all instances
+        for (const inst of instancesCache) {
+          if (bridge && typeof bridge.getInstanceLogs === "function") {
+            bridge.getInstanceLogs(inst.id).then((logs) => {
+              if (Array.isArray(logs)) {
+                logs.forEach((l) => aggregatedLogsCache.push({ ...l, instanceId: inst.id }));
+                renderDisplayLogs();
+              }
+            });
+          }
+        }
+
+        // Periodic poll every 4 seconds for uptime/status sync
+        setInterval(() => {
+          refreshInstancesList();
+          refreshBroadcastStatus();
+        }, 4000);
+
+        refreshBroadcastStatus();
+      });
+    </script>
+  </body>
+</html>
