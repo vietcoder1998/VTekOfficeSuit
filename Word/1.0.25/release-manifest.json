@@ -29,16 +29,6 @@
       "sha256": "2b7d41f0147f7f1c06861448811eb9329ea31e6a4a9a68e275e6eefb14668ba5"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Word-1.0.25",
-      "fileName": "Word-1.0.25.dmg",
-      "downloadPath": "downloads/Word/1.0.25/Word-1.0.25.dmg",
-      "sizeBytes": 35681,
-      "sha256": "a075e68557b7750084702c8a1f340a1d214952429d9277d42362dab2e2527d00"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

@@ -1,0 +1,42 @@
+{
+  "projectName": "Tasks",
+  "appName": "Tasks",
+  "displayName": "Tasks",
+  "version": "1.0.20",
+  "buildTimestamp": "2026-09-26T17:45:28.903Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Tasks/1.0.20",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Tasks-1.0.20",
+      "fileName": "Tasks-1.0.20.deb",
+      "downloadPath": "downloads/Tasks/1.0.20/Tasks-1.0.20.deb",
+      "sizeBytes": 19428,
+      "sha256": "9a41bb771064720c156bd1d066e2847fc098e4ef5a199684757b46290d5684b0"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Tasks-1.0.20",
+      "fileName": "Tasks-1.0.20.exe",
+      "downloadPath": "downloads/Tasks/1.0.20/Tasks-1.0.20.exe",
+      "sizeBytes": 14848,
+      "sha256": "b20c068ce4302a340aca051f77a7d1486714c326fd8df19d17cf2202bdc72369"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Tasks-1.0.20",
+      "fileName": "Tasks-1.0.20.zip",
+      "downloadPath": "downloads/Tasks/1.0.20/Tasks-1.0.20.zip",
+      "sizeBytes": 12166,
+      "sha256": "6f3868927cb9683b1b04b3fdd8a56ad5c220b0d0f4cb305ce1a64fa44b4db9b6"
+    }
+  ]
+}

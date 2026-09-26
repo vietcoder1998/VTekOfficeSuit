@@ -1,0 +1,42 @@
+{
+  "projectName": "Notes",
+  "appName": "Notes",
+  "displayName": "Notes",
+  "version": "1.0.19",
+  "buildTimestamp": "2026-09-26T17:43:55.643Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Notes/1.0.19",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Notes-1.0.19",
+      "fileName": "Notes-1.0.19.deb",
+      "downloadPath": "downloads/Notes/1.0.19/Notes-1.0.19.deb",
+      "sizeBytes": 19882,
+      "sha256": "7aba3dae644c8f49e26c8920c565f74b3f1209a1ecc91777bdab6673d8eefbc5"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Notes-1.0.19",
+      "fileName": "Notes-1.0.19.exe",
+      "downloadPath": "downloads/Notes/1.0.19/Notes-1.0.19.exe",
+      "sizeBytes": 15360,
+      "sha256": "82378f8c9c281a1850f3e783c963b03de3c8ecca2a4dc4480b707c60334ff73c"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Notes-1.0.19",
+      "fileName": "Notes-1.0.19.zip",
+      "downloadPath": "downloads/Notes/1.0.19/Notes-1.0.19.zip",
+      "sizeBytes": 12239,
+      "sha256": "fd0d6ddf3ccd56f0baae8204ac94c6bbfc8d191184b31856493fa6216b402022"
+    }
+  ]
+}
