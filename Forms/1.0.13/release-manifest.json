@@ -1,0 +1,42 @@
+{
+  "projectName": "Forms",
+  "appName": "Forms",
+  "displayName": "Forms",
+  "version": "1.0.13",
+  "buildTimestamp": "2026-09-26T16:45:31.243Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Forms/1.0.13",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Forms-1.0.13",
+      "fileName": "Forms-1.0.13.deb",
+      "downloadPath": "downloads/Forms/1.0.13/Forms-1.0.13.deb",
+      "sizeBytes": 15466,
+      "sha256": "f9a6479243d8a467b3c66f10c8933d34dc7ece5bc13fb10eeeb7712e4f8139c9"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Forms-1.0.13",
+      "fileName": "Forms-1.0.13.exe",
+      "downloadPath": "downloads/Forms/1.0.13/Forms-1.0.13.exe",
+      "sizeBytes": 11776,
+      "sha256": "207e5cabf937095dd0f9744e7193bf12664aa0f9f7536428a45a06998cd5f8f0"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Forms-1.0.13",
+      "fileName": "Forms-1.0.13.zip",
+      "downloadPath": "downloads/Forms/1.0.13/Forms-1.0.13.zip",
+      "sizeBytes": 8753,
+      "sha256": "f810b7c3b9aaa6be312e182881b56e6e657b7eb692049ecfd953d63a451b76be"
+    }
+  ]
+}

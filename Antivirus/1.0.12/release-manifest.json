@@ -1,0 +1,42 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus",
+  "version": "1.0.12",
+  "buildTimestamp": "2026-09-26T16:45:47.115Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.12",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus-1.0.12",
+      "fileName": "Antivirus-1.0.12.deb",
+      "downloadPath": "downloads/Antivirus/1.0.12/Antivirus-1.0.12.deb",
+      "sizeBytes": 18596,
+      "sha256": "09fe119304a7880c69ff73048938daa235b9582fab55fd788bf75488731667a4"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus-1.0.12",
+      "fileName": "Antivirus-1.0.12.exe",
+      "downloadPath": "downloads/Antivirus/1.0.12/Antivirus-1.0.12.exe",
+      "sizeBytes": 13312,
+      "sha256": "a019053e1f4df32da725b765caba94b73734f0d825299206a1c868771b36570d"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus-1.0.12",
+      "fileName": "Antivirus-1.0.12.zip",
+      "downloadPath": "downloads/Antivirus/1.0.12/Antivirus-1.0.12.zip",
+      "sizeBytes": 10472,
+      "sha256": "1927305d79aca5e815d2221a4f2ba07a396e209296843eea178fd09831aeaf10"
+    }
+  ]
+}
