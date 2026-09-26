@@ -15,8 +15,8 @@
       "name": "2tek-hub-1.0.0",
       "fileName": "2tek-hub-1.0.0.deb",
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub-1.0.0.deb",
-      "sizeBytes": 100678,
-      "sha256": "1864f3a11d53955510eb4cec21968fb02543872613851440988713a05d5a2889"
+      "sizeBytes": 100676,
+      "sha256": "b5a24b5738fdd6aa127c9efa663201b716ab5d23906a1671abc2e260e781e3b1"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "2tek-hub-1.0.0.exe",
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub-1.0.0.exe",
       "sizeBytes": 29696,
-      "sha256": "55e45326d2d9c3d544d1a615dcff061af6c40d6075bedcc0303b33d0e9faac38"
+      "sha256": "ffc75e1879b266d22042f5d30f8e056eae477a9b6f7ccd386f8504685502ecf6"
     },
     {
       "platform": "universal",
@@ -46,7 +46,7 @@
       "fileName": "2tek-hub-setup-1.0.0.exe",
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub-setup-1.0.0.exe",
       "sizeBytes": 29696,
-      "sha256": "55e45326d2d9c3d544d1a615dcff061af6c40d6075bedcc0303b33d0e9faac38"
+      "sha256": "ffc75e1879b266d22042f5d30f8e056eae477a9b6f7ccd386f8504685502ecf6"
     },
     {
       "platform": "linux",
@@ -55,8 +55,8 @@
       "name": "2tek-hub",
       "fileName": "2tek-hub.deb",
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub.deb",
-      "sizeBytes": 100678,
-      "sha256": "1864f3a11d53955510eb4cec21968fb02543872613851440988713a05d5a2889"
+      "sizeBytes": 100676,
+      "sha256": "b5a24b5738fdd6aa127c9efa663201b716ab5d23906a1671abc2e260e781e3b1"
     },
     {
       "platform": "windows",
@@ -66,7 +66,7 @@
       "fileName": "2tek-hub.exe",
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub.exe",
       "sizeBytes": 29696,
-      "sha256": "55e45326d2d9c3d544d1a615dcff061af6c40d6075bedcc0303b33d0e9faac38"
+      "sha256": "ffc75e1879b266d22042f5d30f8e056eae477a9b6f7ccd386f8504685502ecf6"
     },
     {
       "platform": "universal",
@@ -85,8 +85,8 @@
       "name": "2tek-hub_1.0.0_amd64",
       "fileName": "2tek-hub_1.0.0_amd64.deb",
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub_1.0.0_amd64.deb",
-      "sizeBytes": 100678,
-      "sha256": "1864f3a11d53955510eb4cec21968fb02543872613851440988713a05d5a2889"
+      "sizeBytes": 100676,
+      "sha256": "b5a24b5738fdd6aa127c9efa663201b716ab5d23906a1671abc2e260e781e3b1"
     },
     {
       "platform": "linux",
@@ -95,8 +95,8 @@
       "name": "Hub-1.0.0",
       "fileName": "Hub-1.0.0.deb",
       "downloadPath": "downloads/Hub/1.0.0/Hub-1.0.0.deb",
-      "sizeBytes": 100678,
-      "sha256": "1864f3a11d53955510eb4cec21968fb02543872613851440988713a05d5a2889"
+      "sizeBytes": 100676,
+      "sha256": "b5a24b5738fdd6aa127c9efa663201b716ab5d23906a1671abc2e260e781e3b1"
     },
     {
       "platform": "windows",
@@ -106,7 +106,7 @@
       "fileName": "Hub-1.0.0.exe",
       "downloadPath": "downloads/Hub/1.0.0/Hub-1.0.0.exe",
       "sizeBytes": 29696,
-      "sha256": "55e45326d2d9c3d544d1a615dcff061af6c40d6075bedcc0303b33d0e9faac38"
+      "sha256": "ffc75e1879b266d22042f5d30f8e056eae477a9b6f7ccd386f8504685502ecf6"
     },
     {
       "platform": "universal",
@@ -125,8 +125,8 @@
       "name": "Hub",
       "fileName": "Hub.deb",
       "downloadPath": "downloads/Hub/1.0.0/Hub.deb",
-      "sizeBytes": 100678,
-      "sha256": "1864f3a11d53955510eb4cec21968fb02543872613851440988713a05d5a2889"
+      "sizeBytes": 100676,
+      "sha256": "b5a24b5738fdd6aa127c9efa663201b716ab5d23906a1671abc2e260e781e3b1"
     },
     {
       "platform": "windows",
@@ -136,7 +136,7 @@
       "fileName": "Hub.exe",
       "downloadPath": "downloads/Hub/1.0.0/Hub.exe",
       "sizeBytes": 29696,
-      "sha256": "55e45326d2d9c3d544d1a615dcff061af6c40d6075bedcc0303b33d0e9faac38"
+      "sha256": "ffc75e1879b266d22042f5d30f8e056eae477a9b6f7ccd386f8504685502ecf6"
     },
     {
       "platform": "universal",
