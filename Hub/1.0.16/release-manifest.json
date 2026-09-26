@@ -26,7 +26,17 @@
       "fileName": "Hub-1.0.16.exe",
       "downloadPath": "downloads/Hub/1.0.16/Hub-1.0.16.exe",
       "sizeBytes": 30208,
-      "sha256": "e80af89fb154902ed45677259b621208319a9869befecc4e365f621ef57a3d74"
+      "sha256": "3d86e1a4cb12e2f5b5a5caa0fa98ac258102400899651964e9d00dca6547cbc4"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Hub-1.0.16",
+      "fileName": "Hub-1.0.16.zip",
+      "downloadPath": "downloads/Hub/1.0.16/Hub-1.0.16.zip",
+      "sizeBytes": 19872,
+      "sha256": "a6c7f87fea6563f1616dbef486be6dbb093e644c1ff7a7ba816ae5c3a4a784a8"
     }
   ]
 }
