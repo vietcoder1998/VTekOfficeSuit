@@ -41,3 +41,6 @@ packages/VTekOfficeSuit/
 1. **Zero Code Logic**: Prohibited to add application runtime source code, components, services, or engines to this package.
 2. **No Scripts, No Handles**: Prohibited to add build scripts, package builders, runners, or gRPC/API handlers (`no script, no handle`).
 3. **Downloads Storage Only**: Repository exists exclusively for persisting application download packages.
+
+## 4. Module Aliases & Shared Governance
+- **Shared Assets**: Documentation and packaging manifests reference shared branding, theme tokens, and icons via `@Shared`.
