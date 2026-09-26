@@ -1,9 +1,9 @@
 {
   "projectName": "Word",
   "appName": "Word",
-  "displayName": "Word",
+  "displayName": "Word Editor",
   "version": "1.0.11",
-  "buildTimestamp": "2026-09-26T16:41:24.959Z",
+  "buildTimestamp": "2026-09-26T16:41:46.954Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.11",
@@ -15,8 +15,9 @@
       "name": "Word-1.0.11",
       "fileName": "Word-1.0.11.deb",
       "downloadPath": "downloads/Word/1.0.11/Word-1.0.11.deb",
-      "sizeBytes": 15886,
-      "sha256": "91c91f9135366ba3c811b62ef83fb4bd52012ec3d6c0118aa76a15c82f5715c2"
+      "sizeBytes": 15884,
+      "sizeFormatted": "15.5 KB",
+      "sha256": "07ea5fbfbc7110ab088a72a3db7eed54e98966f17991ae5dbf388e0463e23c9a"
     },
     {
       "platform": "windows",
@@ -26,7 +27,8 @@
       "fileName": "Word-1.0.11.exe",
       "downloadPath": "downloads/Word/1.0.11/Word-1.0.11.exe",
       "sizeBytes": 11776,
-      "sha256": "a15257325ca0b50b4a281373d2eeb50f1ebf84c5ba910191c22ef37b264cedf6"
+      "sizeFormatted": "11.5 KB",
+      "sha256": "1b37f2582ebc1ecbfe0e5a553dfa3bc77cd9efaf6fec4eae6f2b59c0c62c6d38"
     },
     {
       "platform": "macos",
@@ -35,8 +37,9 @@
       "name": "Word-1.0.11",
       "fileName": "Word-1.0.11.dmg",
       "downloadPath": "downloads/Word/1.0.11/Word-1.0.11.dmg",
-      "sizeBytes": 9007,
-      "sha256": "40b50d245f2302f49ab02774d490b717d1fd3647d3e18a41cab73a21b0ea0b43"
+      "sizeBytes": 9001,
+      "sizeFormatted": "8.8 KB",
+      "sha256": "fcebfb974aa46ea0fb2157ef61418169c799704858a3f0d235874601a7b85575"
     },
     {
       "platform": "universal",
@@ -45,8 +48,9 @@
       "name": "Word-1.0.11",
       "fileName": "Word-1.0.11.zip",
       "downloadPath": "downloads/Word/1.0.11/Word-1.0.11.zip",
-      "sizeBytes": 8945,
-      "sha256": "e519b0cd6b2143a139b996a583b798ad770280c4e5549624fc0aa4d77504607f"
+      "sizeBytes": 8939,
+      "sizeFormatted": "8.7 KB",
+      "sha256": "cbda0503b65d11c43d8b0778b823706812347dfbd4e02cae41d5d68f810a4e49"
     }
   ]
 }
