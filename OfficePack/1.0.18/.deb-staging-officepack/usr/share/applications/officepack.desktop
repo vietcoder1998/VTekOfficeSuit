@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=OfficePack
-Comment=Official feature suite and service (Word, Excel, Presentation, Pdf, Forms, Notes) with AI handle and gRPC gateway.
-Exec=/usr/bin/officepack %U
-Terminal=false
-Type=Application
-Icon=officepack
-Categories=Office;Utility;Development;

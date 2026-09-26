@@ -1,8 +1,0 @@
-#!/bin/sh
-if command -v electron >/dev/null 2>&1 && [ -f "/opt/officepack/electron/main.cjs" ]; then
-  exec electron /opt/officepack/electron/main.cjs "$@"
-elif [ -f "/opt/officepack/electron/runner.cjs" ]; then
-  exec node /opt/officepack/electron/runner.cjs "$@"
-else
-  exec node /opt/officepack/server.js "$@"
-fi
