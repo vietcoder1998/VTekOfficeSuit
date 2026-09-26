@@ -3,7 +3,7 @@
   "appName": "Hub",
   "displayName": "Hub",
   "version": "1.0.17",
-  "buildTimestamp": "2026-09-26T16:44:25.216Z",
+  "buildTimestamp": "2026-09-26T16:47:41.609Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.17",
@@ -15,8 +15,8 @@
       "name": "Hub-1.0.17",
       "fileName": "Hub-1.0.17.deb",
       "downloadPath": "downloads/Hub/1.0.17/Hub-1.0.17.deb",
-      "sizeBytes": 35854,
-      "sha256": "2cb39a9879085fac7f74e1a9f505c6d3732a501f1d8a652a259c1cef6ca9c325"
+      "sizeBytes": 35858,
+      "sha256": "3298e82d41d2f3518552dcd50286d9b97db122ee529caf5f7949900df2003665"
     },
     {
       "platform": "windows",
@@ -25,8 +25,8 @@
       "name": "Hub-1.0.17",
       "fileName": "Hub-1.0.17.exe",
       "downloadPath": "downloads/Hub/1.0.17/Hub-1.0.17.exe",
-      "sizeBytes": 30208,
-      "sha256": "54d62858434d225a24043630cd8cc46091c2f8b1d4ba402213eee8bca4ac5baa"
+      "sizeBytes": 22528,
+      "sha256": "442a0bd99eecf45b2645d1e3d09aa76c6bbaaca150a1c8b6b0c07b03b3c6d8e8"
     },
     {
       "platform": "universal",
@@ -36,7 +36,7 @@
       "fileName": "Hub-1.0.17.zip",
       "downloadPath": "downloads/Hub/1.0.17/Hub-1.0.17.zip",
       "sizeBytes": 19872,
-      "sha256": "a6c7f87fea6563f1616dbef486be6dbb093e644c1ff7a7ba816ae5c3a4a784a8"
+      "sha256": "849d4ff275b3d5080c43de4fe8f66162d9206bd24138275cfa7eae38d5a62273"
     }
   ]
 }
