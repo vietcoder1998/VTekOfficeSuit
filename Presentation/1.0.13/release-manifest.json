@@ -1,0 +1,56 @@
+{
+  "projectName": "Presentation",
+  "appName": "Presentation",
+  "displayName": "Presentation Editor",
+  "version": "1.0.13",
+  "buildTimestamp": "2026-09-26T16:47:53.817Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Presentation/1.0.13",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Presentation-1.0.13",
+      "fileName": "Presentation-1.0.13.deb",
+      "downloadPath": "downloads/Presentation/1.0.13/Presentation-1.0.13.deb",
+      "sizeBytes": 15452,
+      "sizeFormatted": "15.1 KB",
+      "sha256": "05dd1d115118795c9f65a7a62d6cddc54daa81e5f557f7153f08a12bbb85e68f"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Presentation-1.0.13",
+      "fileName": "Presentation-1.0.13.exe",
+      "downloadPath": "downloads/Presentation/1.0.13/Presentation-1.0.13.exe",
+      "sizeBytes": 11776,
+      "sizeFormatted": "11.5 KB",
+      "sha256": "1db53353c8c313a2ca0fdb040e2290901c665e9b3094f0f804cf083ef6777641"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Presentation-1.0.13",
+      "fileName": "Presentation-1.0.13.dmg",
+      "downloadPath": "downloads/Presentation/1.0.13/Presentation-1.0.13.dmg",
+      "sizeBytes": 8808,
+      "sizeFormatted": "8.6 KB",
+      "sha256": "d3aefc21324bd87c750abef11f0d7c0f92f110b08ffaf7e069acd139bf9bd554"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Presentation-1.0.13",
+      "fileName": "Presentation-1.0.13.zip",
+      "downloadPath": "downloads/Presentation/1.0.13/Presentation-1.0.13.zip",
+      "sizeBytes": 8738,
+      "sizeFormatted": "8.5 KB",
+      "sha256": "5b1c3aa08a4b4bc40d66706702017f0658d89fa091250ae0232687fd0d9159f8"
+    }
+  ]
+}
