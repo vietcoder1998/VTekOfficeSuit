@@ -1,0 +1,3 @@
+3f77dd71fabbd56a2ca55e078343f61bdad6432718f4cf95a44827c328edd4d4  SuperChat-0.1.8.deb
+b605f9eb5ef0a8178a845bcafd81c2b0db4b6df549e05e09f84ee232fa3a59f6  SuperChat-0.1.8.exe
+e3ace42dc4b4b8d51de07943cf1e2dc63452e9339bbc2ab2d0c6ae9576abe18e  SuperChat-0.1.8.zip

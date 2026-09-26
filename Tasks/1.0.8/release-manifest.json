@@ -29,16 +29,6 @@
       "sha256": "a66c1d9e3f41cac884978492debf9c30f865ccf5185c845b63123257d7104a87"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Tasks-1.0.8",
-      "fileName": "Tasks-1.0.8.dmg",
-      "downloadPath": "downloads/Tasks/1.0.8/Tasks-1.0.8.dmg",
-      "sizeBytes": 8824,
-      "sha256": "615b6a8cfd521eaee54c24b5281dd8338429db1f1e91b625cdc4ab08ce031157"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
