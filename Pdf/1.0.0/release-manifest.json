@@ -1,7 +1,7 @@
 {
   "projectName": "Pdf",
   "appName": "Pdf",
-  "displayName": "PDF Viewer",
+  "displayName": "Pdf",
   "version": "1.0.0",
   "buildTimestamp": "2026-09-25T15:39:30.137Z",
   "distributionChannel": "stable",
@@ -37,116 +37,6 @@
       "downloadPath": "downloads/Pdf/1.0.0/Pdf-1.0.0.zip",
       "sizeBytes": 1063,
       "sha256": "97e73d27f6571895dcb70c53b6a5cfe3866a0fcade341dc9752f0d7fb3cd68b5"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "Pdf",
-      "fileName": "Pdf.deb",
-      "downloadPath": "downloads/Pdf/1.0.0/Pdf.deb",
-      "sizeBytes": 1974,
-      "sha256": "677791b0f270e4a8bb7013234e2e01191067e1aa51802de1521eaf6a6ed97a44"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "Pdf",
-      "fileName": "Pdf.exe",
-      "downloadPath": "downloads/Pdf/1.0.0/Pdf.exe",
-      "sizeBytes": 4096,
-      "sha256": "7e4565220badb895a9878201b60b9c13e10f8dc4e7a3dbd9b84bbb8142222c81"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "Pdf",
-      "fileName": "Pdf.zip",
-      "downloadPath": "downloads/Pdf/1.0.0/Pdf.zip",
-      "sizeBytes": 1063,
-      "sha256": "97e73d27f6571895dcb70c53b6a5cfe3866a0fcade341dc9752f0d7fb3cd68b5"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "pdf-1.0.0",
-      "fileName": "pdf-1.0.0.deb",
-      "downloadPath": "downloads/Pdf/1.0.0/pdf-1.0.0.deb",
-      "sizeBytes": 1974,
-      "sha256": "677791b0f270e4a8bb7013234e2e01191067e1aa51802de1521eaf6a6ed97a44"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "pdf-1.0.0",
-      "fileName": "pdf-1.0.0.exe",
-      "downloadPath": "downloads/Pdf/1.0.0/pdf-1.0.0.exe",
-      "sizeBytes": 4096,
-      "sha256": "7e4565220badb895a9878201b60b9c13e10f8dc4e7a3dbd9b84bbb8142222c81"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "pdf-1.0.0",
-      "fileName": "pdf-1.0.0.zip",
-      "downloadPath": "downloads/Pdf/1.0.0/pdf-1.0.0.zip",
-      "sizeBytes": 1063,
-      "sha256": "97e73d27f6571895dcb70c53b6a5cfe3866a0fcade341dc9752f0d7fb3cd68b5"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "pdf-setup-1.0.0",
-      "fileName": "pdf-setup-1.0.0.exe",
-      "downloadPath": "downloads/Pdf/1.0.0/pdf-setup-1.0.0.exe",
-      "sizeBytes": 4096,
-      "sha256": "7e4565220badb895a9878201b60b9c13e10f8dc4e7a3dbd9b84bbb8142222c81"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "pdf",
-      "fileName": "pdf.deb",
-      "downloadPath": "downloads/Pdf/1.0.0/pdf.deb",
-      "sizeBytes": 1974,
-      "sha256": "677791b0f270e4a8bb7013234e2e01191067e1aa51802de1521eaf6a6ed97a44"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "pdf",
-      "fileName": "pdf.exe",
-      "downloadPath": "downloads/Pdf/1.0.0/pdf.exe",
-      "sizeBytes": 4096,
-      "sha256": "7e4565220badb895a9878201b60b9c13e10f8dc4e7a3dbd9b84bbb8142222c81"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "pdf",
-      "fileName": "pdf.zip",
-      "downloadPath": "downloads/Pdf/1.0.0/pdf.zip",
-      "sizeBytes": 1063,
-      "sha256": "97e73d27f6571895dcb70c53b6a5cfe3866a0fcade341dc9752f0d7fb3cd68b5"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "pdf_1.0.0_amd64",
-      "fileName": "pdf_1.0.0_amd64.deb",
-      "downloadPath": "downloads/Pdf/1.0.0/pdf_1.0.0_amd64.deb",
-      "sizeBytes": 1974,
-      "sha256": "677791b0f270e4a8bb7013234e2e01191067e1aa51802de1521eaf6a6ed97a44"
     }
   ]
 }

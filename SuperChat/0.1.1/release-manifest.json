@@ -1,7 +1,7 @@
 {
   "projectName": "SuperChat",
   "appName": "SuperChat",
-  "displayName": "SuperChat Client",
+  "displayName": "SuperChat",
   "version": "0.1.1",
   "buildTimestamp": "2026-09-26T13:06:42.771Z",
   "distributionChannel": "stable",
@@ -37,116 +37,6 @@
       "downloadPath": "downloads/SuperChat/0.1.1/SuperChat-0.1.1.zip",
       "sizeBytes": 1086,
       "sha256": "59975cfa55fb838c0cebe8dc40a5b59c2f10f4e8a9c551e26f86922b7fd9d6d6"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "SuperChat",
-      "fileName": "SuperChat.deb",
-      "downloadPath": "downloads/SuperChat/0.1.1/SuperChat.deb",
-      "sizeBytes": 2028,
-      "sha256": "e129628eba2f9caa5c81c31c33c4a5c8de0dec3e2c326b9b0b93432548eb169d"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "SuperChat",
-      "fileName": "SuperChat.exe",
-      "downloadPath": "downloads/SuperChat/0.1.1/SuperChat.exe",
-      "sizeBytes": 4096,
-      "sha256": "4204f3c709aaabf20352df5ad847500b83a68661988dfecbb049039a89912afb"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "SuperChat",
-      "fileName": "SuperChat.zip",
-      "downloadPath": "downloads/SuperChat/0.1.1/SuperChat.zip",
-      "sizeBytes": 1086,
-      "sha256": "59975cfa55fb838c0cebe8dc40a5b59c2f10f4e8a9c551e26f86922b7fd9d6d6"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "super-chat-0.1.1",
-      "fileName": "super-chat-0.1.1.deb",
-      "downloadPath": "downloads/SuperChat/0.1.1/super-chat-0.1.1.deb",
-      "sizeBytes": 2028,
-      "sha256": "e129628eba2f9caa5c81c31c33c4a5c8de0dec3e2c326b9b0b93432548eb169d"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "super-chat-0.1.1",
-      "fileName": "super-chat-0.1.1.exe",
-      "downloadPath": "downloads/SuperChat/0.1.1/super-chat-0.1.1.exe",
-      "sizeBytes": 4096,
-      "sha256": "4204f3c709aaabf20352df5ad847500b83a68661988dfecbb049039a89912afb"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "super-chat-0.1.1",
-      "fileName": "super-chat-0.1.1.zip",
-      "downloadPath": "downloads/SuperChat/0.1.1/super-chat-0.1.1.zip",
-      "sizeBytes": 1086,
-      "sha256": "59975cfa55fb838c0cebe8dc40a5b59c2f10f4e8a9c551e26f86922b7fd9d6d6"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "super-chat-setup-0.1.1",
-      "fileName": "super-chat-setup-0.1.1.exe",
-      "downloadPath": "downloads/SuperChat/0.1.1/super-chat-setup-0.1.1.exe",
-      "sizeBytes": 4096,
-      "sha256": "4204f3c709aaabf20352df5ad847500b83a68661988dfecbb049039a89912afb"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "super-chat",
-      "fileName": "super-chat.deb",
-      "downloadPath": "downloads/SuperChat/0.1.1/super-chat.deb",
-      "sizeBytes": 2028,
-      "sha256": "e129628eba2f9caa5c81c31c33c4a5c8de0dec3e2c326b9b0b93432548eb169d"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "super-chat",
-      "fileName": "super-chat.exe",
-      "downloadPath": "downloads/SuperChat/0.1.1/super-chat.exe",
-      "sizeBytes": 4096,
-      "sha256": "4204f3c709aaabf20352df5ad847500b83a68661988dfecbb049039a89912afb"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "super-chat",
-      "fileName": "super-chat.zip",
-      "downloadPath": "downloads/SuperChat/0.1.1/super-chat.zip",
-      "sizeBytes": 1086,
-      "sha256": "59975cfa55fb838c0cebe8dc40a5b59c2f10f4e8a9c551e26f86922b7fd9d6d6"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "super-chat_0.1.1_amd64",
-      "fileName": "super-chat_0.1.1_amd64.deb",
-      "downloadPath": "downloads/SuperChat/0.1.1/super-chat_0.1.1_amd64.deb",
-      "sizeBytes": 2028,
-      "sha256": "e129628eba2f9caa5c81c31c33c4a5c8de0dec3e2c326b9b0b93432548eb169d"
     }
   ]
 }

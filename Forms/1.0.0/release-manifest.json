@@ -1,7 +1,7 @@
 {
   "projectName": "Forms",
   "appName": "Forms",
-  "displayName": "Forms Builder",
+  "displayName": "Forms",
   "version": "1.0.0",
   "buildTimestamp": "2026-09-25T15:39:30.023Z",
   "distributionChannel": "stable",
@@ -37,116 +37,6 @@
       "downloadPath": "downloads/Forms/1.0.0/Forms-1.0.0.zip",
       "sizeBytes": 1073,
       "sha256": "4250c60a21f02c6a14e2b085b7ed27d4b35321ab4155da3d500a487f15a3ca5c"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "Forms",
-      "fileName": "Forms.deb",
-      "downloadPath": "downloads/Forms/1.0.0/Forms.deb",
-      "sizeBytes": 2004,
-      "sha256": "bec252b965ed19207501c379e9f41eb7752099d851a847acfe4f6c71f5e40cab"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "Forms",
-      "fileName": "Forms.exe",
-      "downloadPath": "downloads/Forms/1.0.0/Forms.exe",
-      "sizeBytes": 4096,
-      "sha256": "6b2b1e39dcce899898061a248eaea672ed2881f93b900863f0eea88da261d1a3"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "Forms",
-      "fileName": "Forms.zip",
-      "downloadPath": "downloads/Forms/1.0.0/Forms.zip",
-      "sizeBytes": 1073,
-      "sha256": "4250c60a21f02c6a14e2b085b7ed27d4b35321ab4155da3d500a487f15a3ca5c"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "forms-1.0.0",
-      "fileName": "forms-1.0.0.deb",
-      "downloadPath": "downloads/Forms/1.0.0/forms-1.0.0.deb",
-      "sizeBytes": 2004,
-      "sha256": "bec252b965ed19207501c379e9f41eb7752099d851a847acfe4f6c71f5e40cab"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "forms-1.0.0",
-      "fileName": "forms-1.0.0.exe",
-      "downloadPath": "downloads/Forms/1.0.0/forms-1.0.0.exe",
-      "sizeBytes": 4096,
-      "sha256": "6b2b1e39dcce899898061a248eaea672ed2881f93b900863f0eea88da261d1a3"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "forms-1.0.0",
-      "fileName": "forms-1.0.0.zip",
-      "downloadPath": "downloads/Forms/1.0.0/forms-1.0.0.zip",
-      "sizeBytes": 1073,
-      "sha256": "4250c60a21f02c6a14e2b085b7ed27d4b35321ab4155da3d500a487f15a3ca5c"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "forms-setup-1.0.0",
-      "fileName": "forms-setup-1.0.0.exe",
-      "downloadPath": "downloads/Forms/1.0.0/forms-setup-1.0.0.exe",
-      "sizeBytes": 4096,
-      "sha256": "6b2b1e39dcce899898061a248eaea672ed2881f93b900863f0eea88da261d1a3"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "forms",
-      "fileName": "forms.deb",
-      "downloadPath": "downloads/Forms/1.0.0/forms.deb",
-      "sizeBytes": 2004,
-      "sha256": "bec252b965ed19207501c379e9f41eb7752099d851a847acfe4f6c71f5e40cab"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "forms",
-      "fileName": "forms.exe",
-      "downloadPath": "downloads/Forms/1.0.0/forms.exe",
-      "sizeBytes": 4096,
-      "sha256": "6b2b1e39dcce899898061a248eaea672ed2881f93b900863f0eea88da261d1a3"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "forms",
-      "fileName": "forms.zip",
-      "downloadPath": "downloads/Forms/1.0.0/forms.zip",
-      "sizeBytes": 1073,
-      "sha256": "4250c60a21f02c6a14e2b085b7ed27d4b35321ab4155da3d500a487f15a3ca5c"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "forms_1.0.0_amd64",
-      "fileName": "forms_1.0.0_amd64.deb",
-      "downloadPath": "downloads/Forms/1.0.0/forms_1.0.0_amd64.deb",
-      "sizeBytes": 2004,
-      "sha256": "bec252b965ed19207501c379e9f41eb7752099d851a847acfe4f6c71f5e40cab"
     }
   ]
 }

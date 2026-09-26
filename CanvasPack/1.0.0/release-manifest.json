@@ -1,7 +1,7 @@
 {
   "projectName": "CanvasPack",
   "appName": "CanvasPack",
-  "displayName": "@2-tek/canvaspack",
+  "displayName": "CanvasPack",
   "version": "1.0.0",
   "buildTimestamp": "2026-09-25T09:31:57.870Z",
   "distributionChannel": "stable",
@@ -37,116 +37,6 @@
       "downloadPath": "downloads/CanvasPack/1.0.0/CanvasPack-1.0.0.zip",
       "sizeBytes": 1174,
       "sha256": "b1a5b4822449c07d9a4b7bc234621004f8ff8498a6814ccae043aed6d05e7c25"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "CanvasPack",
-      "fileName": "CanvasPack.deb",
-      "downloadPath": "downloads/CanvasPack/1.0.0/CanvasPack.deb",
-      "sizeBytes": 2212,
-      "sha256": "01fcfafb19a54ec65f15742d6e19f125ec60dd81973bcd316df1b69e70ee13e2"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "CanvasPack",
-      "fileName": "CanvasPack.exe",
-      "downloadPath": "downloads/CanvasPack/1.0.0/CanvasPack.exe",
-      "sizeBytes": 4096,
-      "sha256": "f1203565677d9738f8d7f26b0c69deda654cfdae26eb535f68de6ee8bbe792a0"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "CanvasPack",
-      "fileName": "CanvasPack.zip",
-      "downloadPath": "downloads/CanvasPack/1.0.0/CanvasPack.zip",
-      "sizeBytes": 1174,
-      "sha256": "b1a5b4822449c07d9a4b7bc234621004f8ff8498a6814ccae043aed6d05e7c25"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "canvas-pack-1.0.0",
-      "fileName": "canvas-pack-1.0.0.deb",
-      "downloadPath": "downloads/CanvasPack/1.0.0/canvas-pack-1.0.0.deb",
-      "sizeBytes": 2212,
-      "sha256": "01fcfafb19a54ec65f15742d6e19f125ec60dd81973bcd316df1b69e70ee13e2"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "canvas-pack-1.0.0",
-      "fileName": "canvas-pack-1.0.0.exe",
-      "downloadPath": "downloads/CanvasPack/1.0.0/canvas-pack-1.0.0.exe",
-      "sizeBytes": 4096,
-      "sha256": "f1203565677d9738f8d7f26b0c69deda654cfdae26eb535f68de6ee8bbe792a0"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "canvas-pack-1.0.0",
-      "fileName": "canvas-pack-1.0.0.zip",
-      "downloadPath": "downloads/CanvasPack/1.0.0/canvas-pack-1.0.0.zip",
-      "sizeBytes": 1174,
-      "sha256": "b1a5b4822449c07d9a4b7bc234621004f8ff8498a6814ccae043aed6d05e7c25"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "canvas-pack-setup-1.0.0",
-      "fileName": "canvas-pack-setup-1.0.0.exe",
-      "downloadPath": "downloads/CanvasPack/1.0.0/canvas-pack-setup-1.0.0.exe",
-      "sizeBytes": 4096,
-      "sha256": "f1203565677d9738f8d7f26b0c69deda654cfdae26eb535f68de6ee8bbe792a0"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "canvas-pack",
-      "fileName": "canvas-pack.deb",
-      "downloadPath": "downloads/CanvasPack/1.0.0/canvas-pack.deb",
-      "sizeBytes": 2212,
-      "sha256": "01fcfafb19a54ec65f15742d6e19f125ec60dd81973bcd316df1b69e70ee13e2"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "canvas-pack",
-      "fileName": "canvas-pack.exe",
-      "downloadPath": "downloads/CanvasPack/1.0.0/canvas-pack.exe",
-      "sizeBytes": 4096,
-      "sha256": "f1203565677d9738f8d7f26b0c69deda654cfdae26eb535f68de6ee8bbe792a0"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "canvas-pack",
-      "fileName": "canvas-pack.zip",
-      "downloadPath": "downloads/CanvasPack/1.0.0/canvas-pack.zip",
-      "sizeBytes": 1174,
-      "sha256": "b1a5b4822449c07d9a4b7bc234621004f8ff8498a6814ccae043aed6d05e7c25"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "canvas-pack_1.0.0_amd64",
-      "fileName": "canvas-pack_1.0.0_amd64.deb",
-      "downloadPath": "downloads/CanvasPack/1.0.0/canvas-pack_1.0.0_amd64.deb",
-      "sizeBytes": 2212,
-      "sha256": "01fcfafb19a54ec65f15742d6e19f125ec60dd81973bcd316df1b69e70ee13e2"
     }
   ]
 }

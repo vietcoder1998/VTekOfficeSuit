@@ -1,7 +1,7 @@
 {
   "projectName": "Presentation",
   "appName": "Presentation",
-  "displayName": "Presentation Editor",
+  "displayName": "Presentation",
   "version": "1.0.1",
   "buildTimestamp": "2026-09-26T13:06:42.738Z",
   "distributionChannel": "stable",
@@ -37,116 +37,6 @@
       "downloadPath": "downloads/Presentation/1.0.1/Presentation-1.0.1.zip",
       "sizeBytes": 1053,
       "sha256": "fc067e194b5a0bf9018f735c0027fb22b5ea95da60983e3ad56e69a4a0bef5df"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "Presentation",
-      "fileName": "Presentation.deb",
-      "downloadPath": "downloads/Presentation/1.0.1/Presentation.deb",
-      "sizeBytes": 1966,
-      "sha256": "47eadbda52f7e92622027c54d58b433c54dcce3701aa1c6fb796d11ccf2b354c"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "Presentation",
-      "fileName": "Presentation.exe",
-      "downloadPath": "downloads/Presentation/1.0.1/Presentation.exe",
-      "sizeBytes": 4096,
-      "sha256": "0d0448890b99e611606e19b6ac1f1c803e11b42e9a8b47f34ffff1992cd3c008"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "Presentation",
-      "fileName": "Presentation.zip",
-      "downloadPath": "downloads/Presentation/1.0.1/Presentation.zip",
-      "sizeBytes": 1053,
-      "sha256": "fc067e194b5a0bf9018f735c0027fb22b5ea95da60983e3ad56e69a4a0bef5df"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "presentation-1.0.1",
-      "fileName": "presentation-1.0.1.deb",
-      "downloadPath": "downloads/Presentation/1.0.1/presentation-1.0.1.deb",
-      "sizeBytes": 1966,
-      "sha256": "47eadbda52f7e92622027c54d58b433c54dcce3701aa1c6fb796d11ccf2b354c"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "presentation-1.0.1",
-      "fileName": "presentation-1.0.1.exe",
-      "downloadPath": "downloads/Presentation/1.0.1/presentation-1.0.1.exe",
-      "sizeBytes": 4096,
-      "sha256": "0d0448890b99e611606e19b6ac1f1c803e11b42e9a8b47f34ffff1992cd3c008"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "presentation-1.0.1",
-      "fileName": "presentation-1.0.1.zip",
-      "downloadPath": "downloads/Presentation/1.0.1/presentation-1.0.1.zip",
-      "sizeBytes": 1053,
-      "sha256": "fc067e194b5a0bf9018f735c0027fb22b5ea95da60983e3ad56e69a4a0bef5df"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "presentation-setup-1.0.1",
-      "fileName": "presentation-setup-1.0.1.exe",
-      "downloadPath": "downloads/Presentation/1.0.1/presentation-setup-1.0.1.exe",
-      "sizeBytes": 4096,
-      "sha256": "0d0448890b99e611606e19b6ac1f1c803e11b42e9a8b47f34ffff1992cd3c008"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "presentation",
-      "fileName": "presentation.deb",
-      "downloadPath": "downloads/Presentation/1.0.1/presentation.deb",
-      "sizeBytes": 1966,
-      "sha256": "47eadbda52f7e92622027c54d58b433c54dcce3701aa1c6fb796d11ccf2b354c"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "presentation",
-      "fileName": "presentation.exe",
-      "downloadPath": "downloads/Presentation/1.0.1/presentation.exe",
-      "sizeBytes": 4096,
-      "sha256": "0d0448890b99e611606e19b6ac1f1c803e11b42e9a8b47f34ffff1992cd3c008"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "presentation",
-      "fileName": "presentation.zip",
-      "downloadPath": "downloads/Presentation/1.0.1/presentation.zip",
-      "sizeBytes": 1053,
-      "sha256": "fc067e194b5a0bf9018f735c0027fb22b5ea95da60983e3ad56e69a4a0bef5df"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "presentation_1.0.1_amd64",
-      "fileName": "presentation_1.0.1_amd64.deb",
-      "downloadPath": "downloads/Presentation/1.0.1/presentation_1.0.1_amd64.deb",
-      "sizeBytes": 1966,
-      "sha256": "47eadbda52f7e92622027c54d58b433c54dcce3701aa1c6fb796d11ccf2b354c"
     }
   ]
 }

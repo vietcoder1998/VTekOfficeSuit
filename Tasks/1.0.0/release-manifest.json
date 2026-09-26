@@ -1,7 +1,7 @@
 {
   "projectName": "Tasks",
   "appName": "Tasks",
-  "displayName": "Tasks & Calendar",
+  "displayName": "Tasks",
   "version": "1.0.0",
   "buildTimestamp": "2026-09-25T15:39:30.249Z",
   "distributionChannel": "stable",
@@ -37,116 +37,6 @@
       "downloadPath": "downloads/Tasks/1.0.0/Tasks-1.0.0.zip",
       "sizeBytes": 1061,
       "sha256": "689743abe3e13a3a2c7985f8207db1915e8fc4aa1831728e72382c483ff4e7e5"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "Tasks",
-      "fileName": "Tasks.deb",
-      "downloadPath": "downloads/Tasks/1.0.0/Tasks.deb",
-      "sizeBytes": 1970,
-      "sha256": "b9b1831acae298cf89ece21f5072acdf8b78df138ea6ca8c9885d305e542c0ee"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "Tasks",
-      "fileName": "Tasks.exe",
-      "downloadPath": "downloads/Tasks/1.0.0/Tasks.exe",
-      "sizeBytes": 4096,
-      "sha256": "a6e3807e02a693d8ca5f6630396faa8d7c2443dce768022397c0c26c680eeffe"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "Tasks",
-      "fileName": "Tasks.zip",
-      "downloadPath": "downloads/Tasks/1.0.0/Tasks.zip",
-      "sizeBytes": 1061,
-      "sha256": "689743abe3e13a3a2c7985f8207db1915e8fc4aa1831728e72382c483ff4e7e5"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "tasks-1.0.0",
-      "fileName": "tasks-1.0.0.deb",
-      "downloadPath": "downloads/Tasks/1.0.0/tasks-1.0.0.deb",
-      "sizeBytes": 1970,
-      "sha256": "b9b1831acae298cf89ece21f5072acdf8b78df138ea6ca8c9885d305e542c0ee"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "tasks-1.0.0",
-      "fileName": "tasks-1.0.0.exe",
-      "downloadPath": "downloads/Tasks/1.0.0/tasks-1.0.0.exe",
-      "sizeBytes": 4096,
-      "sha256": "a6e3807e02a693d8ca5f6630396faa8d7c2443dce768022397c0c26c680eeffe"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "tasks-1.0.0",
-      "fileName": "tasks-1.0.0.zip",
-      "downloadPath": "downloads/Tasks/1.0.0/tasks-1.0.0.zip",
-      "sizeBytes": 1061,
-      "sha256": "689743abe3e13a3a2c7985f8207db1915e8fc4aa1831728e72382c483ff4e7e5"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "tasks-setup-1.0.0",
-      "fileName": "tasks-setup-1.0.0.exe",
-      "downloadPath": "downloads/Tasks/1.0.0/tasks-setup-1.0.0.exe",
-      "sizeBytes": 4096,
-      "sha256": "a6e3807e02a693d8ca5f6630396faa8d7c2443dce768022397c0c26c680eeffe"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "tasks",
-      "fileName": "tasks.deb",
-      "downloadPath": "downloads/Tasks/1.0.0/tasks.deb",
-      "sizeBytes": 1970,
-      "sha256": "b9b1831acae298cf89ece21f5072acdf8b78df138ea6ca8c9885d305e542c0ee"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "tasks",
-      "fileName": "tasks.exe",
-      "downloadPath": "downloads/Tasks/1.0.0/tasks.exe",
-      "sizeBytes": 4096,
-      "sha256": "a6e3807e02a693d8ca5f6630396faa8d7c2443dce768022397c0c26c680eeffe"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "tasks",
-      "fileName": "tasks.zip",
-      "downloadPath": "downloads/Tasks/1.0.0/tasks.zip",
-      "sizeBytes": 1061,
-      "sha256": "689743abe3e13a3a2c7985f8207db1915e8fc4aa1831728e72382c483ff4e7e5"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "tasks_1.0.0_amd64",
-      "fileName": "tasks_1.0.0_amd64.deb",
-      "downloadPath": "downloads/Tasks/1.0.0/tasks_1.0.0_amd64.deb",
-      "sizeBytes": 1970,
-      "sha256": "b9b1831acae298cf89ece21f5072acdf8b78df138ea6ca8c9885d305e542c0ee"
     }
   ]
 }

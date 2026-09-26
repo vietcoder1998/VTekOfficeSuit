@@ -1,7 +1,7 @@
 {
   "projectName": "AIAssistant",
   "appName": "AIAssistant",
-  "displayName": "AI Assistant Platform",
+  "displayName": "AIAssistant",
   "version": "1.0.1",
   "buildTimestamp": "2026-09-26T13:06:42.460Z",
   "distributionChannel": "stable",
@@ -37,116 +37,6 @@
       "downloadPath": "downloads/AIAssistant/1.0.1/AIAssistant-1.0.1.zip",
       "sizeBytes": 1061,
       "sha256": "03ef45e8e552ee40c6c1c8d5448cb64da582440fbf26a64e89de630c6781d811"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "AIAssistant",
-      "fileName": "AIAssistant.deb",
-      "downloadPath": "downloads/AIAssistant/1.0.1/AIAssistant.deb",
-      "sizeBytes": 1970,
-      "sha256": "7fdf87155356a8bc85be3bad340413ca8b554329b595511d09144adad133a53f"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "AIAssistant",
-      "fileName": "AIAssistant.exe",
-      "downloadPath": "downloads/AIAssistant/1.0.1/AIAssistant.exe",
-      "sizeBytes": 4096,
-      "sha256": "c2901f170345538c04cdbdbd576aeee419509991f3c80aa3e5f4a1dff6a20bbd"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "AIAssistant",
-      "fileName": "AIAssistant.zip",
-      "downloadPath": "downloads/AIAssistant/1.0.1/AIAssistant.zip",
-      "sizeBytes": 1061,
-      "sha256": "03ef45e8e552ee40c6c1c8d5448cb64da582440fbf26a64e89de630c6781d811"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "ai-assistant-1.0.1",
-      "fileName": "ai-assistant-1.0.1.deb",
-      "downloadPath": "downloads/AIAssistant/1.0.1/ai-assistant-1.0.1.deb",
-      "sizeBytes": 1970,
-      "sha256": "7fdf87155356a8bc85be3bad340413ca8b554329b595511d09144adad133a53f"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "ai-assistant-1.0.1",
-      "fileName": "ai-assistant-1.0.1.exe",
-      "downloadPath": "downloads/AIAssistant/1.0.1/ai-assistant-1.0.1.exe",
-      "sizeBytes": 4096,
-      "sha256": "c2901f170345538c04cdbdbd576aeee419509991f3c80aa3e5f4a1dff6a20bbd"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "ai-assistant-1.0.1",
-      "fileName": "ai-assistant-1.0.1.zip",
-      "downloadPath": "downloads/AIAssistant/1.0.1/ai-assistant-1.0.1.zip",
-      "sizeBytes": 1061,
-      "sha256": "03ef45e8e552ee40c6c1c8d5448cb64da582440fbf26a64e89de630c6781d811"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "ai-assistant-setup-1.0.1",
-      "fileName": "ai-assistant-setup-1.0.1.exe",
-      "downloadPath": "downloads/AIAssistant/1.0.1/ai-assistant-setup-1.0.1.exe",
-      "sizeBytes": 4096,
-      "sha256": "c2901f170345538c04cdbdbd576aeee419509991f3c80aa3e5f4a1dff6a20bbd"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "ai-assistant",
-      "fileName": "ai-assistant.deb",
-      "downloadPath": "downloads/AIAssistant/1.0.1/ai-assistant.deb",
-      "sizeBytes": 1970,
-      "sha256": "7fdf87155356a8bc85be3bad340413ca8b554329b595511d09144adad133a53f"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "ai-assistant",
-      "fileName": "ai-assistant.exe",
-      "downloadPath": "downloads/AIAssistant/1.0.1/ai-assistant.exe",
-      "sizeBytes": 4096,
-      "sha256": "c2901f170345538c04cdbdbd576aeee419509991f3c80aa3e5f4a1dff6a20bbd"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "ai-assistant",
-      "fileName": "ai-assistant.zip",
-      "downloadPath": "downloads/AIAssistant/1.0.1/ai-assistant.zip",
-      "sizeBytes": 1061,
-      "sha256": "03ef45e8e552ee40c6c1c8d5448cb64da582440fbf26a64e89de630c6781d811"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "ai-assistant_1.0.1_amd64",
-      "fileName": "ai-assistant_1.0.1_amd64.deb",
-      "downloadPath": "downloads/AIAssistant/1.0.1/ai-assistant_1.0.1_amd64.deb",
-      "sizeBytes": 1970,
-      "sha256": "7fdf87155356a8bc85be3bad340413ca8b554329b595511d09144adad133a53f"
     }
   ]
 }

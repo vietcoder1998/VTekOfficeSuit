@@ -1,7 +1,7 @@
 {
   "projectName": "Antivirus",
   "appName": "Antivirus",
-  "displayName": "Antivirus & System Health",
+  "displayName": "Antivirus",
   "version": "1.0.0",
   "buildTimestamp": "2026-09-25T15:39:29.930Z",
   "distributionChannel": "stable",
@@ -37,116 +37,6 @@
       "downloadPath": "downloads/Antivirus/1.0.0/Antivirus-1.0.0.zip",
       "sizeBytes": 1124,
       "sha256": "805f208800c26b0d5d74e7486fe7e74019cd43b76444167d73ba778a8c85dd44"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "Antivirus",
-      "fileName": "Antivirus.deb",
-      "downloadPath": "downloads/Antivirus/1.0.0/Antivirus.deb",
-      "sizeBytes": 2108,
-      "sha256": "38d2f21f7da4543d23d097772d4b8e3f6b6bd6b7a24f3defe488c49cf64b34f7"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "Antivirus",
-      "fileName": "Antivirus.exe",
-      "downloadPath": "downloads/Antivirus/1.0.0/Antivirus.exe",
-      "sizeBytes": 4096,
-      "sha256": "9acb5e20ed84d788abe714ff76334211894215b1a6fe9d60ad29f1190b81a5ec"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "Antivirus",
-      "fileName": "Antivirus.zip",
-      "downloadPath": "downloads/Antivirus/1.0.0/Antivirus.zip",
-      "sizeBytes": 1124,
-      "sha256": "805f208800c26b0d5d74e7486fe7e74019cd43b76444167d73ba778a8c85dd44"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "antivirus-1.0.0",
-      "fileName": "antivirus-1.0.0.deb",
-      "downloadPath": "downloads/Antivirus/1.0.0/antivirus-1.0.0.deb",
-      "sizeBytes": 2108,
-      "sha256": "38d2f21f7da4543d23d097772d4b8e3f6b6bd6b7a24f3defe488c49cf64b34f7"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "antivirus-1.0.0",
-      "fileName": "antivirus-1.0.0.exe",
-      "downloadPath": "downloads/Antivirus/1.0.0/antivirus-1.0.0.exe",
-      "sizeBytes": 4096,
-      "sha256": "9acb5e20ed84d788abe714ff76334211894215b1a6fe9d60ad29f1190b81a5ec"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "antivirus-1.0.0",
-      "fileName": "antivirus-1.0.0.zip",
-      "downloadPath": "downloads/Antivirus/1.0.0/antivirus-1.0.0.zip",
-      "sizeBytes": 1124,
-      "sha256": "805f208800c26b0d5d74e7486fe7e74019cd43b76444167d73ba778a8c85dd44"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "antivirus-setup-1.0.0",
-      "fileName": "antivirus-setup-1.0.0.exe",
-      "downloadPath": "downloads/Antivirus/1.0.0/antivirus-setup-1.0.0.exe",
-      "sizeBytes": 4096,
-      "sha256": "9acb5e20ed84d788abe714ff76334211894215b1a6fe9d60ad29f1190b81a5ec"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "antivirus",
-      "fileName": "antivirus.deb",
-      "downloadPath": "downloads/Antivirus/1.0.0/antivirus.deb",
-      "sizeBytes": 2108,
-      "sha256": "38d2f21f7da4543d23d097772d4b8e3f6b6bd6b7a24f3defe488c49cf64b34f7"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "antivirus",
-      "fileName": "antivirus.exe",
-      "downloadPath": "downloads/Antivirus/1.0.0/antivirus.exe",
-      "sizeBytes": 4096,
-      "sha256": "9acb5e20ed84d788abe714ff76334211894215b1a6fe9d60ad29f1190b81a5ec"
-    },
-    {
-      "platform": "universal",
-      "architecture": "all",
-      "type": "zip",
-      "name": "antivirus",
-      "fileName": "antivirus.zip",
-      "downloadPath": "downloads/Antivirus/1.0.0/antivirus.zip",
-      "sizeBytes": 1124,
-      "sha256": "805f208800c26b0d5d74e7486fe7e74019cd43b76444167d73ba778a8c85dd44"
-    },
-    {
-      "platform": "linux",
-      "architecture": "amd64",
-      "type": "deb",
-      "name": "antivirus_1.0.0_amd64",
-      "fileName": "antivirus_1.0.0_amd64.deb",
-      "downloadPath": "downloads/Antivirus/1.0.0/antivirus_1.0.0_amd64.deb",
-      "sizeBytes": 2108,
-      "sha256": "38d2f21f7da4543d23d097772d4b8e3f6b6bd6b7a24f3defe488c49cf64b34f7"
     }
   ]
 }
