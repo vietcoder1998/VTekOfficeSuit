@@ -1,0 +1,42 @@
+{
+  "projectName": "Presentation",
+  "appName": "Presentation",
+  "displayName": "Presentation",
+  "version": "1.0.17",
+  "buildTimestamp": "2026-09-26T17:29:26.138Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Presentation/1.0.17",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Presentation-1.0.17",
+      "fileName": "Presentation-1.0.17.deb",
+      "downloadPath": "downloads/Presentation/1.0.17/Presentation-1.0.17.deb",
+      "sizeBytes": 19692,
+      "sha256": "0cac964bd0c457286a68ea7d4ae11d1a7bc2e46c1604ce9f7bc5c8127c70daec"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Presentation-1.0.17",
+      "fileName": "Presentation-1.0.17.exe",
+      "downloadPath": "downloads/Presentation/1.0.17/Presentation-1.0.17.exe",
+      "sizeBytes": 15360,
+      "sha256": "4ce9a84b5bd9fdb5c1271eeb8b9ba40d9eea492d935b609595f978595c38ad54"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Presentation-1.0.17",
+      "fileName": "Presentation-1.0.17.zip",
+      "downloadPath": "downloads/Presentation/1.0.17/Presentation-1.0.17.zip",
+      "sizeBytes": 12337,
+      "sha256": "e00ee7da6df128ba32b41eea5c0f431c977206f3ea94a2c8d15078b5a2b77e6c"
+    }
+  ]
+}
