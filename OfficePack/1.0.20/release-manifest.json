@@ -29,16 +29,6 @@
       "sha256": "2affa9a19218a2834c5b44603dbe9106fd6870169b5f0f4cfaa1dd991e2a603d"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "OfficePack-1.0.20",
-      "fileName": "OfficePack-1.0.20.dmg",
-      "downloadPath": "downloads/OfficePack/1.0.20/OfficePack-1.0.20.dmg",
-      "sizeBytes": 32731,
-      "sha256": "2baaa794069b0e617891c67b15d4aad1be89117865490c36cf2147bc16b0be28"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
