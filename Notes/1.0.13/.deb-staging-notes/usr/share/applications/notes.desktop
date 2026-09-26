@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Notes
-Comment=Fast note-taking app with markdown support, tags, and pinned notes.
-Exec=/usr/bin/notes %U
-Terminal=false
-Type=Application
-Icon=notes
-Categories=Office;Utility;Development;

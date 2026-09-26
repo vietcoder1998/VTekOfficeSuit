@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=AI Assistant Platform
-Comment=2-TEK Autonomous AI Assistant and workspace Copilot.
-Exec=/usr/bin/aiassistant %U
-Terminal=false
-Type=Application
-Icon=aiassistant
-Categories=Office;Utility;Development;
