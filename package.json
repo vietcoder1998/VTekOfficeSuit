@@ -1,0 +1,13 @@
+{
+  "name": "@2-tek/vtek-office-suit",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "description": "VTek Office Suite — Dedicated Release Distribution & Downloadable Packages Storage Repository (Downloads Only)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vietcoder1998/VTekOfficeSuit.git"
+  },
+  "scripts": {}
+}
