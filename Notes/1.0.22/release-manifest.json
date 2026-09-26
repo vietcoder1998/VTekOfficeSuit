@@ -1,0 +1,52 @@
+{
+  "projectName": "Notes",
+  "appName": "Notes",
+  "displayName": "Notes",
+  "version": "1.0.22",
+  "buildTimestamp": "2026-09-26T18:03:35.002Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Notes/1.0.22",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Notes-1.0.22",
+      "fileName": "Notes-1.0.22.deb",
+      "downloadPath": "downloads/Notes/1.0.22/Notes-1.0.22.deb",
+      "sizeBytes": 19886,
+      "sha256": "21f2cb4d52dc48752ed6f2268a386fdd0a30dc457fbe213c86c7f131b47343bc"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Notes-1.0.22",
+      "fileName": "Notes-1.0.22.exe",
+      "downloadPath": "downloads/Notes/1.0.22/Notes-1.0.22.exe",
+      "sizeBytes": 15360,
+      "sha256": "be3907986e1aebdd0dfd75a82a56ddbd031c06837e3c666bb84a6d53ee31fea0"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Notes-1.0.22",
+      "fileName": "Notes-1.0.22.dmg",
+      "downloadPath": "downloads/Notes/1.0.22/Notes-1.0.22.dmg",
+      "sizeBytes": 12295,
+      "sha256": "37b0aeeb7a56962e1008f5a9b6651a773c8e0cbb9a40ac77e75377dc0db9cfce"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Notes-1.0.22",
+      "fileName": "Notes-1.0.22.zip",
+      "downloadPath": "downloads/Notes/1.0.22/Notes-1.0.22.zip",
+      "sizeBytes": 12238,
+      "sha256": "f9145b43bb3efcac5ca8b0b420df07950c52b6e79d8daabcea3c5fbd133c2c74"
+    }
+  ]
+}
