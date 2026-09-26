@@ -3,7 +3,7 @@
   "appName": "Word",
   "displayName": "Word",
   "version": "1.0.17",
-  "buildTimestamp": "2026-09-26T17:36:59.458Z",
+  "buildTimestamp": "2026-09-26T17:37:49.006Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.17",
@@ -15,8 +15,8 @@
       "name": "Word-1.0.17",
       "fileName": "Word-1.0.17.deb",
       "downloadPath": "downloads/Word/1.0.17/Word-1.0.17.deb",
-      "sizeBytes": 40664,
-      "sha256": "ec188dd138d6a0dd954dccafba67fa8cde2b2e2ed2afe88dd2cd41f09b111ec3"
+      "sizeBytes": 40590,
+      "sha256": "4098c8a279835cb72b395fbe5f63d54649ca4ee8a898c11fab9c1068e67b62a1"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Word-1.0.17.exe",
       "downloadPath": "downloads/Word/1.0.17/Word-1.0.17.exe",
       "sizeBytes": 38400,
-      "sha256": "76ee5883633411ed526d136b7539ef5141b69544d217cf098acefa415bf9b7da"
+      "sha256": "defede7a78a5ea721831bab1c53745cca4fd21c3512023d69e8e74061fef4714"
     },
     {
       "platform": "macos",
@@ -35,8 +35,8 @@
       "name": "Word-1.0.17",
       "fileName": "Word-1.0.17.dmg",
       "downloadPath": "downloads/Word/1.0.17/Word-1.0.17.dmg",
-      "sizeBytes": 35682,
-      "sha256": "88c6f0ea11426e9ad546eac6dae49e215cf9f9cd3a3622877766d03a0ec085b9"
+      "sizeBytes": 35690,
+      "sha256": "8cb0b0b0e9f1306075b8e3b1cd0016bb3bb3109c3250520c0b7bc824ce85cb7c"
     },
     {
       "platform": "universal",
@@ -45,8 +45,8 @@
       "name": "Word-1.0.17",
       "fileName": "Word-1.0.17.zip",
       "downloadPath": "downloads/Word/1.0.17/Word-1.0.17.zip",
-      "sizeBytes": 35619,
-      "sha256": "0c468969c20d5bb377d7e448d824a5a15c72461c648bfa29f09f6d01d677db15"
+      "sizeBytes": 35627,
+      "sha256": "f7a0e55c7410a1035da25a39887196beb6d1fb430ee0566349602fdd31c523c9"
     }
   ]
 }
