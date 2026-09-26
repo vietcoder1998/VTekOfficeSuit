@@ -3,7 +3,7 @@
   "appName": "Hub",
   "displayName": "2-TEK Hub Desktop",
   "version": "1.0.0",
-  "buildTimestamp": "2026-09-26T11:50:46.294Z",
+  "buildTimestamp": "2026-09-26T11:53:03.712Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.0",
@@ -15,8 +15,8 @@
       "name": "2tek-hub-1.0.0",
       "fileName": "2tek-hub-1.0.0.deb",
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub-1.0.0.deb",
-      "sizeBytes": 100674,
-      "sha256": "d65d5f6e0d2e7fa701b9187a395287392364a141851e5d9f5490423603592fd2"
+      "sizeBytes": 100676,
+      "sha256": "14f30efd8c9ad0d4b87c12b58ab7af2d31ffe2ef78bfebcb076f3c735b358320"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "2tek-hub-1.0.0.exe",
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub-1.0.0.exe",
       "sizeBytes": 29696,
-      "sha256": "77f4f038c53eba2fe755d94b0cd4e4c7ac60265387d6b31d13fe5eddad48d6a1"
+      "sha256": "7c46bc21c16d56a72e7fc14615693776459217e0ff2642c14264a6007d5b1c10"
     },
     {
       "platform": "universal",
@@ -46,7 +46,7 @@
       "fileName": "2tek-hub-setup-1.0.0.exe",
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub-setup-1.0.0.exe",
       "sizeBytes": 29696,
-      "sha256": "77f4f038c53eba2fe755d94b0cd4e4c7ac60265387d6b31d13fe5eddad48d6a1"
+      "sha256": "7c46bc21c16d56a72e7fc14615693776459217e0ff2642c14264a6007d5b1c10"
     },
     {
       "platform": "linux",
@@ -55,8 +55,8 @@
       "name": "2tek-hub",
       "fileName": "2tek-hub.deb",
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub.deb",
-      "sizeBytes": 100674,
-      "sha256": "d65d5f6e0d2e7fa701b9187a395287392364a141851e5d9f5490423603592fd2"
+      "sizeBytes": 100676,
+      "sha256": "14f30efd8c9ad0d4b87c12b58ab7af2d31ffe2ef78bfebcb076f3c735b358320"
     },
     {
       "platform": "windows",
@@ -66,7 +66,7 @@
       "fileName": "2tek-hub.exe",
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub.exe",
       "sizeBytes": 29696,
-      "sha256": "77f4f038c53eba2fe755d94b0cd4e4c7ac60265387d6b31d13fe5eddad48d6a1"
+      "sha256": "7c46bc21c16d56a72e7fc14615693776459217e0ff2642c14264a6007d5b1c10"
     },
     {
       "platform": "universal",
@@ -85,8 +85,8 @@
       "name": "2tek-hub_1.0.0_amd64",
       "fileName": "2tek-hub_1.0.0_amd64.deb",
       "downloadPath": "downloads/Hub/1.0.0/2tek-hub_1.0.0_amd64.deb",
-      "sizeBytes": 100674,
-      "sha256": "d65d5f6e0d2e7fa701b9187a395287392364a141851e5d9f5490423603592fd2"
+      "sizeBytes": 100676,
+      "sha256": "14f30efd8c9ad0d4b87c12b58ab7af2d31ffe2ef78bfebcb076f3c735b358320"
     },
     {
       "platform": "linux",
@@ -95,8 +95,8 @@
       "name": "Hub-1.0.0",
       "fileName": "Hub-1.0.0.deb",
       "downloadPath": "downloads/Hub/1.0.0/Hub-1.0.0.deb",
-      "sizeBytes": 100674,
-      "sha256": "d65d5f6e0d2e7fa701b9187a395287392364a141851e5d9f5490423603592fd2"
+      "sizeBytes": 100676,
+      "sha256": "14f30efd8c9ad0d4b87c12b58ab7af2d31ffe2ef78bfebcb076f3c735b358320"
     },
     {
       "platform": "windows",
@@ -106,7 +106,7 @@
       "fileName": "Hub-1.0.0.exe",
       "downloadPath": "downloads/Hub/1.0.0/Hub-1.0.0.exe",
       "sizeBytes": 29696,
-      "sha256": "77f4f038c53eba2fe755d94b0cd4e4c7ac60265387d6b31d13fe5eddad48d6a1"
+      "sha256": "7c46bc21c16d56a72e7fc14615693776459217e0ff2642c14264a6007d5b1c10"
     },
     {
       "platform": "universal",
@@ -125,8 +125,8 @@
       "name": "Hub",
       "fileName": "Hub.deb",
       "downloadPath": "downloads/Hub/1.0.0/Hub.deb",
-      "sizeBytes": 100674,
-      "sha256": "d65d5f6e0d2e7fa701b9187a395287392364a141851e5d9f5490423603592fd2"
+      "sizeBytes": 100676,
+      "sha256": "14f30efd8c9ad0d4b87c12b58ab7af2d31ffe2ef78bfebcb076f3c735b358320"
     },
     {
       "platform": "windows",
@@ -136,7 +136,7 @@
       "fileName": "Hub.exe",
       "downloadPath": "downloads/Hub/1.0.0/Hub.exe",
       "sizeBytes": 29696,
-      "sha256": "77f4f038c53eba2fe755d94b0cd4e4c7ac60265387d6b31d13fe5eddad48d6a1"
+      "sha256": "7c46bc21c16d56a72e7fc14615693776459217e0ff2642c14264a6007d5b1c10"
     },
     {
       "platform": "universal",
