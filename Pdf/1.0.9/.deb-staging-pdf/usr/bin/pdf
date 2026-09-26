@@ -1,0 +1,8 @@
+#!/bin/sh
+if command -v electron >/dev/null 2>&1 && [ -f "/opt/pdf/electron/main.cjs" ]; then
+  exec electron /opt/pdf/electron/main.cjs "$@"
+elif [ -f "/opt/pdf/electron/runner.cjs" ]; then
+  exec node /opt/pdf/electron/runner.cjs "$@"
+else
+  exec node /opt/pdf/server.js "$@"
+fi
