@@ -1,3 +1,0 @@
-bf8e3db45095a1db3faef2995a4854a9eb7ead9fbba2c047b4a32bfa354b9dff  AIAssistant-1.0.15.deb
-e7177d6019357c4f78aeb107edbf943fcb12abb85d62d0703cc1998bc44dbd12  AIAssistant-1.0.15.exe
-5e8c6daccacdca8174a775e8de9f5f7f93261e007c4528cf51a4cb918228cd75  AIAssistant-1.0.15.zip

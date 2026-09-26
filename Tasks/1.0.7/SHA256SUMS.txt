@@ -1,3 +1,0 @@
-a2fbbafa8f6fac361ce94661eafe7050728fcd5d40af223bfce769fbc992dbc0  Tasks-1.0.7.deb
-141ed1bac57e92d02c3a38f99e248ae3976d2941da9d1e8ae6d5f2973c47ecf2  Tasks-1.0.7.exe
-5ecc0cb2dc1766afba5dc62f8cb49a1f6778a9fb723942f3c00e683d9bcda418  Tasks-1.0.7.zip

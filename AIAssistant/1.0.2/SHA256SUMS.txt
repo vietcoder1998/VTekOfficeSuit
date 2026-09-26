@@ -1,3 +1,0 @@
-a06631fa0fb22401f3b4226a0481c466fa491db5490c86a3a94afcca062be202  AIAssistant-1.0.2.deb
-e0f3fd1f61538de0f16e420d36c7ee2e4dd6027c97d1ef36f50fa3ec41c9edf6  AIAssistant-1.0.2.exe
-90cde3f4dbfa68eb2186155c4af6116052f45f4dabff8dd71bc83e74eafc3572  AIAssistant-1.0.2.zip

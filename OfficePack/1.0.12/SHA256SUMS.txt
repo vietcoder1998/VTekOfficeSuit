@@ -1,3 +1,0 @@
-179968e18ed7dbf7d62a4c64409f6d69ec7117bdbb69cb436ae4e2a2bee30faf  OfficePack-1.0.12.deb
-9be4c90ee27b799cb65327c079ec9abd170f95bf6f3b31bb67054699fbf1c20f  OfficePack-1.0.12.exe
-701bc5b420ef119f4a208ad8e9b5e3bd93fc1edb44feff3a9732b75933651e7c  OfficePack-1.0.12.zip
