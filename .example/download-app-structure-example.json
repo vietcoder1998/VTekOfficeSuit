@@ -17,21 +17,31 @@
               "platform": "linux",
               "architecture": "amd64",
               "type": "deb",
-              "name": "2tek-hub_1.0.0_amd64",
-              "fileName": "2tek-hub_1.0.0_amd64.deb",
-              "downloadPath": "downloads/Hub/1.0.0/2tek-hub_1.0.0_amd64.deb",
-              "sizeBytes": 99392,
-              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              "name": "Hub-1.0.0",
+              "fileName": "Hub-1.0.0.deb",
+              "downloadPath": "downloads/Hub/1.0.0/Hub-1.0.0.deb",
+              "sizeBytes": 100672,
+              "sha256": "5accb19481a49f5b8939e7d92bd6b50d26e3ce6074b57bcfce6afeab0650d716"
             },
             {
               "platform": "windows",
               "architecture": "x64",
               "type": "exe",
-              "name": "2tek-hub-setup-1.0.0",
-              "fileName": "2tek-hub-setup-1.0.0.exe",
-              "downloadPath": "downloads/Hub/1.0.0/2tek-hub-setup-1.0.0.exe",
-              "sizeBytes": 28672,
-              "sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+              "name": "Hub-1.0.0",
+              "fileName": "Hub-1.0.0.exe",
+              "downloadPath": "downloads/Hub/1.0.0/Hub-1.0.0.exe",
+              "sizeBytes": 29696,
+              "sha256": "13b71399e5fec1d5a65c8e2ae68fb9f695758d7bba3e7d6b5ba61436981e1bba"
+            },
+            {
+              "platform": "universal",
+              "architecture": "all",
+              "type": "zip",
+              "name": "Hub-1.0.0",
+              "fileName": "Hub-1.0.0.zip",
+              "downloadPath": "downloads/Hub/1.0.0/Hub-1.0.0.zip",
+              "sizeBytes": 1060,
+              "sha256": "eb49e5e65af58c99503083fb776ed3c8474ba4291de2b7137457c1e0df3d5ac9"
             }
           ],
           "checksums": "downloads/Hub/1.0.0/SHA256SUMS.txt",
@@ -53,19 +63,19 @@
               "platform": "linux",
               "architecture": "amd64",
               "type": "deb",
-              "name": "Word",
-              "fileName": "Word.deb",
-              "downloadPath": "downloads/Word/1.0.0/Word.deb",
-              "sizeBytes": 2048,
+              "name": "Word-1.0.0",
+              "fileName": "Word-1.0.0.deb",
+              "downloadPath": "downloads/Word/1.0.0/Word-1.0.0.deb",
+              "sizeBytes": 2004,
               "sha256": "69a514f02c3aa348fddeaf4775c2b7fa7376cdb93fd209e4f6af24c7e7daf35d"
             },
             {
               "platform": "windows",
               "architecture": "x64",
               "type": "exe",
-              "name": "Word",
-              "fileName": "Word.exe",
-              "downloadPath": "downloads/Word/1.0.0/Word.exe",
+              "name": "Word-1.0.0",
+              "fileName": "Word-1.0.0.exe",
+              "downloadPath": "downloads/Word/1.0.0/Word-1.0.0.exe",
               "sizeBytes": 4096,
               "sha256": "2ff6911588a87d9a8d0530cf82e0b5e28c362d0bdc35e044a5a2095cea4636d0"
             },
@@ -73,10 +83,10 @@
               "platform": "universal",
               "architecture": "all",
               "type": "zip",
-              "name": "Word",
-              "fileName": "Word.zip",
-              "downloadPath": "downloads/Word/1.0.0/Word.zip",
-              "sizeBytes": 1024,
+              "name": "Word-1.0.0",
+              "fileName": "Word-1.0.0.zip",
+              "downloadPath": "downloads/Word/1.0.0/Word-1.0.0.zip",
+              "sizeBytes": 1075,
               "sha256": "3cf98386870643b6d41d385c7b144848395dcfc9e08350a7961203c3b1aed888"
             }
           ],

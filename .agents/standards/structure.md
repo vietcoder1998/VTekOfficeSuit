@@ -24,23 +24,16 @@ downloads/
 │   └── download-app-structure-example.json
 ├── Hub/                                  # 2-TEK Hub Desktop releases
 │   └── 1.0.0/
-│       ├── Hub-1.0.0.deb                 # Linux Debian package with version endpoint
-│       ├── Hub-1.0.0.exe                 # Windows PE32+ GUI installer with version endpoint
-│       ├── Hub-1.0.0.zip                 # Universal portable zip with version endpoint
-│       ├── 2tek-hub_1.0.0_amd64.deb      # Linux Debian package (amd64)
-│       ├── 2tek-hub-setup-1.0.0.exe      # Windows PE32+ GUI installer (x64)
-│       ├── 2tek-hub.deb                  # Canonical unversioned copy
-│       ├── 2tek-hub.exe                  # Canonical unversioned copy
+│       ├── Hub-1.0.0.deb                 # Linux Debian package ({name}-{version}.deb)
+│       ├── Hub-1.0.0.exe                 # Windows PE32+ GUI installer ({name}-{version}.exe)
+│       ├── Hub-1.0.0.zip                 # Universal portable zip ({name}-{version}.zip)
 │       ├── SHA256SUMS.txt                # Cryptographic checksums
 │       └── release-manifest.json         # Automated JSON release manifest
 ├── Word/                                 # Document Studio package
 │   └── 1.0.0/
-│       ├── Word-1.0.0.deb                # Versioned Linux Debian installer package
-│       ├── Word.deb                      # Backward-compatible unversioned alias
-│       ├── Word-1.0.0.exe                # Versioned Windows PE32+ GUI installer
-│       ├── Word.exe                      # Backward-compatible unversioned alias
-│       ├── Word-1.0.0.zip                # Versioned standalone portable application package
-│       ├── Word.zip                      # Backward-compatible unversioned alias
+│       ├── Word-1.0.0.deb                # Linux Debian installer ({name}-{version}.deb)
+│       ├── Word-1.0.0.exe                # Windows PE32+ GUI installer ({name}-{version}.exe)
+│       ├── Word-1.0.0.zip                # Portable package ({name}-{version}.zip)
 │       ├── SHA256SUMS.txt
 │       └── release-manifest.json
 ├── Excel/                                # Spreadsheet Studio package
