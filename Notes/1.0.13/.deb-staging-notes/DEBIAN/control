@@ -1,0 +1,10 @@
+Package: notes
+Version: 1.0.13
+Section: office
+Priority: optional
+Architecture: amd64
+Maintainer: 2-TEK Team <contact@2-tek.com>
+Installed-Size: 9
+Homepage: https://2-tek.com
+Description: Notes
+ Fast note-taking app with markdown support, tags, and pinned notes.

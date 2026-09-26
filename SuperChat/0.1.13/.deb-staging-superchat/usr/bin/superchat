@@ -1,0 +1,8 @@
+#!/bin/sh
+if command -v electron >/dev/null 2>&1 && [ -f "/opt/superchat/electron/main.cjs" ]; then
+  exec electron /opt/superchat/electron/main.cjs "$@"
+elif [ -f "/opt/superchat/electron/runner.cjs" ]; then
+  exec node /opt/superchat/electron/runner.cjs "$@"
+else
+  exec node /opt/superchat/server.js "$@"
+fi

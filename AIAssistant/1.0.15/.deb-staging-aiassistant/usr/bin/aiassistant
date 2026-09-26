@@ -1,0 +1,8 @@
+#!/bin/sh
+if command -v electron >/dev/null 2>&1 && [ -f "/opt/aiassistant/electron/main.cjs" ]; then
+  exec electron /opt/aiassistant/electron/main.cjs "$@"
+elif [ -f "/opt/aiassistant/electron/runner.cjs" ]; then
+  exec node /opt/aiassistant/electron/runner.cjs "$@"
+else
+  exec node /opt/aiassistant/server.js "$@"
+fi

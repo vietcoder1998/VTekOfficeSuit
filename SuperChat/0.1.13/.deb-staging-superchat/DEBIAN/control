@@ -1,0 +1,10 @@
+Package: superchat
+Version: 0.1.13
+Section: office
+Priority: optional
+Architecture: amd64
+Maintainer: 2-TEK Team <contact@2-tek.com>
+Installed-Size: 9
+Homepage: https://2-tek.com
+Description: SuperChat Client
+ Real-time AI conversational workspace, channel messaging, and chat bots.
