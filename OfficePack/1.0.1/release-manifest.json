@@ -1,0 +1,72 @@
+{
+  "projectName": "OfficePack",
+  "appName": "OfficePack",
+  "displayName": "OfficePack",
+  "version": "1.0.1",
+  "buildTimestamp": "2026-09-26T13:06:42.672Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/OfficePack/1.0.1",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "OfficePack",
+      "fileName": "OfficePack-1.0.1.deb",
+      "downloadPath": "downloads/OfficePack/1.0.1/OfficePack-1.0.1.deb",
+      "sizeBytes": 2134,
+      "sha256": "340d156ef77ff419c6224b72a63a241b31fc213a81256c00309a61cbd6cff8c8"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "OfficePack",
+      "fileName": "OfficePack.deb",
+      "downloadPath": "downloads/OfficePack/1.0.1/OfficePack.deb",
+      "sizeBytes": 2134,
+      "sha256": "340d156ef77ff419c6224b72a63a241b31fc213a81256c00309a61cbd6cff8c8"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "OfficePack",
+      "fileName": "OfficePack-1.0.1.exe",
+      "downloadPath": "downloads/OfficePack/1.0.1/OfficePack-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "cc62fd4ce1d8b317a8f50a1acb5aae3f01b2b1d7e526e9dd3481dc2fe5d3b1c3"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "OfficePack",
+      "fileName": "OfficePack.exe",
+      "downloadPath": "downloads/OfficePack/1.0.1/OfficePack.exe",
+      "sizeBytes": 4096,
+      "sha256": "cc62fd4ce1d8b317a8f50a1acb5aae3f01b2b1d7e526e9dd3481dc2fe5d3b1c3"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "OfficePack",
+      "fileName": "OfficePack-1.0.1.zip",
+      "downloadPath": "downloads/OfficePack/1.0.1/OfficePack-1.0.1.zip",
+      "sizeBytes": 1134,
+      "sha256": "b2ced02882f14dec91acf0afbd2df19ccfcc860f71f32b790f05c6e0bf4972cf"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "OfficePack",
+      "fileName": "OfficePack.zip",
+      "downloadPath": "downloads/OfficePack/1.0.1/OfficePack.zip",
+      "sizeBytes": 1134,
+      "sha256": "b2ced02882f14dec91acf0afbd2df19ccfcc860f71f32b790f05c6e0bf4972cf"
+    }
+  ]
+}

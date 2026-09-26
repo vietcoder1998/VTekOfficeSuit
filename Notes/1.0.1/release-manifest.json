@@ -1,0 +1,72 @@
+{
+  "projectName": "Notes",
+  "appName": "Notes",
+  "displayName": "Notes",
+  "version": "1.0.1",
+  "buildTimestamp": "2026-09-26T13:06:42.642Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Notes/1.0.1",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Notes",
+      "fileName": "Notes-1.0.1.deb",
+      "downloadPath": "downloads/Notes/1.0.1/Notes-1.0.1.deb",
+      "sizeBytes": 1960,
+      "sha256": "9ba44b5673a95083361ac8dfd3da5376e2e42af1844abfcb7af598b0140c727c"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Notes",
+      "fileName": "Notes.deb",
+      "downloadPath": "downloads/Notes/1.0.1/Notes.deb",
+      "sizeBytes": 1960,
+      "sha256": "9ba44b5673a95083361ac8dfd3da5376e2e42af1844abfcb7af598b0140c727c"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Notes",
+      "fileName": "Notes-1.0.1.exe",
+      "downloadPath": "downloads/Notes/1.0.1/Notes-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "96e697d151e55ffbd5dee28d9df96811b1c39a60c1b4514a5b223f01879226f5"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Notes",
+      "fileName": "Notes.exe",
+      "downloadPath": "downloads/Notes/1.0.1/Notes.exe",
+      "sizeBytes": 4096,
+      "sha256": "96e697d151e55ffbd5dee28d9df96811b1c39a60c1b4514a5b223f01879226f5"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Notes",
+      "fileName": "Notes-1.0.1.zip",
+      "downloadPath": "downloads/Notes/1.0.1/Notes-1.0.1.zip",
+      "sizeBytes": 1053,
+      "sha256": "30b71ef22d4f866436a984193cc00a3b82d59dc84f9450f3fa3c76608c16da10"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Notes",
+      "fileName": "Notes.zip",
+      "downloadPath": "downloads/Notes/1.0.1/Notes.zip",
+      "sizeBytes": 1053,
+      "sha256": "30b71ef22d4f866436a984193cc00a3b82d59dc84f9450f3fa3c76608c16da10"
+    }
+  ]
+}

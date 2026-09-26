@@ -1,0 +1,72 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus & System Health",
+  "version": "1.0.1",
+  "buildTimestamp": "2026-09-26T13:06:42.491Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.1",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus",
+      "fileName": "Antivirus-1.0.1.deb",
+      "downloadPath": "downloads/Antivirus/1.0.1/Antivirus-1.0.1.deb",
+      "sizeBytes": 2110,
+      "sha256": "ca2e115f838ef0b5eb1deabbad341573f5046f3049fc473e03f727ab967d3a98"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus",
+      "fileName": "Antivirus.deb",
+      "downloadPath": "downloads/Antivirus/1.0.1/Antivirus.deb",
+      "sizeBytes": 2110,
+      "sha256": "ca2e115f838ef0b5eb1deabbad341573f5046f3049fc473e03f727ab967d3a98"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus",
+      "fileName": "Antivirus-1.0.1.exe",
+      "downloadPath": "downloads/Antivirus/1.0.1/Antivirus-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "81d2a9431794c27d5a6c2333ab609a8b42e12376a775b145d9d6eff618cfcde7"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus",
+      "fileName": "Antivirus.exe",
+      "downloadPath": "downloads/Antivirus/1.0.1/Antivirus.exe",
+      "sizeBytes": 4096,
+      "sha256": "81d2a9431794c27d5a6c2333ab609a8b42e12376a775b145d9d6eff618cfcde7"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus",
+      "fileName": "Antivirus-1.0.1.zip",
+      "downloadPath": "downloads/Antivirus/1.0.1/Antivirus-1.0.1.zip",
+      "sizeBytes": 1124,
+      "sha256": "6ce31059e2828dd92ff47a88b11658c602c7afb1b5c407e14995d67d139ea71b"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus",
+      "fileName": "Antivirus.zip",
+      "downloadPath": "downloads/Antivirus/1.0.1/Antivirus.zip",
+      "sizeBytes": 1124,
+      "sha256": "6ce31059e2828dd92ff47a88b11658c602c7afb1b5c407e14995d67d139ea71b"
+    }
+  ]
+}

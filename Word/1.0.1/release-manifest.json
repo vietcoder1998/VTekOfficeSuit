@@ -1,0 +1,72 @@
+{
+  "projectName": "Word",
+  "appName": "Word",
+  "displayName": "Word Editor",
+  "version": "1.0.1",
+  "buildTimestamp": "2026-09-26T13:06:42.835Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.1",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Word",
+      "fileName": "Word-1.0.1.deb",
+      "downloadPath": "downloads/Word/1.0.1/Word-1.0.1.deb",
+      "sizeBytes": 2004,
+      "sha256": "fdd1f8c1f696e597ae43da80cbe1852ab73453f0f25fdcc0c08252f341e133c0"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Word",
+      "fileName": "Word.deb",
+      "downloadPath": "downloads/Word/1.0.1/Word.deb",
+      "sizeBytes": 2004,
+      "sha256": "fdd1f8c1f696e597ae43da80cbe1852ab73453f0f25fdcc0c08252f341e133c0"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Word",
+      "fileName": "Word-1.0.1.exe",
+      "downloadPath": "downloads/Word/1.0.1/Word-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "80757b7245bb89c490f07bef96bebfd66a7a22434bbca9de000d9535f532157d"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Word",
+      "fileName": "Word.exe",
+      "downloadPath": "downloads/Word/1.0.1/Word.exe",
+      "sizeBytes": 4096,
+      "sha256": "80757b7245bb89c490f07bef96bebfd66a7a22434bbca9de000d9535f532157d"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Word",
+      "fileName": "Word-1.0.1.zip",
+      "downloadPath": "downloads/Word/1.0.1/Word-1.0.1.zip",
+      "sizeBytes": 1075,
+      "sha256": "7c7ffc3868cf8524f561cad1e04829d91f3bbc3daa38c8aadef7bd63fe0df5d0"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Word",
+      "fileName": "Word.zip",
+      "downloadPath": "downloads/Word/1.0.1/Word.zip",
+      "sizeBytes": 1075,
+      "sha256": "7c7ffc3868cf8524f561cad1e04829d91f3bbc3daa38c8aadef7bd63fe0df5d0"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "projectName": "Cloud",
+  "appName": "Cloud",
+  "displayName": "Cloud Storage",
+  "version": "1.0.1",
+  "buildTimestamp": "2026-09-26T13:06:42.524Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Cloud/1.0.1",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Cloud",
+      "fileName": "Cloud-1.0.1.deb",
+      "downloadPath": "downloads/Cloud/1.0.1/Cloud-1.0.1.deb",
+      "sizeBytes": 1956,
+      "sha256": "d83bbd35971efe5bfdb0ae3a2c58d41fe911ff76b59052cf76136cf3fbe860a4"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Cloud",
+      "fileName": "Cloud.deb",
+      "downloadPath": "downloads/Cloud/1.0.1/Cloud.deb",
+      "sizeBytes": 1956,
+      "sha256": "d83bbd35971efe5bfdb0ae3a2c58d41fe911ff76b59052cf76136cf3fbe860a4"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Cloud",
+      "fileName": "Cloud-1.0.1.exe",
+      "downloadPath": "downloads/Cloud/1.0.1/Cloud-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "35cb6f9114097e789f50bd215664aa1de7b21dc37cb87099ae09b2410819580e"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Cloud",
+      "fileName": "Cloud.exe",
+      "downloadPath": "downloads/Cloud/1.0.1/Cloud.exe",
+      "sizeBytes": 4096,
+      "sha256": "35cb6f9114097e789f50bd215664aa1de7b21dc37cb87099ae09b2410819580e"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Cloud",
+      "fileName": "Cloud-1.0.1.zip",
+      "downloadPath": "downloads/Cloud/1.0.1/Cloud-1.0.1.zip",
+      "sizeBytes": 1050,
+      "sha256": "0d73705b8f5272dc5001fdcf8566e6cb236a53791a6b63d085119a44ec2db14f"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Cloud",
+      "fileName": "Cloud.zip",
+      "downloadPath": "downloads/Cloud/1.0.1/Cloud.zip",
+      "sizeBytes": 1050,
+      "sha256": "0d73705b8f5272dc5001fdcf8566e6cb236a53791a6b63d085119a44ec2db14f"
+    }
+  ]
+}

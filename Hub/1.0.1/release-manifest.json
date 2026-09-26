@@ -1,0 +1,72 @@
+{
+  "projectName": "Hub",
+  "appName": "Hub",
+  "displayName": "2-TEK Hub Desktop",
+  "version": "1.0.1",
+  "buildTimestamp": "2026-09-26T13:06:42.612Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.1",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Hub",
+      "fileName": "Hub-1.0.1.deb",
+      "downloadPath": "downloads/Hub/1.0.1/Hub-1.0.1.deb",
+      "sizeBytes": 1962,
+      "sha256": "b69445cd99c07e86d513add1069eb992a908839b4501350c97abe94c16255d4d"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Hub",
+      "fileName": "Hub.deb",
+      "downloadPath": "downloads/Hub/1.0.1/Hub.deb",
+      "sizeBytes": 1962,
+      "sha256": "b69445cd99c07e86d513add1069eb992a908839b4501350c97abe94c16255d4d"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Hub",
+      "fileName": "Hub-1.0.1.exe",
+      "downloadPath": "downloads/Hub/1.0.1/Hub-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "cce763008db545366dc02186b03a243873299285a26df928e5e73cb61f7692a9"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Hub",
+      "fileName": "Hub.exe",
+      "downloadPath": "downloads/Hub/1.0.1/Hub.exe",
+      "sizeBytes": 4096,
+      "sha256": "cce763008db545366dc02186b03a243873299285a26df928e5e73cb61f7692a9"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Hub",
+      "fileName": "Hub-1.0.1.zip",
+      "downloadPath": "downloads/Hub/1.0.1/Hub-1.0.1.zip",
+      "sizeBytes": 1060,
+      "sha256": "cced9c283e5813f866d981436cbcba2692a04b92e0e16cb03ae04204eb8c1701"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Hub",
+      "fileName": "Hub.zip",
+      "downloadPath": "downloads/Hub/1.0.1/Hub.zip",
+      "sizeBytes": 1060,
+      "sha256": "cced9c283e5813f866d981436cbcba2692a04b92e0e16cb03ae04204eb8c1701"
+    }
+  ]
+}
