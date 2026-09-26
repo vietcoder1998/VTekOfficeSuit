@@ -1,0 +1,42 @@
+{
+  "projectName": "Presentation",
+  "appName": "Presentation",
+  "displayName": "Presentation Editor",
+  "version": "1.0.8",
+  "buildTimestamp": "2026-09-26T16:22:20.423Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Presentation/1.0.8",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Presentation-1.0.8",
+      "fileName": "Presentation-1.0.8.deb",
+      "downloadPath": "downloads/Presentation/1.0.8/Presentation-1.0.8.deb",
+      "sizeBytes": 15450,
+      "sha256": "282e2bbcaf94eedc508ee92f0c476690f32f5c26427ccec8d27377172c99e63a"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Presentation-1.0.8",
+      "fileName": "Presentation-1.0.8.exe",
+      "downloadPath": "downloads/Presentation/1.0.8/Presentation-1.0.8.exe",
+      "sizeBytes": 11776,
+      "sha256": "df364e07fda57b3026e61b6bdc72de73e84c2f4c1cc5528405999850353f8397"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Presentation-1.0.8",
+      "fileName": "Presentation-1.0.8.zip",
+      "downloadPath": "downloads/Presentation/1.0.8/Presentation-1.0.8.zip",
+      "sizeBytes": 8738,
+      "sha256": "12474759dc81db5db591c5d9e0c0edd0fa06ced2d4dd3a359595186945f4bf7b"
+    }
+  ]
+}
