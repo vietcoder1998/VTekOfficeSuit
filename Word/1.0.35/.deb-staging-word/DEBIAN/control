@@ -1,0 +1,10 @@
+Package: word
+Version: 1.0.35
+Section: office
+Priority: optional
+Architecture: amd64
+Maintainer: 2-TEK Team <contact@2-tek.com>
+Installed-Size: 35
+Homepage: https://2-tek.com
+Description: Word Editor
+ Rich-text document editor with Word-compatible formatting and collaboration.
