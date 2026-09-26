@@ -1,9 +1,9 @@
 {
   "projectName": "Tasks",
   "appName": "Tasks",
-  "displayName": "Tasks",
+  "displayName": "Tasks & Calendar",
   "version": "1.0.14",
-  "buildTimestamp": "2026-09-26T16:47:13.101Z",
+  "buildTimestamp": "2026-09-26T16:48:11.039Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Tasks/1.0.14",
@@ -15,8 +15,9 @@
       "name": "Tasks-1.0.14",
       "fileName": "Tasks-1.0.14.deb",
       "downloadPath": "downloads/Tasks/1.0.14/Tasks-1.0.14.deb",
-      "sizeBytes": 15470,
-      "sha256": "c07d01c9435cb0a39a0a80af9c2f374c62ee00f4d382f51b04c807b38b251329"
+      "sizeBytes": 15468,
+      "sizeFormatted": "15.1 KB",
+      "sha256": "fe836d2a713974e55a930909612448fc4c306464b2d0004a4696dcb38e0e4d46"
     },
     {
       "platform": "windows",
@@ -26,7 +27,19 @@
       "fileName": "Tasks-1.0.14.exe",
       "downloadPath": "downloads/Tasks/1.0.14/Tasks-1.0.14.exe",
       "sizeBytes": 11776,
-      "sha256": "66d3948b1f12e5900b4667aeff331a9215b23f35bedc61f95582ceb0e6f72198"
+      "sizeFormatted": "11.5 KB",
+      "sha256": "b5c71d64df3cb167efb44e87e31cf1a9e9fce1e5f6903510da6e8201fa6485df"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Tasks-1.0.14",
+      "fileName": "Tasks-1.0.14.dmg",
+      "downloadPath": "downloads/Tasks/1.0.14/Tasks-1.0.14.dmg",
+      "sizeBytes": 8825,
+      "sizeFormatted": "8.6 KB",
+      "sha256": "ce8d643cd528193a76aa921c809a13ee8250691ac7f11343937653c09eb9e4d5"
     },
     {
       "platform": "universal",
@@ -35,8 +48,9 @@
       "name": "Tasks-1.0.14",
       "fileName": "Tasks-1.0.14.zip",
       "downloadPath": "downloads/Tasks/1.0.14/Tasks-1.0.14.zip",
-      "sizeBytes": 8764,
-      "sha256": "7481ebcfb32468a0cdf54310904f3b94b3eeb94083d32b468e6598ad538ddd96"
+      "sizeBytes": 8758,
+      "sizeFormatted": "8.6 KB",
+      "sha256": "2b4715c4fe72a148e0a083c2785da3ac7e1470270ac11da552de02b2e1cf370a"
     }
   ]
 }

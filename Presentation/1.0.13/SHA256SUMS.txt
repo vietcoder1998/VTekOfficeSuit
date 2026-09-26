@@ -1,4 +1,3 @@
 887dd2e60fdb4b3e2ee591ea284172fe25c1197b849c91b1761869afcfda098f  Presentation-1.0.13.deb
 7fc7624799fca3ff7bc633773682c75d291d1533821dbe8adfb1c42bbc3caf64  Presentation-1.0.13.exe
-53c03fa12d465d8afc8a18b39eb1d1fac4f194537d55f09bfc86f9b2f6682ce6  Presentation-1.0.13.dmg
 80902aff65a71dfb53a091ac08b944c107f2eb8b55395dfcc99cb5837eeef9c1  Presentation-1.0.13.zip
