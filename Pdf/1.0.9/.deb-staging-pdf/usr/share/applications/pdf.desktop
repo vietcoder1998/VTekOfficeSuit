@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=PDF Viewer
-Comment=PDF reader, annotator, and document viewer with search and bookmarks.
-Exec=/usr/bin/pdf %U
-Terminal=false
-Type=Application
-Icon=pdf
-Categories=Office;Utility;Development;
