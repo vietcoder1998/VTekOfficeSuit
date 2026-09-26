@@ -12,11 +12,31 @@
       "platform": "linux",
       "architecture": "amd64",
       "type": "deb",
-      "name": "Pdf",
+      "name": "Pdf-1.0.1",
       "fileName": "Pdf-1.0.1.deb",
       "downloadPath": "downloads/Pdf/1.0.1/Pdf-1.0.1.deb",
       "sizeBytes": 1972,
       "sha256": "f96d1844b6c0e3416367a9cfb6e5eb608e9de2e6231cdb67a000621356d7ef0c"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Pdf-1.0.1",
+      "fileName": "Pdf-1.0.1.exe",
+      "downloadPath": "downloads/Pdf/1.0.1/Pdf-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "97596bdc4c37d348e6e9e9fb097892e0938b96e4b50e0ae494064b6bcc615da8"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Pdf-1.0.1",
+      "fileName": "Pdf-1.0.1.zip",
+      "downloadPath": "downloads/Pdf/1.0.1/Pdf-1.0.1.zip",
+      "sizeBytes": 1063,
+      "sha256": "81d6b858b1612b90bf86b4a6ee42b57f9b239595596d5b8fcadee241245967ea"
     },
     {
       "platform": "linux",
@@ -33,16 +53,6 @@
       "architecture": "x64",
       "type": "exe",
       "name": "Pdf",
-      "fileName": "Pdf-1.0.1.exe",
-      "downloadPath": "downloads/Pdf/1.0.1/Pdf-1.0.1.exe",
-      "sizeBytes": 4096,
-      "sha256": "97596bdc4c37d348e6e9e9fb097892e0938b96e4b50e0ae494064b6bcc615da8"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "Pdf",
       "fileName": "Pdf.exe",
       "downloadPath": "downloads/Pdf/1.0.1/Pdf.exe",
       "sizeBytes": 4096,
@@ -53,20 +63,90 @@
       "architecture": "all",
       "type": "zip",
       "name": "Pdf",
-      "fileName": "Pdf-1.0.1.zip",
-      "downloadPath": "downloads/Pdf/1.0.1/Pdf-1.0.1.zip",
+      "fileName": "Pdf.zip",
+      "downloadPath": "downloads/Pdf/1.0.1/Pdf.zip",
       "sizeBytes": 1063,
       "sha256": "81d6b858b1612b90bf86b4a6ee42b57f9b239595596d5b8fcadee241245967ea"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "pdf-1.0.1",
+      "fileName": "pdf-1.0.1.deb",
+      "downloadPath": "downloads/Pdf/1.0.1/pdf-1.0.1.deb",
+      "sizeBytes": 1972,
+      "sha256": "f96d1844b6c0e3416367a9cfb6e5eb608e9de2e6231cdb67a000621356d7ef0c"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "pdf-1.0.1",
+      "fileName": "pdf-1.0.1.exe",
+      "downloadPath": "downloads/Pdf/1.0.1/pdf-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "97596bdc4c37d348e6e9e9fb097892e0938b96e4b50e0ae494064b6bcc615da8"
     },
     {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
-      "name": "Pdf",
-      "fileName": "Pdf.zip",
-      "downloadPath": "downloads/Pdf/1.0.1/Pdf.zip",
+      "name": "pdf-1.0.1",
+      "fileName": "pdf-1.0.1.zip",
+      "downloadPath": "downloads/Pdf/1.0.1/pdf-1.0.1.zip",
       "sizeBytes": 1063,
       "sha256": "81d6b858b1612b90bf86b4a6ee42b57f9b239595596d5b8fcadee241245967ea"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "pdf-setup-1.0.1",
+      "fileName": "pdf-setup-1.0.1.exe",
+      "downloadPath": "downloads/Pdf/1.0.1/pdf-setup-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "97596bdc4c37d348e6e9e9fb097892e0938b96e4b50e0ae494064b6bcc615da8"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "pdf",
+      "fileName": "pdf.deb",
+      "downloadPath": "downloads/Pdf/1.0.1/pdf.deb",
+      "sizeBytes": 1972,
+      "sha256": "f96d1844b6c0e3416367a9cfb6e5eb608e9de2e6231cdb67a000621356d7ef0c"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "pdf",
+      "fileName": "pdf.exe",
+      "downloadPath": "downloads/Pdf/1.0.1/pdf.exe",
+      "sizeBytes": 4096,
+      "sha256": "97596bdc4c37d348e6e9e9fb097892e0938b96e4b50e0ae494064b6bcc615da8"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "pdf",
+      "fileName": "pdf.zip",
+      "downloadPath": "downloads/Pdf/1.0.1/pdf.zip",
+      "sizeBytes": 1063,
+      "sha256": "81d6b858b1612b90bf86b4a6ee42b57f9b239595596d5b8fcadee241245967ea"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "pdf_1.0.1_amd64",
+      "fileName": "pdf_1.0.1_amd64.deb",
+      "downloadPath": "downloads/Pdf/1.0.1/pdf_1.0.1_amd64.deb",
+      "sizeBytes": 1972,
+      "sha256": "f96d1844b6c0e3416367a9cfb6e5eb608e9de2e6231cdb67a000621356d7ef0c"
     }
   ]
 }

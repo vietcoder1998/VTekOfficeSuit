@@ -12,11 +12,31 @@
       "platform": "linux",
       "architecture": "amd64",
       "type": "deb",
-      "name": "Excel",
+      "name": "Excel-1.0.1",
       "fileName": "Excel-1.0.1.deb",
       "downloadPath": "downloads/Excel/1.0.1/Excel-1.0.1.deb",
       "sizeBytes": 2014,
       "sha256": "af0c50f2d0c6782805064c270914cd884bab08780ee20eb9b6c3512d9b5297d6"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Excel-1.0.1",
+      "fileName": "Excel-1.0.1.exe",
+      "downloadPath": "downloads/Excel/1.0.1/Excel-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "429c6d44d1229eaec253bd125a99ce398517c6d856540dadd8683bcc592d54df"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Excel-1.0.1",
+      "fileName": "Excel-1.0.1.zip",
+      "downloadPath": "downloads/Excel/1.0.1/Excel-1.0.1.zip",
+      "sizeBytes": 1073,
+      "sha256": "504a471cd4b405da22bc6b56ad78d0babfd0f2d28b1ea20b30ccc1c3a76a4ae0"
     },
     {
       "platform": "linux",
@@ -33,16 +53,6 @@
       "architecture": "x64",
       "type": "exe",
       "name": "Excel",
-      "fileName": "Excel-1.0.1.exe",
-      "downloadPath": "downloads/Excel/1.0.1/Excel-1.0.1.exe",
-      "sizeBytes": 4096,
-      "sha256": "429c6d44d1229eaec253bd125a99ce398517c6d856540dadd8683bcc592d54df"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "Excel",
       "fileName": "Excel.exe",
       "downloadPath": "downloads/Excel/1.0.1/Excel.exe",
       "sizeBytes": 4096,
@@ -53,20 +63,90 @@
       "architecture": "all",
       "type": "zip",
       "name": "Excel",
-      "fileName": "Excel-1.0.1.zip",
-      "downloadPath": "downloads/Excel/1.0.1/Excel-1.0.1.zip",
+      "fileName": "Excel.zip",
+      "downloadPath": "downloads/Excel/1.0.1/Excel.zip",
       "sizeBytes": 1073,
       "sha256": "504a471cd4b405da22bc6b56ad78d0babfd0f2d28b1ea20b30ccc1c3a76a4ae0"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "excel-1.0.1",
+      "fileName": "excel-1.0.1.deb",
+      "downloadPath": "downloads/Excel/1.0.1/excel-1.0.1.deb",
+      "sizeBytes": 2014,
+      "sha256": "af0c50f2d0c6782805064c270914cd884bab08780ee20eb9b6c3512d9b5297d6"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "excel-1.0.1",
+      "fileName": "excel-1.0.1.exe",
+      "downloadPath": "downloads/Excel/1.0.1/excel-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "429c6d44d1229eaec253bd125a99ce398517c6d856540dadd8683bcc592d54df"
     },
     {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
-      "name": "Excel",
-      "fileName": "Excel.zip",
-      "downloadPath": "downloads/Excel/1.0.1/Excel.zip",
+      "name": "excel-1.0.1",
+      "fileName": "excel-1.0.1.zip",
+      "downloadPath": "downloads/Excel/1.0.1/excel-1.0.1.zip",
       "sizeBytes": 1073,
       "sha256": "504a471cd4b405da22bc6b56ad78d0babfd0f2d28b1ea20b30ccc1c3a76a4ae0"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "excel-setup-1.0.1",
+      "fileName": "excel-setup-1.0.1.exe",
+      "downloadPath": "downloads/Excel/1.0.1/excel-setup-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "429c6d44d1229eaec253bd125a99ce398517c6d856540dadd8683bcc592d54df"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "excel",
+      "fileName": "excel.deb",
+      "downloadPath": "downloads/Excel/1.0.1/excel.deb",
+      "sizeBytes": 2014,
+      "sha256": "af0c50f2d0c6782805064c270914cd884bab08780ee20eb9b6c3512d9b5297d6"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "excel",
+      "fileName": "excel.exe",
+      "downloadPath": "downloads/Excel/1.0.1/excel.exe",
+      "sizeBytes": 4096,
+      "sha256": "429c6d44d1229eaec253bd125a99ce398517c6d856540dadd8683bcc592d54df"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "excel",
+      "fileName": "excel.zip",
+      "downloadPath": "downloads/Excel/1.0.1/excel.zip",
+      "sizeBytes": 1073,
+      "sha256": "504a471cd4b405da22bc6b56ad78d0babfd0f2d28b1ea20b30ccc1c3a76a4ae0"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "excel_1.0.1_amd64",
+      "fileName": "excel_1.0.1_amd64.deb",
+      "downloadPath": "downloads/Excel/1.0.1/excel_1.0.1_amd64.deb",
+      "sizeBytes": 2014,
+      "sha256": "af0c50f2d0c6782805064c270914cd884bab08780ee20eb9b6c3512d9b5297d6"
     }
   ]
 }

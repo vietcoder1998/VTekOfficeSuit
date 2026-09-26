@@ -12,11 +12,31 @@
       "platform": "linux",
       "architecture": "amd64",
       "type": "deb",
-      "name": "Cloud",
+      "name": "Cloud-1.0.1",
       "fileName": "Cloud-1.0.1.deb",
       "downloadPath": "downloads/Cloud/1.0.1/Cloud-1.0.1.deb",
       "sizeBytes": 1956,
       "sha256": "d83bbd35971efe5bfdb0ae3a2c58d41fe911ff76b59052cf76136cf3fbe860a4"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Cloud-1.0.1",
+      "fileName": "Cloud-1.0.1.exe",
+      "downloadPath": "downloads/Cloud/1.0.1/Cloud-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "35cb6f9114097e789f50bd215664aa1de7b21dc37cb87099ae09b2410819580e"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Cloud-1.0.1",
+      "fileName": "Cloud-1.0.1.zip",
+      "downloadPath": "downloads/Cloud/1.0.1/Cloud-1.0.1.zip",
+      "sizeBytes": 1050,
+      "sha256": "0d73705b8f5272dc5001fdcf8566e6cb236a53791a6b63d085119a44ec2db14f"
     },
     {
       "platform": "linux",
@@ -33,16 +53,6 @@
       "architecture": "x64",
       "type": "exe",
       "name": "Cloud",
-      "fileName": "Cloud-1.0.1.exe",
-      "downloadPath": "downloads/Cloud/1.0.1/Cloud-1.0.1.exe",
-      "sizeBytes": 4096,
-      "sha256": "35cb6f9114097e789f50bd215664aa1de7b21dc37cb87099ae09b2410819580e"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "Cloud",
       "fileName": "Cloud.exe",
       "downloadPath": "downloads/Cloud/1.0.1/Cloud.exe",
       "sizeBytes": 4096,
@@ -53,20 +63,90 @@
       "architecture": "all",
       "type": "zip",
       "name": "Cloud",
-      "fileName": "Cloud-1.0.1.zip",
-      "downloadPath": "downloads/Cloud/1.0.1/Cloud-1.0.1.zip",
+      "fileName": "Cloud.zip",
+      "downloadPath": "downloads/Cloud/1.0.1/Cloud.zip",
       "sizeBytes": 1050,
       "sha256": "0d73705b8f5272dc5001fdcf8566e6cb236a53791a6b63d085119a44ec2db14f"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "cloud-1.0.1",
+      "fileName": "cloud-1.0.1.deb",
+      "downloadPath": "downloads/Cloud/1.0.1/cloud-1.0.1.deb",
+      "sizeBytes": 1956,
+      "sha256": "d83bbd35971efe5bfdb0ae3a2c58d41fe911ff76b59052cf76136cf3fbe860a4"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "cloud-1.0.1",
+      "fileName": "cloud-1.0.1.exe",
+      "downloadPath": "downloads/Cloud/1.0.1/cloud-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "35cb6f9114097e789f50bd215664aa1de7b21dc37cb87099ae09b2410819580e"
     },
     {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
-      "name": "Cloud",
-      "fileName": "Cloud.zip",
-      "downloadPath": "downloads/Cloud/1.0.1/Cloud.zip",
+      "name": "cloud-1.0.1",
+      "fileName": "cloud-1.0.1.zip",
+      "downloadPath": "downloads/Cloud/1.0.1/cloud-1.0.1.zip",
       "sizeBytes": 1050,
       "sha256": "0d73705b8f5272dc5001fdcf8566e6cb236a53791a6b63d085119a44ec2db14f"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "cloud-setup-1.0.1",
+      "fileName": "cloud-setup-1.0.1.exe",
+      "downloadPath": "downloads/Cloud/1.0.1/cloud-setup-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "35cb6f9114097e789f50bd215664aa1de7b21dc37cb87099ae09b2410819580e"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "cloud",
+      "fileName": "cloud.deb",
+      "downloadPath": "downloads/Cloud/1.0.1/cloud.deb",
+      "sizeBytes": 1956,
+      "sha256": "d83bbd35971efe5bfdb0ae3a2c58d41fe911ff76b59052cf76136cf3fbe860a4"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "cloud",
+      "fileName": "cloud.exe",
+      "downloadPath": "downloads/Cloud/1.0.1/cloud.exe",
+      "sizeBytes": 4096,
+      "sha256": "35cb6f9114097e789f50bd215664aa1de7b21dc37cb87099ae09b2410819580e"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "cloud",
+      "fileName": "cloud.zip",
+      "downloadPath": "downloads/Cloud/1.0.1/cloud.zip",
+      "sizeBytes": 1050,
+      "sha256": "0d73705b8f5272dc5001fdcf8566e6cb236a53791a6b63d085119a44ec2db14f"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "cloud_1.0.1_amd64",
+      "fileName": "cloud_1.0.1_amd64.deb",
+      "downloadPath": "downloads/Cloud/1.0.1/cloud_1.0.1_amd64.deb",
+      "sizeBytes": 1956,
+      "sha256": "d83bbd35971efe5bfdb0ae3a2c58d41fe911ff76b59052cf76136cf3fbe860a4"
     }
   ]
 }

@@ -12,11 +12,31 @@
       "platform": "linux",
       "architecture": "amd64",
       "type": "deb",
-      "name": "Tasks",
+      "name": "Tasks-1.0.1",
       "fileName": "Tasks-1.0.1.deb",
       "downloadPath": "downloads/Tasks/1.0.1/Tasks-1.0.1.deb",
       "sizeBytes": 1972,
       "sha256": "eb75f0863d2f54c7423f196abde1506241892fa91e7f78e281f230f45c8bd4fc"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Tasks-1.0.1",
+      "fileName": "Tasks-1.0.1.exe",
+      "downloadPath": "downloads/Tasks/1.0.1/Tasks-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "61266494e526c007d8bb7213a505dbae29cd7335faabfe0e52b4892e9b266976"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Tasks-1.0.1",
+      "fileName": "Tasks-1.0.1.zip",
+      "downloadPath": "downloads/Tasks/1.0.1/Tasks-1.0.1.zip",
+      "sizeBytes": 1061,
+      "sha256": "0f5883c28307a71f26eb4f38d44af34c096da06f64ca3697db77894d3e176c5d"
     },
     {
       "platform": "linux",
@@ -33,16 +53,6 @@
       "architecture": "x64",
       "type": "exe",
       "name": "Tasks",
-      "fileName": "Tasks-1.0.1.exe",
-      "downloadPath": "downloads/Tasks/1.0.1/Tasks-1.0.1.exe",
-      "sizeBytes": 4096,
-      "sha256": "61266494e526c007d8bb7213a505dbae29cd7335faabfe0e52b4892e9b266976"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "type": "exe",
-      "name": "Tasks",
       "fileName": "Tasks.exe",
       "downloadPath": "downloads/Tasks/1.0.1/Tasks.exe",
       "sizeBytes": 4096,
@@ -53,20 +63,90 @@
       "architecture": "all",
       "type": "zip",
       "name": "Tasks",
-      "fileName": "Tasks-1.0.1.zip",
-      "downloadPath": "downloads/Tasks/1.0.1/Tasks-1.0.1.zip",
+      "fileName": "Tasks.zip",
+      "downloadPath": "downloads/Tasks/1.0.1/Tasks.zip",
       "sizeBytes": 1061,
       "sha256": "0f5883c28307a71f26eb4f38d44af34c096da06f64ca3697db77894d3e176c5d"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "tasks-1.0.1",
+      "fileName": "tasks-1.0.1.deb",
+      "downloadPath": "downloads/Tasks/1.0.1/tasks-1.0.1.deb",
+      "sizeBytes": 1972,
+      "sha256": "eb75f0863d2f54c7423f196abde1506241892fa91e7f78e281f230f45c8bd4fc"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "tasks-1.0.1",
+      "fileName": "tasks-1.0.1.exe",
+      "downloadPath": "downloads/Tasks/1.0.1/tasks-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "61266494e526c007d8bb7213a505dbae29cd7335faabfe0e52b4892e9b266976"
     },
     {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
-      "name": "Tasks",
-      "fileName": "Tasks.zip",
-      "downloadPath": "downloads/Tasks/1.0.1/Tasks.zip",
+      "name": "tasks-1.0.1",
+      "fileName": "tasks-1.0.1.zip",
+      "downloadPath": "downloads/Tasks/1.0.1/tasks-1.0.1.zip",
       "sizeBytes": 1061,
       "sha256": "0f5883c28307a71f26eb4f38d44af34c096da06f64ca3697db77894d3e176c5d"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "tasks-setup-1.0.1",
+      "fileName": "tasks-setup-1.0.1.exe",
+      "downloadPath": "downloads/Tasks/1.0.1/tasks-setup-1.0.1.exe",
+      "sizeBytes": 4096,
+      "sha256": "61266494e526c007d8bb7213a505dbae29cd7335faabfe0e52b4892e9b266976"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "tasks",
+      "fileName": "tasks.deb",
+      "downloadPath": "downloads/Tasks/1.0.1/tasks.deb",
+      "sizeBytes": 1972,
+      "sha256": "eb75f0863d2f54c7423f196abde1506241892fa91e7f78e281f230f45c8bd4fc"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "tasks",
+      "fileName": "tasks.exe",
+      "downloadPath": "downloads/Tasks/1.0.1/tasks.exe",
+      "sizeBytes": 4096,
+      "sha256": "61266494e526c007d8bb7213a505dbae29cd7335faabfe0e52b4892e9b266976"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "tasks",
+      "fileName": "tasks.zip",
+      "downloadPath": "downloads/Tasks/1.0.1/tasks.zip",
+      "sizeBytes": 1061,
+      "sha256": "0f5883c28307a71f26eb4f38d44af34c096da06f64ca3697db77894d3e176c5d"
+    },
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "tasks_1.0.1_amd64",
+      "fileName": "tasks_1.0.1_amd64.deb",
+      "downloadPath": "downloads/Tasks/1.0.1/tasks_1.0.1_amd64.deb",
+      "sizeBytes": 1972,
+      "sha256": "eb75f0863d2f54c7423f196abde1506241892fa91e7f78e281f230f45c8bd4fc"
     }
   ]
 }
