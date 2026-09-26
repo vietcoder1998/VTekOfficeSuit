@@ -1,7 +1,7 @@
 {
   "projectName": "Tasks",
   "appName": "Tasks",
-  "displayName": "Tasks & Calendar",
+  "displayName": "Tasks",
   "version": "1.0.14",
   "buildTimestamp": "2026-09-26T16:48:11.039Z",
   "distributionChannel": "stable",
@@ -16,7 +16,6 @@
       "fileName": "Tasks-1.0.14.deb",
       "downloadPath": "downloads/Tasks/1.0.14/Tasks-1.0.14.deb",
       "sizeBytes": 15468,
-      "sizeFormatted": "15.1 KB",
       "sha256": "fe836d2a713974e55a930909612448fc4c306464b2d0004a4696dcb38e0e4d46"
     },
     {
@@ -27,7 +26,6 @@
       "fileName": "Tasks-1.0.14.exe",
       "downloadPath": "downloads/Tasks/1.0.14/Tasks-1.0.14.exe",
       "sizeBytes": 11776,
-      "sizeFormatted": "11.5 KB",
       "sha256": "b5c71d64df3cb167efb44e87e31cf1a9e9fce1e5f6903510da6e8201fa6485df"
     },
     {
@@ -38,7 +36,6 @@
       "fileName": "Tasks-1.0.14.dmg",
       "downloadPath": "downloads/Tasks/1.0.14/Tasks-1.0.14.dmg",
       "sizeBytes": 8825,
-      "sizeFormatted": "8.6 KB",
       "sha256": "ce8d643cd528193a76aa921c809a13ee8250691ac7f11343937653c09eb9e4d5"
     },
     {
@@ -49,7 +46,6 @@
       "fileName": "Tasks-1.0.14.zip",
       "downloadPath": "downloads/Tasks/1.0.14/Tasks-1.0.14.zip",
       "sizeBytes": 8758,
-      "sizeFormatted": "8.6 KB",
       "sha256": "2b4715c4fe72a148e0a083c2785da3ac7e1470270ac11da552de02b2e1cf370a"
     }
   ]
