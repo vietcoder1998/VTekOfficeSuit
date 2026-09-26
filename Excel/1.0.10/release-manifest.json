@@ -1,0 +1,52 @@
+{
+  "projectName": "Excel",
+  "appName": "Excel",
+  "displayName": "Excel",
+  "version": "1.0.10",
+  "buildTimestamp": "2026-09-26T16:25:53.962Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Excel/1.0.10",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Excel-1.0.10",
+      "fileName": "Excel-1.0.10.deb",
+      "downloadPath": "downloads/Excel/1.0.10/Excel-1.0.10.deb",
+      "sizeBytes": 15460,
+      "sha256": "ad6dab3b867616b0c9faef0ec4f58afe2efedd51187218ac5e0faeb0712354a3"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Excel-1.0.10",
+      "fileName": "Excel-1.0.10.exe",
+      "downloadPath": "downloads/Excel/1.0.10/Excel-1.0.10.exe",
+      "sizeBytes": 11776,
+      "sha256": "c52c92c26c072fc763971b212e9c9dfa4ee2f7fe3a6b6d24ff043931755a92df"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Excel-1.0.10",
+      "fileName": "Excel-1.0.10.dmg",
+      "downloadPath": "downloads/Excel/1.0.10/Excel-1.0.10.dmg",
+      "sizeBytes": 8821,
+      "sha256": "2e4bbd0c5842fa6fa6b4f23b29bd8f9c9af61c1a157322c178708388da37957b"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Excel-1.0.10",
+      "fileName": "Excel-1.0.10.zip",
+      "downloadPath": "downloads/Excel/1.0.10/Excel-1.0.10.zip",
+      "sizeBytes": 8758,
+      "sha256": "518f56c22ccfcb97851d4a6607afed3976cd849d6e023f903e3e3350f3d902fb"
+    }
+  ]
+}
