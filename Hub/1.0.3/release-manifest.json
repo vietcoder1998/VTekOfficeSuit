@@ -25,8 +25,8 @@
       "name": "Hub-1.0.3",
       "fileName": "Hub-1.0.3.exe",
       "downloadPath": "downloads/Hub/1.0.3/Hub-1.0.3.exe",
-      "sizeBytes": 4096,
-      "sha256": "b32eefcf01b6f47ba4478dcf4ba9abb1f34c17d2618d60d1647faf2e73aa21eb"
+      "sizeBytes": 30208,
+      "sha256": "57b369a1d9002fb063f69a25b3ec4014424c5133c42f4db59084885379a68208"
     },
     {
       "platform": "universal",
