@@ -1,21 +1,26 @@
 # VTek Office Suite (VTekOfficeSuit)
 
 > **Canonical Target of App**:
-> **Unified Electron Desktop Application & Multi-Platform Distribution Packager for 2-TEK Office Suite**
-> _(Bộ ứng dụng văn phòng máy tính để bàn hợp nhất và hệ thống đóng gói phân phối đa nền tảng cho hệ sinh thái 2-TEK Office)_.
+> **Dedicated repository strictly used only for saving downloads files only (`use only for save downloads files only`), no script, no handle**.
+> _(Kho lưu trữ chuyên dụng chỉ dùng để lưu trữ các tệp tải về và gói phân phối ứng dụng: .deb, .exe, .zip, SHA256SUMS.txt, release-manifest.json — tuyệt đối không chứa logic mã nguồn, không có script, không có trình xử lý)_.
 
 ---
 
 ## 1. Overview & Architectural Scope
 
-`VTekOfficeSuit` is the official desktop application and release packager for the 2-TEK Office Suite. It provides:
+`VTekOfficeSuit` is the dedicated release distribution and downloadable files repository for the 2-TEK ecosystem. It provides:
 
-1. **Unified Desktop Shell (Electron)**: A unified, native windowing environment hosting all suite modules: Word, Excel, Presentation, PDF Reader, Forms, Notes, AIAssistant, and Hub Launcher.
-2. **Multi-Platform Distribution Builder**: Compiles, packages, and outputs production desktop installers and executables:
+1. **Centralized Downloads Storage**: A structured, versioned repository storing all pre-built cross-platform application release packages:
    - **Linux**: `.deb` installer packages (Debian / Ubuntu amd64)
    - **Windows**: `.exe` Portable & Setup PE32+ GUI executables
-   - **Checksums & Manifests**: SHA-256 verification hashes and release manifests
-3. **Dedicated Downloads Distribution Pipeline**: Automatically builds and outputs distribution packages directly to `@/home/tranduyviet/Projects/2tek-office-packs/downloads` (configured via `DOWNLOADS_PATH` / `APP_DOWNLOADS_PATH` in `.env`).
+   - **Universal / Portable**: `.zip` standalone application bundles
+   - **Integrity Verification**: `SHA256SUMS.txt` cryptographic hashes and `release-manifest.json` release manifests
+2. **Zero Code Logic & Zero Scripts (`no script, no handle`)**:
+   - Contains no application runtime logic, no build scripts, no execution runners, and no gRPC/service handlers.
+   - All compilation, packaging, and release generation are executed externally by workspace tools (`scripts/build.mjs --downloads`) and Builder Bot.
+3. **Dedicated Downloads Distribution Hierarchy**: All downloadable packages are organized under:
+   `downloads/{projectName}/{version}/{name}.{type}`
+   (configured via `DOWNLOADS_PATH` / `APP_DOWNLOADS_PATH` in `.env`).
 
 ---
 
@@ -24,56 +29,33 @@
 ```
 packages/VTekOfficeSuit/
 ├── downloads/                # All cross-platform release packages (.deb, .exe, .zip)
+│   ├── Hub/                  # 2-TEK Hub Desktop installer packages
 │   ├── Word/                 # Document Studio installer packages
 │   ├── Excel/                # Spreadsheet Studio installer packages
-│   ├── Hub/                  # 2-TEK Hub Desktop installer packages
-│   └── ...                   # All 17 workspace application packages
-├── scripts/                  # Packaging & distribution build scripts
-│   ├── build-desktop-packages.ts  # Multi-platform builder engine
-│   └── build-desktop-packages.mjs # CLI launcher
-├── .standards/               # Design and structure specifications (Rule 68)
-│   ├── structure.md
-│   └── designs.md
+│   ├── Presentation/         # Presentation installer packages
+│   ├── Pdf/                  # PDF Studio installer packages
+│   ├── SuperChat/            # SuperChat installer packages
+│   ├── Tasks/                # Tasks installer packages
+│   ├── Cloud/                # Cloud installer packages
+│   └── ...                   # All ecosystem application release packages
+├── .agents/                  # Standards, rules, and task changelogs
+│   ├── standards/
+│   │   ├── structure.md
+│   │   └── designs.md
+│   └── features/
 ├── PROJECT_TARGET.md         # Canonical package target & anti-goals (Rule 69)
-└── package.json              # Package metadata and build scripts
+├── LICENSE                   # MIT License
+├── package.json              # Package metadata (downloads storage only, no scripts)
+└── README.md                 # Central repository documentation
 ```
 
 ---
 
-## 3. Quick Start & Execution
+## 3. Architectural Boundaries (Rule 69 Conformance)
 
-### Run Desktop Application in Development
-
-```bash
-# Start VTek Office Suite desktop client
-npm run desktop
-
-# Or from workspace root
-npm run desktop:vtek
-```
-
-### Build Distribution Packages to Downloads
-
-```bash
-# Build all packages (.deb and .exe) to downloads/
-npm run build:desktop
-
-# Build Linux .deb package only
-npm run build:desktop:deb
-
-# Build Windows .exe package only
-npm run build:desktop:exe
-```
-
-All built packages will be saved to the configured downloads folder:
-`DOWNLOADS_PATH=./downloads` (or `@/home/tranduyviet/Projects/2tek-office-packs/downloads`).
-
----
-
-## 4. Architectural Boundaries (Rule 69 Conformance)
-
-- **Owner of**: Electron packaging, desktop windowing shell, multi-module suite navigation, and distribution builds targeting `downloads/`.
-- **Anti-Goals**:
-  - Does NOT replace individual standalone document engines (Word, Excel, Presentation remain independent).
-  - Does NOT run file storage cloud services (belongs to `packages/Cloud`).
-  - Does NOT act as the raw application compiler (belongs to `Hub` and `BuilderBot`).
+- **Owner of**: Storing and maintaining cross-platform downloadable release packages, checksums, and manifests under `downloads/`.
+- **Strict Anti-Goals**:
+  - **Zero Code Logic**: Does NOT contain application code, document processors, or web servers.
+  - **No Scripts, No Handles**: Does NOT contain executable build scripts, CLI commands, or service handlers.
+  - **Zero User Storage**: Does NOT store user working documents (managed by `packages/Cloud`).
+  - **No Desktop Windowing**: Does NOT run desktop Electron windows or service daemon processes.

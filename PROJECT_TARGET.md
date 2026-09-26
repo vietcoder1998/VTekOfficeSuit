@@ -1,26 +1,33 @@
 # VTek Office Suite Project Target Specification (Rule 69)
 
 > **Canonical Target of App**:
-> **Unified Electron Desktop Application Shell & Multi-Platform Distribution Packager for 2-TEK Office Suite**
-> *(Bộ ứng dụng văn phòng máy tính để bàn hợp nhất và hệ thống đóng gói phân phối đa nền tảng cho hệ sinh thái 2-TEK Office)*.
+> **Dedicated repository strictly used only for saving downloads files only (`use only for save downloads files only`), no script, no handle**.
+> *(Thư mục và kho lưu trữ chuyên dụng chỉ dùng để lưu trữ các tệp tải về và gói phân phối ứng dụng: .deb, .exe, .zip, SHA256SUMS.txt, release-manifest.json — tuyệt đối không chứa logic mã nguồn, không có script, không có trình xử lý)*.
 
 ---
 
 ## 1. High-Level Vision & Scope
 
-1. **Unified Suite Desktop Experience**:
-   - Provide a cohesive Electron desktop shell linking Word, Excel, Presentation, PDF Reader, Forms, Notes, AI Assistant, and Hub.
-   - Maintain multi-window and tabbed navigation across all suite applications.
-2. **Automated Packaging to Downloads**:
-   - Serve as the dedicated release packager building `.deb` (Debian/Ubuntu Linux) and `.exe` (Windows 64-bit) packages.
-   - Automatically output built distribution artifacts to `downloads/` (`DOWNLOADS_PATH`), with SHA-256 checksums and release metadata.
-3. **Environment & Path Invariants (Rule 72)**:
-   - Sourced dynamically from `process.env.DOWNLOADS_PATH` and `process.env.APP_DOWNLOADS_PATH` with fallback to `../../downloads`. Zero hardcoded user paths.
+1. **Storage of Application Download Files Only**:
+   - Serve as the dedicated, standalone distribution storage repository for all cross-platform application release packages in the 2-TEK ecosystem.
+   - Maintain the structured versioned tree under `downloads/{projectName}/{version}/{name}.{deb|exe|zip}` alongside `SHA256SUMS.txt` cryptographic checksums and `release-manifest.json` metadata.
+2. **Zero Code Logic & Zero Scripts Policy**:
+   - This repository contains **NO source code logic**, **NO build scripts**, **NO execution runners**, and **NO service handlers**.
+   - Packaging and artifact compilation are handled externally by workspace build tools and Builder Bot; VTekOfficeSuit functions strictly as the persistent storage repository for the resulting download artifacts.
+3. **Standalone Gitlink Decoupling (Mode 160000)**:
+   - VTekOfficeSuit maintains its own independent Git repository tracking download distribution packages, avoiding Git binary bloat in the main monorepo.
+4. **Environment & Path Invariants (Rule 72)**:
+   - Downloads root path is resolved via `process.env.DOWNLOADS_PATH` / `process.env.APP_DOWNLOADS_PATH` with standard fallback to `packages/VTekOfficeSuit/downloads`. Zero hardcoded user paths.
 
 ---
 
 ## 2. Invariants & Strict Anti-Goals
 
-1. **Anti-Drift**: VTekOfficeSuit must never absorb the core document parser implementations of Word or Excel; it consumes them as suite modules.
-2. **Anti-Storage**: VTekOfficeSuit is not a cloud file store; file storage operations remain strictly in `packages/Cloud`.
-3. **Release Target**: Every desktop build initiated from VTekOfficeSuit MUST output binaries to `downloads/`.
+1. **Anti-Goal 1 — Zero Code Logic**:
+   - VTekOfficeSuit must NEVER contain application business logic, document parsers, UI components, or state engines.
+2. **Anti-Goal 2 — No Scripts, No Handles**:
+   - VTekOfficeSuit must NEVER contain executable build scripts, TypeScript/JavaScript runner files, CLI utilities, or gRPC/API handlers (`no script, no handle`). All building and handling remain in workspace runners or respective package modules.
+3. **Anti-Goal 3 — Downloads Storage Only**:
+   - VTekOfficeSuit is strictly and exclusively used for saving downloadable release packages and installers (`use only for save downloads files only`). It is not an Electron application, not a web server, and not a desktop runner.
+4. **Anti-Goal 4 — Zero User Document Storage**:
+   - VTekOfficeSuit must never store user working files or personal cloud documents; user data belongs strictly in `packages/Cloud` and `FILES_STORAGE_PATH`.
