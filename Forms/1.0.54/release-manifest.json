@@ -1,0 +1,42 @@
+{
+  "projectName": "Forms",
+  "appName": "Forms",
+  "displayName": "Forms",
+  "version": "1.0.54",
+  "buildTimestamp": "2026-09-27T07:17:09.736Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Forms/1.0.54",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Forms-1.0.54",
+      "fileName": "Forms-1.0.54.deb",
+      "downloadPath": "downloads/Forms/1.0.54/Forms-1.0.54.deb",
+      "sizeBytes": 21086,
+      "sha256": "559735881ae6e555eeae6f2756893fc5259d4d57e456449e2b2129b483889e42"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Forms-1.0.54",
+      "fileName": "Forms-1.0.54.exe",
+      "downloadPath": "downloads/Forms/1.0.54/Forms-1.0.54.exe",
+      "sizeBytes": 15872,
+      "sha256": "f888313d7423a5f5c11f770786c5038914206656cbaffb80aba648145961f46c"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Forms-1.0.54",
+      "fileName": "Forms-1.0.54.zip",
+      "downloadPath": "downloads/Forms/1.0.54/Forms-1.0.54.zip",
+      "sizeBytes": 13169,
+      "sha256": "02a8f4a5bceac63c039f0aac1040738a9ada27ea458fa432fbeeef93ae24c759"
+    }
+  ]
+}
