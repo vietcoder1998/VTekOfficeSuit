@@ -3,7 +3,7 @@
   "appName": "OfficePack",
   "displayName": "OfficePack",
   "version": "1.0.89",
-  "buildTimestamp": "2026-09-27T20:23:40.291Z",
+  "buildTimestamp": "2026-09-27T20:49:25.477Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/OfficePack/1.0.89",
@@ -15,8 +15,8 @@
       "name": "OfficePack-1.0.89",
       "fileName": "OfficePack-1.0.89.deb",
       "downloadPath": "downloads/OfficePack/1.0.89/OfficePack-1.0.89.deb",
-      "sizeBytes": 46912,
-      "sha256": "02cdaa1fdf0fbd4b7b26dcced300c1e1bcfce6e7692fae07959cfb7cb1c4000f"
+      "sizeBytes": 46914,
+      "sha256": "953b14e58b147592276511fa7d1920eeafabed7c1dd1fe6e89dd5512565b283a"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "OfficePack-1.0.89.exe",
       "downloadPath": "downloads/OfficePack/1.0.89/OfficePack-1.0.89.exe",
       "sizeBytes": 30208,
-      "sha256": "702bdab8180b1b7deab737697381dcef36f038443ffe7f104ab1824b02fdee82"
+      "sha256": "d76fdc05119e22adb31db830c21fd800a1d968acebafd129548b5143f02d01d5"
     },
     {
       "platform": "macos",
@@ -36,7 +36,7 @@
       "fileName": "OfficePack-1.0.89.dmg",
       "downloadPath": "downloads/OfficePack/1.0.89/OfficePack-1.0.89.dmg",
       "sizeBytes": 27381,
-      "sha256": "23f7b52157924490d5d9567d090cbb0736dd22522c7eb4dbd69c0854f4a649a3"
+      "sha256": "e6774ddc8c81b74270266e7b82c8f83bce46317db7ea833dd0160ef7c6c5feb7"
     },
     {
       "platform": "universal",
@@ -46,7 +46,7 @@
       "fileName": "OfficePack-1.0.89.zip",
       "downloadPath": "downloads/OfficePack/1.0.89/OfficePack-1.0.89.zip",
       "sizeBytes": 27319,
-      "sha256": "913f2a710d4d0954af02f9b3bef36c34fd9a65e6f2c6a8e3670da5922f19f78b"
+      "sha256": "b1a1a3c748e830e7f23e63770e91b8e1a3f49a4ca6bc42be67a139da9f122ef1"
     }
   ]
 }
