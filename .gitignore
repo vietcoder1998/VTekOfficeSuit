@@ -14,3 +14,14 @@ dist-electron/
 **/.example
 **/.example/**
 */.example/*
+
+# Logs
+logs/
+**/logs/
+**/logs/**
+*/logs/*
+**/*.log
+!components/logs/**
+
+# Logs
+!**/components/logs/**
