@@ -1,0 +1,52 @@
+{
+  "projectName": "Excel",
+  "appName": "Excel",
+  "displayName": "Excel",
+  "version": "1.0.37",
+  "buildTimestamp": "2026-09-27T03:47:09.181Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Excel/1.0.37",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Excel-1.0.37",
+      "fileName": "Excel-1.0.37.deb",
+      "downloadPath": "downloads/Excel/1.0.37/Excel-1.0.37.deb",
+      "sizeBytes": 19924,
+      "sha256": "7e89a4f689e513d331c12029592b8ce3d5c187bc81b24fcaca703b7e7ff8c668"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Excel-1.0.37",
+      "fileName": "Excel-1.0.37.exe",
+      "downloadPath": "downloads/Excel/1.0.37/Excel-1.0.37.exe",
+      "sizeBytes": 15360,
+      "sha256": "52216af301d96ac14a29bf72244dacbfefbf68b0aec4e5de7c80d3c2f37d70e5"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Excel-1.0.37",
+      "fileName": "Excel-1.0.37.dmg",
+      "downloadPath": "downloads/Excel/1.0.37/Excel-1.0.37.dmg",
+      "sizeBytes": 12501,
+      "sha256": "5e629e4b703752e563463ab38db1acffdb60796be30af85f1d0858f4a2379393"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Excel-1.0.37",
+      "fileName": "Excel-1.0.37.zip",
+      "downloadPath": "downloads/Excel/1.0.37/Excel-1.0.37.zip",
+      "sizeBytes": 12437,
+      "sha256": "c9935a14189cd0951b29a1141a3660ba355c0067c822571f91c07c7e4dec72ac"
+    }
+  ]
+}
