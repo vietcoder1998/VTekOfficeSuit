@@ -3,7 +3,7 @@
   "appName": "Word",
   "displayName": "Word",
   "version": "1.0.92",
-  "buildTimestamp": "2026-09-27T18:05:26.281Z",
+  "buildTimestamp": "2026-09-27T18:06:33.669Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.92",
@@ -16,7 +16,7 @@
       "fileName": "Word-1.0.92.deb",
       "downloadPath": "downloads/Word/1.0.92/Word-1.0.92.deb",
       "sizeBytes": 41952,
-      "sha256": "c2d98d78851f3d2c2da9da43f7df5cbb73e9ffafef7502ed46d8f00672b524fa"
+      "sha256": "ee0cde4443fc6dc13f101d8a8c8f70b65eea5ea6695cabb565c48cdd6c48c97f"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Word-1.0.92.exe",
       "downloadPath": "downloads/Word/1.0.92/Word-1.0.92.exe",
       "sizeBytes": 39424,
-      "sha256": "1a63491a44d03c7d126d2e096d63ce0b42e202cf63e869c292dfd37bdfcdae2c"
+      "sha256": "f15e676c81a0d157bc536e12b2021d347c1bb944c799b0bf847a0b1bc6e0d620"
     },
     {
       "platform": "macos",
@@ -36,7 +36,7 @@
       "fileName": "Word-1.0.92.dmg",
       "downloadPath": "downloads/Word/1.0.92/Word-1.0.92.dmg",
       "sizeBytes": 36543,
-      "sha256": "a41680d82c2b3caa45d2d668fc74e96a9cbe49f2c33454082652eb635a4457fa"
+      "sha256": "4ed8d0ae23aac5c28d4f552118652f8a6a0d38af0a1ceeb251fe417d3858734e"
     },
     {
       "platform": "universal",
@@ -46,7 +46,7 @@
       "fileName": "Word-1.0.92.zip",
       "downloadPath": "downloads/Word/1.0.92/Word-1.0.92.zip",
       "sizeBytes": 36480,
-      "sha256": "59e3d894fe9ac6d20a15718fd07c6eb6f08e33ec4b5fb1f33936dfca13df063e"
+      "sha256": "8d573cf6ef5b67645fd9869c7535dc6a74e6b439da72ed6d8584d019d6a8e18d"
     }
   ]
 }
