@@ -1,0 +1,42 @@
+{
+  "projectName": "Word",
+  "appName": "Word",
+  "displayName": "Word",
+  "version": "1.0.58",
+  "buildTimestamp": "2026-09-27T06:05:59.255Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.58",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Word-1.0.58",
+      "fileName": "Word-1.0.58.deb",
+      "downloadPath": "downloads/Word/1.0.58/Word-1.0.58.deb",
+      "sizeBytes": 450,
+      "sha256": "de77533456a7ac9a6ba69c4bcfb5e34b8ce681e470f14f7cee75b7fd73ac6426"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Word-1.0.58",
+      "fileName": "Word-1.0.58.exe",
+      "downloadPath": "downloads/Word/1.0.58/Word-1.0.58.exe",
+      "sizeBytes": 39424,
+      "sha256": "b3488ca7653b326560ab94a689aac2f95b82513f2a5421c1a732e915fa5611ed"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Word-1.0.58",
+      "fileName": "Word-1.0.58.zip",
+      "downloadPath": "downloads/Word/1.0.58/Word-1.0.58.zip",
+      "sizeBytes": 36481,
+      "sha256": "50066a02c7dfb72eced9f876440ac8f5352df69af780529661037c8734ed27bf"
+    }
+  ]
+}

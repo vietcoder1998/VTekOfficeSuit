@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Word Editor
+Comment=Rich-text document editor with Word-compatible formatting and collaboration.
+Exec=/usr/bin/word %U
+Terminal=false
+Type=Application
+Icon=word
+Categories=Office;Utility;Development;
