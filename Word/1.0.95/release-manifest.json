@@ -1,7 +1,7 @@
 {
   "projectName": "Word",
   "appName": "Word",
-  "displayName": "Word Editor",
+  "displayName": "Word",
   "version": "1.0.95",
   "buildTimestamp": "2026-09-27T18:32:56.863Z",
   "distributionChannel": "stable",
@@ -16,7 +16,6 @@
       "fileName": "Word-1.0.95.deb",
       "downloadPath": "downloads/Word/1.0.95/Word-1.0.95.deb",
       "sizeBytes": 41952,
-      "sizeFormatted": "41.0 KB",
       "sha256": "08103b5cf38eb2ae7b603fca5dbb6fd768e4364e4dee1cf3de7f8b3f97e51181"
     },
     {
@@ -27,7 +26,6 @@
       "fileName": "Word-1.0.95.exe",
       "downloadPath": "downloads/Word/1.0.95/Word-1.0.95.exe",
       "sizeBytes": 39424,
-      "sizeFormatted": "38.5 KB",
       "sha256": "4641be94fe7f4c07afd87696036eeb6e03370d46025dc5dbf32cbd862e756656"
     },
     {
@@ -38,7 +36,6 @@
       "fileName": "Word-1.0.95.dmg",
       "downloadPath": "downloads/Word/1.0.95/Word-1.0.95.dmg",
       "sizeBytes": 36544,
-      "sizeFormatted": "35.7 KB",
       "sha256": "61ddef04d36804f9fedb1656c30e3e288a29bb077ecac56db7fb17fed65b97c6"
     },
     {
@@ -49,7 +46,6 @@
       "fileName": "Word-1.0.95.zip",
       "downloadPath": "downloads/Word/1.0.95/Word-1.0.95.zip",
       "sizeBytes": 36481,
-      "sizeFormatted": "35.6 KB",
       "sha256": "8bde57a8ea716c9a1b62839bc2346ec797754a8beb17a91f2b504d4e789ecb9c"
     }
   ]
