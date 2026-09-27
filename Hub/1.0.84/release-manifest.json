@@ -29,16 +29,6 @@
       "sha256": "6623fb4095863e2cdb47258d2fbfdc61ca36717c6ed0dec557a7e636bd89cf61"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Hub-1.0.84",
-      "fileName": "Hub-1.0.84.dmg",
-      "downloadPath": "downloads/Hub/1.0.84/Hub-1.0.84.dmg",
-      "sizeBytes": 109906,
-      "sha256": "18fbecc733860e05ecf14c8aa90562ec376312d14be126f7aee3f9cd9788c47c"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

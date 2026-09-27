@@ -29,16 +29,6 @@
       "sha256": "7aae0a7f899153eda94389add4869fb61477ac019b9e7e23df31dc4dab19118e"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Word-1.0.90",
-      "fileName": "Word-1.0.90.dmg",
-      "downloadPath": "downloads/Word/1.0.90/Word-1.0.90.dmg",
-      "sizeBytes": 36543,
-      "sha256": "da247bc86dd81214b96a836f2a759027d9809346a50590247b1fab271533a2e9"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

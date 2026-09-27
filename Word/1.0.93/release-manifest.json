@@ -29,16 +29,6 @@
       "sha256": "0ede50d6b89974b367c841509ba46974ba7a4fc5ab74e5749d44f25393e41bd2"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Word-1.0.93",
-      "fileName": "Word-1.0.93.dmg",
-      "downloadPath": "downloads/Word/1.0.93/Word-1.0.93.dmg",
-      "sizeBytes": 36543,
-      "sha256": "551e4fee76b264f33798006557dda6efaf19c3765d27feafceec933294555774"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
