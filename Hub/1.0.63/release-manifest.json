@@ -25,18 +25,8 @@
       "name": "Hub-1.0.63",
       "fileName": "Hub-1.0.63.exe",
       "downloadPath": "downloads/Hub/1.0.63/Hub-1.0.63.exe",
-      "sizeBytes": 112640,
-      "sha256": "581cc56ab6213f1b40f573d89e578fc8969e5ce3e79c61533c08fc0837833f17"
-    },
-    {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Hub-1.0.63",
-      "fileName": "Hub-1.0.63.dmg",
-      "downloadPath": "downloads/Hub/1.0.63/Hub-1.0.63.dmg",
-      "sizeBytes": 109905,
-      "sha256": "58651496cca91729ea5f7290a1a1ced34616308d6146e31a3080e70b1409b708"
+      "sizeBytes": 32256,
+      "sha256": "861914790b6840a0a204a661adab257d6364e7afe5a0866743b42d1434bb2b53"
     },
     {
       "platform": "universal",
