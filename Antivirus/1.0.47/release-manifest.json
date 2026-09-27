@@ -1,0 +1,52 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus",
+  "version": "1.0.47",
+  "buildTimestamp": "2026-09-27T07:02:40.766Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.47",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus-1.0.47",
+      "fileName": "Antivirus-1.0.47.deb",
+      "downloadPath": "downloads/Antivirus/1.0.47/Antivirus-1.0.47.deb",
+      "sizeBytes": 20954,
+      "sha256": "4681eff9ccb3f4d0632af50de906941d890fb5ba68f2f7fbfafc7debc1063a83"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus-1.0.47",
+      "fileName": "Antivirus-1.0.47.exe",
+      "downloadPath": "downloads/Antivirus/1.0.47/Antivirus-1.0.47.exe",
+      "sizeBytes": 15872,
+      "sha256": "01cbe616796bdbae77f0d6492a4009bd5c9dcf6a2d5ff54797d0de673b3ac468"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Antivirus-1.0.47",
+      "fileName": "Antivirus-1.0.47.dmg",
+      "downloadPath": "downloads/Antivirus/1.0.47/Antivirus-1.0.47.dmg",
+      "sizeBytes": 13072,
+      "sha256": "6ccd9c9cdc7af0ee7d997bbbbcce74cc6c5eb799f92f14700b85c50d860c85f8"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus-1.0.47",
+      "fileName": "Antivirus-1.0.47.zip",
+      "downloadPath": "downloads/Antivirus/1.0.47/Antivirus-1.0.47.zip",
+      "sizeBytes": 12995,
+      "sha256": "a39e459670ec0fa0ecb61853f8b8dfb213b7fab42d59a3d33fca3c5fee828fb3"
+    }
+  ]
+}
