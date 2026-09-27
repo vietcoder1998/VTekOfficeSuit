@@ -1,0 +1,4 @@
+25a5ebf2540d1d05dc815bde6c7acd45d4a42425b8f83af65e7c315eadda4cb8  OfficePack-1.0.88.deb
+4b5d6fa2038c18fcd88bb26967facbd9c7e3a72ca65d57b91895fa593af8c250  OfficePack-1.0.88.exe
+e8e811a23593ea4a20e447cda7d78e5528673fdb1dc2326d8a9bcf70de685d24  OfficePack-1.0.88.dmg
+2dbbf4632c5d3b06a153f56c8a6d4fdf61d3199d0ea76a2bd552b23e08c37dda  OfficePack-1.0.88.zip
