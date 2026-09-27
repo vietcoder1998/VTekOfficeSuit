@@ -1,9 +1,9 @@
 {
   "projectName": "Presentation",
   "appName": "Presentation",
-  "displayName": "Presentation",
+  "displayName": "Presentation Editor",
   "version": "1.0.57",
-  "buildTimestamp": "2026-09-27T08:10:34.726Z",
+  "buildTimestamp": "2026-09-27T17:25:27.990Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Presentation/1.0.57",
@@ -15,8 +15,9 @@
       "name": "Presentation-1.0.57",
       "fileName": "Presentation-1.0.57.deb",
       "downloadPath": "downloads/Presentation/1.0.57/Presentation-1.0.57.deb",
-      "sizeBytes": 21082,
-      "sha256": "025e927023d7392ee5aa8b653bfb38613f6a240ec847f5eac19b74db394d525f"
+      "sizeBytes": 21076,
+      "sizeFormatted": "20.6 KB",
+      "sha256": "5b09bf00673e6a02d357b92ed3cb1a5e34359214b974bee042c2e1001a4220c7"
     },
     {
       "platform": "windows",
@@ -26,7 +27,19 @@
       "fileName": "Presentation-1.0.57.exe",
       "downloadPath": "downloads/Presentation/1.0.57/Presentation-1.0.57.exe",
       "sizeBytes": 15872,
-      "sha256": "6cae4e5e9a2a71dbfab7cf67a10e36c86a6312894f9f850ab4806db2bf1be361"
+      "sizeFormatted": "15.5 KB",
+      "sha256": "94b1d8d5d976504be12b4d67d32520f1650672566503abd516330a916cc677ca"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Presentation-1.0.57",
+      "fileName": "Presentation-1.0.57.dmg",
+      "downloadPath": "downloads/Presentation/1.0.57/Presentation-1.0.57.dmg",
+      "sizeBytes": 13266,
+      "sizeFormatted": "13.0 KB",
+      "sha256": "670f7e709ce0c4c29ee748372962918d1c7bf38d4bc8042ff233d1f839495499"
     },
     {
       "platform": "universal",
@@ -36,7 +49,8 @@
       "fileName": "Presentation-1.0.57.zip",
       "downloadPath": "downloads/Presentation/1.0.57/Presentation-1.0.57.zip",
       "sizeBytes": 13195,
-      "sha256": "07d7ea4b8478478ba145af043badc7e981dcd8f4374db182d70f2d4c10c9f33a"
+      "sizeFormatted": "12.9 KB",
+      "sha256": "fca147bdf89b0d2ed94eda8c2111d3f6a13c62073562856f901a48f336998343"
     }
   ]
 }
