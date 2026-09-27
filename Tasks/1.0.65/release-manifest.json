@@ -1,0 +1,42 @@
+{
+  "projectName": "Tasks",
+  "appName": "Tasks",
+  "displayName": "Tasks & Calendar",
+  "version": "1.0.65",
+  "buildTimestamp": "2026-09-27T17:48:26.409Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Tasks/1.0.65",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Tasks-1.0.65",
+      "fileName": "Tasks-1.0.65.deb",
+      "downloadPath": "downloads/Tasks/1.0.65/Tasks-1.0.65.deb",
+      "sizeBytes": 20806,
+      "sha256": "ef379d3febafd4a86ff08ddd2362d5ab7903959662c59afe47a6bbb95812ee3c"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Tasks-1.0.65",
+      "fileName": "Tasks-1.0.65.exe",
+      "downloadPath": "downloads/Tasks/1.0.65/Tasks-1.0.65.exe",
+      "sizeBytes": 15872,
+      "sha256": "21407d63831a6ff97442ba621362ffc94a84d388c03e231750b85f09518b7df8"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Tasks-1.0.65",
+      "fileName": "Tasks-1.0.65.zip",
+      "downloadPath": "downloads/Tasks/1.0.65/Tasks-1.0.65.zip",
+      "sizeBytes": 13026,
+      "sha256": "4530b0bf45c321e35526afd0f642ddeee17238bda965988f8cfdd7f2b0c40f4f"
+    }
+  ]
+}

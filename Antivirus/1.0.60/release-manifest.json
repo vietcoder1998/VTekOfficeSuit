@@ -29,16 +29,6 @@
       "sha256": "cfcbc5b207808f7cb748e8afeebc7663f551928ec9f36302dc1ea91f41ff923b"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Antivirus-1.0.60",
-      "fileName": "Antivirus-1.0.60.dmg",
-      "downloadPath": "downloads/Antivirus/1.0.60/Antivirus-1.0.60.dmg",
-      "sizeBytes": 13072,
-      "sha256": "2f9b856867638723f3794bfc09fcd25a0d32a0db8b50ff914efef798413604da"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

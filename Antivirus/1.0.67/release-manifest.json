@@ -1,0 +1,42 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus",
+  "version": "1.0.67",
+  "buildTimestamp": "2026-09-27T17:47:23.432Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.67",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus-1.0.67",
+      "fileName": "Antivirus-1.0.67.deb",
+      "downloadPath": "downloads/Antivirus/1.0.67/Antivirus-1.0.67.deb",
+      "sizeBytes": 20952,
+      "sha256": "6580f9c77c261816f2089df535203298d0137e48c97227c5366cf309ed39c501"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus-1.0.67",
+      "fileName": "Antivirus-1.0.67.exe",
+      "downloadPath": "downloads/Antivirus/1.0.67/Antivirus-1.0.67.exe",
+      "sizeBytes": 15872,
+      "sha256": "45ce7797d71ca4dd00778827d3981f8d5918ddfbc663fd89b45fe7d35d1f37c0"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus-1.0.67",
+      "fileName": "Antivirus-1.0.67.zip",
+      "downloadPath": "downloads/Antivirus/1.0.67/Antivirus-1.0.67.zip",
+      "sizeBytes": 12995,
+      "sha256": "5bc66dfe22641bd51b3601c75b06b74a6184c8aa8f66cf14fc852c7aaaf2ae13"
+    }
+  ]
+}

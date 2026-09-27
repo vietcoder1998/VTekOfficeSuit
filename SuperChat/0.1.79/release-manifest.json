@@ -29,16 +29,6 @@
       "sha256": "07ac29479b22de5936abea098ebe21256a35e4965e4f1fe31d974669708f515e"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "SuperChat-0.1.79",
-      "fileName": "SuperChat-0.1.79.dmg",
-      "downloadPath": "downloads/SuperChat/0.1.79/SuperChat-0.1.79.dmg",
-      "sizeBytes": 317581,
-      "sha256": "0e74568ef7d884c5e54b86b0801ec4f88aa6688fc99968006ae820066dc317cf"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
