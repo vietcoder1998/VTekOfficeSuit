@@ -29,16 +29,6 @@
       "sha256": "01cbe616796bdbae77f0d6492a4009bd5c9dcf6a2d5ff54797d0de673b3ac468"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Antivirus-1.0.47",
-      "fileName": "Antivirus-1.0.47.dmg",
-      "downloadPath": "downloads/Antivirus/1.0.47/Antivirus-1.0.47.dmg",
-      "sizeBytes": 13072,
-      "sha256": "6ccd9c9cdc7af0ee7d997bbbbcce74cc6c5eb799f92f14700b85c50d860c85f8"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

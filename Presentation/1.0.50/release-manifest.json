@@ -1,0 +1,42 @@
+{
+  "projectName": "Presentation",
+  "appName": "Presentation",
+  "displayName": "Presentation",
+  "version": "1.0.50",
+  "buildTimestamp": "2026-09-27T07:04:12.947Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Presentation/1.0.50",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Presentation-1.0.50",
+      "fileName": "Presentation-1.0.50.deb",
+      "downloadPath": "downloads/Presentation/1.0.50/Presentation-1.0.50.deb",
+      "sizeBytes": 21076,
+      "sha256": "b1003982ace133e187c8202f2c2bfe62c7a5137295d092a27894c72184016730"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Presentation-1.0.50",
+      "fileName": "Presentation-1.0.50.exe",
+      "downloadPath": "downloads/Presentation/1.0.50/Presentation-1.0.50.exe",
+      "sizeBytes": 15872,
+      "sha256": "30b407e07278dc964dbe4b87c227cfa5d27e93fc8e7699e3bcd91b2f96e32bec"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Presentation-1.0.50",
+      "fileName": "Presentation-1.0.50.zip",
+      "downloadPath": "downloads/Presentation/1.0.50/Presentation-1.0.50.zip",
+      "sizeBytes": 13195,
+      "sha256": "696c6dec407dd0b01902d9a5859349b588eb5e57fb96df7b2a1dbba90342ae13"
+    }
+  ]
+}
