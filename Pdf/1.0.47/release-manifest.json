@@ -1,0 +1,52 @@
+{
+  "projectName": "Pdf",
+  "appName": "Pdf",
+  "displayName": "Pdf",
+  "version": "1.0.47",
+  "buildTimestamp": "2026-09-27T06:23:42.794Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Pdf/1.0.47",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Pdf-1.0.47",
+      "fileName": "Pdf-1.0.47.deb",
+      "downloadPath": "downloads/Pdf/1.0.47/Pdf-1.0.47.deb",
+      "sizeBytes": 20988,
+      "sha256": "60eb0bc6d92ea29266fcda92188d988d96a2452d53d65bfc142318371e6d5637"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Pdf-1.0.47",
+      "fileName": "Pdf-1.0.47.exe",
+      "downloadPath": "downloads/Pdf/1.0.47/Pdf-1.0.47.exe",
+      "sizeBytes": 15872,
+      "sha256": "e4f5fcae332d7f1c309144a911a264b8f56bcede0715740276279eef06fa291c"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Pdf-1.0.47",
+      "fileName": "Pdf-1.0.47.dmg",
+      "downloadPath": "downloads/Pdf/1.0.47/Pdf-1.0.47.dmg",
+      "sizeBytes": 13174,
+      "sha256": "a9bb17f9b94e28a836d266509fc2642cee0b77914dad528f65f751504fb12744"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Pdf-1.0.47",
+      "fileName": "Pdf-1.0.47.zip",
+      "downloadPath": "downloads/Pdf/1.0.47/Pdf-1.0.47.zip",
+      "sizeBytes": 13112,
+      "sha256": "76f619d3c6b390ab12c0616c2c3867d24d0219be6a881be1db360506b27a0b44"
+    }
+  ]
+}
