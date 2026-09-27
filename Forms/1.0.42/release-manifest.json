@@ -29,16 +29,6 @@
       "sha256": "d8fe4a8c097c0ab74989f992618622f0ea07f92040d9ec7e7ccea72e36b871c0"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Forms-1.0.42",
-      "fileName": "Forms-1.0.42.dmg",
-      "downloadPath": "downloads/Forms/1.0.42/Forms-1.0.42.dmg",
-      "sizeBytes": 13234,
-      "sha256": "ae35f4f59087ffe455fc8c4dc6ab5b1f0c44a4675489915120279cb588a1d441"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
