@@ -1,7 +1,7 @@
 {
   "projectName": "Excel",
   "appName": "Excel",
-  "displayName": "Excel Editor",
+  "displayName": "Excel",
   "version": "1.0.65",
   "buildTimestamp": "2026-09-27T17:24:35.881Z",
   "distributionChannel": "stable",
@@ -16,7 +16,6 @@
       "fileName": "Excel-1.0.65.deb",
       "downloadPath": "downloads/Excel/1.0.65/Excel-1.0.65.deb",
       "sizeBytes": 20958,
-      "sizeFormatted": "20.5 KB",
       "sha256": "4a6ea96436228295f4ced35b4d9c41edf33ffbbc8b5538d644487b1622380daf"
     },
     {
@@ -27,7 +26,6 @@
       "fileName": "Excel-1.0.65.exe",
       "downloadPath": "downloads/Excel/1.0.65/Excel-1.0.65.exe",
       "sizeBytes": 15872,
-      "sizeFormatted": "15.5 KB",
       "sha256": "677aa6f9d8b431911ed9f595affc1e0cef43d9866883a6b339ac27a249edef05"
     },
     {
@@ -38,7 +36,6 @@
       "fileName": "Excel-1.0.65.dmg",
       "downloadPath": "downloads/Excel/1.0.65/Excel-1.0.65.dmg",
       "sizeBytes": 13153,
-      "sizeFormatted": "12.8 KB",
       "sha256": "1e4bb164c8632cfaeeeda6709cdb2431193fb3a8da3482483ca63580eb49c28c"
     },
     {
@@ -49,7 +46,6 @@
       "fileName": "Excel-1.0.65.zip",
       "downloadPath": "downloads/Excel/1.0.65/Excel-1.0.65.zip",
       "sizeBytes": 13089,
-      "sizeFormatted": "12.8 KB",
       "sha256": "f801892ca52e161ee50b9406786bc5cee5dc8dc3ada4be9d622b543979d12891"
     }
   ]
