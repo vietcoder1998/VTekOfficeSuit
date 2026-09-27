@@ -1,7 +1,7 @@
 {
   "projectName": "Presentation",
   "appName": "Presentation",
-  "displayName": "Presentation Editor",
+  "displayName": "Presentation",
   "version": "1.0.57",
   "buildTimestamp": "2026-09-27T17:25:27.990Z",
   "distributionChannel": "stable",
@@ -16,7 +16,6 @@
       "fileName": "Presentation-1.0.57.deb",
       "downloadPath": "downloads/Presentation/1.0.57/Presentation-1.0.57.deb",
       "sizeBytes": 21076,
-      "sizeFormatted": "20.6 KB",
       "sha256": "5b09bf00673e6a02d357b92ed3cb1a5e34359214b974bee042c2e1001a4220c7"
     },
     {
@@ -27,7 +26,6 @@
       "fileName": "Presentation-1.0.57.exe",
       "downloadPath": "downloads/Presentation/1.0.57/Presentation-1.0.57.exe",
       "sizeBytes": 15872,
-      "sizeFormatted": "15.5 KB",
       "sha256": "94b1d8d5d976504be12b4d67d32520f1650672566503abd516330a916cc677ca"
     },
     {
@@ -38,7 +36,6 @@
       "fileName": "Presentation-1.0.57.dmg",
       "downloadPath": "downloads/Presentation/1.0.57/Presentation-1.0.57.dmg",
       "sizeBytes": 13266,
-      "sizeFormatted": "13.0 KB",
       "sha256": "670f7e709ce0c4c29ee748372962918d1c7bf38d4bc8042ff233d1f839495499"
     },
     {
@@ -49,7 +46,6 @@
       "fileName": "Presentation-1.0.57.zip",
       "downloadPath": "downloads/Presentation/1.0.57/Presentation-1.0.57.zip",
       "sizeBytes": 13195,
-      "sizeFormatted": "12.9 KB",
       "sha256": "fca147bdf89b0d2ed94eda8c2111d3f6a13c62073562856f901a48f336998343"
     }
   ]
