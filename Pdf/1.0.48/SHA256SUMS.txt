@@ -1,3 +1,0 @@
-e8fe27ab2c0d3f969bb60db8ed5dc8e435da83e8681862e0cd19cc3b5b575ec9  Pdf-1.0.48.deb
-95cfc1f8ced880c959c7bf3c55b751ce3bced27282c3a1331aa38f19345daef3  Pdf-1.0.48.exe
-7e7a93a5dede5e9c7a4efd3e1676f8b6ba609e1255b1cd2acc8ed36b55a2cbcf  Pdf-1.0.48.zip
