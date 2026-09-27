@@ -1,0 +1,4 @@
+025e927023d7392ee5aa8b653bfb38613f6a240ec847f5eac19b74db394d525f  Presentation-1.0.57.deb
+6cae4e5e9a2a71dbfab7cf67a10e36c86a6312894f9f850ab4806db2bf1be361  Presentation-1.0.57.exe
+a75df3ffc5bc59848f287c6d0c878ba7890fb4db625cbe3cb126ecb4cd3d18ff  Presentation-1.0.57.dmg
+07d7ea4b8478478ba145af043badc7e981dcd8f4374db182d70f2d4c10c9f33a  Presentation-1.0.57.zip
