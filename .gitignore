@@ -25,3 +25,15 @@ logs/
 
 # Logs
 !**/components/logs/**
+
+# Cache
+.Cache
+.Cache/
+**/.Cache
+**/.Cache/**
+*/.Cache/*
+.cache
+.cache/
+**/.cache
+**/.cache/**
+*/.cache/*
