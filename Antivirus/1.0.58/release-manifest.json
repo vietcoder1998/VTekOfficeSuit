@@ -1,0 +1,52 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus",
+  "version": "1.0.58",
+  "buildTimestamp": "2026-09-27T09:59:14.516Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.58",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus-1.0.58",
+      "fileName": "Antivirus-1.0.58.deb",
+      "downloadPath": "downloads/Antivirus/1.0.58/Antivirus-1.0.58.deb",
+      "sizeBytes": 20950,
+      "sha256": "343f649ca14ae8ce46eb538552e89b08aa91ad4cdce1a165e9148c477636947c"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus-1.0.58",
+      "fileName": "Antivirus-1.0.58.exe",
+      "downloadPath": "downloads/Antivirus/1.0.58/Antivirus-1.0.58.exe",
+      "sizeBytes": 15872,
+      "sha256": "b5b996b0740ae1f7a6f978bf0bb2b0c17e3af28151697efa29b99ec505721560"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Antivirus-1.0.58",
+      "fileName": "Antivirus-1.0.58.dmg",
+      "downloadPath": "downloads/Antivirus/1.0.58/Antivirus-1.0.58.dmg",
+      "sizeBytes": 13072,
+      "sha256": "c3d5906427a6ef8e1d5bd8eabcafe6e1f3016cc15f259a78eb281884f5f4cb71"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus-1.0.58",
+      "fileName": "Antivirus-1.0.58.zip",
+      "downloadPath": "downloads/Antivirus/1.0.58/Antivirus-1.0.58.zip",
+      "sizeBytes": 12995,
+      "sha256": "b3bbf84697bb6679db01ab73cdd2a4347ff7dd2c7489447a4c7fea59d59487dd"
+    }
+  ]
+}
