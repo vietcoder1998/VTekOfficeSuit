@@ -2,19 +2,19 @@
   "projectName": "Hub",
   "appName": "Hub",
   "displayName": "Hub",
-  "version": "1.0.53",
-  "buildTimestamp": "2026-09-27T05:52:34.281Z",
+  "version": "1.0.54",
+  "buildTimestamp": "2026-09-27T05:55:45.861Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.53",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.54",
   "packages": [
     {
       "platform": "linux",
       "architecture": "amd64",
       "type": "deb",
-      "name": "Hub-1.0.53",
-      "fileName": "Hub-1.0.53.deb",
-      "downloadPath": "downloads/Hub/1.0.53/Hub-1.0.53.deb",
+      "name": "Hub-1.0.54",
+      "fileName": "Hub-1.0.54.deb",
+      "downloadPath": "downloads/Hub/1.0.54/Hub-1.0.54.deb",
       "sizeBytes": 126308,
       "sha256": "cccb66d3897730ef7655efe5b074413fcd73349d1edda7d500a27e77318147d3"
     },
@@ -22,19 +22,19 @@
       "platform": "windows",
       "architecture": "x64",
       "type": "exe",
-      "name": "Hub-1.0.53",
-      "fileName": "Hub-1.0.53.exe",
-      "downloadPath": "downloads/Hub/1.0.53/Hub-1.0.53.exe",
-      "sizeBytes": 112640,
-      "sha256": "8436ca2c64e4e7951ca4e2bf50a8549bea7f73199818a7f7846443114d97f22f"
+      "name": "Hub-1.0.54",
+      "fileName": "Hub-1.0.54.exe",
+      "downloadPath": "downloads/Hub/1.0.54/Hub-1.0.54.exe",
+      "sizeBytes": 32256,
+      "sha256": "43012e240b2e50bf961cf7ef6940ee3a48c1fe13b8e1e7b569a97f3be78cb9ea"
     },
     {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
-      "name": "Hub-1.0.53",
-      "fileName": "Hub-1.0.53.zip",
-      "downloadPath": "downloads/Hub/1.0.53/Hub-1.0.53.zip",
+      "name": "Hub-1.0.54",
+      "fileName": "Hub-1.0.54.zip",
+      "downloadPath": "downloads/Hub/1.0.54/Hub-1.0.54.zip",
       "sizeBytes": 109835,
       "sha256": "255672796a40938b75765b18df349532e84d916755ab3f0a28d25dab29462fca"
     }
