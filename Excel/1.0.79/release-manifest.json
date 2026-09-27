@@ -29,16 +29,6 @@
       "sha256": "6a23435af6503a51323027c35f475f7634152937cdd25bb65ba7e5cdd29c24df"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Excel-1.0.79",
-      "fileName": "Excel-1.0.79.dmg",
-      "downloadPath": "downloads/Excel/1.0.79/Excel-1.0.79.dmg",
-      "sizeBytes": 13153,
-      "sha256": "8a70dac261a0ebd672421e4722b4c4221677f74976e96f877e91c56cbcaa85d5"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
