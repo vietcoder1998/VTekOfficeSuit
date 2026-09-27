@@ -1,0 +1,4 @@
+75cc68ca365045d75ae823a2161cd5cc4891feaa796ea4d74e27b320d6da6760  OfficePack-1.0.43.deb
+36cbe6ceda7fbeabf2c0ccf1de85f9a870161abe755dbd60f5c03d277c1df8b8  OfficePack-1.0.43.exe
+cd858be064dd2df6b7e65592536eea3b53a4e45ad635617d4b03beedbbb067a9  OfficePack-1.0.43.dmg
+d1db2054d2822d35cdb88983f0eaa0f9c413f232badc532c0493c09ad70e232c  OfficePack-1.0.43.zip
