@@ -3,7 +3,7 @@
   "appName": "Hub",
   "displayName": "Hub",
   "version": "1.0.40",
-  "buildTimestamp": "2026-09-27T03:42:22.960Z",
+  "buildTimestamp": "2026-09-27T03:45:36.956Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.40",
@@ -15,8 +15,8 @@
       "name": "Hub-1.0.40",
       "fileName": "Hub-1.0.40.deb",
       "downloadPath": "downloads/Hub/1.0.40/Hub-1.0.40.deb",
-      "sizeBytes": 125458,
-      "sha256": "975f455f0cdd6f3556509022d6fde81ba949ff0cd35b60997afff05f1f6259f0"
+      "sizeBytes": 125034,
+      "sha256": "97698ccde8fad835225c74b6ca7a9c1a8a919c7dc3fb7be82463c1fab6529500"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Hub-1.0.40.exe",
       "downloadPath": "downloads/Hub/1.0.40/Hub-1.0.40.exe",
       "sizeBytes": 112128,
-      "sha256": "95a7f1f0a30d6d9a31a7d2cf36112c56c03ecd7104b1d043f2e66b123b231eac"
+      "sha256": "9ceb7fcb917fc2933dd230553664c808d96016ca0168df35b14e0c0e95df38de"
     },
     {
       "platform": "macos",
@@ -35,8 +35,8 @@
       "name": "Hub-1.0.40",
       "fileName": "Hub-1.0.40.dmg",
       "downloadPath": "downloads/Hub/1.0.40/Hub-1.0.40.dmg",
-      "sizeBytes": 109220,
-      "sha256": "851d33c566f8cc3f149b0b177a3dc3691e08dc6d0fc9b1920cf7538ad0a53d57"
+      "sizeBytes": 109069,
+      "sha256": "208036eab02082fcacb9fcaa7f23741873fadbddad6a28b3a6a6630c9dfd093b"
     },
     {
       "platform": "universal",
@@ -45,8 +45,8 @@
       "name": "Hub-1.0.40",
       "fileName": "Hub-1.0.40.zip",
       "downloadPath": "downloads/Hub/1.0.40/Hub-1.0.40.zip",
-      "sizeBytes": 109150,
-      "sha256": "3793e4d48444ba10ff2dfc48ac541c8a2be98b1ac138a1328804c88e749c2f71"
+      "sizeBytes": 108999,
+      "sha256": "074de521cc5f49af74f20fe65ac9799f9b9097716db5384321f0eb659530ed17"
     }
   ]
 }
