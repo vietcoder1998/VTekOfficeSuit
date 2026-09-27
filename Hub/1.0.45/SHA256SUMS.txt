@@ -1,3 +1,0 @@
-9792eba30eb52b9077fabc91419e6dc2fc119a98d11f17548e1875aeeeefaf0a  Hub-1.0.45.deb
-9e226231f10be8a9311aca48a1fe00357febd0fc39121bab6f173bcdd076d2d6  Hub-1.0.45.exe
-e8236fcc3cc8bd06ceffdbf746f5aaeebe8c64ff97cad46ce905381bcbadc5b0  Hub-1.0.45.zip
