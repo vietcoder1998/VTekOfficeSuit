@@ -7,3 +7,10 @@ dist-electron/
 **/dist-electron/
 **/dist-electron/**
 */dist-electron/*
+
+# Example directories
+.example
+.example/
+**/.example
+**/.example/**
+*/.example/*
