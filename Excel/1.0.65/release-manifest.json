@@ -1,9 +1,9 @@
 {
   "projectName": "Excel",
   "appName": "Excel",
-  "displayName": "Excel",
+  "displayName": "Excel Editor",
   "version": "1.0.65",
-  "buildTimestamp": "2026-09-27T17:05:04.157Z",
+  "buildTimestamp": "2026-09-27T17:24:35.881Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Excel/1.0.65",
@@ -15,8 +15,9 @@
       "name": "Excel-1.0.65",
       "fileName": "Excel-1.0.65.deb",
       "downloadPath": "downloads/Excel/1.0.65/Excel-1.0.65.deb",
-      "sizeBytes": 20936,
-      "sha256": "07b76f35e2f8fa069c24b2581a89e574de93b1209395f0b12b8cf823080e1a23"
+      "sizeBytes": 20958,
+      "sizeFormatted": "20.5 KB",
+      "sha256": "4a6ea96436228295f4ced35b4d9c41edf33ffbbc8b5538d644487b1622380daf"
     },
     {
       "platform": "windows",
@@ -26,7 +27,19 @@
       "fileName": "Excel-1.0.65.exe",
       "downloadPath": "downloads/Excel/1.0.65/Excel-1.0.65.exe",
       "sizeBytes": 15872,
-      "sha256": "17ceb9256ed378b9a12a2b2464f4bf04ea7b44f2fa4fb96de026bdacedfcd0d6"
+      "sizeFormatted": "15.5 KB",
+      "sha256": "677aa6f9d8b431911ed9f595affc1e0cef43d9866883a6b339ac27a249edef05"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Excel-1.0.65",
+      "fileName": "Excel-1.0.65.dmg",
+      "downloadPath": "downloads/Excel/1.0.65/Excel-1.0.65.dmg",
+      "sizeBytes": 13153,
+      "sizeFormatted": "12.8 KB",
+      "sha256": "1e4bb164c8632cfaeeeda6709cdb2431193fb3a8da3482483ca63580eb49c28c"
     },
     {
       "platform": "universal",
@@ -36,7 +49,8 @@
       "fileName": "Excel-1.0.65.zip",
       "downloadPath": "downloads/Excel/1.0.65/Excel-1.0.65.zip",
       "sizeBytes": 13089,
-      "sha256": "a6e64bac1a7ceb231659ee263aafadd1b35cf53957ec15f14425dd47a3c64be1"
+      "sizeFormatted": "12.8 KB",
+      "sha256": "f801892ca52e161ee50b9406786bc5cee5dc8dc3ada4be9d622b543979d12891"
     }
   ]
 }
