@@ -1,7 +1,7 @@
 {
   "projectName": "Cloud",
   "appName": "Cloud",
-  "displayName": "Cloud Storage",
+  "displayName": "Cloud",
   "version": "1.0.65",
   "buildTimestamp": "2026-09-27T17:25:18.183Z",
   "distributionChannel": "stable",
@@ -16,7 +16,6 @@
       "fileName": "Cloud-1.0.65.deb",
       "downloadPath": "downloads/Cloud/1.0.65/Cloud-1.0.65.deb",
       "sizeBytes": 115044,
-      "sizeFormatted": "112.3 KB",
       "sha256": "e559eecab1cc2b6857efb421555cdc73e61d21f25e5f682946b9d13de4980f67"
     },
     {
@@ -27,7 +26,6 @@
       "fileName": "Cloud-1.0.65.exe",
       "downloadPath": "downloads/Cloud/1.0.65/Cloud-1.0.65.exe",
       "sizeBytes": 110592,
-      "sizeFormatted": "108.0 KB",
       "sha256": "1687da69d5f76d021d18820b288256c04f6c02a9ccb50cb350ac2c6e3939b973"
     },
     {
@@ -38,7 +36,6 @@
       "fileName": "Cloud-1.0.65.dmg",
       "downloadPath": "downloads/Cloud/1.0.65/Cloud-1.0.65.dmg",
       "sizeBytes": 107663,
-      "sizeFormatted": "105.1 KB",
       "sha256": "27400817b751837dc8ed56fc94f6f01517d79b1b8f4718d8674a935a8f668d70"
     },
     {
@@ -49,7 +46,6 @@
       "fileName": "Cloud-1.0.65.zip",
       "downloadPath": "downloads/Cloud/1.0.65/Cloud-1.0.65.zip",
       "sizeBytes": 107597,
-      "sizeFormatted": "105.1 KB",
       "sha256": "1e1b5b146bce05e2894b7c55aee7ddb964156676122b737940b9c256a76aaa0e"
     }
   ]
