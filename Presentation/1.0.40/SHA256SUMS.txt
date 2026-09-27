@@ -1,0 +1,4 @@
+fd0419449e3d3cbad170d3b377f52aa15bbe8561d1e9c19ca6123626195a42d5  Presentation-1.0.40.deb
+30ea0bbadecdb4e1c3bda443c883e4fb0acd62dedca0eb5abbbc9de5fedf5201  Presentation-1.0.40.exe
+485ee5c75b2316fb57a94a19ea4d9358fb4c9f41a1ab3f7e293e70e479a35aee  Presentation-1.0.40.dmg
+43c7817ec6fac46a3c34894e0a64fc062d411af516b4fb1eefada529c7377f57  Presentation-1.0.40.zip
