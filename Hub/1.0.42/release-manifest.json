@@ -2,19 +2,19 @@
   "projectName": "Hub",
   "appName": "Hub",
   "displayName": "Hub",
-  "version": "1.0.41",
-  "buildTimestamp": "2026-09-27T03:53:40.198Z",
+  "version": "1.0.42",
+  "buildTimestamp": "2026-09-27T03:55:40.567Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.41",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.42",
   "packages": [
     {
       "platform": "linux",
       "architecture": "amd64",
       "type": "deb",
-      "name": "Hub-1.0.41",
-      "fileName": "Hub-1.0.41.deb",
-      "downloadPath": "downloads/Hub/1.0.41/Hub-1.0.41.deb",
+      "name": "Hub-1.0.42",
+      "fileName": "Hub-1.0.42.deb",
+      "downloadPath": "downloads/Hub/1.0.42/Hub-1.0.42.deb",
       "sizeBytes": 126276,
       "sha256": "ba0eaaa4c2a36fdd6e1ea1b01ea88ddb60ab0a0cd1c2c7d1fbaff90a7615fcaa"
     },
@@ -22,19 +22,19 @@
       "platform": "windows",
       "architecture": "x64",
       "type": "exe",
-      "name": "Hub-1.0.41",
-      "fileName": "Hub-1.0.41.exe",
-      "downloadPath": "downloads/Hub/1.0.41/Hub-1.0.41.exe",
+      "name": "Hub-1.0.42",
+      "fileName": "Hub-1.0.42.exe",
+      "downloadPath": "downloads/Hub/1.0.42/Hub-1.0.42.exe",
       "sizeBytes": 32256,
-      "sha256": "31ff7e7e7f3988d35ac6209743eaaac36d921ff9b5950681210c14d5ea7b06c4"
+      "sha256": "b02bbd47a0fa0589bea5bd140122026da1f75184c14cc087f5918f150b1706be"
     },
     {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
-      "name": "Hub-1.0.41",
-      "fileName": "Hub-1.0.41.zip",
-      "downloadPath": "downloads/Hub/1.0.41/Hub-1.0.41.zip",
+      "name": "Hub-1.0.42",
+      "fileName": "Hub-1.0.42.zip",
+      "downloadPath": "downloads/Hub/1.0.42/Hub-1.0.42.zip",
       "sizeBytes": 109837,
       "sha256": "9e3fc7fbefe7101c7a897e67f3d981cad8c243862b0ae6c561211a22369334d6"
     }

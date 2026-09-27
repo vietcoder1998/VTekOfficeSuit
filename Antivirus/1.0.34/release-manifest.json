@@ -29,16 +29,6 @@
       "sha256": "1572e3588af0c4dddf41e951ba67d94da8c4c4c55b0ef105810d63191f47de4c"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Antivirus-1.0.34",
-      "fileName": "Antivirus-1.0.34.dmg",
-      "downloadPath": "downloads/Antivirus/1.0.34/Antivirus-1.0.34.dmg",
-      "sizeBytes": 12414,
-      "sha256": "cc5b09ad4f26346fccc5f6db0aa57349ab3474de51adb7769b23af71ccd5e166"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

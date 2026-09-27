@@ -29,16 +29,6 @@
       "sha256": "df0b27454c60290af2e8ae19056d776ceebee68c998e497af2887afb5b69a1d5"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "AIAssistant-1.0.38",
-      "fileName": "AIAssistant-1.0.38.dmg",
-      "downloadPath": "downloads/AIAssistant/1.0.38/AIAssistant-1.0.38.dmg",
-      "sizeBytes": 12327,
-      "sha256": "22118dce26681580234f12a9012c6ff88c379ee53223c9fbfaad3e82a3619131"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
