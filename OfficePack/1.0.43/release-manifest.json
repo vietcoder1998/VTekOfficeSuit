@@ -29,16 +29,6 @@
       "sha256": "36cbe6ceda7fbeabf2c0ccf1de85f9a870161abe755dbd60f5c03d277c1df8b8"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "OfficePack-1.0.43",
-      "fileName": "OfficePack-1.0.43.dmg",
-      "downloadPath": "downloads/OfficePack/1.0.43/OfficePack-1.0.43.dmg",
-      "sizeBytes": 27380,
-      "sha256": "cd858be064dd2df6b7e65592536eea3b53a4e45ad635617d4b03beedbbb067a9"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
