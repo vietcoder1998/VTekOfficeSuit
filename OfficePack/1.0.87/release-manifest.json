@@ -29,16 +29,6 @@
       "sha256": "39283e1a728595a13681bceb68bbd3791d581fb68928a72a0a4dc879f10a81c7"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "OfficePack-1.0.87",
-      "fileName": "OfficePack-1.0.87.dmg",
-      "downloadPath": "downloads/OfficePack/1.0.87/OfficePack-1.0.87.dmg",
-      "sizeBytes": 27381,
-      "sha256": "62f723aec6dfdbfceb5bd01bf560786aeb59febf750ac6dc6c8259c27b6edd3b"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
