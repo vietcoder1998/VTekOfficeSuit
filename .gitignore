@@ -37,3 +37,13 @@ logs/
 **/.cache
 **/.cache/**
 */.cache/*
+
+# Examples
+examples/
+**/examples/
+**/examples/**
+*/examples/*
+!**/.agents/**
+!.agents/**
+!**/components/**
+!components/**
