@@ -29,16 +29,6 @@
       "sha256": "19db0e372c09d95b6ff0925d4d6f5ec6691fe8a8f62882023a34dbf148028b63"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Word-1.0.77",
-      "fileName": "Word-1.0.77.dmg",
-      "downloadPath": "downloads/Word/1.0.77/Word-1.0.77.dmg",
-      "sizeBytes": 36544,
-      "sha256": "2804cc3d7558ef4da3d4547a15a1fc969ad833ad630db8001b7335722ba1fc1d"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
