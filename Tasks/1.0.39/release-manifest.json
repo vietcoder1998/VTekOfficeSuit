@@ -1,0 +1,52 @@
+{
+  "projectName": "Tasks",
+  "appName": "Tasks",
+  "displayName": "Tasks",
+  "version": "1.0.39",
+  "buildTimestamp": "2026-09-27T05:56:23.223Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Tasks/1.0.39",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Tasks-1.0.39",
+      "fileName": "Tasks-1.0.39.deb",
+      "downloadPath": "downloads/Tasks/1.0.39/Tasks-1.0.39.deb",
+      "sizeBytes": 20808,
+      "sha256": "3c7164857235cdf665d4fb64f53e43f677e88407003182fea608d021e678f8ce"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Tasks-1.0.39",
+      "fileName": "Tasks-1.0.39.exe",
+      "downloadPath": "downloads/Tasks/1.0.39/Tasks-1.0.39.exe",
+      "sizeBytes": 15872,
+      "sha256": "0307180883537dde2ddcaacb18f836c28a37f88b14970348e265bb599b9120fa"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Tasks-1.0.39",
+      "fileName": "Tasks-1.0.39.dmg",
+      "downloadPath": "downloads/Tasks/1.0.39/Tasks-1.0.39.dmg",
+      "sizeBytes": 13093,
+      "sha256": "a1c2e6458da6bccac1b7e7c521ca4f6ce9cfba0ae3fda46a87b24b9acd142cfc"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Tasks-1.0.39",
+      "fileName": "Tasks-1.0.39.zip",
+      "downloadPath": "downloads/Tasks/1.0.39/Tasks-1.0.39.zip",
+      "sizeBytes": 13025,
+      "sha256": "667d08062027cdcc8b5c7e1df2f07efddc7782c611461eaeaacbd238836e22ab"
+    }
+  ]
+}
