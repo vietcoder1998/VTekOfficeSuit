@@ -1,7 +1,7 @@
 {
   "projectName": "Word",
   "appName": "Word",
-  "displayName": "Word Editor",
+  "displayName": "Word",
   "version": "1.0.70",
   "buildTimestamp": "2026-09-27T07:56:03.212Z",
   "distributionChannel": "stable",
@@ -16,7 +16,6 @@
       "fileName": "Word-1.0.70.deb",
       "downloadPath": "downloads/Word/1.0.70/Word-1.0.70.deb",
       "sizeBytes": 41952,
-      "sizeFormatted": "41.0 KB",
       "sha256": "4e313bc6404dd1ea27c39ae1fa0bafb02034311de71b39628c822e91687564ee"
     },
     {
@@ -27,7 +26,6 @@
       "fileName": "Word-1.0.70.exe",
       "downloadPath": "downloads/Word/1.0.70/Word-1.0.70.exe",
       "sizeBytes": 39424,
-      "sizeFormatted": "38.5 KB",
       "sha256": "2eec371c820f06640da3c6fc4851b588bf402587b33ea6558fbe7673a7f3f73d"
     },
     {
@@ -38,7 +36,6 @@
       "fileName": "Word-1.0.70.dmg",
       "downloadPath": "downloads/Word/1.0.70/Word-1.0.70.dmg",
       "sizeBytes": 36544,
-      "sizeFormatted": "35.7 KB",
       "sha256": "9076746a2646f77aeff83977915a58d4a1aaf57e5cfc2668d78d81ce050433b0"
     },
     {
@@ -49,7 +46,6 @@
       "fileName": "Word-1.0.70.zip",
       "downloadPath": "downloads/Word/1.0.70/Word-1.0.70.zip",
       "sizeBytes": 36481,
-      "sizeFormatted": "35.6 KB",
       "sha256": "6e1459c05f7d8256010c48cc3f16cc27560e8ccca0f24f7bce663990383f377f"
     }
   ]
