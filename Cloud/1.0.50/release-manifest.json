@@ -1,0 +1,42 @@
+{
+  "projectName": "Cloud",
+  "appName": "Cloud",
+  "displayName": "Cloud",
+  "version": "1.0.50",
+  "buildTimestamp": "2026-09-27T06:37:04.237Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Cloud/1.0.50",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Cloud-1.0.50",
+      "fileName": "Cloud-1.0.50.deb",
+      "downloadPath": "downloads/Cloud/1.0.50/Cloud-1.0.50.deb",
+      "sizeBytes": 115042,
+      "sha256": "bf04c631066c7fb28b81bbe521daff759065eddc245ddb9e0abce5c78764096f"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Cloud-1.0.50",
+      "fileName": "Cloud-1.0.50.exe",
+      "downloadPath": "downloads/Cloud/1.0.50/Cloud-1.0.50.exe",
+      "sizeBytes": 110592,
+      "sha256": "e8c6b3042adf3b3e08880f2828a515e36d15921fadc0e0eac03bd3590332b941"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Cloud-1.0.50",
+      "fileName": "Cloud-1.0.50.zip",
+      "downloadPath": "downloads/Cloud/1.0.50/Cloud-1.0.50.zip",
+      "sizeBytes": 107597,
+      "sha256": "17b53286907467038ebd0612245cc2ae7dd5f45a436d4f30bfbdd0cf19623944"
+    }
+  ]
+}
