@@ -1,4 +1,3 @@
 30f84a28cce9fc35218bf8540c61ad81e98daf8b8d1b6ea29f57d1eb445bdbfb  SuperChat-0.1.67.deb
 7172c730fce6f37559295a5dba46b4d0894bf10f51e12fb65b3451ca4b5db78e  SuperChat-0.1.67.exe
-a157ad08ea89ebc1543ef1175020bf2306eb9413970d444f31a6bba4ef77a4dc  SuperChat-0.1.67.dmg
 bf1fbaee7d8aaeebe31bbabbe792f50a11455bd38e7f9b427995db29a0eb23a4  SuperChat-0.1.67.zip
