@@ -1,0 +1,56 @@
+{
+  "projectName": "Excel",
+  "appName": "Excel",
+  "displayName": "Excel Editor",
+  "version": "1.0.74",
+  "buildTimestamp": "2026-09-27T17:50:52.170Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Excel/1.0.74",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Excel-1.0.74",
+      "fileName": "Excel-1.0.74.deb",
+      "downloadPath": "downloads/Excel/1.0.74/Excel-1.0.74.deb",
+      "sizeBytes": 20964,
+      "sizeFormatted": "20.5 KB",
+      "sha256": "3bdf3773352085333a7e89074bfe7da4328c9b7a321412b7a471cd810a72b8b9"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Excel-1.0.74",
+      "fileName": "Excel-1.0.74.exe",
+      "downloadPath": "downloads/Excel/1.0.74/Excel-1.0.74.exe",
+      "sizeBytes": 15872,
+      "sizeFormatted": "15.5 KB",
+      "sha256": "6f6de4c2ebf4d126aa3df81c9b0494bc8ca2eb77e2e5203b3d9fdf177c1c5bce"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Excel-1.0.74",
+      "fileName": "Excel-1.0.74.dmg",
+      "downloadPath": "downloads/Excel/1.0.74/Excel-1.0.74.dmg",
+      "sizeBytes": 13154,
+      "sizeFormatted": "12.8 KB",
+      "sha256": "b3af11f8315c57245a4ae9a76bee59c2eaaf77267561b1be046983213fabeb95"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Excel-1.0.74",
+      "fileName": "Excel-1.0.74.zip",
+      "downloadPath": "downloads/Excel/1.0.74/Excel-1.0.74.zip",
+      "sizeBytes": 13090,
+      "sizeFormatted": "12.8 KB",
+      "sha256": "b6468dae20b6ed766cee003d9be43c9ab233e848d4c4da40e3c24304936a0136"
+    }
+  ]
+}
