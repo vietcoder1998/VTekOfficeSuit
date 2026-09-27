@@ -1,3 +1,0 @@
-c70dae7ab69eacbfacfb361dc6e432a19e6ab1facde34ea150997ed0a326d6ad  Presentation-1.0.54.deb
-8b4724053e51dd75e580af25cc36f291a1f2cd5edd07e20aac7dce4740442669  Presentation-1.0.54.exe
-1bf618dd569a49d7426bca116350b061ae111ac4a80119902b00658e691f4c8c  Presentation-1.0.54.zip

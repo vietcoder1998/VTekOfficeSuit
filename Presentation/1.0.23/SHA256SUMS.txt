@@ -1,3 +1,0 @@
-42a739a3ff8ee806310aca2df4df44aed017e073cc79ef87e20683c646d5e637  Presentation-1.0.23.deb
-2e87bd18b2db2bb7503079d21599335cc8c995bcb7e1ebd5da029a5a5d10486b  Presentation-1.0.23.exe
-1ac3c436e21ff07fbab883ce708cc6d29e11cb9d859ff8be5b2a96ecc514b75b  Presentation-1.0.23.zip

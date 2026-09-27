@@ -1,4 +1,0 @@
-a58c23b401be8dcf5b0ba863df5ac64828ce94d963e25524fc9eb566334aaa6d  Presentation-1.0.55.deb
-f30fa0235cfebda286f7e4a9b8a590ffef3491eae23c073a5a6f5b0537605d48  Presentation-1.0.55.exe
-d3ff8c08d6500b50bf23f3bfdb75cafc3f67690ce14bc593fc4346d91d9be2c2  Presentation-1.0.55.dmg
-5901da2c8833b1c642f8906ecffd8084f257d09cf36a5131a03b4d8acb5f7163  Presentation-1.0.55.zip

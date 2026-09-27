@@ -1,0 +1,52 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus",
+  "version": "1.0.59",
+  "buildTimestamp": "2026-09-27T17:05:28.401Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.59",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus-1.0.59",
+      "fileName": "Antivirus-1.0.59.deb",
+      "downloadPath": "downloads/Antivirus/1.0.59/Antivirus-1.0.59.deb",
+      "sizeBytes": 20948,
+      "sha256": "3107e5d6a0b26d79219f6dd8571f76ff7da4320477d9843c3e830b3f3e82dc86"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus-1.0.59",
+      "fileName": "Antivirus-1.0.59.exe",
+      "downloadPath": "downloads/Antivirus/1.0.59/Antivirus-1.0.59.exe",
+      "sizeBytes": 15872,
+      "sha256": "f913a21d30af3a94a30ba055a00650215e34d1bd52134fcb9df43f44a49bc793"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Antivirus-1.0.59",
+      "fileName": "Antivirus-1.0.59.dmg",
+      "downloadPath": "downloads/Antivirus/1.0.59/Antivirus-1.0.59.dmg",
+      "sizeBytes": 13072,
+      "sha256": "0f89c9aaca0d8dba53e5cd9c08044684e33dce60dfcefbe660e7597096e05a8f"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus-1.0.59",
+      "fileName": "Antivirus-1.0.59.zip",
+      "downloadPath": "downloads/Antivirus/1.0.59/Antivirus-1.0.59.zip",
+      "sizeBytes": 12995,
+      "sha256": "c84b0c44da213d896feb89fcb068a817d629d416a6e655fd33191617db00d414"
+    }
+  ]
+}
