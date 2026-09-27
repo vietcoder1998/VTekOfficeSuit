@@ -1,0 +1,42 @@
+{
+  "projectName": "Tasks",
+  "appName": "Tasks",
+  "displayName": "Tasks & Calendar",
+  "version": "1.0.42",
+  "buildTimestamp": "2026-09-27T06:22:20.742Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Tasks/1.0.42",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Tasks-1.0.42",
+      "fileName": "Tasks-1.0.42.deb",
+      "downloadPath": "downloads/Tasks/1.0.42/Tasks-1.0.42.deb",
+      "sizeBytes": 20804,
+      "sha256": "8a1738476a972034960dadb9d433ead6e35948fdb997ac0f80d73080e8b16684"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Tasks-1.0.42",
+      "fileName": "Tasks-1.0.42.exe",
+      "downloadPath": "downloads/Tasks/1.0.42/Tasks-1.0.42.exe",
+      "sizeBytes": 15872,
+      "sha256": "e536d89c9abbe8471250621d21bedc7053c7dcd5000078eec2e07602a13cd9f6"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Tasks-1.0.42",
+      "fileName": "Tasks-1.0.42.zip",
+      "downloadPath": "downloads/Tasks/1.0.42/Tasks-1.0.42.zip",
+      "sizeBytes": 13025,
+      "sha256": "a34098f8b77994d6623e6d997a5590a5d4fe3d35078ae13d10d51e0848f8aeca"
+    }
+  ]
+}

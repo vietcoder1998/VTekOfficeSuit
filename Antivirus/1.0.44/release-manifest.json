@@ -1,0 +1,42 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus",
+  "version": "1.0.44",
+  "buildTimestamp": "2026-09-27T06:22:18.294Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.44",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus-1.0.44",
+      "fileName": "Antivirus-1.0.44.deb",
+      "downloadPath": "downloads/Antivirus/1.0.44/Antivirus-1.0.44.deb",
+      "sizeBytes": 20952,
+      "sha256": "bdb8817365206c794ea03b51db6ea5be20075aa123f569e3c0043456b7eb6291"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus-1.0.44",
+      "fileName": "Antivirus-1.0.44.exe",
+      "downloadPath": "downloads/Antivirus/1.0.44/Antivirus-1.0.44.exe",
+      "sizeBytes": 15872,
+      "sha256": "e2b57cb61a398c9fda81911bfa60bebc8b1c0d6608dc9d5009c67336cdf4393e"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus-1.0.44",
+      "fileName": "Antivirus-1.0.44.zip",
+      "downloadPath": "downloads/Antivirus/1.0.44/Antivirus-1.0.44.zip",
+      "sizeBytes": 12994,
+      "sha256": "b1a76eb938dd4b38a051446365cee94fa70344497ae6414e6382f6338e5f73b0"
+    }
+  ]
+}
