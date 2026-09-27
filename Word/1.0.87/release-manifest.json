@@ -1,7 +1,7 @@
 {
   "projectName": "Word",
   "appName": "Word",
-  "displayName": "Word Editor",
+  "displayName": "Word",
   "version": "1.0.87",
   "buildTimestamp": "2026-09-27T17:43:15.591Z",
   "distributionChannel": "stable",
@@ -16,7 +16,6 @@
       "fileName": "Word-1.0.87.deb",
       "downloadPath": "downloads/Word/1.0.87/Word-1.0.87.deb",
       "sizeBytes": 41946,
-      "sizeFormatted": "41.0 KB",
       "sha256": "ba116f1b572cc33eaa30088613299163bc7b501fe17fabde8bcbb74d77cf9400"
     },
     {
@@ -27,7 +26,6 @@
       "fileName": "Word-1.0.87.exe",
       "downloadPath": "downloads/Word/1.0.87/Word-1.0.87.exe",
       "sizeBytes": 39424,
-      "sizeFormatted": "38.5 KB",
       "sha256": "97d723e92656eaba4981370e132b4073ac309d442b6fc2997e857390591513ff"
     },
     {
@@ -38,7 +36,6 @@
       "fileName": "Word-1.0.87.dmg",
       "downloadPath": "downloads/Word/1.0.87/Word-1.0.87.dmg",
       "sizeBytes": 36544,
-      "sizeFormatted": "35.7 KB",
       "sha256": "88587f2fbdf5611b6722c8cfe5814c3c1b3527e99899223337c7cbd762798c56"
     },
     {
@@ -49,7 +46,6 @@
       "fileName": "Word-1.0.87.zip",
       "downloadPath": "downloads/Word/1.0.87/Word-1.0.87.zip",
       "sizeBytes": 36481,
-      "sizeFormatted": "35.6 KB",
       "sha256": "f7ccd78b2553e768087a5866710b6b3f51e2cbad65cc7af789c9e33fb98be841"
     }
   ]
