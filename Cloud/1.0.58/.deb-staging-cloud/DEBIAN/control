@@ -1,0 +1,10 @@
+Package: cloud
+Version: 1.0.58
+Section: office
+Priority: optional
+Architecture: amd64
+Maintainer: 2-TEK Team <contact@2-tek.com>
+Installed-Size: 106
+Homepage: https://2-tek.com
+Description: Cloud Storage
+ Cloud storage manager, file permissions, and cloud resource viewer.

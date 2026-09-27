@@ -1,0 +1,21 @@
+{
+  "name": "@2-tek/cloud",
+  "version": "1.0.58",
+  "description": "Cloud storage manager, file permissions, and cloud resource viewer.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "electron": "node electron/runner.cjs",
+    "desktop": "electron electron/main.cjs"
+  },
+  "hub": {
+    "id": "cloud",
+    "name": "Cloud Storage",
+    "slug": "cloud",
+    "port": 3018,
+    "category": "web",
+    "group": "production",
+    "icon": "Cloud",
+    "isWeb": true
+  }
+}

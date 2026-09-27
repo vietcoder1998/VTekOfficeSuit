@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Cloud Storage
+Comment=Cloud storage manager, file permissions, and cloud resource viewer.
+Exec=/usr/bin/cloud %U
+Terminal=false
+Type=Application
+Icon=cloud
+Categories=Office;Utility;Development;
