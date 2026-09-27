@@ -16,7 +16,6 @@
       "fileName": "OfficePack-1.0.71.deb",
       "downloadPath": "downloads/OfficePack/1.0.71/OfficePack-1.0.71.deb",
       "sizeBytes": 46908,
-      "sizeFormatted": "45.8 KB",
       "sha256": "4d22cf2be4f2a3db09a671a3ae4a96e977421f1bec25bb6d64b406a429adbe8e"
     },
     {
@@ -27,7 +26,6 @@
       "fileName": "OfficePack-1.0.71.exe",
       "downloadPath": "downloads/OfficePack/1.0.71/OfficePack-1.0.71.exe",
       "sizeBytes": 30208,
-      "sizeFormatted": "29.5 KB",
       "sha256": "b2f98f12c9c8c9b27bd8e9b3f4ac9aead724390c8f14ad5d53bfa60fbac428c9"
     },
     {
@@ -38,7 +36,6 @@
       "fileName": "OfficePack-1.0.71.dmg",
       "downloadPath": "downloads/OfficePack/1.0.71/OfficePack-1.0.71.dmg",
       "sizeBytes": 27381,
-      "sizeFormatted": "26.7 KB",
       "sha256": "97c0a10e0d94f6f975b216974e8f988fff939dc9ec8a2f465336747a84ff22bd"
     },
     {
@@ -49,7 +46,6 @@
       "fileName": "OfficePack-1.0.71.zip",
       "downloadPath": "downloads/OfficePack/1.0.71/OfficePack-1.0.71.zip",
       "sizeBytes": 27319,
-      "sizeFormatted": "26.7 KB",
       "sha256": "8545ae7e368287c549ec169d9995d763cb1e289fd36841c04787b2b43ef2ca7c"
     }
   ]
