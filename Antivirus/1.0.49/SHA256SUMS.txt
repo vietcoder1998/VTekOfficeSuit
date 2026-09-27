@@ -1,4 +1,3 @@
 f06bb98efcccff2ffd0a0b468e48698529ab9b42944e2d97b5bad0cab3ccbda6  Antivirus-1.0.49.deb
 ce806ea2a03fab2d387ed0cdc22263c1d49025a45a3a2ea0fd30da9356baadd6  Antivirus-1.0.49.exe
-014988b0c7faf7359de74bebf14e7ac54d6df56415f32b33bbb6df8eba007774  Antivirus-1.0.49.dmg
 7d41357bf2491cf3c3f3a19e4df8f8a803aa0a8feafc7cde4bb6babe9edecd93  Antivirus-1.0.49.zip
