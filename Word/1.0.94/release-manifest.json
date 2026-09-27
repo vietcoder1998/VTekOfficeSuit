@@ -1,0 +1,56 @@
+{
+  "projectName": "Word",
+  "appName": "Word",
+  "displayName": "Word Editor",
+  "version": "1.0.94",
+  "buildTimestamp": "2026-09-27T18:15:21.699Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.94",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Word-1.0.94",
+      "fileName": "Word-1.0.94.deb",
+      "downloadPath": "downloads/Word/1.0.94/Word-1.0.94.deb",
+      "sizeBytes": 41950,
+      "sizeFormatted": "41.0 KB",
+      "sha256": "8d3edd88b1a7d60b8e7c30c160c2e132e4435a5e2be3d71232e2af7f5d5e8e80"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Word-1.0.94",
+      "fileName": "Word-1.0.94.exe",
+      "downloadPath": "downloads/Word/1.0.94/Word-1.0.94.exe",
+      "sizeBytes": 39424,
+      "sizeFormatted": "38.5 KB",
+      "sha256": "2f8fc4b8f64c07e07f0a16102e322db9f85e3877e7c873bdad049b4c8e542af9"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Word-1.0.94",
+      "fileName": "Word-1.0.94.dmg",
+      "downloadPath": "downloads/Word/1.0.94/Word-1.0.94.dmg",
+      "sizeBytes": 36543,
+      "sizeFormatted": "35.7 KB",
+      "sha256": "a7c518c47ef744cee3dea444499df41f75f4e1a4338016bd2604ebd620efd44d"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Word-1.0.94",
+      "fileName": "Word-1.0.94.zip",
+      "downloadPath": "downloads/Word/1.0.94/Word-1.0.94.zip",
+      "sizeBytes": 36480,
+      "sizeFormatted": "35.6 KB",
+      "sha256": "a0abec7f94536c6b2577de71d37aae1670d88824e7148c7548ead42ed6426ef1"
+    }
+  ]
+}
