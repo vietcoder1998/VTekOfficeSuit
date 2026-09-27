@@ -1,0 +1,52 @@
+{
+  "projectName": "Notes",
+  "appName": "Notes",
+  "displayName": "Notes",
+  "version": "1.0.31",
+  "buildTimestamp": "2026-09-27T03:28:27.958Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Notes/1.0.31",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Notes-1.0.31",
+      "fileName": "Notes-1.0.31.deb",
+      "downloadPath": "downloads/Notes/1.0.31/Notes-1.0.31.deb",
+      "sizeBytes": 19906,
+      "sha256": "286d021944ac32e5812bf2cee064a939fef8dae4aea74c8d53485c9e49de2ed5"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Notes-1.0.31",
+      "fileName": "Notes-1.0.31.exe",
+      "downloadPath": "downloads/Notes/1.0.31/Notes-1.0.31.exe",
+      "sizeBytes": 15360,
+      "sha256": "224289d3c1276ea7304f146ffd918a61cfa61d109a454482628a398b2de85e55"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Notes-1.0.31",
+      "fileName": "Notes-1.0.31.dmg",
+      "downloadPath": "downloads/Notes/1.0.31/Notes-1.0.31.dmg",
+      "sizeBytes": 12495,
+      "sha256": "169fd1864adb97300feaa9df7a464a38c7cf83941197b2b447e2aadc57b0a901"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Notes-1.0.31",
+      "fileName": "Notes-1.0.31.zip",
+      "downloadPath": "downloads/Notes/1.0.31/Notes-1.0.31.zip",
+      "sizeBytes": 12438,
+      "sha256": "7603929beedb9107c3665aec077ed1494dc0c7a4ffa07d190b37df0978ec0489"
+    }
+  ]
+}
