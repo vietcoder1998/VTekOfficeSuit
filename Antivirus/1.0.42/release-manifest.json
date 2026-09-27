@@ -1,0 +1,42 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus",
+  "version": "1.0.42",
+  "buildTimestamp": "2026-09-27T06:06:26.106Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.42",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus-1.0.42",
+      "fileName": "Antivirus-1.0.42.deb",
+      "downloadPath": "downloads/Antivirus/1.0.42/Antivirus-1.0.42.deb",
+      "sizeBytes": 20950,
+      "sha256": "07f53ced8910dd82c3bffb65ad9e32f588975894d4fc18a9dbb4367a222b3a36"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus-1.0.42",
+      "fileName": "Antivirus-1.0.42.exe",
+      "downloadPath": "downloads/Antivirus/1.0.42/Antivirus-1.0.42.exe",
+      "sizeBytes": 15872,
+      "sha256": "cd64c6a284be80d2a6279e490476011e5ba1af181ec33b6dea57d62372ff910a"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus-1.0.42",
+      "fileName": "Antivirus-1.0.42.zip",
+      "downloadPath": "downloads/Antivirus/1.0.42/Antivirus-1.0.42.zip",
+      "sizeBytes": 12994,
+      "sha256": "0a0ea40754be80d7231d1c1d503fff16a877a3e49e9d3632f1ae5d2963cf9f41"
+    }
+  ]
+}
