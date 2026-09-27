@@ -1,0 +1,56 @@
+{
+  "projectName": "Excel",
+  "appName": "Excel",
+  "displayName": "Excel Editor",
+  "version": "1.0.71",
+  "buildTimestamp": "2026-09-27T17:45:51.921Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Excel/1.0.71",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Excel-1.0.71",
+      "fileName": "Excel-1.0.71.deb",
+      "downloadPath": "downloads/Excel/1.0.71/Excel-1.0.71.deb",
+      "sizeBytes": 20964,
+      "sizeFormatted": "20.5 KB",
+      "sha256": "da8c10373f4f932994a73025060f899db5cc47b03c083855468e8365a5112c06"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Excel-1.0.71",
+      "fileName": "Excel-1.0.71.exe",
+      "downloadPath": "downloads/Excel/1.0.71/Excel-1.0.71.exe",
+      "sizeBytes": 15872,
+      "sizeFormatted": "15.5 KB",
+      "sha256": "904030d0bacada5d8543aa4d4c51a4ddf7422327794b77b80d1505283daec5db"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Excel-1.0.71",
+      "fileName": "Excel-1.0.71.dmg",
+      "downloadPath": "downloads/Excel/1.0.71/Excel-1.0.71.dmg",
+      "sizeBytes": 13153,
+      "sizeFormatted": "12.8 KB",
+      "sha256": "ad3b8a0caff3732d7ee472a8720ffd925f58b5072ae6e5ab242bb9c7db4d0998"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Excel-1.0.71",
+      "fileName": "Excel-1.0.71.zip",
+      "downloadPath": "downloads/Excel/1.0.71/Excel-1.0.71.zip",
+      "sizeBytes": 13089,
+      "sizeFormatted": "12.8 KB",
+      "sha256": "2b734d7e79c19ea667efe4c2589126d2741c663afbd989c2cb5bbab08d675a97"
+    }
+  ]
+}
