@@ -1,0 +1,52 @@
+{
+  "projectName": "LocalVectorServer",
+  "appName": "LocalVectorServer",
+  "displayName": "LocalVectorServer",
+  "version": "1.0.2",
+  "buildTimestamp": "2026-09-28T06:35:23.338Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/LocalVectorServer/1.0.2",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "LocalVectorServer-1.0.2",
+      "fileName": "LocalVectorServer-1.0.2.deb",
+      "downloadPath": "downloads/LocalVectorServer/1.0.2/LocalVectorServer-1.0.2.deb",
+      "sizeBytes": 4632,
+      "sha256": "13aaf6ffc6e63ec2b5b83ebe3f3622f27f9483ebcf2c9892594d048c1289c112"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "LocalVectorServer-1.0.2",
+      "fileName": "LocalVectorServer-1.0.2.exe",
+      "downloadPath": "downloads/LocalVectorServer/1.0.2/LocalVectorServer-1.0.2.exe",
+      "sizeBytes": 5120,
+      "sha256": "563fbcdb15ca4538dd4d072504d1f6625d3e69231260f1d47de77d4678d62743"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "LocalVectorServer-1.0.2",
+      "fileName": "LocalVectorServer-1.0.2.dmg",
+      "downloadPath": "downloads/LocalVectorServer/1.0.2/LocalVectorServer-1.0.2.dmg",
+      "sizeBytes": 2333,
+      "sha256": "e157cfd84820b68c2c163de7edc945870d7133f558d8c7336729f7a808e121b9"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "LocalVectorServer-1.0.2",
+      "fileName": "LocalVectorServer-1.0.2.zip",
+      "downloadPath": "downloads/LocalVectorServer/1.0.2/LocalVectorServer-1.0.2.zip",
+      "sizeBytes": 2266,
+      "sha256": "7a1a95773c0e57da15965e8642e880eb9a37534d64c46997908ecbf8692ad03e"
+    }
+  ]
+}
