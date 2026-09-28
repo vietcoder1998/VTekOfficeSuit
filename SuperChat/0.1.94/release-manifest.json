@@ -1,0 +1,52 @@
+{
+  "projectName": "SuperChat",
+  "appName": "SuperChat",
+  "displayName": "SuperChat",
+  "version": "0.1.94",
+  "buildTimestamp": "2026-09-28T06:48:53.611Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/SuperChat/0.1.94",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "SuperChat-0.1.94",
+      "fileName": "SuperChat-0.1.94.deb",
+      "downloadPath": "downloads/SuperChat/0.1.94/SuperChat-0.1.94.deb",
+      "sizeBytes": 324538,
+      "sha256": "4be9619f37352a477ad427e499ce1526aa8772ca31c6a01d494322bbbff0b075"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "SuperChat-0.1.94",
+      "fileName": "SuperChat-0.1.94.exe",
+      "downloadPath": "downloads/SuperChat/0.1.94/SuperChat-0.1.94.exe",
+      "sizeBytes": 320512,
+      "sha256": "126a16f09454dcc2a26dbf4d2b6e7d1843889bbceba42e81110cc32f8a81f86c"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "SuperChat-0.1.94",
+      "fileName": "SuperChat-0.1.94.dmg",
+      "downloadPath": "downloads/SuperChat/0.1.94/SuperChat-0.1.94.dmg",
+      "sizeBytes": 317581,
+      "sha256": "3bd9672154b5d02d0d44e708fd73fc86fdd52ea70353557b80b0650c05c6033c"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "SuperChat-0.1.94",
+      "fileName": "SuperChat-0.1.94.zip",
+      "downloadPath": "downloads/SuperChat/0.1.94/SuperChat-0.1.94.zip",
+      "sizeBytes": 317512,
+      "sha256": "6ee8e03ac201b4dbb96325d3d0a424afdfac5aa71fa3734adbb3a71d6d8bfd69"
+    }
+  ]
+}
