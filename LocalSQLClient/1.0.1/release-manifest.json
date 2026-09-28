@@ -1,0 +1,11 @@
+{
+  "projectName": "LocalSQLClient",
+  "appName": "LocalSQLClient",
+  "displayName": "LocalSQLClient",
+  "version": "1.0.1",
+  "buildTimestamp": "2026-09-28T06:35:18.115Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/LocalSQLClient/1.0.1",
+  "packages": []
+}

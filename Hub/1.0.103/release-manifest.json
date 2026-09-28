@@ -2,19 +2,19 @@
   "projectName": "Hub",
   "appName": "Hub",
   "displayName": "Hub",
-  "version": "1.0.101",
-  "buildTimestamp": "2026-09-28T06:34:45.537Z",
+  "version": "1.0.103",
+  "buildTimestamp": "2026-09-28T06:35:18.041Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.101",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.103",
   "packages": [
     {
       "platform": "linux",
       "architecture": "amd64",
       "type": "deb",
-      "name": "Hub-1.0.101",
-      "fileName": "Hub-1.0.101.deb",
-      "downloadPath": "downloads/Hub/1.0.101/Hub-1.0.101.deb",
+      "name": "Hub-1.0.103",
+      "fileName": "Hub-1.0.103.deb",
+      "downloadPath": "downloads/Hub/1.0.103/Hub-1.0.103.deb",
       "sizeBytes": 126306,
       "sha256": "c81caa637e74c54107054a3988d377e6beb0cc7bb8f77609bd14b32a10f6316a"
     },
@@ -22,19 +22,19 @@
       "platform": "windows",
       "architecture": "x64",
       "type": "exe",
-      "name": "Hub-1.0.101",
-      "fileName": "Hub-1.0.101.exe",
-      "downloadPath": "downloads/Hub/1.0.101/Hub-1.0.101.exe",
-      "sizeBytes": 112640,
-      "sha256": "3e41731938b07772b642278b5c63cacb5c686f611564794090ec2f123d14c394"
+      "name": "Hub-1.0.103",
+      "fileName": "Hub-1.0.103.exe",
+      "downloadPath": "downloads/Hub/1.0.103/Hub-1.0.103.exe",
+      "sizeBytes": 32256,
+      "sha256": "65960cf976830aaa720cd84ef6d8ca886ae6c9fb035369e4d344c82b503b0deb"
     },
     {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
-      "name": "Hub-1.0.101",
-      "fileName": "Hub-1.0.101.zip",
-      "downloadPath": "downloads/Hub/1.0.101/Hub-1.0.101.zip",
+      "name": "Hub-1.0.103",
+      "fileName": "Hub-1.0.103.zip",
+      "downloadPath": "downloads/Hub/1.0.103/Hub-1.0.103.zip",
       "sizeBytes": 109835,
       "sha256": "5cf411e33964644c16f993be7017902349232eb012f9d01611ceebc0a4678e7f"
     }

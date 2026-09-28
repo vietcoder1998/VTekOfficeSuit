@@ -1,0 +1,42 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus",
+  "version": "1.0.81",
+  "buildTimestamp": "2026-09-28T06:35:13.213Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.81",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus-1.0.81",
+      "fileName": "Antivirus-1.0.81.deb",
+      "downloadPath": "downloads/Antivirus/1.0.81/Antivirus-1.0.81.deb",
+      "sizeBytes": 20948,
+      "sha256": "eba6afd1ba2e0b11f84f2984dfe15e27f87a52ebc530817525a76e8398888ce2"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus-1.0.81",
+      "fileName": "Antivirus-1.0.81.exe",
+      "downloadPath": "downloads/Antivirus/1.0.81/Antivirus-1.0.81.exe",
+      "sizeBytes": 15872,
+      "sha256": "4b8e507c0d5657f512f56b603b0db6525829fe5ed50b801ed3fe057dbabf8642"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus-1.0.81",
+      "fileName": "Antivirus-1.0.81.zip",
+      "downloadPath": "downloads/Antivirus/1.0.81/Antivirus-1.0.81.zip",
+      "sizeBytes": 12994,
+      "sha256": "72aa36b52f8569535fa3f23efdbd77e648ac0659430c5e736a2c4076782960d9"
+    }
+  ]
+}

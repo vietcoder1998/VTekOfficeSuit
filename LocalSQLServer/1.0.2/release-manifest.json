@@ -1,0 +1,42 @@
+{
+  "projectName": "LocalSQLServer",
+  "appName": "LocalSQLServer",
+  "displayName": "LocalSQLServer",
+  "version": "1.0.2",
+  "buildTimestamp": "2026-09-28T06:35:14.768Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/LocalSQLServer/1.0.2",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "LocalSQLServer-1.0.2",
+      "fileName": "LocalSQLServer-1.0.2.deb",
+      "downloadPath": "downloads/LocalSQLServer/1.0.2/LocalSQLServer-1.0.2.deb",
+      "sizeBytes": 4600,
+      "sha256": "c93beac4de050057b69a579224a008f079dea889f883bc4a2fe97009169ea62a"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "LocalSQLServer-1.0.2",
+      "fileName": "LocalSQLServer-1.0.2.exe",
+      "downloadPath": "downloads/LocalSQLServer/1.0.2/LocalSQLServer-1.0.2.exe",
+      "sizeBytes": 5120,
+      "sha256": "acd2e053ad9feeeef68c8e7cd2dced888690349b379ded92aaab3aaa954b0a3b"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "LocalSQLServer-1.0.2",
+      "fileName": "LocalSQLServer-1.0.2.zip",
+      "downloadPath": "downloads/LocalSQLServer/1.0.2/LocalSQLServer-1.0.2.zip",
+      "sizeBytes": 2257,
+      "sha256": "8becbb2828ce4964c19fd0be689b47620e9c8f80cf0b47b76599fb9a1f91a1a5"
+    }
+  ]
+}
