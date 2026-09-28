@@ -1,0 +1,52 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus",
+  "version": "1.0.94",
+  "buildTimestamp": "2026-09-28T18:32:36.151Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.94",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus-1.0.94",
+      "fileName": "Antivirus-1.0.94.deb",
+      "downloadPath": "downloads/Antivirus/1.0.94/Antivirus-1.0.94.deb",
+      "sizeBytes": 20944,
+      "sha256": "8e960827a6b5e85b82371882360969e67f7753a02cedbb143b8f930d47d2320d"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus-1.0.94",
+      "fileName": "Antivirus-1.0.94.exe",
+      "downloadPath": "downloads/Antivirus/1.0.94/Antivirus-1.0.94.exe",
+      "sizeBytes": 15872,
+      "sha256": "16a2a82e5cb0903f9023326e90a42c6a3e265a6534f10809b93a5ffcabe59f66"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Antivirus-1.0.94",
+      "fileName": "Antivirus-1.0.94.dmg",
+      "downloadPath": "downloads/Antivirus/1.0.94/Antivirus-1.0.94.dmg",
+      "sizeBytes": 13071,
+      "sha256": "cc12144502778da6c44b9e694e5d012bb08ca154d970932a8e89f4af1ab333b5"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus-1.0.94",
+      "fileName": "Antivirus-1.0.94.zip",
+      "downloadPath": "downloads/Antivirus/1.0.94/Antivirus-1.0.94.zip",
+      "sizeBytes": 12994,
+      "sha256": "03613150ddc1e7b29f1a8f0176d6ff19a62e38852d340a8fc3ff3b0a08adbc93"
+    }
+  ]
+}
