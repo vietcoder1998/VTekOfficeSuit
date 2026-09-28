@@ -1,4 +1,3 @@
 cee008d61717df45e5bef3b7dcc19a6143ebace7621382ba2018abef79495e35  OfficePack-1.0.97.deb
 624836fc890eaa127ff1d73bae16aa76d9821fdc68a275d9d8b60956ab70d5d3  OfficePack-1.0.97.exe
-db9eb68911e4ec0741aa8a05a36cc6abd4536d80961147f3fe68db9a079cbbf9  OfficePack-1.0.97.dmg
 048100dd6daeea2f79b3adb999e7a0bbec7175d88bb236eecb7bdaa10b210f6d  OfficePack-1.0.97.zip

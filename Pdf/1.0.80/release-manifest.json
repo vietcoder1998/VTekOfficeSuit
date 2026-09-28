@@ -29,16 +29,6 @@
       "sha256": "cc4375ff6e5067ebf91c3776fd3484a6bf8734f05feb0bbf111d548cd954a97e"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Pdf-1.0.80",
-      "fileName": "Pdf-1.0.80.dmg",
-      "downloadPath": "downloads/Pdf/1.0.80/Pdf-1.0.80.dmg",
-      "sizeBytes": 13173,
-      "sha256": "5b813f2973d1fb39a3f6de0cbbf85843cedd6e2866a55556825287959e34aa9a"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
