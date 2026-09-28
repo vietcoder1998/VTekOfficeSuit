@@ -15,8 +15,8 @@
       "name": "Hub-1.0.105",
       "fileName": "Hub-1.0.105.deb",
       "downloadPath": "downloads/Hub/1.0.105/Hub-1.0.105.deb",
-      "sizeBytes": 102196,
-      "sha256": "2ccea985f8fd015757488e3f4f137307e2e65dba41f56d43fa3320d45f955393"
+      "sizeBytes": 102198,
+      "sha256": "0ee6c338c4824e85fe79104ce9ec27f52f9ed306df5561676fe0226bad83bd53"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Hub-1.0.105.exe",
       "downloadPath": "downloads/Hub/1.0.105/Hub-1.0.105.exe",
       "sizeBytes": 32768,
-      "sha256": "aeea947b199c5c619ebea8d3da80ec7cfca830266fe8f44e0fa4384d8d156986"
+      "sha256": "0b82e67e882afd5d3379ef7714a3c711df147173628bc0844ee7b5cb522e583e"
     },
     {
       "platform": "universal",
