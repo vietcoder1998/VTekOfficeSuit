@@ -29,16 +29,6 @@
       "sha256": "0b3c705295c76c463b5044a158914c27b2e272664e9e94c9e508604210d58027"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "OfficeManagerServer-1.0.12",
-      "fileName": "OfficeManagerServer-1.0.12.dmg",
-      "downloadPath": "downloads/OfficeManagerServer/1.0.12/OfficeManagerServer-1.0.12.dmg",
-      "sizeBytes": 2424,
-      "sha256": "9f5427900f7c4fb0bfb66b915ef5636b5fed763ec2d08ea3b1f532b3f8aab53d"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

@@ -1,4 +1,3 @@
 2ecaf1fe1e89cdf5bafeb5248e8f456eb1a291db6ecc8edf9926ebba7e171539  Notes-1.0.97.deb
 4fcc7b4183c2dfb7791a046ec8afffea6b8b40a19bc081d9f3b242689cbf437e  Notes-1.0.97.exe
-a9ae82f713b7badb0da69f17658d584a58cc7f45a20671751d7d51ea0ebc9d82  Notes-1.0.97.dmg
 7eab06d6dfe8c4b5579a7a54fa5f20c98ad8b31c1f1c394eeceda4ba891d08a6  Notes-1.0.97.zip
