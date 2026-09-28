@@ -1,0 +1,52 @@
+{
+  "projectName": "Presentation",
+  "appName": "Presentation",
+  "displayName": "Presentation",
+  "version": "1.0.85",
+  "buildTimestamp": "2026-09-28T16:43:49.899Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Presentation/1.0.85",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Presentation-1.0.85",
+      "fileName": "Presentation-1.0.85.deb",
+      "downloadPath": "downloads/Presentation/1.0.85/Presentation-1.0.85.deb",
+      "sizeBytes": 21074,
+      "sha256": "06deb18b6a6f37c0135e64bf16c203fa69b29b0f5c7e48d033404062af8afb00"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Presentation-1.0.85",
+      "fileName": "Presentation-1.0.85.exe",
+      "downloadPath": "downloads/Presentation/1.0.85/Presentation-1.0.85.exe",
+      "sizeBytes": 15872,
+      "sha256": "bb95ad651cce665d5ee61dac0e95d2ed1023443a1ea5554db8360c6fbbd3005e"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Presentation-1.0.85",
+      "fileName": "Presentation-1.0.85.dmg",
+      "downloadPath": "downloads/Presentation/1.0.85/Presentation-1.0.85.dmg",
+      "sizeBytes": 13266,
+      "sha256": "51beb2be39a6fd4f51e21b30775a11b6bc21495e3cebfd5ff6007b566bbb8a38"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Presentation-1.0.85",
+      "fileName": "Presentation-1.0.85.zip",
+      "downloadPath": "downloads/Presentation/1.0.85/Presentation-1.0.85.zip",
+      "sizeBytes": 13195,
+      "sha256": "521ce6967edb63472b45c4254fa81e14dfc29d1df9b76908d8448e9a6b74e13c"
+    }
+  ]
+}
