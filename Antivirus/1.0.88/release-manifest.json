@@ -3,7 +3,7 @@
   "appName": "Antivirus",
   "displayName": "Antivirus",
   "version": "1.0.88",
-  "buildTimestamp": "2026-09-28T16:47:32.881Z",
+  "buildTimestamp": "2026-09-28T16:58:31.414Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.88",
@@ -15,8 +15,8 @@
       "name": "Antivirus-1.0.88",
       "fileName": "Antivirus-1.0.88.deb",
       "downloadPath": "downloads/Antivirus/1.0.88/Antivirus-1.0.88.deb",
-      "sizeBytes": 20956,
-      "sha256": "be30031dfe720d5045dfa29e3d78f2fe0c36958fd26b3c134b421a3dc16810f2"
+      "sizeBytes": 20946,
+      "sha256": "e8d8b16dd4aec8d7f1bfbb5b4c877bc2a4a601dcccbe569ebaed9c9d2c5cf9dc"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Antivirus-1.0.88.exe",
       "downloadPath": "downloads/Antivirus/1.0.88/Antivirus-1.0.88.exe",
       "sizeBytes": 15872,
-      "sha256": "f598e474569ecde81ffa7a6a7536683778f200d2e5882a14b6cc8e148c137dd6"
+      "sha256": "0041daebda1c61bb051f9923e2c5c2590201fe1be6153c42bed1d523d1dd5d38"
     },
     {
       "platform": "macos",
@@ -36,7 +36,7 @@
       "fileName": "Antivirus-1.0.88.dmg",
       "downloadPath": "downloads/Antivirus/1.0.88/Antivirus-1.0.88.dmg",
       "sizeBytes": 13071,
-      "sha256": "6d1b31efdc3d4bc2770dde8a78cebe829d215c9a1729161de7c56de152e9eff5"
+      "sha256": "772f23b6e17158e9a0b7d4f6dbd64f332b7b556e654bdd6913c4cea757cb23da"
     },
     {
       "platform": "universal",
@@ -46,7 +46,7 @@
       "fileName": "Antivirus-1.0.88.zip",
       "downloadPath": "downloads/Antivirus/1.0.88/Antivirus-1.0.88.zip",
       "sizeBytes": 12994,
-      "sha256": "e1484811e6f026ccd588f9a9dc50e778562c70879f0a46bb24f06b15f86bb5f9"
+      "sha256": "778bb52dfd7b5ccc6a3913fbd311ef10eb05214a63ad067a91bc51a821d72f42"
     }
   ]
 }

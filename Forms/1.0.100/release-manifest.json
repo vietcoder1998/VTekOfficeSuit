@@ -3,7 +3,7 @@
   "appName": "Forms",
   "displayName": "Forms",
   "version": "1.0.100",
-  "buildTimestamp": "2026-09-28T16:47:34.078Z",
+  "buildTimestamp": "2026-09-28T16:58:32.860Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Forms/1.0.100",
@@ -16,7 +16,7 @@
       "fileName": "Forms-1.0.100.deb",
       "downloadPath": "downloads/Forms/1.0.100/Forms-1.0.100.deb",
       "sizeBytes": 21088,
-      "sha256": "baeae7e44f8464d2417d5ecd7b0ca4f5c9bf8f3e0e10701b9614193e61967e4c"
+      "sha256": "1b160401bae7ffbf9f275681031e2a086cd93a5900a8bca870d2dee375f3123b"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Forms-1.0.100.exe",
       "downloadPath": "downloads/Forms/1.0.100/Forms-1.0.100.exe",
       "sizeBytes": 15872,
-      "sha256": "c209d534d3bcedcc1b086c6934bfd4ce580886c2674a117829ec70b9a0feac1f"
+      "sha256": "1a6a6196fe9038bd9d7583045b08d393ea26d1285595ca6a683d14fdb0113f2b"
     },
     {
       "platform": "macos",
@@ -36,7 +36,7 @@
       "fileName": "Forms-1.0.100.dmg",
       "downloadPath": "downloads/Forms/1.0.100/Forms-1.0.100.dmg",
       "sizeBytes": 13236,
-      "sha256": "90e52d392d91f85ff2491b457bb23f3ecee679fd10c5e72346048dc8411a9369"
+      "sha256": "582eb4807589dd9282293e7410fa35921eb79446960386744bca1ebe5f488fed"
     },
     {
       "platform": "universal",
@@ -46,7 +46,7 @@
       "fileName": "Forms-1.0.100.zip",
       "downloadPath": "downloads/Forms/1.0.100/Forms-1.0.100.zip",
       "sizeBytes": 13170,
-      "sha256": "f9f14a930db6d8f5f902fb3422662143a27df355bc51034f05ad5b7a6539c39d"
+      "sha256": "2b21b25ef52b207a2661123b7ff2ae4e99f547f6db11f106e3f27f777244f5f3"
     }
   ]
 }
