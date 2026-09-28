@@ -1,0 +1,52 @@
+{
+  "projectName": "Tasks",
+  "appName": "Tasks",
+  "displayName": "Tasks",
+  "version": "1.0.87",
+  "buildTimestamp": "2026-09-28T17:13:36.744Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Tasks/1.0.87",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Tasks-1.0.87",
+      "fileName": "Tasks-1.0.87.deb",
+      "downloadPath": "downloads/Tasks/1.0.87/Tasks-1.0.87.deb",
+      "sizeBytes": 20800,
+      "sha256": "55bee6e74b3d80f1478b0b99e3d6ce39728b25b4ee9c94f6983fb3b586c3d2f8"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Tasks-1.0.87",
+      "fileName": "Tasks-1.0.87.exe",
+      "downloadPath": "downloads/Tasks/1.0.87/Tasks-1.0.87.exe",
+      "sizeBytes": 15872,
+      "sha256": "2cfdb257ed3e154b66d3c3645b0f42c76f93c18c1559ea5b925d91591794a000"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Tasks-1.0.87",
+      "fileName": "Tasks-1.0.87.dmg",
+      "downloadPath": "downloads/Tasks/1.0.87/Tasks-1.0.87.dmg",
+      "sizeBytes": 13094,
+      "sha256": "08c43d784bf126857463c0170773c1f732dcaf6ae3c422ba82018112e18b2061"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Tasks-1.0.87",
+      "fileName": "Tasks-1.0.87.zip",
+      "downloadPath": "downloads/Tasks/1.0.87/Tasks-1.0.87.zip",
+      "sizeBytes": 13026,
+      "sha256": "67fecad4b18e82ed16922b932756baf30db404c756131c7b7d37f82829cf9405"
+    }
+  ]
+}
