@@ -1,3 +1,0 @@
-3d995f3e7a256022b2af5c730ac88e4f94c7924b31503cb7088bbc8b647300fd  Antivirus-1.0.72.deb
-ddc5cf75249732abb7e3f6c0f44cf0dd69ab85ec1c335bb860d5d97413fa6c5f  Antivirus-1.0.72.exe
-81a234ec5e148a1b44d8a9bda9df0cac1f4acdde2f59b26d1ae41fbb40fb3855  Antivirus-1.0.72.zip

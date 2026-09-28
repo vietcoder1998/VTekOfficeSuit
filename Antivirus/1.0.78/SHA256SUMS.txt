@@ -1,3 +1,0 @@
-37abe9b5cb9e292f1bd65da6f19dbaecd628643c3468965f5ddbf8db485a51a8  Antivirus-1.0.78.deb
-424ae2ca5b55ef553674f009c2439587d437aafcfd08496f07e18ad8be5a3c7b  Antivirus-1.0.78.exe
-a8bffcd68b9ebaf44396c7944ddb8f46de3f1cd2a6fed48310b8cd350b4ad03d  Antivirus-1.0.78.zip

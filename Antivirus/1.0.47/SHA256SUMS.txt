@@ -1,3 +1,0 @@
-4681eff9ccb3f4d0632af50de906941d890fb5ba68f2f7fbfafc7debc1063a83  Antivirus-1.0.47.deb
-01cbe616796bdbae77f0d6492a4009bd5c9dcf6a2d5ff54797d0de673b3ac468  Antivirus-1.0.47.exe
-a39e459670ec0fa0ecb61853f8b8dfb213b7fab42d59a3d33fca3c5fee828fb3  Antivirus-1.0.47.zip
