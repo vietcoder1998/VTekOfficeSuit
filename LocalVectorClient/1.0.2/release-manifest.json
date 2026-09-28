@@ -1,0 +1,52 @@
+{
+  "projectName": "LocalVectorClient",
+  "appName": "LocalVectorClient",
+  "displayName": "LocalVectorClient",
+  "version": "1.0.2",
+  "buildTimestamp": "2026-09-28T06:35:58.189Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/LocalVectorClient/1.0.2",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "LocalVectorClient-1.0.2",
+      "fileName": "LocalVectorClient-1.0.2.deb",
+      "downloadPath": "downloads/LocalVectorClient/1.0.2/LocalVectorClient-1.0.2.deb",
+      "sizeBytes": 4680,
+      "sha256": "27a7751979c6629ee08dc70709c7d563012df4d05d9f2b34944b25f8c29a6d61"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "LocalVectorClient-1.0.2",
+      "fileName": "LocalVectorClient-1.0.2.exe",
+      "downloadPath": "downloads/LocalVectorClient/1.0.2/LocalVectorClient-1.0.2.exe",
+      "sizeBytes": 5120,
+      "sha256": "9f9082e26886cb05183a2ea9f2440fafe6f4b1c3a03448da94e6f2378621b365"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "LocalVectorClient-1.0.2",
+      "fileName": "LocalVectorClient-1.0.2.dmg",
+      "downloadPath": "downloads/LocalVectorClient/1.0.2/LocalVectorClient-1.0.2.dmg",
+      "sizeBytes": 2356,
+      "sha256": "ca3a8cbe85be8257ccd4f713c7546961003be5935f66f472e96a6236def89e0d"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "LocalVectorClient-1.0.2",
+      "fileName": "LocalVectorClient-1.0.2.zip",
+      "downloadPath": "downloads/LocalVectorClient/1.0.2/LocalVectorClient-1.0.2.zip",
+      "sizeBytes": 2289,
+      "sha256": "607e2f2b48efd92383a4de43d6645a18c955c12b3702b96fd7df8c0bb04493b7"
+    }
+  ]
+}
