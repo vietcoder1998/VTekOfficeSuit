@@ -1,0 +1,52 @@
+{
+  "projectName": "OfficePack",
+  "appName": "OfficePack",
+  "displayName": "OfficePack",
+  "version": "1.0.101",
+  "buildTimestamp": "2026-09-28T05:35:39.343Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/OfficePack/1.0.101",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "OfficePack-1.0.101",
+      "fileName": "OfficePack-1.0.101.deb",
+      "downloadPath": "downloads/OfficePack/1.0.101/OfficePack-1.0.101.deb",
+      "sizeBytes": 46924,
+      "sha256": "467486555920c7300e3f530c2c0119005577621b221bc49d4b8f2060eea9d3ce"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "OfficePack-1.0.101",
+      "fileName": "OfficePack-1.0.101.exe",
+      "downloadPath": "downloads/OfficePack/1.0.101/OfficePack-1.0.101.exe",
+      "sizeBytes": 30208,
+      "sha256": "c4d31919d3cf0124416b88f8d3368db1aa6feb8c859436880930b259cd2cad1d"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "OfficePack-1.0.101",
+      "fileName": "OfficePack-1.0.101.dmg",
+      "downloadPath": "downloads/OfficePack/1.0.101/OfficePack-1.0.101.dmg",
+      "sizeBytes": 27381,
+      "sha256": "5b666b8acfd6b57c6ed76c1602e35fdbb834e9c6a3001062b3bfd014ace1e16d"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "OfficePack-1.0.101",
+      "fileName": "OfficePack-1.0.101.zip",
+      "downloadPath": "downloads/OfficePack/1.0.101/OfficePack-1.0.101.zip",
+      "sizeBytes": 27318,
+      "sha256": "41c11bb79115a076b1ac68c68b61b3a77c302d2c598ed51ae9739ad0a3df5265"
+    }
+  ]
+}
