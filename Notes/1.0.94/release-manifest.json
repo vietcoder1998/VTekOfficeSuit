@@ -29,16 +29,6 @@
       "sha256": "148b788c4179fc926b14a6cf386199bd040067059fe486159022eebb7df02e25"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Notes-1.0.94",
-      "fileName": "Notes-1.0.94.dmg",
-      "downloadPath": "downloads/Notes/1.0.94/Notes-1.0.94.dmg",
-      "sizeBytes": 13154,
-      "sha256": "5b4b5c7fedb278f1d3f60ba8f50db2f98f0de6376ed0438da3367eb9858ccf89"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

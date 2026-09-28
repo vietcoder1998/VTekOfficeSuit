@@ -29,16 +29,6 @@
       "sha256": "9f9082e26886cb05183a2ea9f2440fafe6f4b1c3a03448da94e6f2378621b365"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "LocalVectorClient-1.0.2",
-      "fileName": "LocalVectorClient-1.0.2.dmg",
-      "downloadPath": "downloads/LocalVectorClient/1.0.2/LocalVectorClient-1.0.2.dmg",
-      "sizeBytes": 2356,
-      "sha256": "ca3a8cbe85be8257ccd4f713c7546961003be5935f66f472e96a6236def89e0d"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

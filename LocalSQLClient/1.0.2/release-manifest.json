@@ -29,16 +29,6 @@
       "sha256": "f35d7f1460cb9807c7362984b8fd07ec1f43208e9b51e9245b9674d709b43e62"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "LocalSQLClient-1.0.2",
-      "fileName": "LocalSQLClient-1.0.2.dmg",
-      "downloadPath": "downloads/LocalSQLClient/1.0.2/LocalSQLClient-1.0.2.dmg",
-      "sizeBytes": 2331,
-      "sha256": "5248647dd0b1c5fe20a614f7dd6cc38ee35be175b57fab62c8b05990fda9cd68"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

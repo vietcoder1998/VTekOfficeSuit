@@ -29,16 +29,6 @@
       "sha256": "7b2dc12a003c141f3795e4e22497b7c55fe8426940e77e1c7c7619913ab249b5"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Antivirus-1.0.85",
-      "fileName": "Antivirus-1.0.85.dmg",
-      "downloadPath": "downloads/Antivirus/1.0.85/Antivirus-1.0.85.dmg",
-      "sizeBytes": 13072,
-      "sha256": "a1968c8f2dba31a75432dfa9a59a657368a143cb59bc6dde18095a176c030d5c"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

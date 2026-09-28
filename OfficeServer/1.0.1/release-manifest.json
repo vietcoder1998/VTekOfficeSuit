@@ -29,16 +29,6 @@
       "sha256": "cabf880bf8d74eb665ba735805ff390c3da8043c9c4dcb5d9a64c4bebede1dbd"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "OfficeServer-1.0.1",
-      "fileName": "OfficeServer-1.0.1.dmg",
-      "downloadPath": "downloads/OfficeServer/1.0.1/OfficeServer-1.0.1.dmg",
-      "sizeBytes": 2338,
-      "sha256": "f6c46a30b42656f788ce54883a1326eabfa395b39f653bf351900c87c7b36cba"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

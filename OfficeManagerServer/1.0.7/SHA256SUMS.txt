@@ -1,4 +1,3 @@
 f41bbb0047bc34d7fb2b2cf1983c6bc5c7786ece1ca5f6b0867cf802c67bbe46  OfficeManagerServer-1.0.7.deb
 53cdc842638296ac359f6556c7f8912e63836203b6c6bb68b34f97e42613b59d  OfficeManagerServer-1.0.7.exe
-b370bd8118779b02482d6fb78b3f03b3cca7b65c6e0cb5ac6172ceb2aff04ef4  OfficeManagerServer-1.0.7.dmg
 8a3c96bf5a0f4e2404cc0a4cef9ff40a112555c8988442fa0d93d80182111835  OfficeManagerServer-1.0.7.zip

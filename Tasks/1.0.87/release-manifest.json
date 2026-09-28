@@ -29,16 +29,6 @@
       "sha256": "fdcf49d31da69793baedf6779bbb7abed6d7afd666379076e99b8d440d4bf1aa"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Tasks-1.0.87",
-      "fileName": "Tasks-1.0.87.dmg",
-      "downloadPath": "downloads/Tasks/1.0.87/Tasks-1.0.87.dmg",
-      "sizeBytes": 13094,
-      "sha256": "924aad14550162ce6202ab415b46abf670d333caf11e1dda4dcc9b913068776e"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
