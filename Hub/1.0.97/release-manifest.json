@@ -1,0 +1,52 @@
+{
+  "projectName": "Hub",
+  "appName": "Hub",
+  "displayName": "Hub",
+  "version": "1.0.97",
+  "buildTimestamp": "2026-09-28T05:35:27.969Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.97",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Hub-1.0.97",
+      "fileName": "Hub-1.0.97.deb",
+      "downloadPath": "downloads/Hub/1.0.97/Hub-1.0.97.deb",
+      "sizeBytes": 126296,
+      "sha256": "1602e88978a582a08257a735b34d4791f0241a2f411fbca806ed358b8b91ae31"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Hub-1.0.97",
+      "fileName": "Hub-1.0.97.exe",
+      "downloadPath": "downloads/Hub/1.0.97/Hub-1.0.97.exe",
+      "sizeBytes": 112640,
+      "sha256": "afaf790967721a964f3f6cb2bfba29653c52ae17ca8c7e9ae2a8e5f3daa31874"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Hub-1.0.97",
+      "fileName": "Hub-1.0.97.dmg",
+      "downloadPath": "downloads/Hub/1.0.97/Hub-1.0.97.dmg",
+      "sizeBytes": 109906,
+      "sha256": "1e0c014deeb3568f7f9ae4a60f7d870bd5a19c80badbcd6f8675485600437982"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Hub-1.0.97",
+      "fileName": "Hub-1.0.97.zip",
+      "downloadPath": "downloads/Hub/1.0.97/Hub-1.0.97.zip",
+      "sizeBytes": 109836,
+      "sha256": "4cd089cc778003fa739e1631d7d14cfc853e72a0105364aa52503ec5eca01203"
+    }
+  ]
+}
