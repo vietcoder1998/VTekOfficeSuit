@@ -1,0 +1,12 @@
+#!/bin/sh
+APP_DIR="/opt/superchat"
+cd "$APP_DIR"
+if [ -f "$APP_DIR/electron/runner.cjs" ]; then
+  exec node "$APP_DIR/electron/runner.cjs" "$@"
+elif command -v electron >/dev/null 2>&1 && [ -f "$APP_DIR/electron/main.cjs" ]; then
+  exec electron "$APP_DIR/electron/main.cjs" "$@"
+elif [ -f "$APP_DIR/electron/main.cjs" ]; then
+  exec npx electron "$APP_DIR/electron/main.cjs" "$@"
+else
+  exec node "$APP_DIR/server.js" "$@"
+fi

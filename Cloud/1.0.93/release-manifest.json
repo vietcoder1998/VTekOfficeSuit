@@ -3,7 +3,7 @@
   "appName": "Cloud",
   "displayName": "Cloud",
   "version": "1.0.93",
-  "buildTimestamp": "2026-09-28T16:10:05.859Z",
+  "buildTimestamp": "2026-09-28T16:26:54.407Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Cloud/1.0.93",
@@ -15,8 +15,8 @@
       "name": "Cloud-1.0.93",
       "fileName": "Cloud-1.0.93.deb",
       "downloadPath": "downloads/Cloud/1.0.93/Cloud-1.0.93.deb",
-      "sizeBytes": 115034,
-      "sha256": "ddee72116a655dfbdce8c62ffb898f05bb0b13083a2f5101a057ca2741a7456a"
+      "sizeBytes": 115032,
+      "sha256": "c5c840d492f941c3101af9eb72c591027b9880961ebd8877db9c4a18124ee6a0"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Cloud-1.0.93.exe",
       "downloadPath": "downloads/Cloud/1.0.93/Cloud-1.0.93.exe",
       "sizeBytes": 110592,
-      "sha256": "96de882bd7fda277cb741f94208dc609ad5642b28cf4056d6b2f4359334e208c"
+      "sha256": "224ecd452256b4b0f433cf6c2fc698a2e139962a02db3a5bc45cfd2e9b4387d4"
     },
     {
       "platform": "macos",
@@ -36,7 +36,7 @@
       "fileName": "Cloud-1.0.93.dmg",
       "downloadPath": "downloads/Cloud/1.0.93/Cloud-1.0.93.dmg",
       "sizeBytes": 107663,
-      "sha256": "3f1f6eb7a3f28f00a96e2df2a752b4d61025d184862610ec12ad05893a3797ae"
+      "sha256": "846e3907b629748ee9c9be81c36a66353ad7df71d0b8310e35bcedd8002ac986"
     },
     {
       "platform": "universal",
@@ -46,7 +46,7 @@
       "fileName": "Cloud-1.0.93.zip",
       "downloadPath": "downloads/Cloud/1.0.93/Cloud-1.0.93.zip",
       "sizeBytes": 107597,
-      "sha256": "d25c611f8d40d92db482e6d52b2cda31f2ab8ab9f47ca6dda75f48df6ef3ff55"
+      "sha256": "a1e4f97d167f7c49e17efc975a3d7ca20e0861e21d1759384bc2b19cf2971cc8"
     }
   ]
 }
