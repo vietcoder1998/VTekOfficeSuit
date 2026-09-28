@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=SuperChat Client
-Comment=Real-time AI conversational workspace, channel messaging, and chat bots.
-Exec=/usr/bin/superchat %U
-Terminal=false
-Type=Application
-Icon=superchat
-Categories=Office;Utility;Development;
