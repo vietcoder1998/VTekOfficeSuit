@@ -1,0 +1,52 @@
+{
+  "projectName": "Presentation",
+  "appName": "Presentation",
+  "displayName": "Presentation",
+  "version": "1.0.77",
+  "buildTimestamp": "2026-09-28T06:36:15.223Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Presentation/1.0.77",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Presentation-1.0.77",
+      "fileName": "Presentation-1.0.77.deb",
+      "downloadPath": "downloads/Presentation/1.0.77/Presentation-1.0.77.deb",
+      "sizeBytes": 21080,
+      "sha256": "2126a1c724a34adc4958ee7da31e9104c551bc07163a020d8d0735b9b2e3f6fd"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Presentation-1.0.77",
+      "fileName": "Presentation-1.0.77.exe",
+      "downloadPath": "downloads/Presentation/1.0.77/Presentation-1.0.77.exe",
+      "sizeBytes": 15872,
+      "sha256": "57743ed7fdb1c72f852a79b52d838e5b015efcb9730fc8977bfbcb6a672aa711"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Presentation-1.0.77",
+      "fileName": "Presentation-1.0.77.dmg",
+      "downloadPath": "downloads/Presentation/1.0.77/Presentation-1.0.77.dmg",
+      "sizeBytes": 13265,
+      "sha256": "8663e3ae5bb21d5d7281c5a3f57435dabbe5c0d205201fd5f027fdb02ae33cd5"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Presentation-1.0.77",
+      "fileName": "Presentation-1.0.77.zip",
+      "downloadPath": "downloads/Presentation/1.0.77/Presentation-1.0.77.zip",
+      "sizeBytes": 13194,
+      "sha256": "0463f894a61811c9068a8717525f791dc0f64066d5bc00963cc825639a541bec"
+    }
+  ]
+}
