@@ -1,4 +1,3 @@
 bdbdcc8ad397467798de360c574d30672f9ba6ba95ab8897f6fe94e0c8d10d73  Presentation-1.0.109.deb
 bde3eac7aa20d0b9289e1c7d0aeb9b435a9a63daf69883ad5086aa8ae2757e8a  Presentation-1.0.109.exe
-cfbeb35614ae7d2d2f8d1c6865ffe5fb0c16c221b4c9b6d5e0bf36c5cfd5d8b2  Presentation-1.0.109.dmg
 0a2f6d67d02f9ab23b636528b90505c19c5ccd55ef15598c92e9d87523175383  Presentation-1.0.109.zip

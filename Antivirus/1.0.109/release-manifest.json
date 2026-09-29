@@ -29,16 +29,6 @@
       "sha256": "1590eea53b480ed83130020349888b15e7a7ef4f06b9611283fcf8e73f9781ea"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Antivirus-1.0.109",
-      "fileName": "Antivirus-1.0.109.dmg",
-      "downloadPath": "downloads/Antivirus/1.0.109/Antivirus-1.0.109.dmg",
-      "sizeBytes": 13072,
-      "sha256": "2dfda8b2d02e574d2b92916ddd86a5da22bd2b4b889f5c99de3941ded5ba7d29"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

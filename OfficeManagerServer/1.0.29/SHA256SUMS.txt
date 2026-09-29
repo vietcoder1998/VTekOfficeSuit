@@ -1,4 +1,3 @@
 d57c7eb4488a24a84d09048cdc19b9007ff89ef1df796bfe016c9158f07f9ac2  OfficeManagerServer-1.0.29.deb
 6a1db071f9f8f3daf0bf82bea8d341c50df416c75d161e126850460385187586  OfficeManagerServer-1.0.29.exe
-6c1ac2d31b7a47248994da6a8efbbee4ed84e72a03dab0b54d9547424dadf469  OfficeManagerServer-1.0.29.dmg
 d7ef8972ee74d873886f0a4674a86618be58a7ac35e74889c5da51310a8cc360  OfficeManagerServer-1.0.29.zip
