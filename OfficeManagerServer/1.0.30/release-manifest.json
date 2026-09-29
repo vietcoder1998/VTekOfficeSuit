@@ -1,0 +1,56 @@
+{
+  "projectName": "OfficeManagerServer",
+  "appName": "OfficeManagerServer",
+  "displayName": "OfficeManagerServer",
+  "version": "1.0.30",
+  "buildTimestamp": "2026-09-29T07:57:53.384Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/OfficeManagerServer/1.0.30",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "OfficeManagerServer-1.0.30",
+      "fileName": "OfficeManagerServer-1.0.30.deb",
+      "downloadPath": "downloads/OfficeManagerServer/1.0.30/OfficeManagerServer-1.0.30.deb",
+      "sizeBytes": 4804,
+      "sizeFormatted": "4.7 KB",
+      "sha256": "74b990c107cad1b8cc436cc54e6eb0c3f2e3fd6f1bf6917c465d6fcc4ccc022f"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "OfficeManagerServer-1.0.30",
+      "fileName": "OfficeManagerServer-1.0.30.exe",
+      "downloadPath": "downloads/OfficeManagerServer/1.0.30/OfficeManagerServer-1.0.30.exe",
+      "sizeBytes": 5120,
+      "sizeFormatted": "5.0 KB",
+      "sha256": "c4b2fcfef3d073375e755d4f9112c9da7a864f95164b510db14517f9c78464f4"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "OfficeManagerServer-1.0.30",
+      "fileName": "OfficeManagerServer-1.0.30.dmg",
+      "downloadPath": "downloads/OfficeManagerServer/1.0.30/OfficeManagerServer-1.0.30.dmg",
+      "sizeBytes": 2424,
+      "sizeFormatted": "2.4 KB",
+      "sha256": "c9152bb333341e0255f847448169046a938610df0eecc37da162520776b6284a"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "OfficeManagerServer-1.0.30",
+      "fileName": "OfficeManagerServer-1.0.30.zip",
+      "downloadPath": "downloads/OfficeManagerServer/1.0.30/OfficeManagerServer-1.0.30.zip",
+      "sizeBytes": 2354,
+      "sizeFormatted": "2.3 KB",
+      "sha256": "1d8f341faddcc6ab335c8be270c6b4f3ec647804a97c44001cfa4e445b0019e8"
+    }
+  ]
+}
