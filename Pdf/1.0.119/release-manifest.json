@@ -29,16 +29,6 @@
       "sha256": "1ccb79f33dfc79b3cc4ff36440b25c81f14a5831013bf2b7035984260a629e60"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Pdf-1.0.119",
-      "fileName": "Pdf-1.0.119.dmg",
-      "downloadPath": "downloads/Pdf/1.0.119/Pdf-1.0.119.dmg",
-      "sizeBytes": 13175,
-      "sha256": "9e31dbb60af1f6a1bfeabeace443984f2ea0c242e830aafe691683a0c8605d32"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
