@@ -1,0 +1,52 @@
+{
+  "projectName": "Notes",
+  "appName": "Notes",
+  "displayName": "Notes",
+  "version": "1.0.104",
+  "buildTimestamp": "2026-09-29T06:02:07.955Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Notes/1.0.104",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Notes-1.0.104",
+      "fileName": "Notes-1.0.104.deb",
+      "downloadPath": "downloads/Notes/1.0.104/Notes-1.0.104.deb",
+      "sizeBytes": 20956,
+      "sha256": "d00992198d4dc5dbc1e01c0769f8e7f0674913c53df97942fb9a7335feb1ed3c"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Notes-1.0.104",
+      "fileName": "Notes-1.0.104.exe",
+      "downloadPath": "downloads/Notes/1.0.104/Notes-1.0.104.exe",
+      "sizeBytes": 15872,
+      "sha256": "4cd4bbd97f5f88be4c531510f4e0204509970aef1c4100203967bff70d5d1af3"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Notes-1.0.104",
+      "fileName": "Notes-1.0.104.dmg",
+      "downloadPath": "downloads/Notes/1.0.104/Notes-1.0.104.dmg",
+      "sizeBytes": 13156,
+      "sha256": "1a741812a3c3633dfa682498bdf44d369692fcaac18bc894442d901b5600101b"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Notes-1.0.104",
+      "fileName": "Notes-1.0.104.zip",
+      "downloadPath": "downloads/Notes/1.0.104/Notes-1.0.104.zip",
+      "sizeBytes": 13098,
+      "sha256": "55858899de6c64fc1637082832ecc139e6125edfba7ec85cf177c7d3f94b1ae0"
+    }
+  ]
+}

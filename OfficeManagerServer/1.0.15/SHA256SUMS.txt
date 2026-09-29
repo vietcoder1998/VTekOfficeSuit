@@ -1,4 +1,3 @@
 eb763432acaf67927304ef336d4a99d8710706324c536f13a596727f973a1586  OfficeManagerServer-1.0.15.deb
 3e50ae21f327ceff7582ecee37aab00eaa202c1c479b174452eea8e811e0ee27  OfficeManagerServer-1.0.15.exe
-6f49eaea19a8a3189292b8c9bdbc1485597c522e68d4f2a69ef00323960f37bd  OfficeManagerServer-1.0.15.dmg
 80e711d021f12dcb5dc0a58dcb2a5954463133fad9afd48084f1d43cf8557cf6  OfficeManagerServer-1.0.15.zip
