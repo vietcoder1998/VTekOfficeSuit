@@ -1,0 +1,4 @@
+2cdf8888f175f26d80988bd4cede708661bb84ca4fb4f80d3ad8404ce80ca28c  Presentation-1.0.114.deb
+0ec33537c0a712d1f58ed0088e4aff2bb2d32289e2831c1708abdcb670ebd8b5  Presentation-1.0.114.exe
+d49fbc4b265ea2cc2345cab89ae491da84009a1425c8e3ee4100d564d3562136  Presentation-1.0.114.dmg
+5ea9cca4de575af05ba4afc69f5c8c8b7074cd57b5beabd9103e8db7ad91eff4  Presentation-1.0.114.zip
