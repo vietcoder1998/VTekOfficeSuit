@@ -29,16 +29,6 @@
       "sha256": "de661aaca70d4a4a4ce863b54780a308c8d9e5944339878e81fbbebd39735f29"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Presentation-1.0.98",
-      "fileName": "Presentation-1.0.98.dmg",
-      "downloadPath": "downloads/Presentation/1.0.98/Presentation-1.0.98.dmg",
-      "sizeBytes": 13266,
-      "sha256": "757f0c7631f44e8f344bb39816f003eadf9f091a5f52e8029622a1adce18fd0d"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

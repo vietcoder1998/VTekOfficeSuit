@@ -29,16 +29,6 @@
       "sha256": "4470fe42b3071523fb092a06656512e74526810b909cbd56da975cfebb9d4c52"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "OfficeManagerServer-1.0.19",
-      "fileName": "OfficeManagerServer-1.0.19.dmg",
-      "downloadPath": "downloads/OfficeManagerServer/1.0.19/OfficeManagerServer-1.0.19.dmg",
-      "sizeBytes": 2424,
-      "sha256": "87b22f188aeee309807a3f9e01b8475adb9fc102a37524af771b6c8d8c123f5a"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
