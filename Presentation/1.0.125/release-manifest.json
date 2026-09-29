@@ -29,16 +29,6 @@
       "sha256": "788950cc0ec4ae9524f7479d109178650a2dd519d0982e344cfdfff69991dc53"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Presentation-1.0.125",
-      "fileName": "Presentation-1.0.125.dmg",
-      "downloadPath": "downloads/Presentation/1.0.125/Presentation-1.0.125.dmg",
-      "sizeBytes": 13268,
-      "sha256": "9067dff6b8f3511ce57b1cef31fcf456d0528b783b76a499d30dca1ebbdecfc8"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
