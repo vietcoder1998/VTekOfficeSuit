@@ -1,4 +1,0 @@
-b6e668c520d176273c4df1aebed5e95b24f019c53828dc392da97fc272669e75  OfficeManagerServer-1.0.22.deb
-2f352d37e4fae9b1e8e09596ae88199a584476f9f05245a634efe8802b3ba1cc  OfficeManagerServer-1.0.22.exe
-03a7085b53911b3e1a3da233bfc2fa00a17b95a9629304c67f0f82308476c7da  OfficeManagerServer-1.0.22.dmg
-ba76082b4f24dcef1efcc174f549b473f05a4c462da7da7f5ce9bad866ced732  OfficeManagerServer-1.0.22.zip

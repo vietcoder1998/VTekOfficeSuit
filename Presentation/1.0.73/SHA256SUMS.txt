@@ -1,3 +1,0 @@
-c3be0f41ee448d29a549a59cf41a4853733bb1d754cafe036983b6aac6eb9e7f  Presentation-1.0.73.deb
-02b57feef1f66e42efc87e4ffcaf67e5f572db43fdcae023baa4b0227899f8c1  Presentation-1.0.73.exe
-3ed68dc3798972cefef29b217dd996233ccc91e797c39075a743181114b43a73  Presentation-1.0.73.zip

@@ -1,3 +1,0 @@
-d00b849561f30bddbd9cf54309b4d40d07f59a90a9c9bf659a25c76a37aa9f66  OfficeManagerServer-1.0.21.deb
-d82c56b1bbeee7186d03df9152d86672712e383323fcc2aa5c056a93fb558d52  OfficeManagerServer-1.0.21.exe
-fc6378d6a95ec74f50bf11bcf323791d763b79f064fbbe3b3ae0386a2717544f  OfficeManagerServer-1.0.21.zip

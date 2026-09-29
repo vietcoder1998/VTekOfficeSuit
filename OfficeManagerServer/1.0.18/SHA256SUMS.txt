@@ -1,3 +1,0 @@
-d02f6862d78bd4ea2061a471e933d046e31fc107f7ac1b657a09ed122b42095d  OfficeManagerServer-1.0.18.deb
-513703d4ebdc6fcc5ff56326e2010c936e5a0ebcbda168c0743066538d4c6ef1  OfficeManagerServer-1.0.18.exe
-f216a38bc2a58a7ce0c5d39d91af87b66fbab4117ce6ae96033c3b621b080cd9  OfficeManagerServer-1.0.18.zip
