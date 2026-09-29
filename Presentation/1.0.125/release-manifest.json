@@ -1,0 +1,52 @@
+{
+  "projectName": "Presentation",
+  "appName": "Presentation",
+  "displayName": "Presentation",
+  "version": "1.0.125",
+  "buildTimestamp": "2026-09-29T15:35:38.571Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Presentation/1.0.125",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Presentation-1.0.125",
+      "fileName": "Presentation-1.0.125.deb",
+      "downloadPath": "downloads/Presentation/1.0.125/Presentation-1.0.125.deb",
+      "sizeBytes": 21078,
+      "sha256": "728f93676cc8690583033a10604ef6f0a05a199d86f76b1341f9f452280919a4"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Presentation-1.0.125",
+      "fileName": "Presentation-1.0.125.exe",
+      "downloadPath": "downloads/Presentation/1.0.125/Presentation-1.0.125.exe",
+      "sizeBytes": 15872,
+      "sha256": "788950cc0ec4ae9524f7479d109178650a2dd519d0982e344cfdfff69991dc53"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Presentation-1.0.125",
+      "fileName": "Presentation-1.0.125.dmg",
+      "downloadPath": "downloads/Presentation/1.0.125/Presentation-1.0.125.dmg",
+      "sizeBytes": 13268,
+      "sha256": "9067dff6b8f3511ce57b1cef31fcf456d0528b783b76a499d30dca1ebbdecfc8"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Presentation-1.0.125",
+      "fileName": "Presentation-1.0.125.zip",
+      "downloadPath": "downloads/Presentation/1.0.125/Presentation-1.0.125.zip",
+      "sizeBytes": 13196,
+      "sha256": "c4f03d6a772d1c46881703526039dbc3e575fad683b402bed8e8774d42bb802b"
+    }
+  ]
+}
