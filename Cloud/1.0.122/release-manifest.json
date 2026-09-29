@@ -29,16 +29,6 @@
       "sha256": "1ced8ddd08e8c30d1c63b464e995284236dc1812dc60b5bdb63b725bb0137321"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Cloud-1.0.122",
-      "fileName": "Cloud-1.0.122.dmg",
-      "downloadPath": "downloads/Cloud/1.0.122/Cloud-1.0.122.dmg",
-      "sizeBytes": 107664,
-      "sha256": "d0ff5aee3b8120e50d2db1371e0af96c5061b71303665ef68633dcf3b77fa9cf"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

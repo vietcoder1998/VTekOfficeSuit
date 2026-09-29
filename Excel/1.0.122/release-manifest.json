@@ -1,0 +1,52 @@
+{
+  "projectName": "Excel",
+  "appName": "Excel",
+  "displayName": "Excel",
+  "version": "1.0.122",
+  "buildTimestamp": "2026-09-29T07:42:57.683Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Excel/1.0.122",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Excel-1.0.122",
+      "fileName": "Excel-1.0.122.deb",
+      "downloadPath": "downloads/Excel/1.0.122/Excel-1.0.122.deb",
+      "sizeBytes": 20960,
+      "sha256": "8eb42e5cb106867975ebe3d3a7c0f588c2d466ab5aa866d1b4b43b7c3a42b9a4"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Excel-1.0.122",
+      "fileName": "Excel-1.0.122.exe",
+      "downloadPath": "downloads/Excel/1.0.122/Excel-1.0.122.exe",
+      "sizeBytes": 15872,
+      "sha256": "1123893dec175f869efab44573ceca6382440438c2992ab222f76db57a0a1c07"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Excel-1.0.122",
+      "fileName": "Excel-1.0.122.dmg",
+      "downloadPath": "downloads/Excel/1.0.122/Excel-1.0.122.dmg",
+      "sizeBytes": 13154,
+      "sha256": "3162d3a77e460c0e02f5ba38b5d081d8cf0bd36ad8529403d5505d103012097e"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Excel-1.0.122",
+      "fileName": "Excel-1.0.122.zip",
+      "downloadPath": "downloads/Excel/1.0.122/Excel-1.0.122.zip",
+      "sizeBytes": 13089,
+      "sha256": "82b7e0ff9531fdf334ede5941ecf40b11be0e9e7e494fec874438796ae728561"
+    }
+  ]
+}
