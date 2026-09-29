@@ -29,16 +29,6 @@
       "sha256": "e750c145ba8ea135099ff312d72d61d41cba9ad4c70ad7ade37cbb2b13a2f545"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Excel-1.0.117",
-      "fileName": "Excel-1.0.117.dmg",
-      "downloadPath": "downloads/Excel/1.0.117/Excel-1.0.117.dmg",
-      "sizeBytes": 13155,
-      "sha256": "9cd065f3b2060e4452bdcea92be87e107d69d16e0406a4265990206ad6bde0da"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

@@ -29,16 +29,6 @@
       "sha256": "5ff9a4cbeb913d77407a0794004e5ae21c547a5d6783952888d55dbff8d12d9b"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Word-1.0.136",
-      "fileName": "Word-1.0.136.dmg",
-      "downloadPath": "downloads/Word/1.0.136/Word-1.0.136.dmg",
-      "sizeBytes": 36546,
-      "sha256": "3de5637bc4320eac1adf4a879643247948869b550e2084ca217e4457fe02b3e2"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
