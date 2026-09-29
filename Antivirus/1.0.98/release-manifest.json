@@ -29,16 +29,6 @@
       "sha256": "b0c33da95db512882a4f3e1466f188967037bab3a5c71bfaf26d7b1633592bbf"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Antivirus-1.0.98",
-      "fileName": "Antivirus-1.0.98.dmg",
-      "downloadPath": "downloads/Antivirus/1.0.98/Antivirus-1.0.98.dmg",
-      "sizeBytes": 13071,
-      "sha256": "204859673e8a05e5fca67a7080aecf02350cd9f48d250cec77aa139908d0a26d"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
