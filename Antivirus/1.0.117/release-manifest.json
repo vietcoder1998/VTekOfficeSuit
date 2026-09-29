@@ -3,7 +3,7 @@
   "appName": "Antivirus",
   "displayName": "Antivirus",
   "version": "1.0.117",
-  "buildTimestamp": "2026-09-29T19:13:23.689Z",
+  "buildTimestamp": "2026-09-29T19:28:43.559Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.117",
@@ -15,8 +15,8 @@
       "name": "Antivirus-1.0.117",
       "fileName": "Antivirus-1.0.117.deb",
       "downloadPath": "downloads/Antivirus/1.0.117/Antivirus-1.0.117.deb",
-      "sizeBytes": 39662,
-      "sha256": "b0bfe0f14e5d9c8464094036f8f5f849bcc100f5bc41bb6c1f20fe32a1a629ce"
+      "sizeBytes": 39654,
+      "sha256": "8d5ba4721a0c7478ac5fa21c683994c2349ab4ab1d8fde919f0c2ca8b9d62f94"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Antivirus-1.0.117.exe",
       "downloadPath": "downloads/Antivirus/1.0.117/Antivirus-1.0.117.exe",
       "sizeBytes": 30208,
-      "sha256": "a98823b4ffd9ac13805385e315f596491630a47f095ef05d9b14ca2dc17e79a4"
+      "sha256": "a1f2fd97af37ab55d728a3ae306afea6fcf859794367762e064f1535c4329549"
     },
     {
       "platform": "macos",
@@ -36,7 +36,7 @@
       "fileName": "Antivirus-1.0.117.dmg",
       "downloadPath": "downloads/Antivirus/1.0.117/Antivirus-1.0.117.dmg",
       "sizeBytes": 27284,
-      "sha256": "a40ca3c24ff2c12d5a224c5de46aefc58596d3c1bd43594ade24be03cfa2008f"
+      "sha256": "a812936be7b66947505139e5d44f63c071b36b806171f6a8bc14cbc685013a59"
     },
     {
       "platform": "universal",
@@ -46,7 +46,7 @@
       "fileName": "Antivirus-1.0.117.zip",
       "downloadPath": "downloads/Antivirus/1.0.117/Antivirus-1.0.117.zip",
       "sizeBytes": 27206,
-      "sha256": "d9d73f8db9df8479f35af1607af3f4b3301fa61d5fbf826f19f703764102fdec"
+      "sha256": "93175c0f6835a75a5d7a3cfe8aa801f36b134e1980bb6c0635b5393fd3c755f0"
     }
   ]
 }
