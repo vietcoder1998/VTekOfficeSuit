@@ -1,0 +1,52 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus",
+  "version": "1.0.116",
+  "buildTimestamp": "2026-09-29T13:28:28.477Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.116",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus-1.0.116",
+      "fileName": "Antivirus-1.0.116.deb",
+      "downloadPath": "downloads/Antivirus/1.0.116/Antivirus-1.0.116.deb",
+      "sizeBytes": 20952,
+      "sha256": "32bee0c141462db3784986197c8193a594831e638356261938fb3e260f026fc5"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus-1.0.116",
+      "fileName": "Antivirus-1.0.116.exe",
+      "downloadPath": "downloads/Antivirus/1.0.116/Antivirus-1.0.116.exe",
+      "sizeBytes": 15872,
+      "sha256": "77955def3d4b69368d05b76243c3cf0add27d679b73dc2aed021f1393d87388b"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Antivirus-1.0.116",
+      "fileName": "Antivirus-1.0.116.dmg",
+      "downloadPath": "downloads/Antivirus/1.0.116/Antivirus-1.0.116.dmg",
+      "sizeBytes": 13074,
+      "sha256": "dc622dcd79b6e9b12edb8c62e476da88bd6471d15f512f9280c014bb20b8b856"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus-1.0.116",
+      "fileName": "Antivirus-1.0.116.zip",
+      "downloadPath": "downloads/Antivirus/1.0.116/Antivirus-1.0.116.zip",
+      "sizeBytes": 12996,
+      "sha256": "92457e45188d7ce998966011bfa424e9a63ca48a6988b8836c8b05452898af57"
+    }
+  ]
+}
