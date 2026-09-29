@@ -1,0 +1,52 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus",
+  "version": "1.0.111",
+  "buildTimestamp": "2026-09-29T07:58:10.999Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.111",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus-1.0.111",
+      "fileName": "Antivirus-1.0.111.deb",
+      "downloadPath": "downloads/Antivirus/1.0.111/Antivirus-1.0.111.deb",
+      "sizeBytes": 20952,
+      "sha256": "c6ae3a4fa3bc66c0d07514e069939b40357a00b9c908dcedac37567f735c935c"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus-1.0.111",
+      "fileName": "Antivirus-1.0.111.exe",
+      "downloadPath": "downloads/Antivirus/1.0.111/Antivirus-1.0.111.exe",
+      "sizeBytes": 15872,
+      "sha256": "461fee65b3326d822156eb551ac01b98e9d52f9cce62a27b00295cdf11fcd90e"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Antivirus-1.0.111",
+      "fileName": "Antivirus-1.0.111.dmg",
+      "downloadPath": "downloads/Antivirus/1.0.111/Antivirus-1.0.111.dmg",
+      "sizeBytes": 13072,
+      "sha256": "de71ecf0b5996da5aa7c2b57660403068880e63b2bceac18837308e0371897f7"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus-1.0.111",
+      "fileName": "Antivirus-1.0.111.zip",
+      "downloadPath": "downloads/Antivirus/1.0.111/Antivirus-1.0.111.zip",
+      "sizeBytes": 12994,
+      "sha256": "2435f04ad1da35e3999bc472191482505149ad6350ef7beedcb759f215aa39f7"
+    }
+  ]
+}
