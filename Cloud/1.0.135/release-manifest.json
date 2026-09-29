@@ -3,7 +3,7 @@
   "appName": "Cloud",
   "displayName": "Cloud",
   "version": "1.0.135",
-  "buildTimestamp": "2026-09-29T13:27:56.218Z",
+  "buildTimestamp": "2026-09-29T19:08:20.396Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Cloud/1.0.135",
@@ -15,8 +15,8 @@
       "name": "Cloud-1.0.135",
       "fileName": "Cloud-1.0.135.deb",
       "downloadPath": "downloads/Cloud/1.0.135/Cloud-1.0.135.deb",
-      "sizeBytes": 115040,
-      "sha256": "9729c9850e98aa32b987dd37637472c433ce05058b5d1be2c1c68571c712e922"
+      "sizeBytes": 133620,
+      "sha256": "8a7c810f106cf1813cd6f2660f13181edadd353c1ad1bc4b5d3e12e2fba85b65"
     },
     {
       "platform": "windows",
@@ -25,8 +25,18 @@
       "name": "Cloud-1.0.135",
       "fileName": "Cloud-1.0.135.exe",
       "downloadPath": "downloads/Cloud/1.0.135/Cloud-1.0.135.exe",
-      "sizeBytes": 110592,
-      "sha256": "a23dc6fa12c1679ba20059fd205e441f789854e0edbf8efcc108e2a56fe5312f"
+      "sizeBytes": 124928,
+      "sha256": "de6a9b80b3998160c0d24cbd8a72573265626c2a98583d665a5f9aa157670933"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Cloud-1.0.135",
+      "fileName": "Cloud-1.0.135.dmg",
+      "downloadPath": "downloads/Cloud/1.0.135/Cloud-1.0.135.dmg",
+      "sizeBytes": 121877,
+      "sha256": "f4e13c1ee074983bb119d0e0604e61da0dfa00e25b2b3843b1432af15b398b52"
     },
     {
       "platform": "universal",
@@ -35,8 +45,8 @@
       "name": "Cloud-1.0.135",
       "fileName": "Cloud-1.0.135.zip",
       "downloadPath": "downloads/Cloud/1.0.135/Cloud-1.0.135.zip",
-      "sizeBytes": 107598,
-      "sha256": "b0047c38ee9b6b7dcf42220f9ad02c1f1f9fd91ca80761caba2989a101213d89"
+      "sizeBytes": 121810,
+      "sha256": "f5a039000a9b05df0e1fcd8cfc1bcd06523476cbe671bb35ec0d0f70d8430375"
     }
   ]
 }
