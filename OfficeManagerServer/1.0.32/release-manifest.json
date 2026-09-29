@@ -1,0 +1,52 @@
+{
+  "projectName": "OfficeManagerServer",
+  "appName": "OfficeManagerServer",
+  "displayName": "OfficeManagerServer",
+  "version": "1.0.32",
+  "buildTimestamp": "2026-09-29T08:20:07.286Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/OfficeManagerServer/1.0.32",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "OfficeManagerServer-1.0.32",
+      "fileName": "OfficeManagerServer-1.0.32.deb",
+      "downloadPath": "downloads/OfficeManagerServer/1.0.32/OfficeManagerServer-1.0.32.deb",
+      "sizeBytes": 4800,
+      "sha256": "6f9ae3bbbc1e2eff3c8f9c410ea13c84ca66c2f9455e550da510b0b429ef6772"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "OfficeManagerServer-1.0.32",
+      "fileName": "OfficeManagerServer-1.0.32.exe",
+      "downloadPath": "downloads/OfficeManagerServer/1.0.32/OfficeManagerServer-1.0.32.exe",
+      "sizeBytes": 5120,
+      "sha256": "37174c799931e0e3e185c18e88a7b08205ac80058ffae2598c30f2dc0622d2d4"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "OfficeManagerServer-1.0.32",
+      "fileName": "OfficeManagerServer-1.0.32.dmg",
+      "downloadPath": "downloads/OfficeManagerServer/1.0.32/OfficeManagerServer-1.0.32.dmg",
+      "sizeBytes": 2424,
+      "sha256": "9b4f843456abcff9fc5d2d0874b5fe309b5ce89998fb6177e843227f222e112d"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "OfficeManagerServer-1.0.32",
+      "fileName": "OfficeManagerServer-1.0.32.zip",
+      "downloadPath": "downloads/OfficeManagerServer/1.0.32/OfficeManagerServer-1.0.32.zip",
+      "sizeBytes": 2354,
+      "sha256": "90b610702fdb4edb5cfabf8014d0389c853ebc31f3c4b1112e35955cd0b601ca"
+    }
+  ]
+}
