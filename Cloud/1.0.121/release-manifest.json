@@ -1,0 +1,52 @@
+{
+  "projectName": "Cloud",
+  "appName": "Cloud",
+  "displayName": "Cloud",
+  "version": "1.0.121",
+  "buildTimestamp": "2026-09-29T07:36:11.882Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Cloud/1.0.121",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Cloud-1.0.121",
+      "fileName": "Cloud-1.0.121.deb",
+      "downloadPath": "downloads/Cloud/1.0.121/Cloud-1.0.121.deb",
+      "sizeBytes": 115044,
+      "sha256": "1068a0cfc3c33d8b6d52b2e76b2ecfb36b913fa51ed9c4c8ded551da6ad04f3f"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Cloud-1.0.121",
+      "fileName": "Cloud-1.0.121.exe",
+      "downloadPath": "downloads/Cloud/1.0.121/Cloud-1.0.121.exe",
+      "sizeBytes": 110592,
+      "sha256": "6fbd4cdc5291fb5b8615b7b4e9b818cda4dc83ed8eed19ad88593421ccfcb83f"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Cloud-1.0.121",
+      "fileName": "Cloud-1.0.121.dmg",
+      "downloadPath": "downloads/Cloud/1.0.121/Cloud-1.0.121.dmg",
+      "sizeBytes": 107664,
+      "sha256": "968be2c986041f5a70a4451491f5471e59fb0173a8c8388fd59ed65f874e3eda"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Cloud-1.0.121",
+      "fileName": "Cloud-1.0.121.zip",
+      "downloadPath": "downloads/Cloud/1.0.121/Cloud-1.0.121.zip",
+      "sizeBytes": 107597,
+      "sha256": "e0d66d8f888e95647c84569fac40c8a515f901a964574ea5c97b21dcb51f6255"
+    }
+  ]
+}
