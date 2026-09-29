@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DownloadAppStructureSchema",
+  "description": "JSON Schema governing application-scoped versioned download directory structure: downloads/{app}/{version}/{name}.{type}",
+  "type": "object",
+  "required": ["format", "apps"],
+  "properties": {
+    "format": {
+      "type": "string",
+      "enum": [
+        "downloads/{app}/{version}/{name}.{type}",
+        "downloads/{projectName}/{version}/{name}.{type}",
+        "download/{app}/{version}/{name}.{type}",
+        "download/{projectName}/{version}/{name}.{type}"
+      ]
+    },
+    "description": { "type": "string" },
+    "apps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["appId", "displayName", "latestVersion", "versions"],
+        "properties": {
+          "appId": { "type": "string" },
+          "displayName": { "type": "string" },
+          "latestVersion": { "type": "string" },
+          "versions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["version", "directory", "packages", "checksums", "manifest"],
+              "properties": {
+                "version": { "type": "string" },
+                "releaseDate": { "type": "string" },
+                "directory": { "type": "string" },
+                "packages": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["platform", "architecture", "type", "name", "fileName", "downloadPath", "sizeBytes", "sha256"],
+                    "properties": {
+                      "platform": { "type": "string", "enum": ["linux", "windows", "darwin", "universal"] },
+                      "architecture": { "type": "string", "enum": ["amd64", "x64", "arm64", "all"] },
+                      "type": { "type": "string", "enum": ["deb", "exe", "dmg", "zip", "tar.gz"] },
+                      "name": { "type": "string" },
+                      "fileName": { "type": "string" },
+                      "downloadPath": { "type": "string" },
+                      "sizeBytes": { "type": "number" },
+                      "sha256": { "type": "string" }
+                    }
+                  }
+                },
+                "checksums": { "type": "string" },
+                "manifest": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
