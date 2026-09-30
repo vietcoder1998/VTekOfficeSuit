@@ -29,16 +29,6 @@
       "sha256": "f0ccdbf87dc04cf71812d15bb89bbf244f4c39955a86e82a21ab4746890f8011"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Word-1.0.198",
-      "fileName": "Word-1.0.198.dmg",
-      "downloadPath": "downloads/Word/1.0.198/Word-1.0.198.dmg",
-      "sizeBytes": 50762,
-      "sha256": "e2dbc7cc1dc57420d85e256e373d86f3e094cb25bd80a7cfd2913886c8910f64"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

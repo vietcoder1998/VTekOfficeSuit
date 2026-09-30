@@ -29,16 +29,6 @@
       "sha256": "de5e5546d03ebcc4f9e15537de09b68f6edd1bf6a11748831ba8702d6bd1cada"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Tasks-1.0.130",
-      "fileName": "Tasks-1.0.130.dmg",
-      "downloadPath": "downloads/Tasks/1.0.130/Tasks-1.0.130.dmg",
-      "sizeBytes": 27311,
-      "sha256": "b74afc8d7a3a5f734eebda78e660db62a81311756926034d71693ce2e6f02313"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

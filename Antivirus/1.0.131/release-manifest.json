@@ -29,16 +29,6 @@
       "sha256": "f3c1a6010bcf70b706768b7b91ff95de0ae20309d9a7175337d84ecc4aa629b8"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Antivirus-1.0.131",
-      "fileName": "Antivirus-1.0.131.dmg",
-      "downloadPath": "downloads/Antivirus/1.0.131/Antivirus-1.0.131.dmg",
-      "sizeBytes": 27283,
-      "sha256": "099492434e8782e5ea0a9e73ee901580b6727382d7d2c512449903b00290be3e"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
