@@ -3,7 +3,7 @@
   "appName": "Notes",
   "displayName": "Notes",
   "version": "1.0.129",
-  "buildTimestamp": "2026-09-29T15:09:19.794Z",
+  "buildTimestamp": "2026-09-30T00:52:40.407Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Notes/1.0.129",
@@ -15,8 +15,8 @@
       "name": "Notes-1.0.129",
       "fileName": "Notes-1.0.129.deb",
       "downloadPath": "downloads/Notes/1.0.129/Notes-1.0.129.deb",
-      "sizeBytes": 20954,
-      "sha256": "870927b8f9ed045a92efaf30974c8a4f51c37df8141bab64ca47c63e6119436f"
+      "sizeBytes": 39708,
+      "sha256": "877be283436e2c2be622b0d56223823fc5bfe8c421369104bd5c0598786a3ea1"
     },
     {
       "platform": "windows",
@@ -25,8 +25,18 @@
       "name": "Notes-1.0.129",
       "fileName": "Notes-1.0.129.exe",
       "downloadPath": "downloads/Notes/1.0.129/Notes-1.0.129.exe",
-      "sizeBytes": 15872,
-      "sha256": "33b886679af388a7860fab056bf969a67a7b7996b51db2a16081fb8bce8a3f89"
+      "sizeBytes": 30208,
+      "sha256": "74b69bbcc6b6b2a443f1fe6b88b2206af1acd818510a9919ed45ec20d50e6b81"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Notes-1.0.129",
+      "fileName": "Notes-1.0.129.dmg",
+      "downloadPath": "downloads/Notes/1.0.129/Notes-1.0.129.dmg",
+      "sizeBytes": 27371,
+      "sha256": "8cad40451a8279da480d55ab5a16bd57816ec20db9cefab39ce2d7f3934e884f"
     },
     {
       "platform": "universal",
@@ -35,8 +45,8 @@
       "name": "Notes-1.0.129",
       "fileName": "Notes-1.0.129.zip",
       "downloadPath": "downloads/Notes/1.0.129/Notes-1.0.129.zip",
-      "sizeBytes": 13098,
-      "sha256": "b3db5ef469ddb7bf95388b1cff51839ac08ee904e08088bb0ad033b758ed1527"
+      "sizeBytes": 27313,
+      "sha256": "0e5c967f8d326264883f0484c2f7946a2814d205b67a354c99891e68a713e729"
     }
   ]
 }
