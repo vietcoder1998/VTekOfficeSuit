@@ -29,16 +29,6 @@
       "sha256": "a92ddd7197d0fb217f86f8ea5d450b2bf46a5c83deb76bf0091e4c66061dcc43"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Antivirus-1.0.138",
-      "fileName": "Antivirus-1.0.138.dmg",
-      "downloadPath": "downloads/Antivirus/1.0.138/Antivirus-1.0.138.dmg",
-      "sizeBytes": 27284,
-      "sha256": "1e758c82d272826ad9ab9c3d94c4bf3440b61e016cd99eb6d3dcb24dd4866169"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
