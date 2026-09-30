@@ -29,16 +29,6 @@
       "sha256": "240f26dde821cabbeee1c11c662ed5dca70f8555c6b66681c482d09a2132ac2c"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Tasks-1.0.117",
-      "fileName": "Tasks-1.0.117.dmg",
-      "downloadPath": "downloads/Tasks/1.0.117/Tasks-1.0.117.dmg",
-      "sizeBytes": 27312,
-      "sha256": "89812320fab76bf91e774daadf6d591d83403c5959bf4416927bf48e2f3b43f5"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
