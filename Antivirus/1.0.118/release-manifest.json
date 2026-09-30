@@ -3,7 +3,7 @@
   "appName": "Antivirus",
   "displayName": "Antivirus",
   "version": "1.0.118",
-  "buildTimestamp": "2026-09-29T15:09:04.575Z",
+  "buildTimestamp": "2026-09-30T01:18:28.976Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.118",
@@ -15,8 +15,8 @@
       "name": "Antivirus-1.0.118",
       "fileName": "Antivirus-1.0.118.deb",
       "downloadPath": "downloads/Antivirus/1.0.118/Antivirus-1.0.118.deb",
-      "sizeBytes": 20950,
-      "sha256": "7b2c3b649fee2d191d4114d465ee571afc5c8a8f6b8956c205868a4308a7283f"
+      "sizeBytes": 39658,
+      "sha256": "4433907c8e003b8dd8b7843ccb47112eccc9600d20a87de1ad55bd55e487a578"
     },
     {
       "platform": "windows",
@@ -25,8 +25,18 @@
       "name": "Antivirus-1.0.118",
       "fileName": "Antivirus-1.0.118.exe",
       "downloadPath": "downloads/Antivirus/1.0.118/Antivirus-1.0.118.exe",
-      "sizeBytes": 15872,
-      "sha256": "e3e1917932d5cf76c1b20b6a46edb673bdeaca89b68f9bccaf39ab0c8a908b05"
+      "sizeBytes": 30208,
+      "sha256": "1ce1a949bad96e16e12161529f68d8528fd41d8accde8290267d43f029fa0f68"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Antivirus-1.0.118",
+      "fileName": "Antivirus-1.0.118.dmg",
+      "downloadPath": "downloads/Antivirus/1.0.118/Antivirus-1.0.118.dmg",
+      "sizeBytes": 27284,
+      "sha256": "587e394afbc5b3df596b93044ef60d0d975d895fe963623791520a5bcdb1bb9b"
     },
     {
       "platform": "universal",
@@ -35,8 +45,8 @@
       "name": "Antivirus-1.0.118",
       "fileName": "Antivirus-1.0.118.zip",
       "downloadPath": "downloads/Antivirus/1.0.118/Antivirus-1.0.118.zip",
-      "sizeBytes": 12995,
-      "sha256": "ca0f5aaf752110e373631e37cbc4e43540d6abbb05e524e79d85df7c64d8cf7a"
+      "sizeBytes": 27206,
+      "sha256": "8b3013c14eb5204384079e5dd2075155072daadd6b4ebf724f23759470a7273f"
     }
   ]
 }
