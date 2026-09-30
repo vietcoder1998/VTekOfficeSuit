@@ -29,16 +29,6 @@
       "sha256": "13d9dd42b8d516eec817001a0dbd0f685c9d024c45d5abddebf648e2e3c7b1f5"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Tasks-1.0.144",
-      "fileName": "Tasks-1.0.144.dmg",
-      "downloadPath": "downloads/Tasks/1.0.144/Tasks-1.0.144.dmg",
-      "sizeBytes": 27310,
-      "sha256": "d1024914aaee7af033ecd46d82b0d4fb955afc1c384f76c2e19111979d8a4cf2"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
