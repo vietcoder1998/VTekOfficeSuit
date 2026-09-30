@@ -1,7 +1,7 @@
 {
   "projectName": "Forms",
   "appName": "Forms",
-  "displayName": "Forms Builder",
+  "displayName": "Forms",
   "version": "1.0.140",
   "buildTimestamp": "2026-09-30T07:56:18.040Z",
   "distributionChannel": "stable",
@@ -16,7 +16,6 @@
       "fileName": "Forms-1.0.140.deb",
       "downloadPath": "downloads/Forms/1.0.140/Forms-1.0.140.deb",
       "sizeBytes": 39830,
-      "sizeFormatted": "38.9 KB",
       "sha256": "e3fb05a999ee4386a0a4f73a2cf571eca3a3670675e70b1a2eda3a8d6b3c1c37"
     },
     {
@@ -27,7 +26,6 @@
       "fileName": "Forms-1.0.140.exe",
       "downloadPath": "downloads/Forms/1.0.140/Forms-1.0.140.exe",
       "sizeBytes": 30208,
-      "sizeFormatted": "29.5 KB",
       "sha256": "af3937f3afa7d8676382cdc81d012e5ad76eb8e27cda13b3b19bdca935d32354"
     },
     {
@@ -38,7 +36,6 @@
       "fileName": "Forms-1.0.140.dmg",
       "downloadPath": "downloads/Forms/1.0.140/Forms-1.0.140.dmg",
       "sizeBytes": 27453,
-      "sizeFormatted": "26.8 KB",
       "sha256": "5c4a8fe85dd95460bab7e6b2c9e529e77cf40d766d9de99990bed75a2a7ee199"
     },
     {
@@ -49,7 +46,6 @@
       "fileName": "Forms-1.0.140.zip",
       "downloadPath": "downloads/Forms/1.0.140/Forms-1.0.140.zip",
       "sizeBytes": 27387,
-      "sizeFormatted": "26.7 KB",
       "sha256": "1cea15e29a98c15d04b57326be0820266e1681396cd4b86ece4761076e66dbd3"
     }
   ]
