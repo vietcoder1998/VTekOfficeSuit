@@ -3,7 +3,7 @@
   "appName": "Tasks",
   "displayName": "Tasks",
   "version": "1.0.119",
-  "buildTimestamp": "2026-09-30T01:26:16.872Z",
+  "buildTimestamp": "2026-09-30T01:30:57.225Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Tasks/1.0.119",
@@ -15,8 +15,8 @@
       "name": "Tasks-1.0.119",
       "fileName": "Tasks-1.0.119.deb",
       "downloadPath": "downloads/Tasks/1.0.119/Tasks-1.0.119.deb",
-      "sizeBytes": 39570,
-      "sha256": "2bf4ce95289fe323b6b99f4713c525e16bbfe831f5913dfe6b56d508557d6226"
+      "sizeBytes": 39564,
+      "sha256": "92fabd875ea3fe9c265b072d6889b245d9f620930325191eedf804588b410689"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Tasks-1.0.119.exe",
       "downloadPath": "downloads/Tasks/1.0.119/Tasks-1.0.119.exe",
       "sizeBytes": 30208,
-      "sha256": "4afb0ff15ae84ec72304e4b181d6b8806ff1a5b3dec8f6e0df149c9dbf08cd8f"
+      "sha256": "81f17a999c9e408d49a9a5db80e49960425e9f34495c347e0e0e93ddabab0be1"
     },
     {
       "platform": "macos",
@@ -36,7 +36,7 @@
       "fileName": "Tasks-1.0.119.dmg",
       "downloadPath": "downloads/Tasks/1.0.119/Tasks-1.0.119.dmg",
       "sizeBytes": 27311,
-      "sha256": "7348e8bb8fb90005b51d4cb4266d5c6aa439c81735e3d94c070c7371817c9aed"
+      "sha256": "3e13c0dc01501c9f95e55377bff01136f58edded10ec19ce404b598ac5a13502"
     },
     {
       "platform": "universal",
@@ -46,7 +46,7 @@
       "fileName": "Tasks-1.0.119.zip",
       "downloadPath": "downloads/Tasks/1.0.119/Tasks-1.0.119.zip",
       "sizeBytes": 27242,
-      "sha256": "910977e6a11777ef4fb0ca3ba21e17e518739d29108709337d3d89111657c7fd"
+      "sha256": "66d2f151770b0173dd4c1f5d8b2f2ad2f142c766c0a72dd8bdffa8c769d639ee"
     }
   ]
 }
