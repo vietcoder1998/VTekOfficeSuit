@@ -29,16 +29,6 @@
       "sha256": "03d3093a10092cbe022eef0ae5bc3cb74dc2f1acc113f2170d6f234dde296783"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Notes-1.0.132",
-      "fileName": "Notes-1.0.132.dmg",
-      "downloadPath": "downloads/Notes/1.0.132/Notes-1.0.132.dmg",
-      "sizeBytes": 27370,
-      "sha256": "d4ab715a15c5f4a4055cdbe17a07e6265503c3c1d095faea74e2c70a98c67953"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

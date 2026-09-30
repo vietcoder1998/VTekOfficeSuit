@@ -29,16 +29,6 @@
       "sha256": "30c7d437324120315aae00f6644fdaaa6518653ac20f40afa3c07d8915f5ef84"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Pdf-1.0.138",
-      "fileName": "Pdf-1.0.138.dmg",
-      "downloadPath": "downloads/Pdf/1.0.138/Pdf-1.0.138.dmg",
-      "sizeBytes": 27393,
-      "sha256": "e2697abee1b6ce93daf970935925c556274123c9b2795a35508c77c016522bc9"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
