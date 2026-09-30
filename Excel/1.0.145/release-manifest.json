@@ -29,16 +29,6 @@
       "sha256": "7812be3123efc660c7082c80b6345506dc309cf056cd217858c8196c19edf7d8"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Excel-1.0.145",
-      "fileName": "Excel-1.0.145.dmg",
-      "downloadPath": "downloads/Excel/1.0.145/Excel-1.0.145.dmg",
-      "sizeBytes": 27371,
-      "sha256": "3f9652be807c7f94412455af40e09a8990d136fe6f6eaaff12cd1097a26f8afe"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",

@@ -29,16 +29,6 @@
       "sha256": "1ce1a949bad96e16e12161529f68d8528fd41d8accde8290267d43f029fa0f68"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Antivirus-1.0.118",
-      "fileName": "Antivirus-1.0.118.dmg",
-      "downloadPath": "downloads/Antivirus/1.0.118/Antivirus-1.0.118.dmg",
-      "sizeBytes": 27284,
-      "sha256": "587e394afbc5b3df596b93044ef60d0d975d895fe963623791520a5bcdb1bb9b"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
