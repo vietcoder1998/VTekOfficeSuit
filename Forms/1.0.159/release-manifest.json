@@ -29,16 +29,6 @@
       "sha256": "8c148984f82615a5980d461353824f0e3c50fbef39c34dcae8971a5a74484ec8"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Forms-1.0.159",
-      "fileName": "Forms-1.0.159.dmg",
-      "downloadPath": "downloads/Forms/1.0.159/Forms-1.0.159.dmg",
-      "sizeBytes": 27454,
-      "sha256": "93ff731404a46b91ff8d8eff7690c946ce67770ae1b888fbd0392802f62d3e3c"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
