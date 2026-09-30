@@ -1,0 +1,56 @@
+{
+  "projectName": "Word",
+  "appName": "Word",
+  "displayName": "Word Editor",
+  "version": "1.0.210",
+  "buildTimestamp": "2026-09-30T16:02:29.314Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.210",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Word-1.0.210",
+      "fileName": "Word-1.0.210.deb",
+      "downloadPath": "downloads/Word/1.0.210/Word-1.0.210.deb",
+      "sizeBytes": 60760,
+      "sizeFormatted": "59.3 KB",
+      "sha256": "14aabe908ba52a857f98e1092f657566fb168c2b63bde180da47109302bd3bf7"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Word-1.0.210",
+      "fileName": "Word-1.0.210.exe",
+      "downloadPath": "downloads/Word/1.0.210/Word-1.0.210.exe",
+      "sizeBytes": 53760,
+      "sizeFormatted": "52.5 KB",
+      "sha256": "a194ec692fd9cdf863e0393fad1477d8a9ac0814b99670ee9853b4e34a78ca67"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Word-1.0.210",
+      "fileName": "Word-1.0.210.dmg",
+      "downloadPath": "downloads/Word/1.0.210/Word-1.0.210.dmg",
+      "sizeBytes": 50761,
+      "sizeFormatted": "49.6 KB",
+      "sha256": "be9e23f59f9f565cf007fa0c019dc7b63214edf602e47e657f71fe96f309e4d9"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Word-1.0.210",
+      "fileName": "Word-1.0.210.zip",
+      "downloadPath": "downloads/Word/1.0.210/Word-1.0.210.zip",
+      "sizeBytes": 50697,
+      "sizeFormatted": "49.5 KB",
+      "sha256": "8e04b21755a51bac6cba8f1c957cb34e85a523a0b09d5dd1fb4920a9f09de38b"
+    }
+  ]
+}
