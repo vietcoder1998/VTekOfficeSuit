@@ -1,0 +1,52 @@
+{
+  "projectName": "Antivirus",
+  "appName": "Antivirus",
+  "displayName": "Antivirus",
+  "version": "1.0.135",
+  "buildTimestamp": "2026-09-30T14:39:53.171Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.135",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Antivirus-1.0.135",
+      "fileName": "Antivirus-1.0.135.deb",
+      "downloadPath": "downloads/Antivirus/1.0.135/Antivirus-1.0.135.deb",
+      "sizeBytes": 39662,
+      "sha256": "5c4998d5df3840aab50e00d5222c073c82f26df0cd518e969dd8ee3bc90ecc27"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Antivirus-1.0.135",
+      "fileName": "Antivirus-1.0.135.exe",
+      "downloadPath": "downloads/Antivirus/1.0.135/Antivirus-1.0.135.exe",
+      "sizeBytes": 30208,
+      "sha256": "c9b7730e70af2dd819c4689c7c15942f81938de135b479bf2ec1cf820b94b778"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Antivirus-1.0.135",
+      "fileName": "Antivirus-1.0.135.dmg",
+      "downloadPath": "downloads/Antivirus/1.0.135/Antivirus-1.0.135.dmg",
+      "sizeBytes": 27284,
+      "sha256": "ba7873d4ce84c22cfaef832b02a734ce6c312dc56f7adbe4a8c4f7780b86ac2b"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Antivirus-1.0.135",
+      "fileName": "Antivirus-1.0.135.zip",
+      "downloadPath": "downloads/Antivirus/1.0.135/Antivirus-1.0.135.zip",
+      "sizeBytes": 27206,
+      "sha256": "bca7fd86810667cf3fab8a46032b43db34cb346acfe5d80f19998f30383a0248"
+    }
+  ]
+}
