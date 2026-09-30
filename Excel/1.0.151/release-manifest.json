@@ -29,16 +29,6 @@
       "sha256": "957d2bc0ce7a41dac2201a42c1bd65954cd163d845e26dee6dd0b0b57ba10fde"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Excel-1.0.151",
-      "fileName": "Excel-1.0.151.dmg",
-      "downloadPath": "downloads/Excel/1.0.151/Excel-1.0.151.dmg",
-      "sizeBytes": 27371,
-      "sha256": "3d699dc3a4c160aed018883b14b95979c397de122d5b6fd677614a8a850a411f"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
