@@ -1,0 +1,52 @@
+{
+  "projectName": "Word",
+  "appName": "Word",
+  "displayName": "Word",
+  "version": "1.0.195",
+  "buildTimestamp": "2026-09-30T11:48:07.093Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.195",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Word-1.0.195",
+      "fileName": "Word-1.0.195.deb",
+      "downloadPath": "downloads/Word/1.0.195/Word-1.0.195.deb",
+      "sizeBytes": 60774,
+      "sha256": "110b0728617bf5204e915649775a9fe5c5f605be5900ffa3998da6bd9901190e"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Word-1.0.195",
+      "fileName": "Word-1.0.195.exe",
+      "downloadPath": "downloads/Word/1.0.195/Word-1.0.195.exe",
+      "sizeBytes": 53760,
+      "sha256": "feed714cfaf81ddce5d2d757a35eaa1a8e0cd3b1f5038838ea0a107072e278b4"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Word-1.0.195",
+      "fileName": "Word-1.0.195.dmg",
+      "downloadPath": "downloads/Word/1.0.195/Word-1.0.195.dmg",
+      "sizeBytes": 50762,
+      "sha256": "f995737922d0479a2a9ade0cc941dd432fb47fd03b61e023e939eae3b9e39cbb"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Word-1.0.195",
+      "fileName": "Word-1.0.195.zip",
+      "downloadPath": "downloads/Word/1.0.195/Word-1.0.195.zip",
+      "sizeBytes": 50698,
+      "sha256": "4dbddd8909db76b888840466ca449e094ec4e290408c54a1259ce2b4ca2d97cc"
+    }
+  ]
+}
