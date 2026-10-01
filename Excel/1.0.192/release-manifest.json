@@ -1,9 +1,9 @@
 {
   "projectName": "Excel",
   "appName": "Excel",
-  "displayName": "Excel",
+  "displayName": "Excel Editor",
   "version": "1.0.192",
-  "buildTimestamp": "2026-10-01T18:09:49.795Z",
+  "buildTimestamp": "2026-10-01T18:36:10.123Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Excel/1.0.192",
@@ -15,8 +15,9 @@
       "name": "Excel-1.0.192",
       "fileName": "Excel-1.0.192.deb",
       "downloadPath": "downloads/Excel/1.0.192/Excel-1.0.192.deb",
-      "sizeBytes": 40190,
-      "sha256": "84b023f3d12edd758b2dba9ebc558d46d2bb93b4929cd0377c6fc69dcd1ccdd9"
+      "sizeBytes": 40196,
+      "sizeFormatted": "39.3 KB",
+      "sha256": "07e96fe742c5e28ea0c4af0ce5948a52b3fa4f2f71a0c3997455e513b00c34cb"
     },
     {
       "platform": "windows",
@@ -26,7 +27,8 @@
       "fileName": "Excel-1.0.192.exe",
       "downloadPath": "downloads/Excel/1.0.192/Excel-1.0.192.exe",
       "sizeBytes": 30208,
-      "sha256": "a21cf7e8af239ee5634e9cc8261543e698a90c94d8ad6c3b12b750e43382ad5e"
+      "sizeFormatted": "29.5 KB",
+      "sha256": "72ac044f203b5551353dd94c37671ecaa8cd19688bd058c71bdd938a633ff19e"
     },
     {
       "platform": "macos",
@@ -36,7 +38,8 @@
       "fileName": "Excel-1.0.192.dmg",
       "downloadPath": "downloads/Excel/1.0.192/Excel-1.0.192.dmg",
       "sizeBytes": 27627,
-      "sha256": "d177a37d52c05439342805c8a857075d6a33d10754a456fe1f586784f3603c16"
+      "sizeFormatted": "27.0 KB",
+      "sha256": "510d3275d9c5b7c0b1821af70a0c2b55794b5846418820b4bf3ed0495618ffaa"
     },
     {
       "platform": "universal",
@@ -46,7 +49,8 @@
       "fileName": "Excel-1.0.192.zip",
       "downloadPath": "downloads/Excel/1.0.192/Excel-1.0.192.zip",
       "sizeBytes": 27562,
-      "sha256": "138fc75a013511ec9e77ef22b0a5ffd779a0510ebe3330456c52db1ac6e5492a"
+      "sizeFormatted": "26.9 KB",
+      "sha256": "e72644e27e87604c73ee0022f4b952143666173a0e0917f3450936c4c72e903c"
     }
   ]
 }
