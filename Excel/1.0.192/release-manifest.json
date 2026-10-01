@@ -1,9 +1,9 @@
 {
   "projectName": "Excel",
   "appName": "Excel",
-  "displayName": "Excel",
+  "displayName": "Excel Editor",
   "version": "1.0.192",
-  "buildTimestamp": "2026-10-01T18:36:10.123Z",
+  "buildTimestamp": "2026-10-01T18:37:12.509Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Excel/1.0.192",
@@ -15,8 +15,9 @@
       "name": "Excel-1.0.192",
       "fileName": "Excel-1.0.192.deb",
       "downloadPath": "downloads/Excel/1.0.192/Excel-1.0.192.deb",
-      "sizeBytes": 40196,
-      "sha256": "07e96fe742c5e28ea0c4af0ce5948a52b3fa4f2f71a0c3997455e513b00c34cb"
+      "sizeBytes": 40192,
+      "sizeFormatted": "39.3 KB",
+      "sha256": "72e8dadbcc2974fe4ee0706a7adc6b1ee307f96fb4fdd37c13d4b0eb4b672311"
     },
     {
       "platform": "windows",
@@ -26,7 +27,8 @@
       "fileName": "Excel-1.0.192.exe",
       "downloadPath": "downloads/Excel/1.0.192/Excel-1.0.192.exe",
       "sizeBytes": 30208,
-      "sha256": "72ac044f203b5551353dd94c37671ecaa8cd19688bd058c71bdd938a633ff19e"
+      "sizeFormatted": "29.5 KB",
+      "sha256": "de006f16832a4bc8f74fdc364a23c7b5fa2d2ef69b98b4d302412a81cf533c87"
     },
     {
       "platform": "macos",
@@ -36,7 +38,8 @@
       "fileName": "Excel-1.0.192.dmg",
       "downloadPath": "downloads/Excel/1.0.192/Excel-1.0.192.dmg",
       "sizeBytes": 27627,
-      "sha256": "510d3275d9c5b7c0b1821af70a0c2b55794b5846418820b4bf3ed0495618ffaa"
+      "sizeFormatted": "27.0 KB",
+      "sha256": "be65baafa691eb30cd128931b8e1f1793f38e5c4aa7da639cab452c7279e4b09"
     },
     {
       "platform": "universal",
@@ -46,7 +49,8 @@
       "fileName": "Excel-1.0.192.zip",
       "downloadPath": "downloads/Excel/1.0.192/Excel-1.0.192.zip",
       "sizeBytes": 27562,
-      "sha256": "e72644e27e87604c73ee0022f4b952143666173a0e0917f3450936c4c72e903c"
+      "sizeFormatted": "26.9 KB",
+      "sha256": "1e5365f3bedac348a32665185ae0d13d850488b47425fddeac7e4e183f833254"
     }
   ]
 }
