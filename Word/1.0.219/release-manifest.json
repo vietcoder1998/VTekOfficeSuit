@@ -3,7 +3,7 @@
   "appName": "Word",
   "displayName": "Word",
   "version": "1.0.219",
-  "buildTimestamp": "2026-09-30T18:35:15.256Z",
+  "buildTimestamp": "2026-10-01T19:21:23.384Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.219",
