@@ -3,7 +3,7 @@
   "appName": "Antivirus",
   "displayName": "Antivirus",
   "version": "1.0.150",
-  "buildTimestamp": "2026-10-01T18:51:48.127Z",
+  "buildTimestamp": "2026-10-01T19:05:33.882Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.150",
@@ -15,8 +15,8 @@
       "name": "Antivirus-1.0.150",
       "fileName": "Antivirus-1.0.150.deb",
       "downloadPath": "downloads/Antivirus/1.0.150/Antivirus-1.0.150.deb",
-      "sizeBytes": 39650,
-      "sha256": "1c5c9a05ddaab446af0858d68784639f03486ee98a16b9244157bbfd554d89cf"
+      "sizeBytes": 39664,
+      "sha256": "d524fa751dd377dc40631eeb475a85acd690f9b0b8115623692f1536dc1ea881"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Antivirus-1.0.150.exe",
       "downloadPath": "downloads/Antivirus/1.0.150/Antivirus-1.0.150.exe",
       "sizeBytes": 30208,
-      "sha256": "ab55a321439d6e5a4a783bc907e226af75a2abd295e1fd2cc7cf8f9549726ff1"
+      "sha256": "57c09f05f61314e9fa11a4f57c07c38c6214eac1b4c964eaafc8c399504bdcc3"
     },
     {
       "platform": "macos",
@@ -36,7 +36,7 @@
       "fileName": "Antivirus-1.0.150.dmg",
       "downloadPath": "downloads/Antivirus/1.0.150/Antivirus-1.0.150.dmg",
       "sizeBytes": 27284,
-      "sha256": "ea28c631aa7e8bff55a6850ff076d07f8e13def5ee4814028b661776677c05f1"
+      "sha256": "bf6e6e01e379173a40396843c1af8d0904958a16473127b6c23fe90c2111af5e"
     },
     {
       "platform": "universal",
@@ -46,7 +46,7 @@
       "fileName": "Antivirus-1.0.150.zip",
       "downloadPath": "downloads/Antivirus/1.0.150/Antivirus-1.0.150.zip",
       "sizeBytes": 27206,
-      "sha256": "d904e0a0a944a7b9156a38e3af41eaf47fbefcafd14914046b9485b455de4433"
+      "sha256": "0c99eaa58d568d2bdf29be5142d80d0cfdf72715e480d6864a6e0103dac9a787"
     }
   ]
 }
