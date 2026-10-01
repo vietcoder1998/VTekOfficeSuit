@@ -1,3 +1,0 @@
-c90b4f14b8e7e83cca9824aca1e6713aff0cd6971d72ab69cfda5d511a2ea9e7  Forms-1.0.158.deb
-55ce7c4ffd8519b8fe16d6ae23d3af9fd1ab5f3f2192f62dece6ae7b281a18c4  Forms-1.0.158.exe
-e918f9a4ed1df418359dbc8a4efa4cabafdf15b0bb7a73a161d4a6016e8569f3  Forms-1.0.158.zip
