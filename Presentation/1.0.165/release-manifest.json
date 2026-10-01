@@ -3,7 +3,7 @@
   "appName": "Presentation",
   "displayName": "Presentation",
   "version": "1.0.165",
-  "buildTimestamp": "2026-10-01T18:09:28.255Z",
+  "buildTimestamp": "2026-10-01T18:29:59.643Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Presentation/1.0.165",
@@ -15,8 +15,8 @@
       "name": "Presentation-1.0.165",
       "fileName": "Presentation-1.0.165.deb",
       "downloadPath": "downloads/Presentation/1.0.165/Presentation-1.0.165.deb",
-      "sizeBytes": 39834,
-      "sha256": "c59ae89746d7ccab1c9969bec0e1ea4fbbe1b652ceb1c15d28b7738a0531846f"
+      "sizeBytes": 39836,
+      "sha256": "f8903344fb0b80549cf7ca34dd0493292ca15d252524fd710c2288db7c110a2a"
     },
     {
       "platform": "windows",
@@ -26,7 +26,7 @@
       "fileName": "Presentation-1.0.165.exe",
       "downloadPath": "downloads/Presentation/1.0.165/Presentation-1.0.165.exe",
       "sizeBytes": 30208,
-      "sha256": "2df6e8b05fa01e3907d647ce29a0075bdb1a4c69133dd6cdb5f418394724e9e4"
+      "sha256": "e1cea6d692ebb22b8557eeb70e50d0760816f744264ed7f5f4eec5fc4579392e"
     },
     {
       "platform": "macos",
@@ -36,7 +36,7 @@
       "fileName": "Presentation-1.0.165.dmg",
       "downloadPath": "downloads/Presentation/1.0.165/Presentation-1.0.165.dmg",
       "sizeBytes": 27487,
-      "sha256": "79ce9b81378f6fcd0963e4241786838a26d4356af575ba003bbfaee5e83c061e"
+      "sha256": "f90f69b82afa69263ff2b99ae1e9c60edaeec5da1c827f6302286e5e2039bdd4"
     },
     {
       "platform": "universal",
@@ -46,7 +46,7 @@
       "fileName": "Presentation-1.0.165.zip",
       "downloadPath": "downloads/Presentation/1.0.165/Presentation-1.0.165.zip",
       "sizeBytes": 27415,
-      "sha256": "90609789c40b8284d6cce1eee867d33323ba1caa80e2b02e2448e2fa6243aea2"
+      "sha256": "ca4a1ebe38982750b4fd5b2558147a506ab713e678220f27f5299ee3f39bc694"
     }
   ]
 }
