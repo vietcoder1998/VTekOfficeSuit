@@ -29,16 +29,6 @@
       "sha256": "0ff6626c77fc53dff70dabe006fa839ec38853d9c3f350e076087f1ebf563c9c"
     },
     {
-      "platform": "macos",
-      "architecture": "universal",
-      "type": "dmg",
-      "name": "Antivirus-1.0.143",
-      "fileName": "Antivirus-1.0.143.dmg",
-      "downloadPath": "downloads/Antivirus/1.0.143/Antivirus-1.0.143.dmg",
-      "sizeBytes": 27284,
-      "sha256": "4871a2e55cf5b0b061f6187ee60029ea1a387cbf8408259edd69367e81f1e2d4"
-    },
-    {
       "platform": "universal",
       "architecture": "all",
       "type": "zip",
