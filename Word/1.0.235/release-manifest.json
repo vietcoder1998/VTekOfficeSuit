@@ -1,0 +1,52 @@
+{
+  "projectName": "Word",
+  "appName": "Word",
+  "displayName": "Word",
+  "version": "1.0.235",
+  "buildTimestamp": "2026-10-01T15:59:41.943Z",
+  "distributionChannel": "stable",
+  "structureFormat": "downloads/{app}/{version}/{name}.{type}",
+  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.235",
+  "packages": [
+    {
+      "platform": "linux",
+      "architecture": "amd64",
+      "type": "deb",
+      "name": "Word-1.0.235",
+      "fileName": "Word-1.0.235.deb",
+      "downloadPath": "downloads/Word/1.0.235/Word-1.0.235.deb",
+      "sizeBytes": 60758,
+      "sha256": "45ba93b643e5fe39e9c891623f68b4ea1afe1b265c50f0427348dd490d76842b"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "type": "exe",
+      "name": "Word-1.0.235",
+      "fileName": "Word-1.0.235.exe",
+      "downloadPath": "downloads/Word/1.0.235/Word-1.0.235.exe",
+      "sizeBytes": 53760,
+      "sha256": "8e8aed7ce36a8ac31f42e7810ef2c2e2a76cd9741422756df706c182ba23bf9f"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Word-1.0.235",
+      "fileName": "Word-1.0.235.dmg",
+      "downloadPath": "downloads/Word/1.0.235/Word-1.0.235.dmg",
+      "sizeBytes": 50762,
+      "sha256": "b90ee9086c807b94159454754ddc8b4d4aad85e014e74d55132bea7c4c72501e"
+    },
+    {
+      "platform": "universal",
+      "architecture": "all",
+      "type": "zip",
+      "name": "Word-1.0.235",
+      "fileName": "Word-1.0.235.zip",
+      "downloadPath": "downloads/Word/1.0.235/Word-1.0.235.zip",
+      "sizeBytes": 50698,
+      "sha256": "ed7540b09e9f1ce11378f2e88ef1a27663f626d3a491a33758230c3f9ac6a55f"
+    }
+  ]
+}
