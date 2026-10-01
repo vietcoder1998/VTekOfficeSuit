@@ -3,7 +3,7 @@
   "appName": "Excel",
   "displayName": "Excel",
   "version": "1.0.177",
-  "buildTimestamp": "2026-09-30T16:37:06.144Z",
+  "buildTimestamp": "2026-10-01T01:16:03.372Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
   "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Excel/1.0.177",
@@ -15,8 +15,8 @@
       "name": "Excel-1.0.177",
       "fileName": "Excel-1.0.177.deb",
       "downloadPath": "downloads/Excel/1.0.177/Excel-1.0.177.deb",
-      "sizeBytes": 39718,
-      "sha256": "1bb16f998b7f04524bbee82dbc4157257ba07280eec24bd42b29c62d2f0862b2"
+      "sizeBytes": 39716,
+      "sha256": "3cf640a399ea6498baf5aa02b709b2fa201d2c2290fa23fd247a260ab06490b5"
     },
     {
       "platform": "windows",
@@ -26,7 +26,17 @@
       "fileName": "Excel-1.0.177.exe",
       "downloadPath": "downloads/Excel/1.0.177/Excel-1.0.177.exe",
       "sizeBytes": 30208,
-      "sha256": "c0088be2db50bc67c8a423ee213006806f6e1e2211c367aae497a2ec2f0166f8"
+      "sha256": "f249639003c7bbd9cb39b9db9e5b4c4d969f94dc518de0ada0d38aaa9f7818ce"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "type": "dmg",
+      "name": "Excel-1.0.177",
+      "fileName": "Excel-1.0.177.dmg",
+      "downloadPath": "downloads/Excel/1.0.177/Excel-1.0.177.dmg",
+      "sizeBytes": 27371,
+      "sha256": "3259afc852ebbe19f10785f9479fad0e49363fd06304f06ee433fa9351e5ec9d"
     },
     {
       "platform": "universal",
@@ -36,7 +46,7 @@
       "fileName": "Excel-1.0.177.zip",
       "downloadPath": "downloads/Excel/1.0.177/Excel-1.0.177.zip",
       "sizeBytes": 27306,
-      "sha256": "2175263f0a46f9cbdeea9012737f1f5155f6c556876cf613a749a6125686b637"
+      "sha256": "44245e0004e4cbec70f31679cca0df831a166ae223419611879576e5ae2e0b7a"
     }
   ]
 }
