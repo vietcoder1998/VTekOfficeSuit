@@ -1,3 +1,0 @@
-d04df71b2dbfa7a9348dfe6577afd26d3145f7e8c5931ad797c9e6d53edbad5d  Presentation-1.0.112.deb
-d8e9436a14dc6af420154e6dbc3b868f70f3aa6aba8efd54d443585b47f515fd  Presentation-1.0.112.exe
-fcd4a74d85c9e2382f046206497a76d9ee288fb632921fefd8aa54760dc860c7  Presentation-1.0.112.zip

@@ -1,3 +1,0 @@
-c66c369e6176080074a9d68e8ed92ff782ef3f235c59ba96904b553cabe00fe0  Presentation-1.0.127.deb
-04b0da12280fcc41fc699e700cb9db7aaa3dcd03b461a5da77e5b088ad99b6e0  Presentation-1.0.127.exe
-49ec69ca8af35056f01bdf24f6a4aa6eafad1f1f4fdf1c60448a9ccee0216709  Presentation-1.0.127.zip

@@ -1,3 +1,0 @@
-2eee2a182d62a1ef4e57e409aa9d6dfa2b0229cf63da0d71cfca854dd82f0fac  Cloud-1.0.134.deb
-fbfba20ec7cb8d338130efe91342ce16c94a3ccb125d7eafb97b539606d950bb  Cloud-1.0.134.exe
-78563f84745f2abc6f18021ee9800cdad036bec1801dccbad2bfbf4af5e395d4  Cloud-1.0.134.zip
