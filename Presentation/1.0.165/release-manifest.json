@@ -6,7 +6,7 @@
   "buildTimestamp": "2026-10-02T05:57:46.881Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Presentation/1.0.165",
+  "outputDirectory": "/home/viettd/Projects/2tek-office-packs/downloads/Presentation/1.0.165",
   "packages": [
     {
       "platform": "linux",

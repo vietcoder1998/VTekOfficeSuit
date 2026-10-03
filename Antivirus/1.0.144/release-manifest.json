@@ -6,7 +6,7 @@
   "buildTimestamp": "2026-10-01T15:51:43.571Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Antivirus/1.0.144",
+  "outputDirectory": "/home/viettd/Projects/2tek-office-packs/downloads/Antivirus/1.0.144",
   "packages": [
     {
       "platform": "linux",

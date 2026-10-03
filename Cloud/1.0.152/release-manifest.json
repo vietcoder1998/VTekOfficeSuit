@@ -6,7 +6,7 @@
   "buildTimestamp": "2026-09-30T12:29:09.416Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Cloud/1.0.152",
+  "outputDirectory": "/home/viettd/Projects/2tek-office-packs/downloads/Cloud/1.0.152",
   "packages": [
     {
       "platform": "linux",

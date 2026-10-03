@@ -6,7 +6,7 @@
   "buildTimestamp": "2026-09-29T07:22:09.121Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Hub/1.0.105",
+  "outputDirectory": "/home/viettd/Projects/2tek-office-packs/downloads/Hub/1.0.105",
   "packages": [
     {
       "platform": "linux",

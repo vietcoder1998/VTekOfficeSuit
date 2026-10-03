@@ -6,7 +6,7 @@
   "buildTimestamp": "2026-09-29T09:23:26.089Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/SuperChat/0.1.131",
+  "outputDirectory": "/home/viettd/Projects/2tek-office-packs/downloads/SuperChat/0.1.131",
   "packages": [
     {
       "platform": "linux",

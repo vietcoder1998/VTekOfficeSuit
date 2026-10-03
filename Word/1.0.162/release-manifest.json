@@ -6,7 +6,7 @@
   "buildTimestamp": "2026-09-29T15:17:30.882Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Word/1.0.162",
+  "outputDirectory": "/home/viettd/Projects/2tek-office-packs/downloads/Word/1.0.162",
   "packages": [
     {
       "platform": "linux",

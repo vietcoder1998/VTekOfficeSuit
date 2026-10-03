@@ -6,7 +6,7 @@
   "buildTimestamp": "2026-10-01T16:09:58.120Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Pdf/1.0.166",
+  "outputDirectory": "/home/viettd/Projects/2tek-office-packs/downloads/Pdf/1.0.166",
   "packages": [
     {
       "platform": "linux",

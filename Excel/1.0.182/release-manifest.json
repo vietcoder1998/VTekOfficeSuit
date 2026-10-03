@@ -6,7 +6,7 @@
   "buildTimestamp": "2026-10-01T16:03:40.794Z",
   "distributionChannel": "stable",
   "structureFormat": "downloads/{app}/{version}/{name}.{type}",
-  "outputDirectory": "/home/tranduyviet/Projects/2tek-office-packs/downloads/Excel/1.0.182",
+  "outputDirectory": "/home/viettd/Projects/2tek-office-packs/downloads/Excel/1.0.182",
   "packages": [
     {
       "platform": "linux",
